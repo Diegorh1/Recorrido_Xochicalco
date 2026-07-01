@@ -1,0 +1,14 @@
+{
+  "default": {
+    "firstScene": "entrada_principal",
+    "sceneFadeDuration": 1000,
+    "autoLoad": true
+  },
+  "scenes": {
+    "entrada_principal": {
+      "title": "Entrada Principal",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/1.webp"
+    }
+  }
+}

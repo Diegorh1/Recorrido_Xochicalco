@@ -1,0 +1,20 @@
+/* Resetea los márgenes que los navegadores ponen por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Evita que aparezcan barras de desplazamiento (scroll) */
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #000; /* Fondo negro mientras carga la foto */
+}
+
+/* Hace que el contenedor del museo abarque el 100% de la pantalla */
+#panorama {
+    width: 100vw;
+    height: 100vh;
+}

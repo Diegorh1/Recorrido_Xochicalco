@@ -1,26 +1,42 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A simple example</title>
+    <title>Recorrido Virtual 360°</title>
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.7/build/pannellum.css"/>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.7/build/pannellum.js"></script>
-    <style>
-    #panorama {
-        width: 1500px;
-        height: 800px;
-    }
-    </style>
+    
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<div id="panorama"></div>
-<script>
-pannellum.viewer('panorama', {
-    "type": "equirectangular",
-    "panorama": "images/1.webp" 
-});
+    <div id="panorama"></div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.7/build/pannellum.js"></script>
+
+    <script>
+    // 1. Usamos JavaScript nativo para obligar al navegador a descargar el JSON
+    fetch('tour.json')
+        .then(respuesta => respuesta.json())
+        .then(datos => {
+            // 2. Si el JSON está perfecto, le inyectamos los datos a Pannellum
+            const miVisor = pannellum.viewer('panorama', datos);
+
+            // 3. Activamos tu herramienta de coordenadas para mapear Xochicalco
+            miVisor.on('mousedown', function(event) {
+                const pitch = miVisor.getPitch();
+                const yaw = miVisor.getYaw();
+                console.log(`"pitch": ${pitch.toFixed(1)},`);
+                console.log(`"yaw": ${yaw.toFixed(1)},`);
+                console.log("-----------------------");
+            });
+        })
+        .catch(error => {
+            // 4. EL BLINDAJE: Si alguno de tus compañeros se equivoca con una coma 
+            // en el JSON, la consola te mostrará exactamente este error en rojo:
+            console.error("¡Atención! El archivo tour.json tiene un error de sintaxis:", error);
+        });
 </script>
 
 </body>
