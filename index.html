@@ -16,14 +16,11 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.7/build/pannellum.js"></script>
 
     <script>
-    // 1. Usamos JavaScript nativo para obligar al navegador a descargar el JSON
     fetch('tour.json')
         .then(respuesta => respuesta.json())
         .then(datos => {
-            // 2. Si el JSON está perfecto, le inyectamos los datos a Pannellum
             const miVisor = pannellum.viewer('panorama', datos);
 
-            // 3. Activamos tu herramienta de coordenadas para mapear Xochicalco
             miVisor.on('mousedown', function(event) {
                 const pitch = miVisor.getPitch();
                 const yaw = miVisor.getYaw();
@@ -33,8 +30,6 @@
             });
         })
         .catch(error => {
-            // 4. EL BLINDAJE: Si alguno de tus compañeros se equivoca con una coma 
-            // en el JSON, la consola te mostrará exactamente este error en rojo:
             console.error("¡Atención! El archivo tour.json tiene un error de sintaxis:", error);
         });
 </script>
