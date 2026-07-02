@@ -18,18 +18,6 @@ html, body {
     height: 100vh;
 }
 
-/* Ajuste responsivo para celulares */
-@media (max-width: 600px) {
-    .tarjeta-museo {
-        width: 85vw; /* Que ocupe el 85% de la pantalla del celular */
-        max-width: 250px;
-    }
-}
-
-
-/* --- TARJETA DE INFORMACIÓN CORREGIDA --- */
-
-/* 1. Neutralizar estilos de Pannellum (para que no estorben) */
 div.pnlm-tooltip span {
     padding: 0 !important;
     background-color: transparent important;
