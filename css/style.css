@@ -1,20 +1,71 @@
-/* Resetea los márgenes que los navegadores ponen por defecto */
+/* Resetea los márgenes básicos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Evita que aparezcan barras de desplazamiento (scroll) */
+/* Pantalla completa para el visor */
 html, body {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background-color: #000; /* Fondo negro mientras carga la foto */
+    background-color: #000;
 }
 
-/* Hace que el contenedor del museo abarque el 100% de la pantalla */
 #panorama {
     width: 100vw;
     height: 100vh;
+}
+
+/* --- TARJETA DE INFORMACIÓN CORREGIDA --- */
+
+/* 1. Neutralizar estilos de Pannellum (para que no estorben) */
+div.pnlm-tooltip span {
+    padding: 0 !important;
+    background-color: transparent !important;
+    border: none !important;
+}
+
+div.pnlm-tooltip span::after {
+    display: none !important;
+}
+
+/* 2. El contenedor de la tarjeta */
+.tarjeta-museo {
+    display: flex;
+    flex-direction: column;
+    width: 300px; /* Tamaño normal y cómodo */
+    background-color: rgba(0, 0, 0, 0.85); /* Fondo oscuro para legibilidad */
+    border-radius: 12px; /* Redondeado elegante */
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5); /* Sombra para que "flote" */
+}
+
+/* Ajuste de la imagen */
+.tarjeta-museo img {
+    width: 100%;
+    height: 180px; /* Altura fija para que todas las tarjetas sean uniformes */
+    object-fit: cover;
+    border-bottom: 3px solid #f39c12; /* Color de acento */
+}
+
+/* Textos legibles */
+.tarjeta-info {
+    padding: 15px;
+    color: white;
+    text-align: left;
+    font-family: 'Segoe UI', Arial, sans-serif; /* Fuente más moderna */
+}
+
+.tarjeta-info h3 {
+    margin-bottom: 8px;
+    font-size: 18px; /* Tamaño estándar de título */
+    color: #f39c12;
+}
+
+.tarjeta-info p {
+    font-size: 14px; /* Tamaño estándar de lectura */
+    line-height: 1.5;
+    color: #e0e0e0; /* Un gris claro es menos cansado que el blanco puro */
 }

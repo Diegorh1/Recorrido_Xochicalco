@@ -1,14 +1,49 @@
 {
   "default": {
-    "firstScene": "entrada_principal",
+    "firstScene": "imagen1",
     "sceneFadeDuration": 1000,
     "autoLoad": true
   },
   "scenes": {
-    "entrada_principal": {
-      "title": "Entrada Principal",
+    "imagen1": {
+      "title": "Espacio de abordaje",
       "type": "equirectangular",
-      "panorama": "assets/panoramicaswebp/1.webp"
+      "panorama": "assets/panoramicaswebp/1.webp",
+      "hotSpots": [
+        {
+          "pitch": -13,
+          "yaw": 93.6,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/autobus.webp' alt='Pieza'><div class='tarjeta-info'><h3>Parador de espera</h3>Este sitio es donde los aútobuses hacen paradas</div></div>"
+        },
+        {
+          "pitch": -25,
+          "yaw": -102,
+          "type": "scene",
+          "text": "Ir a la entrada principal",
+          "sceneId": "imagen2"
+        }
+      ]
+    },
+    "imagen2": {
+      "title": "Entrada principal",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/2.webp",
+      "hotSpots": [
+        {
+          "pitch": 5,
+          "yaw": -30,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/2.webp' alt='Pieza'><div class='tarjeta-info'><h3>Estela de los Glifos</h3><p>Esta pieza data del periodo epiclásico...</p></div></div>"
+        },
+        {
+          "pitch": -7.5,
+          "yaw": 133,
+          "type": "scene",
+          "text": "Regresar al Espacio de abordaje",
+          "sceneId": "imagen1"
+        }
+      ]
     }
   }
 }
