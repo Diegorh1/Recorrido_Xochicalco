@@ -23,7 +23,7 @@ html, body {
 /* 1. Neutralizar estilos de Pannellum (para que no estorben) */
 div.pnlm-tooltip span {
     padding: 0 !important;
-    background-color: transparent !important;
+    background-color: transparent important;
     border: none !important;
 }
 
