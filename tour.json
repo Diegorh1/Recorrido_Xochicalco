@@ -1,6 +1,6 @@
 {
   "default": {
-    "firstScene": "imagen27",
+    "firstScene": "imagen29",
     "sceneFadeDuration": 1000,
     "autoLoad": true
   },
@@ -622,6 +622,97 @@
           "yaw": -40.8,
           "type": "scene",
           "text": "Avanzar por el pasillo",
+          "sceneId": "imagen28"
+        }
+      ]
+    },
+    "imagen28": {
+      "title": "pasillo",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/28.webp",
+      "hotSpots": [
+        {
+          "pitch": -4.0,
+          "yaw": -104.8,
+          "type": "scene",
+          "text": "Regresar al pasillo",
+          "sceneId": "imagen27"
+        },
+        {
+          "pitch": -10.0,
+          "yaw": 1.8,
+          "type": "scene",
+          "text": "Avanzar a la sala 5. Los rituales del juego",
+          "sceneId": "imagen29"
+        },
+        {
+          "pitch": -10.0,
+          "yaw": -50.8,
+          "type": "scene",
+          "text": "Avanzar a la sala 4. Manos creadoras, delicados artistas",
+          "sceneId": ""
+        },
+        {
+          "pitch": -10.0,
+          "yaw": -189.8,
+          "type": "scene",
+          "text": "Avanzar a la salida",
+          "sceneId": ""
+        }
+      ]
+    },
+    "imagen29": {
+      "title": "sala 5",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/29.webp",
+      "hotSpots": [
+        {
+          "pitch": -10.0,
+          "yaw": -190.8,
+          "type": "scene",
+          "text": "Regresar al pasillo principal",
+          "sceneId": "imagen28"
+        },
+        {
+          "pitch": -20.0,
+          "yaw": 15.8,
+          "type": "scene",
+          "text": "Avanzar por la sala",
+          "sceneId": "imagen30"
+        },
+        {
+          "pitch": -20.0,
+          "yaw": -35.8,
+          "type": "scene",
+          "text": "Avanzar por la sala",
+          "sceneId": "imagen31"
+        }
+      ]
+    },
+    "imagen30": {
+      "title": "sala 4",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/30.webp",
+      "hotSpots": [
+        {
+          "pitch": -10.0,
+          "yaw": 140.8,
+          "type": "scene",
+          "text": "Regresar al pasillo",
+          "sceneId": "imagen28"
+        }
+      ]
+    },
+    "imagen31": {
+      "title": "salida",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/31.webp",
+      "hotSpots": [
+        {
+          "pitch": -10.0,
+          "yaw": 140.8,
+          "type": "scene",
+          "text": "Regresar al pasillo",
           "sceneId": "imagen28"
         }
       ]
