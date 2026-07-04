@@ -1,522 +1,387 @@
 <!DOCTYPE html>
+
 <html lang="es">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recorrido Virtual 360° - Xochicalco</title>
+
+    <title>Xochicalco - Recorrido Virtual e Información</title>
+
+   
+
+    <!-- CSS de Pannellum -->
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.7/build/pannellum.css"/>
-    <style>
-        /* Activa el desplazamiento suave en toda la página */
-        html { scroll-behavior: smooth; }
 
-        /* Paleta de colores Xochicalco mejorada */
-        :root {
-            --color-fondo: #F9F6F0;
-            --color-primario: #4A5D23; /* Verde olivo */
-            --color-primario-oscuro: #364419;
-            --color-secundario: #C17A4D; /* Terracota */
-            --color-secundario-claro: #D6946A;
-            --color-oscuro: #233131; /* Gris oscuro verdoso */
-            --color-texto: #333333;
-            --color-blanco: #ffffff;
-        }
+   
 
-        * {
-            box-sizing: border-box;
-        }
+    <!-- Tu archivo de estilos -->
 
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--color-fondo);
-            color: var(--color-texto);
-            overflow-y: auto !important; 
-            overflow-x: hidden;
-        }
+    <link rel="stylesheet" href="css/style.css">
 
-        /* --- PANTALLA DE BIENVENIDA --- */
-        #pantalla-bienvenida {
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-
-        header {
-            background-color: var(--color-oscuro);
-            background-image: linear-gradient(135deg, rgba(35, 49, 49, 0.95) 0%, rgba(74, 93, 35, 0.85) 100%), url('assets/panoramicaswebp/museo1.jpeg');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            color: var(--color-blanco);
-            text-align: center;
-            padding: 5rem 2rem;
-            border-bottom: 5px solid var(--color-secundario);
-            min-height: 60vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-        }
-
-        header h1 {
-            margin-bottom: 15px;
-            font-size: 3.5rem;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-            letter-spacing: 2px;
-        }
-
-        header p {
-            font-size: 1.3rem;
-            max-width: 600px;
-            line-height: 1.6;
-            text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-        }
-
-        .btn-desplazar {
-            margin-top: 3rem;
-            padding: 12px 30px;
-            border: 2px solid var(--color-blanco);
-            border-radius: 30px;
-            color: var(--color-blanco);
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 1.1rem;
-            transition: all 0.3s ease;
-            animation: rebote 2s infinite;
-            background-color: rgba(255,255,255,0.1);
-            backdrop-filter: blur(5px);
-        }
-
-        .btn-desplazar:hover {
-            background-color: var(--color-blanco);
-            color: var(--color-oscuro);
-            transform: scale(1.05);
-        }
-
-        @keyframes rebote {
-            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
-            40% { transform: translateY(-10px); }
-            60% { transform: translateY(-5px); }
-        }
-
-        /* --- ESTILOS DEL CARRUSEL FULL WIDTH --- */
-        .carousel-container {
-            position: relative;
-            width: 100vw; /* De extremo a extremo */
-            height: 60vh; /* Altura controlada */
-            overflow: hidden;
-            background-color: #000;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-        }
-
-        .carousel-track {
-            display: flex;
-            width: 100%;
-            height: 100%;
-            transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1); /* Transición más suave */
-        }
-
-        .carousel-slide {
-            min-width: 100%;
-            height: 100%;
-            object-fit: cover;
-            filter: brightness(0.9);
-        }
-
-        .carousel-btn {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            background-color: rgba(35, 49, 49, 0.6);
-            backdrop-filter: blur(4px);
-            color: var(--color-blanco);
-            border: none;
-            width: 60px;
-            height: 60px;
-            cursor: pointer;
-            font-size: 1.8rem;
-            border-radius: 50%;
-            z-index: 10;
-            transition: all 0.3s ease;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .carousel-btn:hover {
-            background-color: var(--color-secundario);
-            transform: translateY(-50%) scale(1.1);
-        }
-
-        .prev { left: 30px; }
-        .next { right: 30px; }
-
-        .carousel-dots {
-            position: absolute;
-            bottom: 30px;
-            left: 50%;
-            transform: translateX(-50%);
-            display: flex;
-            gap: 12px;
-            z-index: 10;
-        }
-
-        .dot {
-            width: 14px;
-            height: 14px;
-            background-color: rgba(255, 255, 255, 0.4);
-            border: 2px solid transparent;
-            border-radius: 50%;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-
-        .dot.activo, .dot:hover {
-            background-color: var(--color-secundario);
-            border-color: var(--color-blanco);
-            transform: scale(1.2);
-        }
-
-        /* --- CONTENIDO PRINCIPAL --- */
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 4rem 2rem;
-            flex-grow: 1;
-        }
-
-        .intro-section {
-            text-align: center;
-            margin-bottom: 4rem;
-        }
-
-        .intro-section h2 { 
-            color: var(--color-primario); 
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-            position: relative;
-            display: inline-block;
-        }
-
-        .intro-section h2::after {
-            content: '';
-            width: 60%;
-            height: 4px;
-            background-color: var(--color-secundario);
-            position: absolute;
-            bottom: -10px;
-            left: 50%;
-            transform: translateX(-50%);
-            border-radius: 2px;
-        }
-
-        .intro-section p {
-            font-size: 1.1rem;
-            line-height: 1.8;
-            color: #555;
-            max-width: 800px;
-            margin: 2rem auto 0;
-        }
-
-        /* --- TARJETAS DE INFORMACIÓN --- */
-        .info-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            margin-bottom: 4rem;
-        }
-
-        .info-card {
-            background-color: var(--color-blanco);
-            border-radius: 12px;
-            padding: 2rem;
-            box-shadow: 0 8px 15px rgba(0,0,0,0.05);
-            border-top: 5px solid var(--color-primario);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .info-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 25px rgba(0,0,0,0.1);
-            border-top-color: var(--color-secundario);
-        }
-
-        .info-card h3 {
-            color: var(--color-oscuro);
-            margin-top: 0;
-            font-size: 1.4rem;
-        }
-
-        .info-card p {
-            color: #666;
-            line-height: 1.6;
-        }
-
-        /* --- BOTÓN DE ACCIÓN --- */
-        .action-section {
-            text-align: center;
-            margin: 2rem 0 4rem;
-        }
-
-        .btn-recorrido {
-            background: linear-gradient(135deg, var(--color-secundario) 0%, var(--color-secundario-claro) 100%);
-            color: var(--color-blanco);
-            font-size: 1.5rem;
-            font-weight: bold;
-            padding: 1.2rem 4rem;
-            border-radius: 50px;
-            border: none;
-            cursor: pointer;
-            box-shadow: 0 10px 20px rgba(193, 122, 77, 0.4);
-            transition: all 0.3s ease;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        .btn-recorrido:hover {
-            background: linear-gradient(135deg, var(--color-primario) 0%, var(--color-primario-oscuro) 100%);
-            transform: translateY(-5px);
-            box-shadow: 0 15px 25px rgba(74, 93, 35, 0.4);
-        }
-
-        /* --- SECCIÓN MAPA --- */
-        .location-section {
-            background-color: var(--color-oscuro);
-            color: var(--color-blanco);
-            padding: 4rem 1rem;
-            text-align: center;
-            border-top: 5px solid var(--color-primario);
-        }
-
-        .location-section h2 {
-            font-size: 2rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .location-section p {
-            color: #aaa;
-            margin-bottom: 2rem;
-            font-size: 1.1rem;
-        }
-
-        .map-container {
-            max-width: 900px;
-            margin: 0 auto;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-            border: 3px solid rgba(255,255,255,0.1);
-        }
-
-        /* --- CONTENEDOR DEL RECORRIDO --- */
-        #contenedor-recorrido {
-            display: none; 
-            width: 100vw;
-            height: 100vh;
-            position: relative;
-            background-color: #000;
-        }
-        
-        #panorama {
-            width: 100%;
-            height: 100%;
-        }
-
-        .btn-regresar {
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            z-index: 10;
-            background-color: rgba(35, 49, 49, 0.85);
-            backdrop-filter: blur(5px);
-            color: var(--color-blanco);
-            padding: 12px 25px;
-            border: 2px solid var(--color-secundario);
-            border-radius: 30px;
-            cursor: pointer;
-            font-weight: bold;
-            font-size: 1rem;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-        }
-
-        .btn-regresar:hover {
-            background-color: var(--color-secundario);
-            transform: translateX(-5px);
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            header h1 { font-size: 2.5rem; }
-            .carousel-container { height: 40vh; }
-            .btn-recorrido { font-size: 1.2rem; padding: 1rem 2rem; }
-            .carousel-btn { width: 40px; height: 40px; font-size: 1.2rem; }
-        }
-    </style>
 </head>
+
 <body>
 
-    <div id="pantalla-bienvenida">
+
+
+    <!-- ========================================== -->
+
+    <!-- CONTENIDO PRINCIPAL DEL SITIO WEB          -->
+
+    <!-- ========================================== -->
+
+    <div id="sitio-web">
+
+       
+
+        <!-- 1. TÍTULO / HEADER -->
+
         <header>
+
             <h1>Xochicalco</h1>
-            <p>La Casa de las Flores. Un viaje inmersivo a uno de los centros urbanos más fascinantes del periodo Epiclásico mesoamericano.</p>
-            <a href="#contenido-principal" class="btn-desplazar">Descubrir más ↓</a>
+
+            <p>La Casa de las Flores. Un viaje a uno de los centros urbanos más fascinantes del periodo Epiclásico mesoamericano.</p>
+
         </header>
 
+
+
+        <!-- 2. CARRUSEL -->
+
         <section class="carousel-container" id="contenido-principal">
+
             <div class="carousel-track" id="track">
-                <img src="assets/panoramicaswebp/museo1.webP" alt="Museo Xochicalco" class="carousel-slide">
-                <img src="assets/panoramicaswebp/piramide1.webP" alt="Pirámide Xochicalco" class="carousel-slide">
-                <img src="assets/panoramicaswebp/museo2.webP" alt="Interiores Museo" class="carousel-slide">
-                <img src="assets/panoramicaswebp/piramide2.webP" alt="Ruinas Xochicalco" class="carousel-slide">
+
+                <img src="assets/panoramicaswebp/museo1.webp" alt="Museo Xochicalco" class="carousel-slide">
+
+                <img src="assets/panoramicaswebp/piramide1.webp" alt="Pirámide Xochicalco" class="carousel-slide">
+
+                <img src="assets/panoramicaswebp/museo2.webp" alt="Interiores Museo" class="carousel-slide">
+
+                <img src="assets/panoramicaswebp/piramide2.webp" alt="Interiores Museo" class="carousel-slide">
+
             </div>
-            
+
+           
+
             <button class="carousel-btn prev" id="btn-prev">❮</button>
+
             <button class="carousel-btn next" id="btn-next">❯</button>
-            
+
+           
+
             <div class="carousel-dots">
+
                 <span class="dot activo" data-index="0"></span>
+
                 <span class="dot" data-index="1"></span>
+
                 <span class="dot" data-index="2"></span>
+
                 <span class="dot" data-index="3"></span>
+
+
+
             </div>
+
         </section>
 
+
+
+        <!-- 3. INFORMACIÓN -->
+
         <div class="container">
+
             <section class="intro-section">
+
                 <h2>Patrimonio de la Humanidad</h2>
+
                 <p>Ubicada en el estado de Morelos, la zona arqueológica de <strong>Xochicalco</strong> es un testimonio excepcional de la reorganización política y cultural de Mesoamérica tras la caída de Teotihuacán. Su diseño urbano sobre terrazas artificiales demuestra un nivel avanzado de ingeniería y planeación.</p>
+
             </section>
+
+
 
             <section class="info-grid">
+
                 <div class="info-card">
+
                     <h3>🐍 Templo de la Serpiente Emplumada</h3>
+
                     <p>La estructura más emblemática del sitio. Sus relieves esculpidos muestran deidades sentadas rodeadas de majestuosas serpientes emplumadas, representando una profunda mezcla de culturas mayas, zapotecas y nahuas.</p>
+
                 </div>
+
                 <div class="info-card">
+
                     <h3>🔭 Observatorio Astronómico</h3>
+
                     <p>Una cueva subterránea modificada artificialmente. Durante el solsticio de verano, un haz de luz solar penetra a través de una chimenea natural, proyectándose en el suelo del lugar de forma espectacular.</p>
+
                 </div>
+
                 <div class="info-card">
+
                     <h3>⚽ Juegos de Pelota</h3>
+
                     <p>Xochicalco cuenta con al menos tres canchas para el tradicional juego de pelota mesoamericano, evidencia de la gran importancia ritual y social de esta práctica en la ciudad fortificada.</p>
+
                 </div>
+
             </section>
 
-            <section class="action-section">
-                <button id="btn-iniciar" class="btn-recorrido">Iniciar Recorrido 360°</button>
+
+
+            <!-- 4. BOTÓN DEL RECORRIDO 360 (EN MEDIO) -->
+
+            <section class="seccion-llamada-360">
+
+                <h2>Explora la Zona Arqueológica</h2>
+
+                <p>Sumérgete en el sitio como si estuvieras ahí mismo con nuestra experiencia inmersiva.</p>
+
+                <button id="btn-abrir-360" class="btn-primario">👀 Iniciar Recorrido Virtual 360°</button>
+
             </section>
+
         </div>
 
+
+
+        <!-- 5. UBICACIÓN / FOOTER -->
+
         <footer class="location-section">
+
             <h2>Ubicación del Sitio</h2>
+
             <p>Miacatlán, Morelos, México.</p>
+
             <div class="map-container">
+
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15106.669865612344!2d-99.3082539!3d18.8048255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdd6279fcfd2b1%3A0xf6f0f9b37c093a!2sZona%20Arqueol%C3%B3gica%20de%20Xochicalco!5e0!3m2!1ses-419!2smx!4v1700000000000" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
             </div>
+
         </footer>
-    </div>
 
 
-    <div id="contenedor-recorrido">
-        <button id="btn-regresar" class="btn-regresar">← Volver a la presentación</button>
+
+    </div> <!-- FIN SITO WEB -->
+
+
+
+    <!-- ========================================== -->
+
+    <!-- CONTENEDOR DEL RECORRIDO 360 (OCULTO)      -->
+
+    <!-- ========================================== -->
+
+    <div id="contenedor-360">
+
+        <button id="btn-cerrar-360">✖ Cerrar Recorrido</button>
+
         <div id="panorama"></div>
+
     </div>
 
+
+
+    <!-- ========================================== -->
+
+    <!-- SCRIPTS                                    -->
+
+    <!-- ========================================== -->
+
+   
+
+    <!-- Librería Pannellum -->
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.7/build/pannellum.js"></script>
+
+
+
+    <!-- LÓGICA DEL RECORRIDO 360° -->
+
     <script>
-        // --- Lógica del Carrusel ---
+
+        let visorIniciado = false;
+
+
+
+        const btnAbrir = document.getElementById('btn-abrir-360');
+
+        const btnCerrar = document.getElementById('btn-cerrar-360');
+
+        const sitioWeb = document.getElementById('sitio-web');
+
+        const contenedor360 = document.getElementById('contenedor-360');
+
+
+
+        btnAbrir.addEventListener('click', function() {
+
+            sitioWeb.style.display = 'none';
+
+            contenedor360.style.display = 'block';
+
+
+
+            if (!visorIniciado) {
+
+                fetch('tour.json')
+
+                    .then(respuesta => respuesta.json())
+
+                    .then(datos => {
+
+                        const miVisor = pannellum.viewer('panorama', datos);
+
+
+
+                        miVisor.on('mousedown', function(event) {
+
+                            const pitch = miVisor.getPitch();
+
+                            const yaw = miVisor.getYaw();
+
+                            console.log(`"pitch": ${pitch.toFixed(1)},`);
+
+                            console.log(`"yaw": ${yaw.toFixed(1)},`);
+
+                            console.log("-----------------------");
+
+                        });
+
+                       
+
+                        visorIniciado = true;
+
+                    })
+
+                    .catch(error => {
+
+                        console.error("¡Atención! El archivo tour.json tiene un error:", error);
+
+                    });
+
+            }
+
+        });
+
+
+
+        btnCerrar.addEventListener('click', function() {
+
+            contenedor360.style.display = 'none';
+
+            sitioWeb.style.display = 'block';
+
+        });
+
+    </script>
+
+
+
+    <!-- LÓGICA DEL CARRUSEL -->
+
+    <script>
+
         const track = document.getElementById('track');
+
         const dots = document.querySelectorAll('.dot');
+
         const slides = document.querySelectorAll('.carousel-slide');
+
         let indexCarrusel = 0;
+
         let carruselInterval;
 
+
+
         function moverCarrusel(nuevoIndex) {
+
             indexCarrusel = nuevoIndex;
+
             if (indexCarrusel < 0) indexCarrusel = slides.length - 1;
+
             if (indexCarrusel >= slides.length) indexCarrusel = 0;
-            
+
+           
+
             track.style.transform = `translateX(-${indexCarrusel * 100}%)`;
-            
+
+           
+
             dots.forEach(dot => dot.classList.remove('activo'));
+
             dots[indexCarrusel].classList.add('activo');
+
         }
+
+
 
         function iniciarAutoplay() {
-            carruselInterval = setInterval(() => moverCarrusel(indexCarrusel + 1), 5000); // Subí a 5 seg para dar tiempo de ver la imagen
+
+            carruselInterval = setInterval(() => moverCarrusel(indexCarrusel + 1), 5000);
+
         }
+
+
 
         function reiniciarAutoplay() {
+
             clearInterval(carruselInterval);
+
             iniciarAutoplay();
+
         }
 
+
+
         document.getElementById('btn-next').addEventListener('click', () => {
+
             moverCarrusel(indexCarrusel + 1);
+
             reiniciarAutoplay();
+
         });
+
+
 
         document.getElementById('btn-prev').addEventListener('click', () => {
+
             moverCarrusel(indexCarrusel - 1);
+
             reiniciarAutoplay();
+
         });
 
+
+
         dots.forEach((dot, i) => {
+
             dot.addEventListener('click', () => {
+
                 moverCarrusel(i);
+
                 reiniciarAutoplay();
+
             });
+
         });
+
+
 
         iniciarAutoplay();
 
-        // --- Lógica del Visor 360 (Pannellum) ---
-        let visorCargado = false; 
-
-        document.getElementById('btn-iniciar').addEventListener('click', function() {
-            // Ocultar landing, mostrar visor
-            document.getElementById('pantalla-bienvenida').style.display = 'none';
-            document.getElementById('contenedor-recorrido').style.display = 'block';
-            document.body.style.setProperty('overflow-y', 'hidden', 'important');
-            clearInterval(carruselInterval);
-
-            if (!visorCargado) {
-                fetch('tour.json')
-                    .then(respuesta => respuesta.json())
-                    .then(datos => {
-                        const miVisor = pannellum.viewer('panorama', datos);
-
-                        miVisor.on('mousedown', function(event) {
-                            const pitch = miVisor.getPitch();
-                            const yaw = miVisor.getYaw();
-                            console.log(`"pitch": ${pitch.toFixed(1)},`);
-                            console.log(`"yaw": ${yaw.toFixed(1)},`);
-                            console.log("-----------------------");
-                        });
-
-                        visorCargado = true; 
-                    })
-                    .catch(error => {
-                        console.error("¡Atención! El archivo tour.json tiene un error de sintaxis o no se encontró:", error);
-                        // Mensaje temporal en caso de error para desarrollo
-                        document.getElementById('panorama').innerHTML = `<h2 style="color:white; text-align:center; padding-top:20vh;">Error al cargar tour.json. Revisa la consola.</h2>`;
-                    });
-            }
-        });
-
-        document.getElementById('btn-regresar').addEventListener('click', function() {
-            // Ocultar visor, mostrar landing
-            document.getElementById('contenedor-recorrido').style.display = 'none';
-            document.getElementById('pantalla-bienvenida').style.display = 'flex';
-            document.body.style.setProperty('overflow-y', 'auto', 'important');
-            iniciarAutoplay();
-        });
     </script>
 
+
+
 </body>
+
 </html>
