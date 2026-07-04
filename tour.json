@@ -1,6 +1,6 @@
 {
   "default": {
-    "firstScene": "imagen29",
+    "firstScene": "imagen34",
     "sceneFadeDuration": 1000,
     "autoLoad": true
   },
@@ -650,14 +650,14 @@
           "yaw": -50.8,
           "type": "scene",
           "text": "Avanzar a la sala 4. Manos creadoras, delicados artistas",
-          "sceneId": ""
+          "sceneId": "imagen32"
         },
         {
           "pitch": -10.0,
           "yaw": -189.8,
           "type": "scene",
           "text": "Avanzar a la salida",
-          "sceneId": ""
+          "sceneId": "imagen33"
         }
       ]
     },
@@ -698,8 +698,15 @@
           "pitch": -10.0,
           "yaw": 140.8,
           "type": "scene",
-          "text": "Regresar al pasillo",
-          "sceneId": "imagen28"
+          "text": "Regresar por la sala",
+          "sceneId": "imagen29"
+        },
+        {
+          "pitch": -10.0,
+          "yaw": -150.8,
+          "type": "scene",
+          "text": "Avanzar por la sala",
+          "sceneId": "imagen31"
         }
       ]
     },
@@ -709,11 +716,75 @@
       "panorama": "assets/panoramicaswebp/31.webp",
       "hotSpots": [
         {
-          "pitch": -10.0,
-          "yaw": 140.8,
+          "pitch": -17.0,
+          "yaw": -125.8,
           "type": "scene",
-          "text": "Regresar al pasillo",
+          "text": "avanzar por la sala",
+          "sceneId": "imagen29"
+        },
+        {
+          "pitch": -10.0,
+          "yaw": 160.8,
+          "type": "scene",
+          "text": "regresar por la sala",
+          "sceneId": "imagen30"
+        }
+      ]
+    },
+    "imagen32": {
+      "title": "salida",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/32.webp",
+      "hotSpots": [
+        {
+          "pitch": -10.0,
+          "yaw": -10.8,
+          "type": "scene",
+          "text": "Regresar al pasillo principal",
           "sceneId": "imagen28"
+        }
+      ]
+    }
+    ,
+    "imagen33": {
+      "title": "salida",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/33.webp",
+      "hotSpots": [
+        {
+          "pitch": -10.0,
+          "yaw": -90.8,
+          "type": "scene",
+          "text": "Ingresar de vuelta al museo",
+          "sceneId": "imagen28"
+        },
+        {
+          "pitch": -10.0,
+          "yaw": -10.8,
+          "type": "scene",
+          "text": "Avanzar por fuera del museo",
+          "sceneId": "imagen34"
+        }
+      ]
+    },
+    "imagen34": {
+      "title": "salida",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/34.webp",
+      "hotSpots": [
+        {
+          "pitch": -10.0,
+          "yaw": -125.8,
+          "type": "scene",
+          "text": "Regresar al museo",
+          "sceneId": "imagen33"
+        },
+        {
+          "pitch": -10.0,
+          "yaw": 10.8,
+          "type": "scene",
+          "text": "Ingresar al museo",
+          "sceneId": "imagen10"
         }
       ]
     }
