@@ -1,6 +1,6 @@
 {
   "default": {
-    "firstScene": "imagen1",
+    "firstScene": "imagen4",
     "sceneFadeDuration": 1000,
     "autoLoad": true
   },
@@ -20,8 +20,15 @@
           "pitch": -25,
           "yaw": -102,
           "type": "scene",
-          "text": "Ir a la entrada principal",
+          "text": "Ir al pasillo de entrada",
           "sceneId": "imagen2"
+        },
+        {
+          "pitch": -8.2,
+          "yaw": -170.8,
+          "type": "scene",
+          "text": "Ir a la entrada principal",
+          "sceneId": "imagen3"
         }
       ]
     },
@@ -42,6 +49,230 @@
           "type": "scene",
           "text": "Regresar al Espacio de abordaje",
           "sceneId": "imagen1"
+        },
+        {
+          "pitch": -10.2,
+          "yaw": -174,
+          "type": "scene",
+          "text": "Ir a la entrada principal",
+          "sceneId": "imagen3"
+        }
+      ]
+    },
+    "imagen3": {
+      "title": "Sala de exhibición",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/3.webp",
+      "hotSpots": [
+        {
+          "pitch": -4.4,
+          "yaw": 82.5,
+          "type": "scene",
+          "text": "Regresar a la entrada principal",
+          "sceneId": "imagen2"
+        },
+        {
+          "pitch": -7.6 ,
+          "yaw": -120.5,
+          "type": "scene",
+          "text": "Avanzar por el pasillo",
+          "sceneId": "imagen4"
+        }
+      ]
+    },
+    "imagen4": {
+      "title": "pasillo",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/4.webp",
+      "hotSpots": [
+        {
+          "pitch": -7.4,
+          "yaw": -142.5,
+          "type": "scene",
+          "text": "Regresar al pasillo",
+          "sceneId": "imagen3"
+        }
+      ]
+    },
+    "imagen5": {
+      "title": "pasillo",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/5E.webp",
+      "hotSpots": [
+        {
+          "pitch": -4.4,
+          "yaw": 82.5,
+          "type": "scene",
+          "text": "Regresar a la entrada principal",
+          "sceneId": "imagen2"
+        }
+      ]
+    },
+    "imagen6": {
+      "title": "pasillo",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/6.webp",
+      "hotSpots": [
+        {
+          "pitch": -4.4,
+          "yaw": 82.5,
+          "type": "scene",
+          "text": "Regresar a la entrada principal",
+          "sceneId": "imagen2"
+        }
+      ]
+    },
+    "imagen7": {
+      "title": "pasillo",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/7.webp",
+      "hotSpots": [
+        {
+          "pitch": -4.4,
+          "yaw": 82.5,
+          "type": "scene",
+          "text": "Regresar a la entrada principal",
+          "sceneId": "imagen2"
+        }
+      ]
+    },
+    "imagen8": {
+      "title": "pasillo",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/8.webp",
+      "hotSpots": [
+        {
+          "pitch": -4.4,
+          "yaw": 82.5,
+          "type": "scene",
+          "text": "Regresar a la entrada principal",
+          "sceneId": "imagen2"
+        }
+      ]
+    },
+    "imagen9": {
+      "title": "pasillo",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/9.webp",
+      "hotSpots": [
+        {
+          "pitch": -4.4,
+          "yaw": 82.5,
+          "type": "scene",
+          "text": "Regresar a la entrada principal",
+          "sceneId": "imagen2"
+        }
+      ]
+    },
+    "imagen10": {
+      "title": "pasillo",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/10.webp",
+      "hotSpots": [
+        {
+          "pitch": -4.4,
+          "yaw": 82.5,
+          "type": "scene",
+          "text": "Regresar a la entrada principal",
+          "sceneId": "imagen2"
+        }
+      ]
+    },
+    "imagen11": {
+      "title": "pasillo",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/11.webp",
+      "hotSpots": [
+        {
+          "pitch": -4.4,
+          "yaw": 82.5,
+          "type": "scene",
+          "text": "Regresar a la entrada principal",
+          "sceneId": "imagen2"
+        }
+      ]
+    },
+    "imagen12": {
+      "title": "pasillo",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/12.webp",
+      "hotSpots": [
+        {
+          "pitch": -4.4,
+          "yaw": 82.5,
+          "type": "scene",
+          "text": "Regresar a la entrada principal",
+          "sceneId": "imagen2"
+        }
+      ]
+    },
+    "imagen13": {
+      "title": "pasillo",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/13.webp",
+      "hotSpots": [
+        {
+          "pitch": -4.4,
+          "yaw": 82.5,
+          "type": "scene",
+          "text": "Regresar a la entrada principal",
+          "sceneId": "imagen2"
+        }
+      ]
+    },
+    "imagen14": {
+      "title": "pasillo",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/14.webp",
+      "hotSpots": [
+        {
+          "pitch": -4.4,
+          "yaw": 82.5,
+          "type": "scene",
+          "text": "Regresar a la entrada principal",
+          "sceneId": "imagen2"
+        }
+      ]
+    },
+    "imagen15": {
+      "title": "pasillo",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/15.webp",
+      "hotSpots": [
+        {
+          "pitch": -4.4,
+          "yaw": 82.5,
+          "type": "scene",
+          "text": "Regresar a la entrada principal",
+          "sceneId": "imagen2"
+        }
+      ]
+    },
+    "imagen16": {
+      "title": "pasillo",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/16.webp",
+      "hotSpots": [
+        {
+          "pitch": -4.4,
+          "yaw": 82.5,
+          "type": "scene",
+          "text": "Regresar a la entrada principal",
+          "sceneId": "imagen2"
+        }
+      ]
+    },
+    "imagen17": {
+      "title": "pasillo",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/17.webp",
+      "hotSpots": [
+        {
+          "pitch": -4.4,
+          "yaw": 82.5,
+          "type": "scene",
+          "text": "Regresar a la entrada principal",
+          "sceneId": "imagen2"
         }
       ]
     }
