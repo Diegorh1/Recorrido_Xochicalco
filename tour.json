@@ -1,6 +1,6 @@
 {
   "default": {
-    "firstScene": "imagen4",
+    "firstScene": "imagen17",
     "sceneFadeDuration": 1000,
     "autoLoad": true
   },
@@ -87,10 +87,17 @@
       "hotSpots": [
         {
           "pitch": -7.4,
-          "yaw": -142.5,
+          "yaw": -145.5,
           "type": "scene",
           "text": "Regresar al pasillo",
           "sceneId": "imagen3"
+        },
+        {
+          "pitch": -4.1,
+          "yaw": 9.4,
+          "type": "scene",
+          "text": "Avanzar por el pasillo",
+          "sceneId": "imagen5"
         }
       ]
     },
@@ -100,11 +107,18 @@
       "panorama": "assets/panoramicaswebp/5E.webp",
       "hotSpots": [
         {
-          "pitch": -4.4,
-          "yaw": 82.5,
+          "pitch": -6.0,
+          "yaw": 170.9,
           "type": "scene",
           "text": "Regresar a la entrada principal",
-          "sceneId": "imagen2"
+          "sceneId": "imagen4"
+        },
+        {
+          "pitch": -2.8,
+          "yaw": -60.3,
+          "type": "scene",
+          "text": "Avanzar por el pasillo",
+          "sceneId": "imagen6"
         }
       ]
     },
@@ -114,11 +128,18 @@
       "panorama": "assets/panoramicaswebp/6.webp",
       "hotSpots": [
         {
-          "pitch": -4.4,
-          "yaw": 82.5,
+          "pitch": -10.4,
+          "yaw": 77.5,
           "type": "scene",
-          "text": "Regresar a la entrada principal",
-          "sceneId": "imagen2"
+          "text": "Entrada al museo",
+          "sceneId": "imagen7"
+        },
+        {
+          "pitch": -10,
+          "yaw": -5,
+          "type": "scene",
+          "text": "Regresar al pasillo",
+          "sceneId": "imagen5"
         }
       ]
     },
@@ -128,11 +149,18 @@
       "panorama": "assets/panoramicaswebp/7.webp",
       "hotSpots": [
         {
-          "pitch": -4.4,
-          "yaw": 82.5,
+          "pitch": -20,
+          "yaw": -20,
           "type": "scene",
-          "text": "Regresar a la entrada principal",
-          "sceneId": "imagen2"
+          "text": "Regresar al pasillo",
+          "sceneId": "imagen6"
+        },
+        {
+          "pitch": -8.8,
+          "yaw": 132,
+          "type": "scene",
+          "text": "Avanzar al museo",
+          "sceneId": "imagen8"
         }
       ]
     },
@@ -146,7 +174,14 @@
           "yaw": 82.5,
           "type": "scene",
           "text": "Regresar a la entrada principal",
-          "sceneId": "imagen2"
+          "sceneId": "imagen7"
+        },
+        {
+          "pitch": -30,
+          "yaw": -170,
+          "type": "scene",
+          "text": "Avanzar por el pasillo",
+          "sceneId": "imagen9"
         }
       ]
     },
@@ -156,11 +191,18 @@
       "panorama": "assets/panoramicaswebp/9.webp",
       "hotSpots": [
         {
-          "pitch": -4.4,
-          "yaw": 82.5,
+          "pitch": -18,
+          "yaw": 107,
           "type": "scene",
-          "text": "Regresar a la entrada principal",
-          "sceneId": "imagen2"
+          "text": "Regresar por el pasillo",
+          "sceneId": "imagen8"
+        },
+        {
+          "pitch": -30,
+          "yaw": -21,
+          "type": "scene",
+          "text": "Avanzar por el pasillo",
+          "sceneId": "imagen10"
         }
       ]
     },
@@ -170,11 +212,18 @@
       "panorama": "assets/panoramicaswebp/10.webp",
       "hotSpots": [
         {
-          "pitch": -4.4,
-          "yaw": 82.5,
+          "pitch": -22,
+          "yaw": 103,
           "type": "scene",
-          "text": "Regresar a la entrada principal",
-          "sceneId": "imagen2"
+          "text": "Regresar por el pasillo",
+          "sceneId": "imagen9"
+        },
+        {
+          "pitch": -16.4,
+          "yaw": 13.4,
+          "type": "scene",
+          "text": "Avanzar por el pasillo",
+          "sceneId": "imagen11"
         }
       ]
     },
@@ -184,11 +233,32 @@
       "panorama": "assets/panoramicaswebp/11.webp",
       "hotSpots": [
         {
-          "pitch": -4.4,
-          "yaw": 82.5,
+          "pitch": -25.2,
+          "yaw": 0,
           "type": "scene",
-          "text": "Regresar a la entrada principal",
-          "sceneId": "imagen2"
+          "text": "Avanzar por el pasillo",
+          "sceneId": "imagen12"
+        },
+        {
+          "pitch": -22.2,
+          "yaw": -173,
+          "type": "scene",
+          "text": "Avanzar por el pasillo",
+          "sceneId": "imagen13"
+        },
+        {
+          "pitch": -12.8,
+          "yaw": 94,
+          "type": "scene",
+          "text": "Regresar por el pasillo",
+          "sceneId": "imagen10"
+        },
+        {
+          "pitch": -20.9,
+          "yaw": -88.5,
+          "type": "scene",
+          "text": "Avanzar por el pasillo",
+          "sceneId": "imagen14"
         }
       ]
     },
@@ -198,11 +268,11 @@
       "panorama": "assets/panoramicaswebp/12.webp",
       "hotSpots": [
         {
-          "pitch": -4.4,
-          "yaw": 82.5,
+          "pitch": -17.5,
+          "yaw": 126,
           "type": "scene",
-          "text": "Regresar a la entrada principal",
-          "sceneId": "imagen2"
+          "text": "Regresar al pasillo",
+          "sceneId": "imagen11"
         }
       ]
     },
@@ -212,11 +282,11 @@
       "panorama": "assets/panoramicaswebp/13.webp",
       "hotSpots": [
         {
-          "pitch": -4.4,
-          "yaw": 82.5,
+          "pitch": -10,
+          "yaw": -166,
           "type": "scene",
-          "text": "Regresar a la entrada principal",
-          "sceneId": "imagen2"
+          "text": "Regresar al pasillo",
+          "sceneId": "imagen11"
         }
       ]
     },
@@ -226,11 +296,18 @@
       "panorama": "assets/panoramicaswebp/14.webp",
       "hotSpots": [
         {
-          "pitch": -4.4,
+          "pitch": -35.2,
           "yaw": 82.5,
           "type": "scene",
-          "text": "Regresar a la entrada principal",
-          "sceneId": "imagen2"
+          "text": "Regresar al pasillo",
+          "sceneId": "imagen11"
+        },
+        {
+          "pitch": -20,
+          "yaw": -87,
+          "type": "scene",
+          "text": "Avanzar por el pasillo",
+          "sceneId": "imagen15"
         }
       ]
     },
@@ -240,11 +317,18 @@
       "panorama": "assets/panoramicaswebp/15.webp",
       "hotSpots": [
         {
-          "pitch": -4.4,
-          "yaw": 82.5,
+          "pitch": -22.4,
+          "yaw": 94.5,
           "type": "scene",
-          "text": "Regresar a la entrada principal",
-          "sceneId": "imagen2"
+          "text": "Regresar al pasillo",
+          "sceneId": "imagen14"
+        },
+        {
+          "pitch": -37.0,
+          "yaw": -82,
+          "type": "scene",
+          "text": "Avanzar por el pasillo",
+          "sceneId": "imagen16"
         }
       ]
     },
@@ -254,11 +338,18 @@
       "panorama": "assets/panoramicaswebp/16.webp",
       "hotSpots": [
         {
-          "pitch": -4.4,
-          "yaw": 82.5,
+          "pitch": -25.1,
+          "yaw": 112.9,
           "type": "scene",
-          "text": "Regresar a la entrada principal",
-          "sceneId": "imagen2"
+          "text": "Regresar al pasillo",
+          "sceneId": "imagen15"
+        },
+        {
+          "pitch": -17.0,
+          "yaw": -68,
+          "type": "scene",
+          "text": "Avanzar por el pasillo",
+          "sceneId": "imagen17"
         }
       ]
     },
@@ -268,11 +359,11 @@
       "panorama": "assets/panoramicaswebp/17.webp",
       "hotSpots": [
         {
-          "pitch": -4.4,
-          "yaw": 82.5,
+          "pitch": -10.0,
+          "yaw": 119.8,
           "type": "scene",
-          "text": "Regresar a la entrada principal",
-          "sceneId": "imagen2"
+          "text": "Regresar al pasillo",
+          "sceneId": "imagen16"
         }
       ]
     }
