@@ -364,6 +364,34 @@
           "type": "scene",
           "text": "Regresar al pasillo",
           "sceneId": "imagen16"
+        },
+        {
+          "pitch": -10.5,
+          "yaw": -0.4,
+          "type": "scene",
+          "text": "Avanzar a la sala de exhibición",
+          "sceneId": ""
+        },
+        {
+          "pitch": -9.4,
+          "yaw": -62.9,
+          "type": "scene",
+          "text": "Avanzar a la sala de exhibición",
+          "sceneId": ""
+        },
+        {
+          "pitch": -6.8,
+          "yaw": -121.0,
+          "type": "scene",
+          "text": "Avanzar a la sala de exhibición",
+          "sceneId": ""
+        },
+        {
+          "pitch": -18.8,
+          "yaw": 179.0,
+          "type": "scene",
+          "text": "Avanzar por el pasillo",
+          "sceneId": ""
         }
       ]
     }
