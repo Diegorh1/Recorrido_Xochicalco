@@ -1,38 +1,49 @@
-/* Resetea los márgenes básicos */
+/* =========================================
+   VARIABLES Y RESET GLOBAL
+   ========================================= */
+:root {
+    --color-fondo: #F9F6F0;
+    --color-primario: #4A5D23; /* Verde olivo */
+    --color-primario-oscuro: #364419;
+    --color-secundario: #C17A4D; /* Terracota */
+    --color-secundario-claro: #D6946A;
+    --color-oscuro: #233131; /* Gris oscuro verdoso */
+    --color-texto: #333333;
+    --color-blanco: #ffffff;
+}
+
+/* Activa el desplazamiento suave en toda la página para el botón */
+html { 
+    scroll-behavior: smooth; 
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Pantalla completa para el visor */
-html, body {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    background-color: #000;
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    /* IMPORTANTE: Permite el scroll vertical pero oculta barras horizontales */
+    overflow-x: hidden; 
 }
 
+/* =========================================
+   1. VISOR 360° (PANNELLUM) Y TARJETAS
+   ========================================= */
 #panorama {
     width: 100vw;
-    height: 100vh;
+    height: 100vh; /* Ocupará toda la pantalla cuando el usuario baje hacia él */
+    background-color: #000;
+    display: block;
 }
 
-/* Ajuste responsivo para celulares */
-@media (max-width: 600px) {
-    .tarjeta-museo {
-        width: 85vw; /* Que ocupe el 85% de la pantalla del celular */
-        max-width: 250px;
-    }
-}
-
-
-/* --- TARJETA DE INFORMACIÓN CORREGIDA --- */
-
-/* 1. Neutralizar estilos de Pannellum (para que no estorben) */
 div.pnlm-tooltip span {
     padding: 0 !important;
-    background-color: transparent important;
+    background-color: transparent !important;
     border: none !important;
 }
 
@@ -40,41 +51,374 @@ div.pnlm-tooltip span::after {
     display: none !important;
 }
 
-/* 2. El contenedor de la tarjeta */
+/* El contenedor de la tarjeta dentro del visor */
 .tarjeta-museo {
     display: flex;
     flex-direction: column;
-    width: 300px; /* Tamaño normal y cómodo */
-    background-color: rgba(0, 0, 0, 0.85); /* Fondo oscuro para legibilidad */
-    border-radius: 12px; /* Redondeado elegante */
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.5); /* Sombra para que "flote" */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
 }
 
-/* Ajuste de la imagen */
 .tarjeta-museo img {
     width: 100%;
-    height: 180px; /* Altura fija para que todas las tarjetas sean uniformes */
+    height: 180px;
     object-fit: cover;
-    border-bottom: 3px solid #f39c12; /* Color de acento */
+    border-bottom: 3px solid #f39c12;
 }
 
-/* Textos legibles */
 .tarjeta-info {
     padding: 15px;
     color: white;
     text-align: left;
-    font-family: 'Segoe UI', Arial, sans-serif; /* Fuente más moderna */
+    font-family: 'Segoe UI', Arial, sans-serif;
 }
 
 .tarjeta-info h3 {
     margin-bottom: 8px;
-    font-size: 18px; /* Tamaño estándar de título */
+    font-size: 18px;
     color: #f39c12;
 }
 
 .tarjeta-info p {
-    font-size: 14px; /* Tamaño estándar de lectura */
+    font-size: 14px;
     line-height: 1.5;
-    color: #e0e0e0; /* Un gris claro es menos cansado que el blanco puro */
+    color: #e0e0e0;
+}
+
+/* =========================================
+   2. PANTALLA DE BIENVENIDA (HEADER)
+   ========================================= */
+header {
+    background-color: var(--color-oscuro);
+    background-image: linear-gradient(135deg, rgba(35, 49, 49, 0.95) 0%, rgba(74, 93, 35, 0.85) 100%), url('assets/panoramicaswebp/museo1.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: var(--color-blanco);
+    text-align: center;
+    padding: 4rem 2rem; /* Reduje un poco el padding superior e inferior */
+    border-bottom: 5px solid var(--color-secundario);
+    
+    /* AQUÍ ESTÁ EL CAMBIO: 60vh ocupará un poco más de la mitad de la pantalla */
+    min-height: 60vh; 
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+header h1 {
+    margin-bottom: 15px;
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.3rem;
+    max-width: 600px;
+    line-height: 1.6;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.btn-desplazar {
+    margin-top: 3rem;
+    padding: 12px 30px;
+    border: 2px solid var(--color-blanco);
+    border-radius: 30px;
+    color: var(--color-blanco);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    animation: rebote 2s infinite;
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(5px);
+}
+
+.btn-desplazar:hover {
+    background-color: var(--color-blanco);
+    color: var(--color-oscuro);
+    transform: scale(1.05);
+}
+
+@keyframes rebote {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-10px); }
+    60% { transform: translateY(-5px); }
+}
+
+/* =========================================
+   3. ESTILOS DEL CARRUSEL FULL WIDTH
+   ========================================= */
+.carousel-container {
+    position: relative;
+    width: 100vw;
+    height: 60vh;
+    overflow: hidden;
+    background-color: #000;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.carousel-track {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.carousel-slide {
+    min-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.9);
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(35, 49, 49, 0.6);
+    backdrop-filter: blur(4px);
+    color: var(--color-blanco);
+    border: none;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 1.8rem;
+    border-radius: 50%;
+    z-index: 10;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-btn:hover {
+    background-color: var(--color-secundario);
+    transform: translateY(-50%) scale(1.1);
+}
+
+.prev { left: 30px; }
+.next { right: 30px; }
+
+.carousel-dots {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 12px;
+    z-index: 10;
+}
+
+.dot {
+    width: 14px;
+    height: 14px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 2px solid transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.dot.activo, .dot:hover {
+    background-color: var(--color-secundario);
+    border-color: var(--color-blanco);
+    transform: scale(1.2);
+}
+
+/* =========================================
+   4. CONTENIDO PRINCIPAL (INFO Y TARJETAS)
+   ========================================= */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    flex-grow: 1;
+}
+
+.intro-section {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.intro-section h2 { 
+    color: var(--color-primario); 
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    position: relative;
+    display: inline-block;
+}
+
+.intro-section h2::after {
+    content: '';
+    width: 60%;
+    height: 4px;
+    background-color: var(--color-secundario);
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2px;
+}
+
+.intro-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+    max-width: 800px;
+    margin: 2rem auto 0;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.info-card {
+    background-color: var(--color-blanco);
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.05);
+    border-top: 5px solid var(--color-primario);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.1);
+    border-top-color: var(--color-secundario);
+}
+
+.info-card h3 {
+    color: var(--color-oscuro);
+    margin-top: 0;
+    font-size: 1.4rem;
+}
+
+.info-card p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* =========================================
+   5. SECCIÓN MAPA Y FOOTER
+   ========================================= */
+.location-section {
+    background-color: var(--color-oscuro);
+    color: var(--color-blanco);
+    padding: 4rem 1rem;
+    text-align: center;
+    border-top: 5px solid var(--color-primario);
+}
+
+.location-section h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.location-section p {
+    color: #aaa;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+.map-container {
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    border: 3px solid rgba(255,255,255,0.1);
+}
+
+/* =========================================
+   6. RESPONSIVE DESIGN
+   ========================================= */
+@media (max-width: 768px) {
+    header h1 { font-size: 2.5rem; }
+    .carousel-container { height: 40vh; }
+    .carousel-btn { width: 40px; height: 40px; font-size: 1.2rem; }
+}
+
+/* =========================================
+   7. ESTILOS DEL RECORRIDO 360 E INTERACCIÓN
+   ========================================= */
+   
+/* Contenedor a pantalla completa oculto inicialmente */
+#contenedor-360 {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999; 
+    background-color: #000;
+}
+
+/* El panorama debe ocupar todo el contenedor */
+#panorama {
+    width: 100%;
+    height: 100%;
+}
+
+/* Botón flotante para cerrar el visor */
+#btn-cerrar-360 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 10000;
+    padding: 10px 20px;
+    background-color: #c0392b; /* Rojo elegante */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    transition: transform 0.2s;
+}
+
+#btn-cerrar-360:hover {
+    transform: scale(1.05);
+    background-color: #e74c3c;
+}
+
+/* Caja de diseño donde vive el botón de iniciar */
+.seccion-llamada-360 {
+    text-align: center;
+    padding: 4rem 1rem;
+    background-color: rgba(74, 93, 35, 0.1); /* Verde olivo muy claro usando tu color primario */
+    border-radius: 12px;
+    margin-bottom: 4rem;
+}
+
+/* Diseño del botón para abrir el visor */
+.btn-primario {
+    background-color: var(--color-primario);
+    color: white;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+}
+
+.btn-primario:hover {
+    background-color: var(--color-secundario);
+    transform: translateY(-3px);
 }
