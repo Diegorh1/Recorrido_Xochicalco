@@ -1,6 +1,6 @@
 {
   "default": {
-    "firstScene": "imagen17",
+    "firstScene": "imagen18",
     "sceneFadeDuration": 1000,
     "autoLoad": true
   },
@@ -369,29 +369,169 @@
           "pitch": -10.5,
           "yaw": -0.4,
           "type": "scene",
-          "text": "Avanzar a la sala de exhibición",
-          "sceneId": ""
+          "text": "Avanzar a la sala 1. Los dones de la Tierra: Hacedores de vida",
+          "sceneId": "imagen18"
         },
         {
           "pitch": -9.4,
           "yaw": -62.9,
           "type": "scene",
-          "text": "Avanzar a la sala de exhibición",
-          "sceneId": ""
+          "text": "Avanzar a la sala 2. Hombres guerreros, hombres sacerdotes",
+          "sceneId": "imagen21"
         },
         {
           "pitch": -6.8,
           "yaw": -121.0,
           "type": "scene",
-          "text": "Avanzar a la sala de exhibición",
-          "sceneId": ""
+          "text": "Avanzar a la sala 3. Resguardo de los hombres",
+          "sceneId": "imagen24"
         },
         {
           "pitch": -18.8,
           "yaw": 179.0,
           "type": "scene",
           "text": "Avanzar por el pasillo",
-          "sceneId": ""
+          "sceneId": "imagen27"
+        }
+      ]
+    },
+    "imagen18": {
+      "title": "sala 1",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/18.webp",
+      "hotSpots": [
+        {
+          "pitch": -10.0,
+          "yaw": 119.8,
+          "type": "scene",
+          "text": "Regresar al pasillo",
+          "sceneId": "imagen17"
+        }
+      ]
+    },
+    "imagen19": {
+      "title": "sala 1",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/19.webp",
+      "hotSpots": [
+        {
+          "pitch": -10.0,
+          "yaw": 119.8,
+          "type": "scene",
+          "text": "Regresar al pasillo",
+          "sceneId": "imagen17"
+        }
+      ]
+    },
+    "imagen20": {
+      "title": "sala 1",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/20.webp",
+      "hotSpots": [
+        {
+          "pitch": -10.0,
+          "yaw": 119.8,
+          "type": "scene",
+          "text": "Regresar al pasillo",
+          "sceneId": "imagen17"
+        }
+      ]
+    },
+    "imagen21": {
+      "title": "sala 1",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/21.webp",
+      "hotSpots": [
+        {
+          "pitch": -10.0,
+          "yaw": 119.8,
+          "type": "scene",
+          "text": "Regresar al pasillo",
+          "sceneId": "imagen17"
+        }
+      ]
+    },
+    "imagen22": {
+      "title": "sala 1",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/22.webp",
+      "hotSpots": [
+        {
+          "pitch": -10.0,
+          "yaw": 119.8,
+          "type": "scene",
+          "text": "Regresar al pasillo",
+          "sceneId": "imagen17"
+        }
+      ]
+    },
+    "imagen23": {
+      "title": "sala 1",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/23.webp",
+      "hotSpots": [
+        {
+          "pitch": -10.0,
+          "yaw": 119.8,
+          "type": "scene",
+          "text": "Regresar al pasillo",
+          "sceneId": "imagen17"
+        }
+      ]
+    },
+    "imagen24": {
+      "title": "sala 1",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/24.webp",
+      "hotSpots": [
+        {
+          "pitch": -10.0,
+          "yaw": 119.8,
+          "type": "scene",
+          "text": "Regresar al pasillo",
+          "sceneId": "imagen17"
+        }
+      ]
+    },
+    "imagen25": {
+      "title": "sala 1",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/25.webp",
+      "hotSpots": [
+        {
+          "pitch": -10.0,
+          "yaw": 119.8,
+          "type": "scene",
+          "text": "Regresar al pasillo",
+          "sceneId": "imagen17"
+        }
+      ]
+    },
+    "imagen26": {
+      "title": "sala 1",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/26.webp",
+      "hotSpots": [
+        {
+          "pitch": -10.0,
+          "yaw": 119.8,
+          "type": "scene",
+          "text": "Regresar al pasillo",
+          "sceneId": "imagen17"
+        }
+      ]
+    },
+    "imagen27": {
+      "title": "sala 1",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/27.webp",
+      "hotSpots": [
+        {
+          "pitch": -10.0,
+          "yaw": 119.8,
+          "type": "scene",
+          "text": "Regresar al pasillo",
+          "sceneId": "imagen17"
         }
       ]
     }
