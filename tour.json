@@ -1,6 +1,6 @@
 {
   "default": {
-    "firstScene": "imagen18",
+    "firstScene": "imagen27",
     "sceneFadeDuration": 1000,
     "autoLoad": true
   },
@@ -402,10 +402,24 @@
       "hotSpots": [
         {
           "pitch": -10.0,
-          "yaw": 119.8,
+          "yaw": 179.8,
           "type": "scene",
           "text": "Regresar al pasillo",
           "sceneId": "imagen17"
+        },
+        {
+          "pitch": -8.7,
+          "yaw": 30.8,
+          "type": "scene",
+          "text": "Avanzar por la sala 1",
+          "sceneId": "imagen19"
+        },
+        {
+          "pitch": -10.0,
+          "yaw": -30.8,
+          "type": "scene",
+          "text": "Avanzar por la sala 1",
+          "sceneId": "imagen20"
         }
       ]
     },
@@ -416,10 +430,17 @@
       "hotSpots": [
         {
           "pitch": -10.0,
-          "yaw": 119.8,
+          "yaw": 179.8,
           "type": "scene",
-          "text": "Regresar al pasillo",
-          "sceneId": "imagen17"
+          "text": "Regresar por el pasillo",
+          "sceneId": "imagen18"
+        },
+        {
+          "pitch": -16.0,
+          "yaw": -112.8,
+          "type": "scene",
+          "text": "Avanzar por el pasillo",
+          "sceneId": "imagen20"
         }
       ]
     },
@@ -430,10 +451,17 @@
       "hotSpots": [
         {
           "pitch": -10.0,
-          "yaw": 119.8,
+          "yaw": 90.8,
           "type": "scene",
           "text": "Regresar al pasillo",
-          "sceneId": "imagen17"
+          "sceneId": "imagen19"
+        },
+        {
+          "pitch": -11.0,
+          "yaw": 160.8,
+          "type": "scene",
+          "text": "Avanzar por la sala",
+          "sceneId": "imagen18"
         }
       ]
     },
@@ -443,11 +471,25 @@
       "panorama": "assets/panoramicaswebp/21.webp",
       "hotSpots": [
         {
-          "pitch": -10.0,
-          "yaw": 119.8,
+          "pitch": -18.0,
+          "yaw": 153.8,
           "type": "scene",
           "text": "Regresar al pasillo",
           "sceneId": "imagen17"
+        },
+        {
+          "pitch": -6.8,
+          "yaw": 2.6,
+          "type": "scene",
+          "text": "Avanzar por la sala",
+          "sceneId": "imagen22"
+        },
+        {
+          "pitch": -5.6,
+          "yaw": -60.8,
+          "type": "scene",
+          "text": "Avanzar por la sala",
+          "sceneId": "imagen23"
         }
       ]
     },
@@ -457,11 +499,18 @@
       "panorama": "assets/panoramicaswebp/22.webp",
       "hotSpots": [
         {
-          "pitch": -10.0,
-          "yaw": 119.8,
+          "pitch": -5.7,
+          "yaw": -90,
           "type": "scene",
           "text": "Regresar al pasillo",
-          "sceneId": "imagen17"
+          "sceneId": "imagen21"
+        },
+        {
+          "pitch": -10.0,
+          "yaw": -15.8,
+          "type": "scene",
+          "text": "Avanzar por la sala",
+          "sceneId": "imagen23"
         }
       ]
     },
@@ -472,10 +521,17 @@
       "hotSpots": [
         {
           "pitch": -10.0,
-          "yaw": 119.8,
+          "yaw": -60.8,
           "type": "scene",
           "text": "Regresar al pasillo",
-          "sceneId": "imagen17"
+          "sceneId": "imagen22"
+        },
+        {
+          "pitch": -10.0,
+          "yaw": 10.8,
+          "type": "scene",
+          "text": "Regresar por la sala",
+          "sceneId": "imagen21"
         }
       ]
     },
@@ -485,11 +541,25 @@
       "panorama": "assets/panoramicaswebp/24.webp",
       "hotSpots": [
         {
-          "pitch": -10.0,
-          "yaw": 119.8,
+          "pitch": -11.0,
+          "yaw": -60.8,
           "type": "scene",
-          "text": "Regresar al pasillo",
+          "text": "Regresar al pasillo principal",
           "sceneId": "imagen17"
+        },
+        {
+          "pitch": -16.0,
+          "yaw": 145.8,
+          "type": "scene",
+          "text": "Avanzar por la sala",
+          "sceneId": "imagen25"
+        },
+        {
+          "pitch": -16.0,
+          "yaw": 90.8,
+          "type": "scene",
+          "text": "Avanzar por la sala",
+          "sceneId": "imagen26"
         }
       ]
     },
@@ -500,10 +570,17 @@
       "hotSpots": [
         {
           "pitch": -10.0,
-          "yaw": 119.8,
+          "yaw": -60.8,
           "type": "scene",
-          "text": "Regresar al pasillo",
-          "sceneId": "imagen17"
+          "text": "Regresar por la sala",
+          "sceneId": "imagen24"
+        },
+        {
+          "pitch": -15.0,
+          "yaw": 10.8,
+          "type": "scene",
+          "text": "Avanzar por la sala",
+          "sceneId": "imagen26"
         }
       ]
     },
@@ -514,10 +591,17 @@
       "hotSpots": [
         {
           "pitch": -10.0,
-          "yaw": 119.8,
+          "yaw": -55.8,
           "type": "scene",
-          "text": "Regresar al pasillo",
-          "sceneId": "imagen17"
+          "text": "Regresar por la sala",
+          "sceneId": "imagen25"
+        },
+        {
+          "pitch": -10.0,
+          "yaw": 10.8,
+          "type": "scene",
+          "text": "Regresar por la sala",
+          "sceneId": "imagen24"
         }
       ]
     },
@@ -528,10 +612,17 @@
       "hotSpots": [
         {
           "pitch": -10.0,
-          "yaw": 119.8,
+          "yaw": 140.8,
           "type": "scene",
           "text": "Regresar al pasillo",
           "sceneId": "imagen17"
+        },
+        {
+          "pitch": -10.0,
+          "yaw": -40.8,
+          "type": "scene",
+          "text": "Avanzar por el pasillo",
+          "sceneId": "imagen28"
         }
       ]
     }
