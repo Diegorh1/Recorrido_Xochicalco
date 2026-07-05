@@ -645,6 +645,12 @@
           "yaw": -103.2,
           "type": "info",
           "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3></h3> <p><strong>ESPAÑOL</strong><br>Las materias primas que mayor demanda tuvieron en Xochicalco fueron la obsidiana gris, proveniente de Zinapécuaro, y la roja veteada del Zináparo, ambos lugares en Michoacán; caracoles y conchas de las costas del Pacífico; el alabastro del valle poblano y óxidos de fierro y cobre, entre otros, que se utilizaban como pigmentos, fueron obtenidos de los alrededores de Xochicalco. Por otra parte, las máscaras y figurillas elaboradas con diferentes tipos de piedra verde llegaron a la ciudad provenientes de la Sierra de Taxco, como productos terminados.<br><br><strong>ENGLISH</strong><br>The raw materials in greatest demand at Xochicalco were gray obsidian from Zinapécuaro and streaked pink obsidian from Zináparo, both in Michoacán; an array of seashells from the Pacific coasts; alabaster from the Valley of Puebla; and iron oxides and copper, among other minerals, which were used as pigments, were obtained from the vicinity of Xochicalco. On the other hand, masks and figurines sculpted from different types of greenstone reached the city from the Sierra de Taxco, as finished products.</p> </div> </div>"
+        },
+        {
+          "pitch": -23.3,
+          "yaw": -135.8,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/IMAGENES DIEGO/img18, 29 y 20/img_18_5.webP' alt='Descripción'><div class='tarjeta-info'><h3></h3><p></p></div></div>"
         }
       ]
     },
