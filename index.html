@@ -20,7 +20,7 @@
 
     <!-- Tu archivo de estilos -->
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=1.1">
 
 </head>
 
@@ -379,6 +379,61 @@
         iniciarAutoplay();
 
     </script>
+
+    <script>
+
+        // --- LÓGICA DEL LIGHTBOX PARA LAS TARJETAS ---
+
+// Escucha clics en cualquier parte del documento
+document.addEventListener('click', function(evento) {
+    // Si el clic fue específicamente en una imagen dentro de tu tarjeta
+    if (evento.target.matches('.tarjeta-museo img')) {
+        const rutaImagen = evento.target.src;
+        abrirModalImagen(rutaImagen);
+    }
+});
+
+function abrirModalImagen(src) {
+    let modal = document.getElementById('modal-lightbox');
+    
+    // Si el modal no existe, lo construimos dinámicamente
+    if (!modal) {
+        modal = document.createElement('div');
+        modal.id = 'modal-lightbox';
+        modal.className = 'modal-overlay';
+        modal.innerHTML = `
+            <div class="modal-contenido">
+                <button class="btn-cerrar-modal">&times;</button>
+                <img id="img-lightbox" src="" alt="Vista detallada">
+            </div>
+        `;
+        document.body.appendChild(modal);
+
+        // Lógica para cerrar desde el botón (la "X")
+        modal.querySelector('.btn-cerrar-modal').addEventListener('click', cerrarModalImagen);
+        
+        // Lógica para cerrar si hacen clic afuera de la foto (en el fondo oscuro)
+        modal.addEventListener('click', function(evento) {
+            if (evento.target === modal) cerrarModalImagen();
+        });
+    }
+
+    // Le pasamos la ruta de la foto clickeada y mostramos la ventana
+    document.getElementById('img-lightbox').src = src;
+    modal.classList.add('activo');
+}
+
+function cerrarModalImagen() {
+    const modal = document.getElementById('modal-lightbox');
+    if (modal) {
+        modal.classList.remove('activo');
+    }
+}
+    </script>
+
+
+
+
 
 
 
