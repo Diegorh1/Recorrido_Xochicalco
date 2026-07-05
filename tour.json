@@ -581,7 +581,6 @@
           "pitch": 2.4,
           "yaw": -138.3,
           "type": "info",
-<<<<<<< HEAD
           "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/LETRERO-1.webp' alt='Descripción'><div class='tarjeta-info'><h3>Xochicalco, resguardo de hombres</h3><p>Cartel informativo..</p></div></div>"
         },
         {
@@ -620,13 +619,7 @@
           "type": "info",
           "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Ornamentación del Juego de Pelota Norte</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>Parte de la ornamentación del Juego de Pelota Norte consistía en grandes caracoles empotrados en los tableros de los laterales. Estos símbolos acuáticos también predominan en la decoración del temazcal que, junto con el estanque, son dependencias asociadas al Juego de Pelota.<br><br>Caracoles, conchas, estrellas marinas y agua, son los signos y glifos iconográficos que hacen referencia a Tláloc. Son mudas plegarias al dios de la lluvia para lograr buenas cosechas.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>North Ballcourt Ornamentation</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>Part of the ornamentation of the North Ballcourt consisted of large seashells tenoned into the rectangular panels of the side walls. These aquatic symbols also predominated in the decoration of the steambath, which together with the pool, were rooms associated with the Ballcourt.<br><br>Seashells, starfish, and water are signs and iconographic elements that refer to Tlaloc. They are silent prayers to the god of rain to ensure abundant harvests.</p> </div> </div> </div>",
           "sceneId": "ornamentacion_juego_pelota"
-=======
-          "text": "<div class='tarjeta-museo' style='width: 500px; max-width: 90vw; pointer-events: auto;'> <img src='assets/panoramicaswebp/sala3/LETRERO-1.webp' alt='Descripción' tabindex='0' style='width: 100%; display: block; border-radius: 8px;'> <div class='tarjeta-info' style='width: 100%; margin-top: 10px; padding: 15px;'> <h3>Título de tu pieza</h3> </div> </div>"
->>>>>>> diego-rama
         },
-
-        
-
         {
           "pitch": -16.0,
           "yaw": 145.8,
