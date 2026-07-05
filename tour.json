@@ -1,6 +1,6 @@
 {
   "default": {
-    "firstScene": "imagen27",
+    "firstScene": "imagen28",
     "sceneFadeDuration": 1000,
     "autoLoad": true
 },
@@ -604,7 +604,7 @@
           "pitch": 3.4,
           "yaw": -29.4,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/sala2/Escultura1.webp' alt='Descripción'><div class='tarjeta-info'><h3>El señor de rojo</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala2/ESCULTURA 1.webp' alt='Descripción'><div class='tarjeta-info'><h3>El señor de rojo</h3><p></p></div></div>"
         },
         {
           "pitch": -20.3,
