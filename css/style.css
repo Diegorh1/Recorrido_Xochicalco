@@ -552,3 +552,27 @@ header p {
         font-size: 1.2rem;
     }
 }
+/* =========================================
+   9. CORRECCIÓN TÁCTIL PARA CELULARES (FAT FINGER FIX)
+   ========================================= */
+
+/* Elimina el retraso de 300ms de los navegadores móviles al tocar */
+#panorama {
+    touch-action: manipulation !important; 
+}
+
+/* Creamos un "campo de fuerza" invisible alrededor del icono para atrapar los dedos */
+@media (max-width: 768px) {
+    .pnlm-hotspot-base::before {
+        content: "";
+        position: absolute;
+        /* Esto hace que el área tocable se expanda 15px en todas las direcciones */
+        top: -15px;
+        bottom: -15px;
+        left: -15px;
+        right: -15px;
+        border-radius: 50%;
+        /* z-index asegura que el toque lo reciba esta capa invisible */
+        z-index: 10; 
+    }
+}
