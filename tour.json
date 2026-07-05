@@ -1,6 +1,6 @@
 {
   "default": {
-    "firstScene": "imagen2",
+    "firstScene": "imagen24",
     "sceneFadeDuration": 1000,
     "autoLoad": true
   },
@@ -72,7 +72,7 @@
           "sceneId": "imagen2"
         },
         {
-          "pitch": -7.6 ,
+          "pitch": -7.6,
           "yaw": -120.5,
           "type": "scene",
           "text": "Avanzar por el pasillo",
@@ -386,8 +386,6 @@
           "text": "Avanzar a la sala 3. Resguardo de los hombres",
           "sceneId": "imagen24"
         },
-
-       
         {
           "pitch": -18.8,
           "yaw": 179.0,
@@ -555,9 +553,43 @@
           "type": "info",
           "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/LETRERO-1.webp' alt='Descripción'><div class='tarjeta-info'><h3>Título de tu pieza</h3><p>Aquí puedes poner todo el texto descriptivo que necesites mostrar.</p></div></div>"
         },
-
-        
-
+        {
+          "pitch": -9.9,
+          "yaw": 120.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/Escultura 1.1.webp' alt='Descripción'><div class='tarjeta-info'><h3>Estela de los dos glifos</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -32.3,
+          "yaw": 120.7,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Estela de los Dos Glifos</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>Las estelas fueron monumentos en los que se registraron y conmemoraron los acontecimientos históricos que regían la vida de los pueblos mesoamericanos. En muchos casos, las estelas son rocas talladas de forma rectangular y con inscripciones en los cuatro lados. Otras veces utilizaron las superficies lisas de las piedras uniformes para plasmar su historia.<br><br>La Estela de los Dos Glifos presenta en una de sus caras dos glifos calendáricos: <em>10 caña</em> y <em>9 ojo de reptil</em>. Es probable que su importancia resida en la alusión a la fundación de la ciudad.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Two-Glyph Stela</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>Stelae were monuments on which historical events that governed the life of Mesoamerican peoples were recorded and commemorated. In many cases, stelae are stones carved into a rectangular shape with inscriptions on four sides. At other times, they used the smooth surfaces of regularly shaped stones to capture their history.<br><br>The Two-Glyph Stela displays two calendrical glyphs on one of its faces: <em>10 Reed</em> and <em>9 Reptile's Eye</em>. The date recorded probably alludes to the city's foundation.</p> </div> </div> </div>"
+        },
+        {
+          "pitch": -9.7,
+          "yaw": -179.4,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/Escultura 2.webp' alt='Descripción'><div class='tarjeta-info'><h3>Arquitectura</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -11.7,
+          "yaw": -175.5,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Arquitectos y Albañiles</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>El constante crecimiento de la ciudad requirió de un buen número de arquitectos y albañiles, de ahí la profusión de sus instrumentos de trabajo, como las plomadas, las <em>llanas</em> (alisadores), los pulidores y las mezcleras.<br><br>La categoría del arquitecto se notaba por la calidad de sus artefactos de trabajo, por ejemplo: las mejores plomadas fueron las de piedra verde, no sólo por su resistencia sino también por ser de forma perfecta y de buen acabado.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Architects and Masons</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>The ongoing growth of the city required a large number of architects and masons, as well as a profusion of work tools, such as stone plumb bobs, trowels, polishers, and mortar pans.<br><br>The architect's status was reflected in the quality of his work implements, for example: the best plumb bobs were made of greenstone, not only because they were more resistant, but they were more finely carved and finished.</p> </div> </div> </div>"
+        },
+        {
+          "pitch": -8.0,
+          "yaw": 30.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/Escultura 10.webp' alt='Descripción'><div class='tarjeta-info'><h3>Ornamentación juego de pelota.</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -5.0,
+          "yaw": 0.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Ornamentación del Juego de Pelota Norte</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>Parte de la ornamentación del Juego de Pelota Norte consistía en grandes caracoles empotrados en los tableros de los laterales. Estos símbolos acuáticos también predominan en la decoración del temazcal que, junto con el estanque, son dependencias asociadas al Juego de Pelota.<br><br>Caracoles, conchas, estrellas marinas y agua, son los signos y glifos iconográficos que hacen referencia a Tláloc. Son mudas plegarias al dios de la lluvia para lograr buenas cosechas.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>North Ballcourt Ornamentation</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>Part of the ornamentation of the North Ballcourt consisted of large seashells tenoned into the rectangular panels of the side walls. These aquatic symbols also predominated in the decoration of the steambath, which together with the pool, were rooms associated with the Ballcourt.<br><br>Seashells, starfish, and water are signs and iconographic elements that refer to Tlaloc. They are silent prayers to the god of rain to ensure abundant harvests.</p> </div> </div> </div>",
+          "sceneId": "ornamentacion_juego_pelota"
+        },
         {
           "pitch": -16.0,
           "yaw": 145.8,
@@ -587,6 +619,73 @@
           "sceneId": "imagen24"
         },
         {
+          "pitch": -2.0,
+          "yaw": -80.7,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/Escultura 3.webp' alt='Descripción'><div class='tarjeta-info'><h3>Tzompantli</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -2.0,
+          "yaw": -85.7,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Tzompantli</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>En México-Tenochtitlan construyeron muros con cabezas humanas ensartadas llamados <em>tzompantli</em>, que también representaron en forma de esculturas. La presencia de esculturas de cráneos en Xochicalco es un antecedente de los <em>tzompantli</em>. Es probable que estén relacionados con el ciclo de la vida y la muerte, fundamento de la religión mesoamericana.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Tzompantli</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>In the Aztec capital of Mexico-Tenochtitlan, they built walls with human skulls hung on poles forming <em>tzompantli</em>, which were also represented sculpturally. The presence of skull sculptures at Xochicalco is a precedent for these <em>tzompantli</em>. They were probably linked to the life and death cycle, which was the foundation of Mesoamerican religion.</p> </div> </div> </div>"
+        },
+        {
+          "pitch": -13.2,
+          "yaw": -92.7,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/Escultura 4.webp' alt='Descripción'><div class='tarjeta-info'><h3>Tambores</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -20.5,
+          "yaw": -88.7,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Instrumento musical</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>Tambores que pertenecían a enormes y gruesas columnas, sillares de basamentos de gran altura y cornisas de elaborados edificios, que expresan la arquitectura masiva que predominaba en la urbe. Sin embargo, aquella se aligeraba por los vanos sin puertas, tan altos y anchos, así como por el tamaño de las habitaciones, cuya superficie daba la sensación de amplitud.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Massive Architecture</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>Drums from enormous thick columns, stone blocks from tall platforms, and cornices from elaborate buildings exemplified the massive architecture that predominated in the city. However, architecture was lightened by tall, wide openings lacking doors and by the size of rooms, whose dimensions conveyed the sensation of spaciousness.</p> </div> </div> </div>"
+        },
+        {
+          "pitch": -1.2,
+          "yaw": -113.7,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/LETRERO 4.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -19.2,
+          "yaw": -105.9,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/Escultura 5.webp' alt='Descripción'><div class='tarjeta-info'><h3>El tiempo y el calendario</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -12.5,
+          "yaw": -106.1,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>El Tiempo y el Calendario</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>El tiempo fue sumamente importante para los prehispánicos, la creación de los seres animados e inanimados se registraba en el ciclo calendárico, de tal manera que desde los dioses hasta el más insignificante objeto tenían nombre calendárico. Este clavo fue tallado con el nombre calendárico <em>4 casa</em>, y fue empotrado en los altos taludes de la plataforma de la Plaza Principal de Xochicalco para festejar el término de su construcción.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Time and the Calendar</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>Time was extremely important for pre-Hispanic people. The creation of animate and inanimate beings was recorded in the calendrical cycle in such a way that everything from the gods to the most minor of objects had a calendrical name. This nail carved with the calendrical name <em>4 House</em> was set into the tall sloping wall of the platform in the Main Plaza of Xochicalco to celebrate the completion of its construction.</p> </div> </div> </div>",
+          "sceneId": "tiempo_calendario"
+        },
+        {
+          "pitch": -11.0,
+          "yaw": 150.6,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/ESCULTURA 6.webp' alt='Descripción'><div class='tarjeta-info'><h3>Más Arquitectura</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -21.3,
+          "yaw": 150.8,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Planeación y Construcción</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>Los arquitectos que tuvieron a su cargo la planeación y construcción de la ciudad fueron a tal grado meticulosos que se apoyaron en maquetas, modelos de las construcciones que después ejecutarían a tamaño real.<br><br>Contemplaron también la apariencia final de los edificios, por lo que los decoraron con pintura mural y con almenas de barro y piedra. Además, en piedra tallaron glifos y esculturas como insignias de las casas, asociados directamente con el rango del individuo que las habitaba.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Planning and Construction</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>The architects in charge of planning and building the city were so meticulous that they relied on architectural models of constructions that they later built as full-scale structures.<br><br>They also took into account the final appearance of buildings, which they decorated with mural painting and ceramic and stone roof ornaments. In addition, they carved glyphs and sculptures of stone as household insignia, directly linked to the rank of the individual who lived there.</p> </div> </div> </div>"
+        },
+        {
+          "pitch": -6.3,
+          "yaw": 55.8,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/ESCULTURA 7.webp' alt='Descripción'><div class='tarjeta-info'><h3>Símbolos Tlalocan</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -20.6,
+          "yaw": 81.8,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Símbolos del Tlalocan</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>Figuras como estrellas de mar, caracoles, conchas, peces, entre otros, estuvieron asociadas con las lluvias, y fueron utilizadas como símbolos del <em>Tlalocan</em>, lugar habitado por Tláloc, Dios de todos los bienes y males acaecidos por el agua, al cual estaba dedicada la capilla de la Gran Pirámide de Xochicalco. Estas estrellas marinas probablemente estuvieron empotradas en algunos de los tableros de este edificio.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Symbols of Tlalocan</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>Figures such as starfish, seashells, fish, and other elements were associated with rain and were used as symbols of Tlalocan, the dwelling place of Tlaloc, the god of all good and evil caused by water. The chapel in the Great Pyramid of Xochicalco was dedicated to this deity. These starfish were probably set into the wall panels of that building.</p> </div> </div> </div>"
+        },
+        {
           "pitch": -15.0,
           "yaw": 10.8,
           "type": "scene",
@@ -607,6 +706,60 @@
           "text": "Regresar por la sala",
           "sceneId": "imagen25"
         },
+        {
+          "pitch": -10.9,
+          "yaw": -77.5,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Mensajes en la Decoración</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>Además de agradar la vista, la decoración de los edificios fue un medio para transmitir mensajes. Signos como las flores hablan de la fertilidad. Las flores de cinco pétalos, caladas y con terminación en espiga, fueron empotradas en el remate y pretil del pórtico de la Acrópolis, figurando una rama florida.<br><br>Otro tipo de decoración, asociada a la lluvia y a la humedad, son estrellas marinas talladas en piedra. El tambor indica que estuvieron empotradas, quizás, en algunos de los tableros de la Gran Pirámide, cuyo templo alojaba al dios Tláloc.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Messages in Decoration</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>In addition to pleasing the eye, building decoration was a means of transmitting messages. Signs such as flowers spoke of fertility. Five-petalled flowers, openwork and ending in a peg were inserted into the upper part of the wall of the portico of the Acropolis to give the impression of a flowering branch.<br><br>Another type of decoration, associated with rain and moisture, is the starfish carved in stone. The drum suggests these pieces were perhaps tenoned into the wall panels of the Great Pyramid, whose temple housed the god Tlaloc.</p> </div> </div> </div>",
+          "sceneId": "mensajes_decoracion"
+        },
+        {
+          "pitch": -4.0,
+          "yaw": -95,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Flores y el Mundo Superior</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>En Morelos es característico que después de lluvias el campo comienza a florecer: iniciando la temporada de secas el manto de la virgen cubre el campo de azul; con los primeros fríos vemos racimos de flores blancas del cazahuate; para febrero el guayacan se engalana de rosa; y para mayo al finalizar la época de secas, el cacaloxochitl nos regala con sus flores blancas, rosas y amarillas.<br><br>Por ello, las flores en la época prehispánica pertenecían al mundo superior, generalmente fueron utilizadas como representaciones del día, el fuego, el sol, la temporada de secas. Estas esculturas de flores decoraban los frisos del principal edificio de Xochicalco; la Acrópolis.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Flowers and the Upper World</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>In Morelos after the rains the countryside begins to bloom; when the dry season begins the Virgin's mantle covers the landscape in blue; with the onset of cold weather we see clusters of white <em>cazahuate</em> flowers; by February the <em>guayacan</em> trees are bedecked in pink; and by May at the end of the dry season, the <em>cacaloxochitl</em> gives us its white, pink, and yellow flowers.<br><br>Therefore, the flowers in pre-Hispanic times belonged to the upper world and were generally used as representations of daytime, fire, sun, the dry season. These sculptures of flowers decorated the friezes of the main building in Xochicalco: the Acropolis.</p> </div> </div> </div>"
+        },
+        {
+          "pitch": -2.4,
+          "yaw": -116.7,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/LETRERO 3.webp' alt='Descripción'><div class='tarjeta-info'><h3>Perfiles, Líneas, Trazos</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -15.1,
+          "yaw": 152.7,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/ESCULTURA 8.webp' alt='Descripción'><div class='tarjeta-info'><h3>Innovaciones en la Ciudad.</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -16.0,
+          "yaw": 165,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Planeación de la Ciudad</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>Los constructores que planearon la ciudad tomaron en cuenta la buena orientación -para evitar fríos o calores excesivos-, la calidad de los materiales de construcción- a fin de dar solidez y frescura a las habitaciones-, y la distribución ordenada de los espacios, cada uno planeado para una función específica.<br><br>Uno de los problemas considerados por los arquitectos fue el deterioro causado por la humedad. Para solucionarlo, construyeron pretiles que, junto con el desnivel del techo, permitieron conducir el agua de lluvia a través de los bajantes hasta los patios.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>City Planning</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>The builders who planned the city took into account the ideal orientation of buildings to avoid excessive cold and heat, the quality of construction materials to make rooms solid and fresh, and the design to ensure the orderly distribution of spaces, each one planned for a specific function.<br><br>One of the problems considered by architects was deterioration caused by humidity. To prevent it, they built parapets, which together with the slope of the roof, allowed rainwater to be channeled on slanted surfaces to patios.</p> </div> </div> </div>"
+        },
+        {
+          "pitch": 1.8,
+          "yaw": 78.2,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/LETRERO 2.webp' alt='Descripción'><div class='tarjeta-info'><h3>Nuevos Poderes.</h3><p></p></div></div>"
+        },
+
+{
+          "pitch": 0.0,
+          "yaw": 37.2,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/ESCULTURA 9.webp' alt='Descripción'><div class='tarjeta-info'><h3>Temazcal.</h3><p></p></div></div>"
+        },
+
+
+{
+  "pitch": -5.5,
+  "yaw": 38.8,
+  "type": "info",
+  "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>El Temazcal</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>El temazcal, o baño de vapor, fue un cuarto con una cámara de combustión sobre la cual colocaron un fogón construido con columnillas de piedra. Sobre este dispusieron gran cantidad de cantos rodados que, ya calientes y al contacto del agua producían vapor.<br><br>Asociado al Juego de Pelota Norte, el temazcal fue un edificio de tipo religioso, de ahí su gran tamaño y profusa decoración. Estrellas, conchas marinas y discos de cerámica con policromía son algunos de los adornos asociados con el culto a Tláloc que se encuentran en el temazcal.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>The Temazcal</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>The <em>temazcal</em>, or sweatbath, was a room with a combustion chamber in which they placed a fireplace constructed of stone columns placed together. Large amounts of heated round stones were arranged on top of this and were doused with water to produce steam.<br><br>Associated with the North Ballcourt, the steambath was a religious building, which explains its large dimensions and profuse decoration. Ceramic stars, seashells, and disks with traces of polychromy are some of the decorations associated with the worship of Tlaloc found in the <em>temazcal</em>.</p> </div> </div> </div>"
+},
+
+
         {
           "pitch": -10.0,
           "yaw": 10.8,
@@ -755,8 +908,7 @@
           "sceneId": "imagen28"
         }
       ]
-    }
-    ,
+    },
     "imagen33": {
       "title": "salida",
       "type": "equirectangular",
