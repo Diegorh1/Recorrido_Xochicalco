@@ -1,8 +1,6 @@
 {
   "default": {
     "firstScene": "imagen24",
-    "firstScene": "imagen29",
-    "firstScene": "imagen2",
     "sceneFadeDuration": 1000,
     "autoLoad": true
   },
@@ -17,12 +15,6 @@
           "yaw": 93.6,
           "type": "info",
           "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/autobus.webp' alt='Pieza'><div class='tarjeta-info'><h3>Parador de espera</h3>Este sitio es donde los aútobuses hacen paradas</div></div>"
-        },
-        {
-          "pitch": 6.6,
-          "yaw": -70.1,
-          "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/piramide1.webP' alt='Pieza'><div class='tarjeta-info'><h3>Piramides</h3><p>Su estructura más famosa es la Pirámide de las Serpientes Emplumadas, destacada por sus relieves que muestran la fusión de influencias teotihuacanas, mayas y zapotecas</p></div></div>"
         },
         {
           "pitch": -25,
@@ -46,6 +38,12 @@
       "panorama": "assets/panoramicaswebp/2.webp",
       "hotSpots": [
         {
+          "pitch": 5,
+          "yaw": -30,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/2.webp' alt='Pieza'><div class='tarjeta-info'><h3>Estela de los Glifos</h3><p>Esta pieza data del periodo epiclásico...</p></div></div>"
+        },
+        {
           "pitch": -7.5,
           "yaw": 133,
           "type": "scene",
@@ -66,12 +64,6 @@
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/3.webp",
       "hotSpots": [
-        {
-          "pitch": -5.4,
-          "yaw": -57.3,
-          "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/tvazteca.webp' alt='Pieza'><div class='tarjeta-info'><h3>Xochicalco</h3></div></div>"
-        },
         {
           "pitch": -4.4,
           "yaw": 82.5,
@@ -136,24 +128,6 @@
       "panorama": "assets/panoramicaswebp/6.webp",
       "hotSpots": [
         {
-          "pitch": -1.1,
-          "yaw": -108,
-          "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/datos.webp' alt='Pieza'></div>"
-        },
-        {
-          "pitch": -11.1,
-          "yaw": 100,
-          "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/bienvenido.webp' alt='Pieza'></div>"
-        },
-        {
-          "pitch": -4.5,
-          "yaw": 27.5,
-          "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/arqui.webp' alt='Pieza'></div>"
-        },
-        {
           "pitch": -10.4,
           "yaw": 77.5,
           "type": "scene",
@@ -195,31 +169,6 @@
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/8.webp",
       "hotSpots": [
-
-       {
-          "pitch": -6.6,
-          "yaw": -106.6,
-          "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/MAPA.webp' alt='Pieza'></div>"
-        },
-        {
-          "pitch": -9.5,
-          "yaw": 117,
-          "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/letinicio.webp' alt='Pieza'></div>"
-        },
-        {
-          "pitch": -9.0,
-          "yaw": 13.4,
-          "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/taquilla.webp' alt='Pieza'></div>"
-        },
-        {
-        "pitch": -12.4,
-        "yaw": -167.6,
-        "type": "info",
-        "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Maqueta prehispánica</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Representación de un juego de pelota unido a un basamento piramidal. Esta maqueta, labrada en piedra volcánica, es claro ejemplo del carácter sagrado que tuvo el juego de pelota entre las culturas prehispánicas, ya que asocia un espacio religioso a un espacio lúdico. Sobre la base piramidal existía un adoratorio en el que se hacían prácticas religiosas.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Pre-Hispanic Model</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Representation of a ballcourt joined to a pyramidal platform. This architectural model, worked in volcanic stone, is a clear example of the sacred nature of the ballgame among pre-Hispanic cultures; it compounds the space of a game with a religious site. On the pyramidal base there was a shrine where religious practices would have been carried out.</p> </div> </div> </div>"
-        },
         {
           "pitch": -4.4,
           "yaw": 82.5,
@@ -242,13 +191,6 @@
       "panorama": "assets/panoramicaswebp/9.webp",
       "hotSpots": [
         {
-
-        "pitch": -29.0,
-        "yaw": -43.1,
-        "type": "info",
-        "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Maqueta de la zona excavada</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Maqueta de Xochicalco donde se contemplan los edificios que hasta hoy se han explorado. Podemos apreciar las modificaciones hechas por los antiguos habitantes sobre el cerro para construir el asentamiento fortificado de la ciudad, es necesario destacar que los poderes políticos y religiosos encabezaban la urbe, habitando ahí los personajes más importantes.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Model of the Excavated Area</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Architectural model of Xochicalco showing the buildings explored to date. The ancient inhabitants massively modified the hills to build a fortified city. Such large-scale works were directed by the city's political and religious leaders, as notable characters usually lived in the city.</p> </div> </div> </div>"
-        },
-        {
           "pitch": -18,
           "yaw": 107,
           "type": "scene",
@@ -269,37 +211,6 @@
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/10.webp",
       "hotSpots": [
-
-         {
-          "pitch": -9.5,
-          "yaw": -97.5,
-          "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/cuadro.webp' alt='Pieza'></div>"
-        },
-        {
-          "pitch": -7.1,
-          "yaw": -166.6,
-          "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/let3.webp' alt='Pieza'></div>"
-        },
-        {
-          "pitch": -7.1,
-          "yaw": -146.6,
-          "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/let2.webp' alt='Pieza'></div>"
-        },
-        {
-          "pitch": -2.1,
-          "yaw": -37.5,
-          "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/let1.webp' alt='Pieza'></div>"
-        },
-        {
-      "pitch": -14.1,
-      "yaw": -25.1,
-      "type": "info",
-      "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Xochiquetzal</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Escultura a la deidad <em>Xochiquetzal</em>, labrada en roca volcánica y hallada en la Acrópolis de Xochicalco.<br><br>El personaje, de sexo indefinido, está sentado en posición de sumisión y adornado con plumas que representan lo precioso en Mesoamérica. Presenta símbolos de movimiento y caracoles cortados, similares a los del Templo de las Serpientes Emplumadas.<br><br>Pesa unos 1600 kilos y es conocida localmente como <em>La Malinche</em>.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Xochiquetzal</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Sculpture of the deity <em>Xochiquetzal</em>, carved in volcanic rock and found in the Acropolis of Xochicalco.<br><br>The character, of unidentified sex, is seated in a position of submission and adorned with feathers representing preciousness in Mesoamerica. It features cut shells and movement symbols similar to those in the Temple of the Feathered Serpents.<br><br>Weighing around 3520 pounds, this deity is locally known as <em>La Malinche</em>.</p> </div> </div> </div>"
-      },
         {
           "pitch": -22,
           "yaw": 103,
@@ -475,8 +386,6 @@
           "text": "Avanzar a la sala 3. Resguardo de los hombres",
           "sceneId": "imagen24"
         },
-
-       
         {
           "pitch": -18.8,
           "yaw": 179.0,
@@ -637,6 +546,49 @@
           "type": "scene",
           "text": "Regresar al pasillo principal",
           "sceneId": "imagen17"
+        },
+        {
+          "pitch": 2.4,
+          "yaw": -138.3,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/LETRERO-1.webp' alt='Descripción'><div class='tarjeta-info'><h3>Título de tu pieza</h3><p>Aquí puedes poner todo el texto descriptivo que necesites mostrar.</p></div></div>"
+        },
+        {
+          "pitch": -9.9,
+          "yaw": 120.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/Escultura 1.1.webp' alt='Descripción'><div class='tarjeta-info'><h3>Estela de los dos glifos</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -32.3,
+          "yaw": 120.7,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Estela de los Dos Glifos</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>Las estelas fueron monumentos en los que se registraron y conmemoraron los acontecimientos históricos que regían la vida de los pueblos mesoamericanos. En muchos casos, las estelas son rocas talladas de forma rectangular y con inscripciones en los cuatro lados. Otras veces utilizaron las superficies lisas de las piedras uniformes para plasmar su historia.<br><br>La Estela de los Dos Glifos presenta en una de sus caras dos glifos calendáricos: <em>10 caña</em> y <em>9 ojo de reptil</em>. Es probable que su importancia resida en la alusión a la fundación de la ciudad.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Two-Glyph Stela</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>Stelae were monuments on which historical events that governed the life of Mesoamerican peoples were recorded and commemorated. In many cases, stelae are stones carved into a rectangular shape with inscriptions on four sides. At other times, they used the smooth surfaces of regularly shaped stones to capture their history.<br><br>The Two-Glyph Stela displays two calendrical glyphs on one of its faces: <em>10 Reed</em> and <em>9 Reptile's Eye</em>. The date recorded probably alludes to the city's foundation.</p> </div> </div> </div>"
+        },
+        {
+          "pitch": -9.7,
+          "yaw": -179.4,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/Escultura 2.webp' alt='Descripción'><div class='tarjeta-info'><h3>Arquitectura</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -11.7,
+          "yaw": -175.5,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Arquitectos y Albañiles</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>El constante crecimiento de la ciudad requirió de un buen número de arquitectos y albañiles, de ahí la profusión de sus instrumentos de trabajo, como las plomadas, las <em>llanas</em> (alisadores), los pulidores y las mezcleras.<br><br>La categoría del arquitecto se notaba por la calidad de sus artefactos de trabajo, por ejemplo: las mejores plomadas fueron las de piedra verde, no sólo por su resistencia sino también por ser de forma perfecta y de buen acabado.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Architects and Masons</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>The ongoing growth of the city required a large number of architects and masons, as well as a profusion of work tools, such as stone plumb bobs, trowels, polishers, and mortar pans.<br><br>The architect's status was reflected in the quality of his work implements, for example: the best plumb bobs were made of greenstone, not only because they were more resistant, but they were more finely carved and finished.</p> </div> </div> </div>"
+        },
+        {
+          "pitch": -8.0,
+          "yaw": 30.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/Escultura 10.webp' alt='Descripción'><div class='tarjeta-info'><h3>Ornamentación juego de pelota.</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -5.0,
+          "yaw": 0.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Ornamentación del Juego de Pelota Norte</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>Parte de la ornamentación del Juego de Pelota Norte consistía en grandes caracoles empotrados en los tableros de los laterales. Estos símbolos acuáticos también predominan en la decoración del temazcal que, junto con el estanque, son dependencias asociadas al Juego de Pelota.<br><br>Caracoles, conchas, estrellas marinas y agua, son los signos y glifos iconográficos que hacen referencia a Tláloc. Son mudas plegarias al dios de la lluvia para lograr buenas cosechas.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>North Ballcourt Ornamentation</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>Part of the ornamentation of the North Ballcourt consisted of large seashells tenoned into the rectangular panels of the side walls. These aquatic symbols also predominated in the decoration of the steambath, which together with the pool, were rooms associated with the Ballcourt.<br><br>Seashells, starfish, and water are signs and iconographic elements that refer to Tlaloc. They are silent prayers to the god of rain to ensure abundant harvests.</p> </div> </div> </div>",
+          "sceneId": "ornamentacion_juego_pelota"
         },
         {
           "pitch": -16.0,
@@ -874,7 +826,7 @@
       ]
     },
     "imagen29": {
-      "title": "Sala 5 / Room 5, Los rituales del juego - World of Gods",
+      "title": "sala 5",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/29.webp",
       "hotSpots": [
@@ -889,22 +841,15 @@
           "pitch": -20.0,
           "yaw": 15.8,
           "type": "scene",
-          "text": "Avanzar por la sala 5",
+          "text": "Avanzar por la sala",
           "sceneId": "imagen30"
         },
         {
           "pitch": -20.0,
           "yaw": -35.8,
           "type": "scene",
-          "text": "Avanzar por la sala 5",
+          "text": "Avanzar por la sala",
           "sceneId": "imagen31"
-        },
-        {
-          "pitch": -18.0,
-          "yaw": 38.8,
-          "type": "info",
-          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Cosmología Xochicalca</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>La visión del cosmos de los xochicalcas está sintetizada en el aro del Juego de Pelota Este. Su forma señala la concepción cíclica del transcurso del tiempo. En la parte inferior hay dos guacamayas de cuyos picos penden <em>chalchihuites</em> y plumas, símbolos de su estridente parloteo. Ellas siguen una dirección este-oeste, figurando al sol en su movimiento del amanecer al atardecer.<br><br>En la parte superior está un murciélago con alas desplegadas y las patas flexionadas. Cada una de sus alas está decorada con dos huesos cruzados y una turquesa. Es un ser nocturno que expresa la noche y el frío.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Xochicalco Cosmology</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>The worldview of the people of Xochicalco is synthesized in the ring from the East Ballcourt. Its form shows the cyclic conception of the passage of time. In the lower part <em>chalchihuites</em> (greenstone beads) and feathers hang from the beaks of two macaws as a sign of their strident cries. They follow an east-west direction, representing the sun's movement from dawn to dusk.<br><br>In the upper part is a bat with outstretched wings and flexed legs. Each of its wings is decorated with two crossed bones and a sign for turquoise. It is a nocturnal being, a symbol of night and cold.</p> </div> </div> </div>",
-          "sceneId": "imagen30"
         }
       ]
     },
