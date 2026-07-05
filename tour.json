@@ -651,6 +651,18 @@
           "yaw": -135.8,
           "type": "info",
           "text": "<div class='tarjeta-museo'><img src='assets/IMAGENES DIEGO/img18, 29 y 20/img_18_5.webP' alt='Descripción'><div class='tarjeta-info'><h3></h3><p></p></div></div>"
+        },
+        {
+          "pitch": -10.2,
+          "yaw": -166.6,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/IMAGENES DIEGO/img18, 29 y 20/img_18_6.webP' alt='Descripción'><div class='tarjeta-info'><h3></h3><p></p></div></div>"
+        },
+        {
+          "pitch": -15.5,
+          "yaw": -173.2,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3></h3> <p><strong>ESPAÑOL</strong><br>Existen ejemplos de cerámica no fabricada en Xochicalco, como son las vasijas de banda gris de Oaxaca; la naranja-mica de la región de Puebla y el cajete de banda naranja, probablemente de la zona del Golfo. Su escasa presencia en la ciudad indica que, en el período Epiclásico, la cerámica dejó de ser un bien de prestigio que se intercambiaba con otras regiones para ser sólo un utensilio doméstico. El reducido contacto con las tierras bajas mayas se demuestra a través del tambor anillado tallado en piedra; por el contrario, el vaso de alabastro confirma la relación más estrecha entre Xochicalco con el Valle de Puebla, a través de Cholula o Cacaxtla.<br><br><strong>ENGLISH</strong><br>There are examples of non-local pottery at Xochicalco, such as gray-banded vessels from Oaxaca; orange-mica ware from the Puebla region; and the orange-banded bowl, probably from the Gulf Coast zone. Their rarity at the city suggests that during the Epiclassic period, ceramics ceased to be a prestige item that was exchanged with other regions to be more of a locally produced domestic utensil. Limited contact with the Maya lowlands is shown through the ringed drum carved from stone; in contrast, the alabaster vessel confirms the closer relationship between Xochicalco and the Valley of Puebla through Cholula or Cacaxtla.</p> </div> </div>"
         }
       ]
     },
