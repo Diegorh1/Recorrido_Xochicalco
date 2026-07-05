@@ -1,6 +1,6 @@
 {
   "default": {
-    "firstScene": "imagen29",
+    "firstScene": "imagen2",
     "sceneFadeDuration": 1000,
     "autoLoad": true
   },
@@ -14,20 +14,18 @@
           "pitch": -13,
           "yaw": 93.6,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/autobus.webp' alt='Pieza'><div class='tarjeta-info'><h3>Parador de espera</h3>Este sitio es donde los aútobuses hacen paradas</div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/autobus.webp' alt='Pieza' tabindex='0'><div class='tarjeta-info'><h3>Parador de espera</h3><p>Este sitio es donde los autobuses hacen paradas.</p></div></div>"
         },
         {
           "pitch": 6.6,
           "yaw": -70.1,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/piramide1.webP' alt='Pieza'><div class='tarjeta-info'><h3>Piramides</h3><p>Su estructura más famosa es la Pirámide de las Serpientes Emplumadas, destacada por sus relieves que muestran la fusión de influencias teotihuacanas, mayas y zapotecas</p></div></div>"
-        },
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/piramide1.webP' alt='Pieza' tabindex='0'><div class='tarjeta-info'><h3>Piramides</h3><p>Su estructura más famosa es la Pirámide de las Serpientes Emplumadas, destacada por sus relieves que muestran la fusión de influencias teotihuacanas, mayas y zapotecas.</p></div></div>"        },
         {
           "pitch": -25,
           "yaw": -102,
           "type": "scene",
-          "text": "Ir al pasillo de entrada",
-          "sceneId": "imagen2"
+          "text": "<div class='tarjeta-museo'><div class='tarjeta-info'><h3>Ir al pasillo de entrada</h3></div></div>"          "sceneId": "imagen2"
         },
         {
           "pitch": -8.2,
@@ -68,7 +66,7 @@
           "pitch": -5.4,
           "yaw": -57.3,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/tvazteca.webp' alt='Pieza'><div class='tarjeta-info'><h3>Xochicalco</h3></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/tvazteca.webp' alt='Pieza' tabindex='0'><div class='tarjeta-info'><h3>Xochicalco</h3><p>Escribe aquí la descripción o información sobre esta vista de Xochicalco.</p></div></div>"
         },
         {
           "pitch": -4.4,
@@ -137,19 +135,20 @@
           "pitch": -1.1,
           "yaw": -108,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/datos.webp' alt='Pieza'></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/datos.webp' alt='Pieza' tabindex='0'></div>"
+
         },
         {
           "pitch": -11.1,
           "yaw": 100,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/bienvenido.webp' alt='Pieza'></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/bienvenido.webp' alt='Pieza' tabindex='0'></div>"
         },
         {
           "pitch": -4.5,
           "yaw": 27.5,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/arqui.webp' alt='Pieza'></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/arqui.webp' alt='Pieza' tabindex='0'></div>"
         },
         {
           "pitch": -10.4,

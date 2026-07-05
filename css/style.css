@@ -39,6 +39,7 @@ body {
     display: block;
 }
 
+/* Limpiar estilos basura de Pannellum */
 div.pnlm-tooltip span {
     padding: 0 !important;
     background-color: transparent !important;
@@ -49,49 +50,88 @@ div.pnlm-tooltip span::after {
     display: none !important;
 }
 
-/* El contenedor de la tarjeta dentro del visor */
+div.pnlm-info-hotspot {
+    background-color: transparent !important;
+}
+
+/* CONTENEDOR PRINCIPAL INVISIBLE */
 .tarjeta-museo {
     display: flex;
     flex-direction: column;
-    width: 90vw; /* Se ajusta a celulares */
-    max-width: 650px; /* Ancho suficiente para tu texto horizontal en PC */
-    background-color: #ffffff !important; /* Fondo blanco sólido obligatorio */
-    opacity: 1 !important; 
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-    border-top: 5px solid var(--color-primario);
+    align-items: center; /* Centra la foto y el texto */
+    background-color: transparent !important; 
+    border: none;
+    box-shadow: none;
+    pointer-events: auto; 
 }
 
+/* LA IMAGEN DIRECTA: Sale más grande y con su propio estilo */
 .tarjeta-museo img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    border-bottom: 3px solid var(--color-secundario);
-    transition: transform 0.4s ease;
+    width: 300px; /* Tamaño inicial grande para que no desaparezca */
+    max-width: 80vw; /* Se ajusta en celulares */
+    height: auto;
+    border-radius: 12px; /* Bordes curvos en la foto */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6); /* Sombra para que flote */
     cursor: zoom-in;
+    transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+    display: block;
+    outline: none; 
 }
 
-.tarjeta-museo:hover img {
-    transform: scale(1.15);
+/* ZOOM AL HACER CLIC: Más grande y SIN FONDO negro */
+.tarjeta-museo img:focus {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90vw; /* Súper grande en pantalla */
+    max-width: 800px; /* Límite máximo en computadora */
+    max-height: 90vh;
+    object-fit: contain;
+    z-index: 100000;
+    border-radius: 16px;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.8); /* Sombra intensa solo debajo de la foto */
+    cursor: zoom-out;
 }
 
+/* SI HAY TEXTO, ES UNA CAJA BLANCA SEPARADA DE LA FOTO */
 .tarjeta-info {
+    background-color: var(--color-blanco) !important; 
+    width: 300px; /* Mismo ancho inicial que la foto */
+    max-width: 80vw;
+    margin-top: 15px; /* Espacio de separación con la foto */
     padding: 20px;
-    color: #333333 !important; /* Fuerza el texto a ser oscuro */
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    color: var(--color-texto) !important;
     text-align: left;
+    border-top: 5px solid var(--color-primario); 
+    max-height: 40vh; /* Activa el scroll si es muy largo */
+    overflow-y: auto;
+}
+
+/* Estilizar la barra de scroll (Chrome/Safari) */
+.tarjeta-info::-webkit-scrollbar {
+    width: 6px;
+}
+.tarjeta-info::-webkit-scrollbar-thumb {
+    background-color: var(--color-secundario-claro);
+    border-radius: 10px;
 }
 
 .tarjeta-info h3 {
     margin-bottom: 10px;
     font-size: 1.2rem;
     color: var(--color-primario-oscuro);
+    border-bottom: 2px solid var(--color-secundario);
+    display: inline-block;
+    padding-bottom: 4px;
 }
 
 .tarjeta-info p {
     font-size: 0.95rem;
     line-height: 1.6;
-    color: #333333;
+    color: var(--color-texto);
 }
 
 /* =========================================
