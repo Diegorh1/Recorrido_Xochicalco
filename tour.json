@@ -524,6 +524,30 @@
       "panorama": "assets/panoramicaswebp/18.webp",
       "hotSpots": [
         {
+          "pitch": -7.7,
+          "yaw": 14.5,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/vit9.webp' alt='Pieza'></div>"
+        },
+        {
+          "pitch": -7.9,
+          "yaw": 112.6,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'> <h3>URL sala 1</h3> <a href='https://drive.google.com/uc?id=1WVtmzU0ZtKMmqmpVXSR15Nwl2TidZvpv&export=download' target='_blank' style='color: #007bff; text-decoration: underline; break-all: break-word;'>https://drive.google.com/uc?id=1WVtmzU0ZtKMmqmpVXSR15Nwl2TidZvpv&export=download</a> </div>"
+              },
+            {
+          "pitch": -7.9,
+          "yaw": 90,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/lona1.webp' alt='Pieza'></div>"
+        },
+        {
+          "pitch": -14.7,
+          "yaw": -1.7,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/vit8.webp' alt='El Señor de las Serpientes' style='max-width: 100%; max-height: 300px; border-radius: 8px; object-fit: cover;' /> </div> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Señor de las Serpientes</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>El Señor de las Serpientes representa a la nobleza dirigente de Xochicalco. Guarda una postura regia y severa. Lleva un faldellín y está ataviado ricamente con una banda de plumas entrelazadas rematada al centro por un <em>chalchihuite</em>; además tiene grandes orejeras, un collar y pulseras. Su rango social se manifiesta por el tocado de cabezas de serpiente y las cuatro serpientes que envuelven su cuerpo.<br><br>Esta representación genérica de la nobleza también se puede apreciar en los personajes sedentes entre los cuerpos de las serpientes emplumadas de la Pirámide de las Serpientes Emplumadas, así como en el <em>Señor Yelmo de Serpiente</em>.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Lord of the Serpents</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>The Lord of the Serpents represents the ruling nobility of Xochicalco. His bearing is regal and severe. He wears a skirt and is richly attired with a headband of interlaced feathers with a <em>chalchihuite</em> (greenstone bead) in the middle; in addition to large earflares, a necklace, and wristlets. His social rank is suggested by his headdress and the four snakes that are wrapped around his body.<br><br>This generic depiction of nobility may also be seen in the seated figures interspersed between the undulating serpent bodies on the Pyramid of the Feathered Serpents, as well as in the case of <em>Lord Serpent Helmet</em>.</p> </div> </div> </div>"
+        },
+        {
           "pitch": -10.0,
           "yaw": 179.8,
           "type": "scene",
