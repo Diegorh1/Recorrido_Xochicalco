@@ -985,23 +985,18 @@
           "type": "info",
           "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/LETRERO 2.webp' alt='Descripción'><div class='tarjeta-info'><h3>Nuevos Poderes.</h3><p></p></div></div>"
         },
-
-{
+          {
           "pitch": 0.0,
           "yaw": 37.2,
           "type": "info",
           "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/ESCULTURA 9.webp' alt='Descripción'><div class='tarjeta-info'><h3>Temazcal.</h3><p></p></div></div>"
-        },
-
-
-{
-  "pitch": -5.5,
-  "yaw": 38.8,
-  "type": "info",
-  "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>El Temazcal</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>El temazcal, o baño de vapor, fue un cuarto con una cámara de combustión sobre la cual colocaron un fogón construido con columnillas de piedra. Sobre este dispusieron gran cantidad de cantos rodados que, ya calientes y al contacto del agua producían vapor.<br><br>Asociado al Juego de Pelota Norte, el temazcal fue un edificio de tipo religioso, de ahí su gran tamaño y profusa decoración. Estrellas, conchas marinas y discos de cerámica con policromía son algunos de los adornos asociados con el culto a Tláloc que se encuentran en el temazcal.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>The Temazcal</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>The <em>temazcal</em>, or sweatbath, was a room with a combustion chamber in which they placed a fireplace constructed of stone columns placed together. Large amounts of heated round stones were arranged on top of this and were doused with water to produce steam.<br><br>Associated with the North Ballcourt, the steambath was a religious building, which explains its large dimensions and profuse decoration. Ceramic stars, seashells, and disks with traces of polychromy are some of the decorations associated with the worship of Tlaloc found in the <em>temazcal</em>.</p> </div> </div> </div>"
-},
-
-
+          },
+          {
+            "pitch": -5.5,
+            "yaw": 38.8,
+            "type": "info",
+            "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>El Temazcal</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>El temazcal, o baño de vapor, fue un cuarto con una cámara de combustión sobre la cual colocaron un fogón construido con columnillas de piedra. Sobre este dispusieron gran cantidad de cantos rodados que, ya calientes y al contacto del agua producían vapor.<br><br>Asociado al Juego de Pelota Norte, el temazcal fue un edificio de tipo religioso, de ahí su gran tamaño y profusa decoración. Estrellas, conchas marinas y discos de cerámica con policromía son algunos de los adornos asociados con el culto a Tláloc que se encuentran en el temazcal.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>The Temazcal</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>The <em>temazcal</em>, or sweatbath, was a room with a combustion chamber in which they placed a fireplace constructed of stone columns placed together. Large amounts of heated round stones were arranged on top of this and were doused with water to produce steam.<br><br>Associated with the North Ballcourt, the steambath was a religious building, which explains its large dimensions and profuse decoration. Ceramic stars, seashells, and disks with traces of polychromy are some of the decorations associated with the worship of Tlaloc found in the <em>temazcal</em>.</p> </div> </div> </div>"
+          },
         {
           "pitch": -10.0,
           "yaw": 10.8,
@@ -1022,6 +1017,30 @@
           "type": "scene",
           "text": "Regresar al pasillo",
           "sceneId": "imagen17"
+        },
+        {
+          "pitch": -2.9,
+          "yaw": -178.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/img27/LETRERO 1.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -1.9,
+          "yaw": -120,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/img27/LETRERO 2.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -4.5,
+          "yaw": -62,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/img27/LETRERO 3.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -6,
+          "yaw": 0.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/img27/LETRERO 4.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
         },
         {
           "pitch": -10.0,
