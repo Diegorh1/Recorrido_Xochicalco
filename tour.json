@@ -1,6 +1,6 @@
 {
   "default": {
-    "firstScene": "imagen24",
+    "firstScene": "imagen28",
     "sceneFadeDuration": 1000,
     "autoLoad": true
 },
@@ -900,8 +900,7 @@
           "pitch": -12.5,
           "yaw": -106.1,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>El Tiempo y el Calendario</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>El tiempo fue sumamente importante para los prehispánicos, la creación de los seres animados e inanimados se registraba en el ciclo calendárico, de tal manera que desde los dioses hasta el más insignificante objeto tenían nombre calendárico. Este clavo fue tallado con el nombre calendárico <em>4 casa</em>, y fue empotrado en los altos taludes de la plataforma de la Plaza Principal de Xochicalco para festejar el término de su construcción.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Time and the Calendar</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>Time was extremely important for pre-Hispanic people. The creation of animate and inanimate beings was recorded in the calendrical cycle in such a way that everything from the gods to the most minor of objects had a calendrical name. This nail carved with the calendrical name <em>4 House</em> was set into the tall sloping wall of the platform in the Main Plaza of Xochicalco to celebrate the completion of its construction.</p> </div> </div> </div>",
-          "sceneId": "tiempo_calendario"
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>El Tiempo y el Calendario</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>El tiempo fue sumamente importante para los prehispánicos, la creación de los seres animados e inanimados se registraba en el ciclo calendárico, de tal manera que desde los dioses hasta el más insignificante objeto tenían nombre calendárico. Este clavo fue tallado con el nombre calendárico <em>4 casa</em>, y fue empotrado en los altos taludes de la plataforma de la Plaza Principal de Xochicalco para festejar el término de su construcción.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Time and the Calendar</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>Time was extremely important for pre-Hispanic people. The creation of animate and inanimate beings was recorded in the calendrical cycle in such a way that everything from the gods to the most minor of objects had a calendrical name. This nail carved with the calendrical name <em>4 House</em> was set into the tall sloping wall of the platform in the Main Plaza of Xochicalco to celebrate the completion of its construction.</p> </div> </div> </div>"
         },
         {
           "pitch": -11.0,
@@ -985,18 +984,23 @@
           "type": "info",
           "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/LETRERO 2.webp' alt='Descripción'><div class='tarjeta-info'><h3>Nuevos Poderes.</h3><p></p></div></div>"
         },
-          {
+
+{
           "pitch": 0.0,
           "yaw": 37.2,
           "type": "info",
           "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/ESCULTURA 9.webp' alt='Descripción'><div class='tarjeta-info'><h3>Temazcal.</h3><p></p></div></div>"
-          },
-          {
-            "pitch": -5.5,
-            "yaw": 38.8,
-            "type": "info",
-            "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>El Temazcal</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>El temazcal, o baño de vapor, fue un cuarto con una cámara de combustión sobre la cual colocaron un fogón construido con columnillas de piedra. Sobre este dispusieron gran cantidad de cantos rodados que, ya calientes y al contacto del agua producían vapor.<br><br>Asociado al Juego de Pelota Norte, el temazcal fue un edificio de tipo religioso, de ahí su gran tamaño y profusa decoración. Estrellas, conchas marinas y discos de cerámica con policromía son algunos de los adornos asociados con el culto a Tláloc que se encuentran en el temazcal.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>The Temazcal</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>The <em>temazcal</em>, or sweatbath, was a room with a combustion chamber in which they placed a fireplace constructed of stone columns placed together. Large amounts of heated round stones were arranged on top of this and were doused with water to produce steam.<br><br>Associated with the North Ballcourt, the steambath was a religious building, which explains its large dimensions and profuse decoration. Ceramic stars, seashells, and disks with traces of polychromy are some of the decorations associated with the worship of Tlaloc found in the <em>temazcal</em>.</p> </div> </div> </div>"
-          },
+        },
+
+
+{
+  "pitch": -5.5,
+  "yaw": 38.8,
+  "type": "info",
+  "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>El Temazcal</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>El temazcal, o baño de vapor, fue un cuarto con una cámara de combustión sobre la cual colocaron un fogón construido con columnillas de piedra. Sobre este dispusieron gran cantidad de cantos rodados que, ya calientes y al contacto del agua producían vapor.<br><br>Asociado al Juego de Pelota Norte, el temazcal fue un edificio de tipo religioso, de ahí su gran tamaño y profusa decoración. Estrellas, conchas marinas y discos de cerámica con policromía son algunos de los adornos asociados con el culto a Tláloc que se encuentran en el temazcal.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>The Temazcal</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>The <em>temazcal</em>, or sweatbath, was a room with a combustion chamber in which they placed a fireplace constructed of stone columns placed together. Large amounts of heated round stones were arranged on top of this and were doused with water to produce steam.<br><br>Associated with the North Ballcourt, the steambath was a religious building, which explains its large dimensions and profuse decoration. Ceramic stars, seashells, and disks with traces of polychromy are some of the decorations associated with the worship of Tlaloc found in the <em>temazcal</em>.</p> </div> </div> </div>"
+},
+
+
         {
           "pitch": -10.0,
           "yaw": 10.8,
