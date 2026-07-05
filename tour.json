@@ -1,6 +1,6 @@
 {
   "default": {
-    "firstScene": "imagen18",
+    "firstScene": "imagen20",
     "sceneFadeDuration": 1000,
     "autoLoad": true
 },
@@ -381,17 +381,17 @@
       "hotSpots": [
 
         {
-  "pitch": -0.7,
-  "yaw": -3.5,
-  "type": "info",
-  "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/fig1.webp' alt='Máscara Teotihuacana' style='max-width: 100%; max-height: 300px; border-radius: 8px; object-fit: cover;' /> </div> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Máscara Teotihuacana</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Máscara de estilo teotihuacano que, engarzada con las cuentas, formaban el pectoral de un gran señor xochicalca. Este tipo de adornos fueron usados únicamente por la nobleza en ceremonias muy relevantes.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Teotihuacan Mask</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>A Teotihuacan style mask, with a string of beads, formed the pectoral of a great lord of Xochicalco. This type of adornment was worn solely by the nobility for important ceremonies.</p> </div> </div> </div>"
-    },
-         {
-  "pitch": -4.4,
-  "yaw": 12.1,
-  "type": "info",
-  "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/fig2.webp' alt='Moldes de Cerámica' style='max-width: 100%; max-height: 300px; border-radius: 8px; object-fit: cover;' /> </div> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Moldes de Cerámica</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Los moldes de cerámica fueron utilizados para reproducir en serie efigies de los incensarios. Los había para rostros humanos, tanto de jóvenes como de ancianos; o bien, de cabezas de felinos, aves y reptiles.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Ceramic Molds</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Ceramic molds were used to mass produce effigies on censers. They have been found in the shape of human faces, youthful and old, as well as feline, bird, and reptile heads.</p> </div> </div> </div>"
-    },
+          "pitch": -0.7,
+          "yaw": -3.5,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/fig1.webp' alt='Máscara Teotihuacana' style='max-width: 100%; max-height: 300px; border-radius: 8px; object-fit: cover;' /> </div> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Máscara Teotihuacana</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Máscara de estilo teotihuacano que, engarzada con las cuentas, formaban el pectoral de un gran señor xochicalca. Este tipo de adornos fueron usados únicamente por la nobleza en ceremonias muy relevantes.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Teotihuacan Mask</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>A Teotihuacan style mask, with a string of beads, formed the pectoral of a great lord of Xochicalco. This type of adornment was worn solely by the nobility for important ceremonies.</p> </div> </div> </div>"
+            },
+                {
+          "pitch": -4.4,
+          "yaw": 12.1,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/fig2.webp' alt='Moldes de Cerámica' style='max-width: 100%; max-height: 300px; border-radius: 8px; object-fit: cover;' /> </div> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Moldes de Cerámica</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Los moldes de cerámica fueron utilizados para reproducir en serie efigies de los incensarios. Los había para rostros humanos, tanto de jóvenes como de ancianos; o bien, de cabezas de felinos, aves y reptiles.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Ceramic Molds</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Ceramic molds were used to mass produce effigies on censers. They have been found in the shape of human faces, youthful and old, as well as feline, bird, and reptile heads.</p> </div> </div> </div>"
+            },
         {
           "pitch": -35.2,
           "yaw": 82.5,
@@ -414,17 +414,17 @@
       "panorama": "assets/panoramicaswebp/15.webp",
       "hotSpots": [
         {
-  "pitch": -9.4,
-  "yaw": 33.9,
-  "type": "info",
-  "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/fig3.webp' alt='Incensario de Felino' style='max-width: 100%; max-height: 300px; border-radius: 8px; object-fit: cover;' /> </div> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Incensario de Felino</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Incensario de cerámica que porta la efigie de un felino, mismo que está adornado con un cordón y un moño; a los lados presenta atados que podrían ser símbolos del fuego. En la concepción prehispánica los felinos fueron considerados como seres asociados con la luna, la noche y la humedad. Encontrado dentro de una habitación, el incensario forma parte de los elementos de un altar doméstico.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Feline Censer</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Ceramic censer bearing a feline effigy adorned with a rope and bow, flanked by knots that might be fire symbols. In pre-Hispanic thought felines were regarded as beings associated with the moon, nighttime, and moisture. Found inside a room, the censer formed part of the paraphernalia of a domestic altar.</p> </div> </div> </div>"
-},
-{
-  "pitch": 5.7,
-  "yaw": -17.9,
-  "type": "info",
-  "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/fig4.webp' alt='Flor de Cinco Pétalos' style='max-width: 100%; max-height: 300px; border-radius: 8px; object-fit: cover;' /> </div> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Flor de Cinco Pétalos</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Escultura estilizada que representa una flor de cinco pétalos. Fue hallada con otras piezas similares en uno de los patios de la Acrópolis. Su posición permite aseverar que formó parte del remate de un pórtico.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Five-Petal Flower</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Stylized sculpture representing a flower with five petals. It was found with other similar pieces in one of the patios of the Acropolis. Its position suggests it formed part of the ornamentation over a portico.</p> </div> </div> </div>"
-},
+            "pitch": -9.4,
+            "yaw": 33.9,
+            "type": "info",
+            "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/fig3.webp' alt='Incensario de Felino' style='max-width: 100%; max-height: 300px; border-radius: 8px; object-fit: cover;' /> </div> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Incensario de Felino</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Incensario de cerámica que porta la efigie de un felino, mismo que está adornado con un cordón y un moño; a los lados presenta atados que podrían ser símbolos del fuego. En la concepción prehispánica los felinos fueron considerados como seres asociados con la luna, la noche y la humedad. Encontrado dentro de una habitación, el incensario forma parte de los elementos de un altar doméstico.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Feline Censer</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Ceramic censer bearing a feline effigy adorned with a rope and bow, flanked by knots that might be fire symbols. In pre-Hispanic thought felines were regarded as beings associated with the moon, nighttime, and moisture. Found inside a room, the censer formed part of the paraphernalia of a domestic altar.</p> </div> </div> </div>"
+          },
+          {
+            "pitch": 5.7,
+            "yaw": -17.9,
+            "type": "info",
+            "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/fig4.webp' alt='Flor de Cinco Pétalos' style='max-width: 100%; max-height: 300px; border-radius: 8px; object-fit: cover;' /> </div> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Flor de Cinco Pétalos</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Escultura estilizada que representa una flor de cinco pétalos. Fue hallada con otras piezas similares en uno de los patios de la Acrópolis. Su posición permite aseverar que formó parte del remate de un pórtico.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Five-Petal Flower</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Stylized sculpture representing a flower with five petals. It was found with other similar pieces in one of the patios of the Acropolis. Its position suggests it formed part of the ornamentation over a portico.</p> </div> </div> </div>"
+          },
         {
           "pitch": -22.4,
           "yaw": 94.5,
@@ -447,17 +447,17 @@
       "panorama": "assets/panoramicaswebp/16.webp",
       "hotSpots": [
         {
-  "pitch": -8.3,
-  "yaw": 38.6,
-  "type": "info",
-  "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/fig5.webp' alt='Danzantes' style='max-width: 100%; max-height: 300px; border-radius: 8px; object-fit: cover;' /> </div> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Danzantes</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Las figuras son danzantes que ejecutan un baile alrededor del sol, probablemente con motivo de alguna celebración religiosa. Su representación en una vasija cerámica hace suponer que el festejo fue de tipo popular.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Dancers</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>The figures are performing a dance around the sun, probably in conjunction with a religious celebration. Their representation on a ceramic vessel suggests the popular nature of the festivity.</p> </div> </div> </div>"
-},
-{
-  "pitch": -9.3,
-  "yaw": -7.1,
-  "type": "info",
-  "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/fig6.webp' alt='Almena de Guacamaya' style='max-width: 100%; max-height: 300px; border-radius: 8px; object-fit: cover;' /> </div> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Almena de Guacamaya</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Almena de barro que exhibe a una airosa guacamaya saliendo de entre el follaje. Con esta ave los prehispánicos simbolizaron al sol y al día. Formó parte del almenado de un salón de la Acrópolis.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Macaw Roof Ornament</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Terracotta roof ornament from a hall on the Acropolis that displays an elegant macaw emerging from foliage. For pre-Hispanic peoples this bird symbolized the sun and daytime.</p> </div> </div> </div>"
-},
+          "pitch": -8.3,
+          "yaw": 38.6,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/fig5.webp' alt='Danzantes' style='max-width: 100%; max-height: 300px; border-radius: 8px; object-fit: cover;' /> </div> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Danzantes</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Las figuras son danzantes que ejecutan un baile alrededor del sol, probablemente con motivo de alguna celebración religiosa. Su representación en una vasija cerámica hace suponer que el festejo fue de tipo popular.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Dancers</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>The figures are performing a dance around the sun, probably in conjunction with a religious celebration. Their representation on a ceramic vessel suggests the popular nature of the festivity.</p> </div> </div> </div>"
+        },
+        {
+          "pitch": -9.3,
+          "yaw": -7.1,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/fig6.webp' alt='Almena de Guacamaya' style='max-width: 100%; max-height: 300px; border-radius: 8px; object-fit: cover;' /> </div> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Almena de Guacamaya</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Almena de barro que exhibe a una airosa guacamaya saliendo de entre el follaje. Con esta ave los prehispánicos simbolizaron al sol y al día. Formó parte del almenado de un salón de la Acrópolis.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Macaw Roof Ornament</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Terracotta roof ornament from a hall on the Acropolis that displays an elegant macaw emerging from foliage. For pre-Hispanic peoples this bird symbolized the sun and daytime.</p> </div> </div> </div>"
+        },
         {
           "pitch": -25.1,
           "yaw": 112.9,
@@ -564,6 +564,48 @@
           "type": "scene",
           "text": "Avanzar por el pasillo",
           "sceneId": "imagen20"
+        },
+        {
+          "pitch": -17.7,
+          "yaw": 155.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3></h3> <p><strong>ESPAÑOL</strong><br>Los pueblos mesoamericanos tuvieron estrecha relación con la naturaleza. Observaron y registraron los ciclos vitales de las plantas a fin de reproducir y mejorar aquellos recursos que aseguraban la sobrevivencia de estos pueblos; así, cultivaron maíz, frijol, calabaza y chile, entre otros, para formar su dieta básica. También les agradaba embellecer sus residencias, para lo cual reprodujeron, en piedra, flores y frutos que veían a su alrededor.<br><br><strong>ENGLISH</strong><br>The people of Mesoamerica had close ties with nature. They observed and kept track of the life cycles of plants to reproduce and improve those resources that ensured the survival of their communities. Therefore, they grew maize, beans, squash, and chili, among other foodstuffs, as their basic diet. They also embellished their homes by reproducing elements from nature in stone, such as flowers and fruit from their surroundings.</p> </div> </div>"
+        },
+        {
+          "pitch": -17.7,
+          "yaw": 130.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/IMAGENES DIEGO/img18, 29 y 20/img_18_1.webP' alt='Descripción'><div class='tarjeta-info'><h3></h3><p></p></div></div>"
+        },
+        {
+          "pitch": -29.5,
+          "yaw": 59.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3></h3> <p><strong>ESPAÑOL</strong><br>Los xochicalcas tomaron de cada especie animal los atributos que la caracterizaban para plasmarlos en sus obras, logrando varios grados de representación. El primero fue muy apego a la realidad, como las lápidas de la guacamaya y de la zorra. Esta última fue adornada con un cincho y un faldellín, lo que permite asociarla con la representación zoomorfa de algún dios. En el segundo grado utilizaron elementos típicos de la fauna, como se ve en las cabezas de guacamayas, en las que se aprecian los ojos, el pico y la nariz. Y en el último, los atributos fueron tan estilizados que llegaron al colmo de la abstracción.<br><br><strong>ENGLISH</strong><br>The inhabitants of Xochicalco focused on the characteristic attributes of each animal species to render these creatures in their artworks with varying degrees of fidelity. Some images adhered to reality, such as the slabs of the macaw and the fox. The latter was adorned with a belt and skirt, which suggests its association with the zoomorphic representation of a god. Other depictions relied on conventional aspects of fauna, as in the macaw heads, clearly rendering the eyes, beak, and nose. In the latter group, the attributes were at times stylized to such an extent they approach extreme abstraction.</p> </div> </div>"
+        },
+        {
+          "pitch": -5.6,
+          "yaw": -15.5,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3></h3> <p><strong>ESPAÑOL</strong><br>Los relieves de las lápidas permiten reconocer diferentes tipos de serpientes. Tanto su movimiento ondulante como su asociación a la tierra, fueron atributos utilizados para representar el líquido vital, el agua. Para destacar aún más su importancia las adornaron con plumas, enfatizando el carácter precioso del agua. La asociación de la serpiente con figuras humanas señalan la jerarquía sagrada y el rango social de éstas.<br><br><strong>ENGLISH</strong><br>The reliefs carved on the slabs make it possible to recognize different types of serpents. Both their undulating movement and their association with the earth were attributes used to represent the vital liquid: water. To highlight their importance, they were adorned with feathers, emphasizing water's precious nature. Serpents associated with human figures indicate the sacred hierarchy and individuals' social status.</p> </div> </div>"
+        },
+        {
+          "pitch": -5.6,
+          "yaw": -25.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/IMAGENES DIEGO/img18, 29 y 20/img_18_2.webP' alt='Descripción'><div class='tarjeta-info'><h3></h3><p></p></div></div>"
+        },
+        {
+          "pitch": -36.3,
+          "yaw": -57.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3></h3> <p><strong>ESPAÑOL</strong><br>Los animales representados en las lápidas no son nada más el reflejo de la naturaleza. Por sus costumbres, hábitos alimenticios y ciclos de vida fueron utilizados para expresar como símbolos algunos de los conceptos religiosos de los xochicalcas. Por mencionar algunos ejemplos, el búho revelaba la noche, la muerte; la guacamaya, con sus vistosas plumas, hacía evidente el día, el sol. La mariposa, con sus coloridas alas, denotaba la vegetación, la fecundidad.<br><br><strong>ENGLISH</strong><br>The animals represented on the slabs are not merely a reflection of nature. Based on their behavior, feeding habits, and life cycles, they were used to symbolically express the religious concepts of the people of Xochicalco. For instance, the owl alluded to nighttime and death; the macaw, with its brilliant feathers, represented daytime and the sun. The butterfly with its colorful wings denoted vegetation and fertility.</p> </div> </div>"
+        },
+        {
+          "pitch": -20.6,
+          "yaw": -57.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/IMAGENES DIEGO/img18, 29 y 20/img_18_3.webP' alt='Descripción'><div class='tarjeta-info'><h3></h3><p></p></div></div>"
         }
       ]
     },
@@ -585,6 +627,24 @@
           "type": "scene",
           "text": "Avanzar por la sala",
           "sceneId": "imagen18"
+        },
+        {
+          "pitch": -7.1,
+          "yaw": 1.8,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3></h3> <p><strong>ESPAÑOL</strong><br>Los pueblos mesoamericanos admiraron la majestuosidad y ferocidad de los grandes felinos: el puma, el jaguar y el ocelote. Por su conducta fueron considerados como seres representativos del mundo inferior, asociado a la tierra, la noche, el agua; en suma, a la fertilidad. Esto dentro de la visión del cosmos como dual. Por su bravura, sus atributos físicos (piel, garras y dientes) fueron utilizados como emblemas de las órdenes guerreras.<br><br><strong>ENGLISH</strong><br>Mesoamerican groups admired the majesty and fierceness of big cats: the puma, jaguar, and ocelot. Based on their behavior, they were regarded as beings representing the underworld, associated with the earth, nighttime, water; in sum, fertility. This belief was held within a dualistic worldview. For their bravery and their physical attributes (skin, claws, and teeth), they were used as emblems of warrior orders.</p> </div> </div>"
+        },
+        {
+          "pitch": -1.0,
+          "yaw": 1.8,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/IMAGENES DIEGO/img18, 29 y 20/img_18_4.webP' alt='Descripción'><div class='tarjeta-info'><h3></h3><p></p></div></div>"
+        },
+        {
+          "pitch": -23.3,
+          "yaw": -103.2,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3></h3> <p><strong>ESPAÑOL</strong><br>Las materias primas que mayor demanda tuvieron en Xochicalco fueron la obsidiana gris, proveniente de Zinapécuaro, y la roja veteada del Zináparo, ambos lugares en Michoacán; caracoles y conchas de las costas del Pacífico; el alabastro del valle poblano y óxidos de fierro y cobre, entre otros, que se utilizaban como pigmentos, fueron obtenidos de los alrededores de Xochicalco. Por otra parte, las máscaras y figurillas elaboradas con diferentes tipos de piedra verde llegaron a la ciudad provenientes de la Sierra de Taxco, como productos terminados.<br><br><strong>ENGLISH</strong><br>The raw materials in greatest demand at Xochicalco were gray obsidian from Zinapécuaro and streaked pink obsidian from Zináparo, both in Michoacán; an array of seashells from the Pacific coasts; alabaster from the Valley of Puebla; and iron oxides and copper, among other minerals, which were used as pigments, were obtained from the vicinity of Xochicalco. On the other hand, masks and figurines sculpted from different types of greenstone reached the city from the Sierra de Taxco, as finished products.</p> </div> </div>"
         }
       ]
     },
