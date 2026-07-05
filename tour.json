@@ -1,6 +1,6 @@
 {
   "default": {
-    "firstScene": "imagen17",
+    "firstScene": "imagen18",
     "sceneFadeDuration": 1000,
     "autoLoad": true
 },
@@ -524,6 +524,30 @@
       "panorama": "assets/panoramicaswebp/18.webp",
       "hotSpots": [
         {
+          "pitch": -7.7,
+          "yaw": 14.5,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/vit9.webp' alt='Pieza'></div>"
+        },
+        {
+  "pitch": -7.9,
+  "yaw": 112.6,
+  "type": "info",
+  "text": "<div class='tarjeta-museo'> <h3>URL sala 1</h3> <a href='https://drive.google.com/uc?id=1WVtmzU0ZtKMmqmpVXSR15Nwl2TidZvpv&export=download' target='_blank' style='color: #007bff; text-decoration: underline; break-all: break-word;'>https://drive.google.com/uc?id=1WVtmzU0ZtKMmqmpVXSR15Nwl2TidZvpv&export=download</a> </div>"
+      },
+            {
+          "pitch": -7.9,
+          "yaw": 90,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/lona1.webp' alt='Pieza'></div>"
+        },
+        {
+  "pitch": -14.7,
+  "yaw": -1.7,
+  "type": "info",
+  "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/vit8.webp' alt='El Señor de las Serpientes' style='max-width: 100%; max-height: 300px; border-radius: 8px; object-fit: cover;' /> </div> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Señor de las Serpientes</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>El Señor de las Serpientes representa a la nobleza dirigente de Xochicalco. Guarda una postura regia y severa. Lleva un faldellín y está ataviado ricamente con una banda de plumas entrelazadas rematada al centro por un <em>chalchihuite</em>; además tiene grandes orejeras, un collar y pulseras. Su rango social se manifiesta por el tocado de cabezas de serpiente y las cuatro serpientes que envuelven su cuerpo.<br><br>Esta representación genérica de la nobleza también se puede apreciar en los personajes sedentes entre los cuerpos de las serpientes emplumadas de la Pirámide de las Serpientes Emplumadas, así como en el <em>Señor Yelmo de Serpiente</em>.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Lord of the Serpents</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>The Lord of the Serpents represents the ruling nobility of Xochicalco. His bearing is regal and severe. He wears a skirt and is richly attired with a headband of interlaced feathers with a <em>chalchihuite</em> (greenstone bead) in the middle; in addition to large earflares, a necklace, and wristlets. His social rank is suggested by his headdress and the four snakes that are wrapped around his body.<br><br>This generic depiction of nobility may also be seen in the seated figures interspersed between the undulating serpent bodies on the Pyramid of the Feathered Serpents, as well as in the case of <em>Lord Serpent Helmet</em>.</p> </div> </div> </div>"
+},
+        {
           "pitch": -10.0,
           "yaw": 179.8,
           "type": "scene",
@@ -552,6 +576,30 @@
       "panorama": "assets/panoramicaswebp/19.webp",
       "hotSpots": [
         {
+  "pitch": -16.6,
+  "yaw": 148.7,
+  "type": "info",
+  "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/vid1.webp' alt='Relación con la Naturaleza' style='max-width: 100%; max-height: 300px; border-radius: 8px; object-fit: cover;' /> </div> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Relación con la Naturaleza</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Los pueblos mesoamericanos tuvieron estrecha relación con la naturaleza. Observaron y registraron los ciclos vitales de las plantas a fin de reproducir y mejorar aquellos recursos que aseguraban la sobrevivencia de estos pueblos; así, cultivaron maíz, frijol, calabaza y chile, entre otros, para formar su dieta básica.<br><br>También les agradaba embellecer sus residencias, para lo cual reprodujeron, en piedra, flores y frutos que veían a su alrededor.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Relationship with Nature</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>The people of Mesoamerica had close ties with nature. They observed and kept track of the life cycles of plants to reproduce and improve those resources that ensured the survival of their communities. Therefore, they grew maize, beans, squash, and chili, among other foodstuffs, as their basic diet.<br><br>They also embellished their homes by reproducing elements from nature in stone, such as flowers and fruit from their surroundings.</p> </div> </div> </div>"
+},
+{
+  "pitch": -15.1,
+  "yaw": 62.1,
+  "type": "info",
+  "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Representación Animal</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Los xochicalcas tomaron de cada especie animal los atributos que la caracterizaban para plasmarlos en sus obras, logrando varios grados de representación. El primero fue muy apegado a la realidad, como las lápidas de la guacamaya y de la zorra. Esta última fue adornada con un cincho y un faldellín, lo que permite asociarla con la representación zoomorfa de algún dios.<br><br>En el segundo grado utilizaron elementos típicos de la fauna, como se ve en las cabezas de guacamayas, en las que se aprecian los ojos, el pico y la nariz. Y en el último, los atributos fueron tan estilizados que llegaron al colmo de la abstracción.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Animal Representation</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>The inhabitants of Xochicalco focused on the characteristic attributes of each animal species to render these creatures in their artworks with varying degrees of fidelity. Some images adhered to reality, such as the slabs of the macaw and the fox. The latter was adorned with a belt and skirt, which suggests its association with the zoomorphic representation of a god.<br><br>Other depictions relied on conventional aspects of fauna, as in the macaw heads, clearly rendering the eyes, beak, and nose. In the latter group, the attributes were at times stylized to such an extent they approach extreme abstraction.</p> </div> </div> </div>"
+},
+{
+  "pitch": -22.1,
+  "yaw": -55.3,
+  "type": "info",
+  "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/vid3.webp' alt='Simbolismo Animal' style='max-width: 100%; max-height: 300px; border-radius: 8px; object-fit: cover;' /> </div> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Simbolismo Animal</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Los animales representados en las lápidas no son nada más el reflejo de la naturaleza. Por sus costumbres, hábitos alimenticios y ciclos de vida fueron utilizados para expresar como símbolos algunos de los conceptos religiosos de los xochicalcas. Por mencionar algunos ejemplos, el búho revelaba la noche, la muerte; la guacamaya, con sus vistosas plumas, hacía evidente el día, el sol. La mariposa, con sus coloridas alas, denotaba la vegetación, la fecundidad.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Animal Symbolism</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>The animals represented on the slabs are not merely a reflection of nature. Based on their behavior, feeding habits, and life cycles, they were used to symbolically express the religious concepts of the people of Xochicalco. For instance, the owl alluded to nighttime and death; the macaw, with its brilliant feathers, represented daytime and the sun. The butterfly with its colorful wings denoted vegetation and fertility.</p> </div> </div> </div>"
+},
+{
+  "pitch": -3.1,
+  "yaw": -20.4,
+  "type": "info",
+  "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/vid2.webp' alt='Relieves de Serpientes' style='max-width: 100%; max-height: 300px; border-radius: 8px; object-fit: cover;' /> </div> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Relieves de Serpientes</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Los relieves de las lápidas permiten reconocer diferentes tipos de serpientes. Tanto su movimiento ondulante como su asociación a la tierra, fueron atributos utilizados para representar el líquido vital, el agua. Para destacar aún más su importancia las adornaron con plumas, enfatizando el carácter precioso del agua. La asociación de la serpiente con figuras humanas señalan la jerarquía sagrada y el rango social de éstas.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Serpent Reliefs</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>The reliefs carved on the slabs make it possible to recognize different types of serpents. Both their undulating movement and their association with the earth were attributes used to represent the vital liquid: water. To highlight their importance, they were adorned with feathers, emphasizing water's precious nature. Serpents associated with human figures indicate the sacred hierarchy and individuals' social status.</p> </div> </div> </div>"
+},
+        {
           "pitch": -10.0,
           "yaw": 179.8,
           "type": "scene",
@@ -572,6 +620,24 @@
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/20.webp",
       "hotSpots": [
+        {
+          "pitch": -4.4,
+          "yaw": 0.2,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/vit5.webp' alt='Pieza'></div>"
+        },
+        {
+          "pitch": -21.9,
+          "yaw": -116.6,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/vit6.webp' alt='Pieza'></div>"
+        },
+        {
+          "pitch": -18.2,
+          "yaw": 179.6,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/vit7.webp' alt='Pieza'></div>"
+        },
         {
           "pitch": -10.0,
           "yaw": 90.8,
