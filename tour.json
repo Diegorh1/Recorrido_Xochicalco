@@ -551,7 +551,7 @@
           "pitch": 2.4,
           "yaw": -138.3,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/LETRERO-1.webp' alt='Descripción'><div class='tarjeta-info'><h3>Título de tu pieza</h3><p>Aquí puedes poner todo el texto descriptivo que necesites mostrar.</p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/LETRERO-1.webp' alt='Descripción'><div class='tarjeta-info'><h3>Xochicalco, resguardo de hombres</h3><p>Cartel informativo..</p></div></div>"
         },
         {
           "pitch": -9.9,
