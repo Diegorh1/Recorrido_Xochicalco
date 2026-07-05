@@ -1,6 +1,6 @@
 {
   "default": {
-    "firstScene": "imagen2",
+    "firstScene": "imagen17",
     "sceneFadeDuration": 1000,
     "autoLoad": true
 },
@@ -379,6 +379,19 @@
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/14.webp",
       "hotSpots": [
+
+        {
+  "pitch": -0.7,
+  "yaw": -3.5,
+  "type": "info",
+  "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/fig1.webp' alt='Máscara Teotihuacana' style='max-width: 100%; max-height: 300px; border-radius: 8px; object-fit: cover;' /> </div> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Máscara Teotihuacana</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Máscara de estilo teotihuacano que, engarzada con las cuentas, formaban el pectoral de un gran señor xochicalca. Este tipo de adornos fueron usados únicamente por la nobleza en ceremonias muy relevantes.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Teotihuacan Mask</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>A Teotihuacan style mask, with a string of beads, formed the pectoral of a great lord of Xochicalco. This type of adornment was worn solely by the nobility for important ceremonies.</p> </div> </div> </div>"
+    },
+         {
+  "pitch": -4.4,
+  "yaw": 12.1,
+  "type": "info",
+  "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/fig2.webp' alt='Moldes de Cerámica' style='max-width: 100%; max-height: 300px; border-radius: 8px; object-fit: cover;' /> </div> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Moldes de Cerámica</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Los moldes de cerámica fueron utilizados para reproducir en serie efigies de los incensarios. Los había para rostros humanos, tanto de jóvenes como de ancianos; o bien, de cabezas de felinos, aves y reptiles.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Ceramic Molds</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Ceramic molds were used to mass produce effigies on censers. They have been found in the shape of human faces, youthful and old, as well as feline, bird, and reptile heads.</p> </div> </div> </div>"
+    },
         {
           "pitch": -35.2,
           "yaw": 82.5,
@@ -401,6 +414,18 @@
       "panorama": "assets/panoramicaswebp/15.webp",
       "hotSpots": [
         {
+  "pitch": -9.4,
+  "yaw": 33.9,
+  "type": "info",
+  "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/fig3.webp' alt='Incensario de Felino' style='max-width: 100%; max-height: 300px; border-radius: 8px; object-fit: cover;' /> </div> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Incensario de Felino</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Incensario de cerámica que porta la efigie de un felino, mismo que está adornado con un cordón y un moño; a los lados presenta atados que podrían ser símbolos del fuego. En la concepción prehispánica los felinos fueron considerados como seres asociados con la luna, la noche y la humedad. Encontrado dentro de una habitación, el incensario forma parte de los elementos de un altar doméstico.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Feline Censer</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Ceramic censer bearing a feline effigy adorned with a rope and bow, flanked by knots that might be fire symbols. In pre-Hispanic thought felines were regarded as beings associated with the moon, nighttime, and moisture. Found inside a room, the censer formed part of the paraphernalia of a domestic altar.</p> </div> </div> </div>"
+},
+{
+  "pitch": 5.7,
+  "yaw": -17.9,
+  "type": "info",
+  "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/fig4.webp' alt='Flor de Cinco Pétalos' style='max-width: 100%; max-height: 300px; border-radius: 8px; object-fit: cover;' /> </div> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Flor de Cinco Pétalos</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Escultura estilizada que representa una flor de cinco pétalos. Fue hallada con otras piezas similares en uno de los patios de la Acrópolis. Su posición permite aseverar que formó parte del remate de un pórtico.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Five-Petal Flower</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Stylized sculpture representing a flower with five petals. It was found with other similar pieces in one of the patios of the Acropolis. Its position suggests it formed part of the ornamentation over a portico.</p> </div> </div> </div>"
+},
+        {
           "pitch": -22.4,
           "yaw": 94.5,
           "type": "scene",
@@ -421,6 +446,18 @@
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/16.webp",
       "hotSpots": [
+        {
+  "pitch": -8.3,
+  "yaw": 38.6,
+  "type": "info",
+  "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/fig5.webp' alt='Danzantes' style='max-width: 100%; max-height: 300px; border-radius: 8px; object-fit: cover;' /> </div> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Danzantes</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Las figuras son danzantes que ejecutan un baile alrededor del sol, probablemente con motivo de alguna celebración religiosa. Su representación en una vasija cerámica hace suponer que el festejo fue de tipo popular.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Dancers</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>The figures are performing a dance around the sun, probably in conjunction with a religious celebration. Their representation on a ceramic vessel suggests the popular nature of the festivity.</p> </div> </div> </div>"
+},
+{
+  "pitch": -9.3,
+  "yaw": -7.1,
+  "type": "info",
+  "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/fig6.webp' alt='Almena de Guacamaya' style='max-width: 100%; max-height: 300px; border-radius: 8px; object-fit: cover;' /> </div> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Almena de Guacamaya</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Almena de barro que exhibe a una airosa guacamaya saliendo de entre el follaje. Con esta ave los prehispánicos simbolizaron al sol y al día. Formó parte del almenado de un salón de la Acrópolis.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Macaw Roof Ornament</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Terracotta roof ornament from a hall on the Acropolis that displays an elegant macaw emerging from foliage. For pre-Hispanic peoples this bird symbolized the sun and daytime.</p> </div> </div> </div>"
+},
         {
           "pitch": -25.1,
           "yaw": 112.9,
