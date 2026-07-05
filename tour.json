@@ -1,6 +1,6 @@
 {
   "default": {
-    "firstScene": "imagen28",
+    "firstScene": "imagen27",
     "sceneFadeDuration": 1000,
     "autoLoad": true
 },
@@ -604,7 +604,7 @@
           "pitch": 3.4,
           "yaw": -29.4,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala2/Escultura 1.webp' alt='Descripción'><div class='tarjeta-info'><h3>El señor de rojo</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala2/Escultura1.webp' alt='Descripción'><div class='tarjeta-info'><h3>El señor de rojo</h3><p></p></div></div>"
         },
         {
           "pitch": -20.3,
@@ -644,7 +644,7 @@
           "pitch": -5.0,
           "yaw": -115.9,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala2/Escultura 2.webp' alt='Descripción'><div class='tarjeta-info'><h3>Ceramica de Xochicalco.</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala2/Escultura 2.webp' alt='Descripción'><div class='tarjeta-info'><h3>Ceramica de Xochicalco.</h3><p></p></div></div>"
         },
         {
           "pitch": -10.3,
@@ -656,7 +656,7 @@
           "pitch": -3.5,
           "yaw": -165,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala2/Escultura 3.webp' alt='Descripción'><div class='tarjeta-info'><h3>Altares Domesticos.</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala2/Escultura 3.webp' alt='Descripción'><div class='tarjeta-info'><h3>Altares Domesticos.</h3><p></p></div></div>"
         },
         {
           "pitch": -15.3,
@@ -668,7 +668,7 @@
           "pitch": -4.6,
           "yaw": 65.9,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala2/Escultura 4.webp' alt='Descripción'><div class='tarjeta-info'><h3>La efigie.</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala2/Escultura 4.webp' alt='Descripción'><div class='tarjeta-info'><h3>La efigie.</h3><p></p></div></div>"
         },
         {
           "pitch": -11.5,
@@ -680,7 +680,7 @@
           "pitch": -1.9,
           "yaw": -36.9,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala2/Escultura 5.webp' alt='Descripción'><div class='tarjeta-info'><h3>La diosa de la fertilidad.</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala2/Escultura 5.webp' alt='Descripción'><div class='tarjeta-info'><h3>La diosa de la fertilidad.</h3><p></p></div></div>"
         },
         {
           "pitch": -18.5,
@@ -692,7 +692,7 @@
           "pitch": -10.1,
           "yaw": 10.4,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala2/Escultura 6.webp' alt='Descripción'><div class='tarjeta-info'><h3>Altar de las olas.</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala2/Escultura 6.webp' alt='Descripción'><div class='tarjeta-info'><h3>Altar de las olas.</h3><p></p></div></div>"
         },
         {
           "pitch": -0.5,
@@ -725,7 +725,7 @@
           "pitch": -1.6,
           "yaw": -148.8,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala2/Escultura 7.webp' alt='Descripción'><div class='tarjeta-info'><h3>Incensario.</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala2/Escultura 7.webp' alt='Descripción'><div class='tarjeta-info'><h3>Incensario.</h3><p></p></div></div>"
         },
         {
           "pitch": -16.6,
@@ -737,7 +737,7 @@
           "pitch": -4.5,
           "yaw": -28.3,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala2/Escultura 8.webp' alt='Descripción'><div class='tarjeta-info'><h3>Yelmo de serpiente.</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala2/Escultura 8.webp' alt='Descripción'><div class='tarjeta-info'><h3>Yelmo de serpiente.</h3><p></p></div></div>"
         },
         {
           "pitch": -13.8,
@@ -749,7 +749,7 @@
           "pitch": -7.2,
           "yaw": 68.1,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala2/Escultura 9.webp' alt='Descripción'><div class='tarjeta-info'><h3>Rituales.</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala2/Escultura 9.webp' alt='Descripción'><div class='tarjeta-info'><h3>Rituales.</h3><p></p></div></div>"
         },
         {
           "pitch": -12.0,
@@ -761,7 +761,7 @@
           "pitch": -1.7,
           "yaw": 30.9,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala2/Escultura 10.webp' alt='Descripción'><div class='tarjeta-info'><h3>Instrumentos de cocina.</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala2/Escultura 10.webp' alt='Descripción'><div class='tarjeta-info'><h3>Instrumentos de cocina.</h3><p></p></div></div>"
         },
         {
           "pitch": -7.1,
@@ -794,13 +794,13 @@
           "pitch": 2.4,
           "yaw": -138.3,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/LETRERO-1.webp' alt='Descripción'><div class='tarjeta-info'><h3>Xochicalco, resguardo de hombres</h3><p>Cartel informativo..</p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala3/LETRERO-1.webp' alt='Descripción'><div class='tarjeta-info'><h3>Xochicalco, resguardo de hombres</h3><p>Cartel informativo..</p></div></div>"
         },
         {
           "pitch": -9.9,
           "yaw": 120.0,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/Escultura 1.1.webp' alt='Descripción'><div class='tarjeta-info'><h3>Estela de los dos glifos</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala3/Escultura 1.1.webp' alt='Descripción'><div class='tarjeta-info'><h3>Estela de los dos glifos</h3><p></p></div></div>"
         },
         {
           "pitch": -32.3,
@@ -812,7 +812,7 @@
           "pitch": -9.7,
           "yaw": -179.4,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/Escultura 2.webp' alt='Descripción'><div class='tarjeta-info'><h3>Arquitectura</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala3/Escultura 2.webp' alt='Descripción'><div class='tarjeta-info'><h3>Arquitectura</h3><p></p></div></div>"
         },
         {
           "pitch": -11.7,
@@ -824,7 +824,7 @@
           "pitch": -8.0,
           "yaw": 30.0,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/ESCULTURA 10.webp' alt='Descripción'><div class='tarjeta-info'><h3>Ornamentación juego de pelota.</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala3/ESCULTURA 10.webp' alt='Descripción'><div class='tarjeta-info'><h3>Ornamentación juego de pelota.</h3><p></p></div></div>"
         },
         {
           "pitch": -5.0,
@@ -864,7 +864,7 @@
           "pitch": -2.0,
           "yaw": -80.7,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/Escultura 3.webp' alt='Descripción'><div class='tarjeta-info'><h3>Tzompantli</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala3/Escultura 3.webp' alt='Descripción'><div class='tarjeta-info'><h3>Tzompantli</h3><p></p></div></div>"
         },
         {
           "pitch": -2.0,
@@ -876,7 +876,7 @@
           "pitch": -13.2,
           "yaw": -92.7,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/Escultura 4.webp' alt='Descripción'><div class='tarjeta-info'><h3>Tambores</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala3/Escultura 4.webp' alt='Descripción'><div class='tarjeta-info'><h3>Tambores</h3><p></p></div></div>"
         },
         {
           "pitch": -20.5,
@@ -888,13 +888,13 @@
           "pitch": -1.2,
           "yaw": -113.7,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/LETRERO 4.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala3/LETRERO 4.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
         },
         {
           "pitch": -19.2,
           "yaw": -105.9,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/Escultura 5.webp' alt='Descripción'><div class='tarjeta-info'><h3>El tiempo y el calendario</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala3/Escultura 5.webp' alt='Descripción'><div class='tarjeta-info'><h3>El tiempo y el calendario</h3><p></p></div></div>"
         },
         {
           "pitch": -12.5,
@@ -906,7 +906,7 @@
           "pitch": -11.0,
           "yaw": 150.6,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/ESCULTURA 6.webp' alt='Descripción'><div class='tarjeta-info'><h3>Más Arquitectura</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala3/ESCULTURA 6.webp' alt='Descripción'><div class='tarjeta-info'><h3>Más Arquitectura</h3><p></p></div></div>"
         },
         {
           "pitch": -21.3,
@@ -918,7 +918,7 @@
           "pitch": -6.3,
           "yaw": 55.8,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/ESCULTURA 7.webp' alt='Descripción'><div class='tarjeta-info'><h3>Símbolos Tlalocan</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala3/ESCULTURA 7.webp' alt='Descripción'><div class='tarjeta-info'><h3>Símbolos Tlalocan</h3><p></p></div></div>"
         },
         {
           "pitch": -20.6,
@@ -964,13 +964,13 @@
           "pitch": -2.4,
           "yaw": -116.7,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/LETRERO 3.webp' alt='Descripción'><div class='tarjeta-info'><h3>Perfiles, Líneas, Trazos</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala3/LETRERO 3.webp' alt='Descripción'><div class='tarjeta-info'><h3>Perfiles, Líneas, Trazos</h3><p></p></div></div>"
         },
         {
           "pitch": -15.1,
           "yaw": 152.7,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/ESCULTURA 8.webp' alt='Descripción'><div class='tarjeta-info'><h3>Innovaciones en la Ciudad.</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala3/ESCULTURA 8.webp' alt='Descripción'><div class='tarjeta-info'><h3>Innovaciones en la Ciudad.</h3><p></p></div></div>"
         },
         {
           "pitch": -16.0,
@@ -982,14 +982,14 @@
           "pitch": 1.8,
           "yaw": 78.2,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/LETRERO 2.webp' alt='Descripción'><div class='tarjeta-info'><h3>Nuevos Poderes.</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala3/LETRERO 2.webp' alt='Descripción'><div class='tarjeta-info'><h3>Nuevos Poderes.</h3><p></p></div></div>"
         },
 
 {
           "pitch": 0.0,
           "yaw": 37.2,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/ESCULTURA 9.webp' alt='Descripción'><div class='tarjeta-info'><h3>Temazcal.</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala3/ESCULTURA 9.webp' alt='Descripción'><div class='tarjeta-info'><h3>Temazcal.</h3><p></p></div></div>"
         },
 
 
@@ -1026,25 +1026,25 @@
           "pitch": -2.9,
           "yaw": -178.0,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/img27/LETRERO 1.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/img27/LETRERO 1.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
         },
         {
           "pitch": -1.9,
           "yaw": -120,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/img27/LETRERO 2.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/img27/LETRERO 2.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
         },
         {
           "pitch": -4.5,
           "yaw": -62,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/img27/LETRERO 3.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/img27/LETRERO 3.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
         },
         {
           "pitch": -6,
           "yaw": 0.0,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/img27/LETRERO 4.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/img27/LETRERO 4.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
         },
         {
           "pitch": -10.0,
