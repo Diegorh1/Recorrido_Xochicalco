@@ -55,14 +55,14 @@ div.pnlm-tooltip span::after {
 .tarjeta-museo {
     display: flex;
     flex-direction: column;
-    width: 300px;
-    background-color: rgba(0, 0, 0, 0.85);
-    border-radius: 12px;
-    /* Se eliminó overflow: hidden para permitir el zoom de la imagen */
-    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
-    position: relative;
+    width: 300px; /* Tamaño normal y cómodo */
+    background-color: rgba(0, 0, 0, 0.85); /* Fondo oscuro para legibilidad */
+    border-radius: 12px; /* Redondeado elegante */
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5); /* Sombra para que "flote" */
 }
 
+/* Ajuste de la imagen */
 .tarjeta-museo img {
     width: 100%;
     height: auto; /* Muestra la imagen completa sin recortes */
