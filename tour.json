@@ -601,6 +601,18 @@
           "sceneId": "imagen17"
         },
         {
+          "pitch": 3.4,
+          "yaw": -29.4,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala2/Escultura 1.webp' alt='Descripción'><div class='tarjeta-info'><h3>El señor de rojo</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -20.3,
+          "yaw": -24.7,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Estela de los Dos Glifos</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>Las estelas fueron monumentos en los que se registraron y conmemoraron los acontecimientos históricos que regían la vida de los pueblos mesoamericanos. En muchos casos, las estelas son rocas talladas de forma rectangular y con inscripciones en los cuatro lados. Otras veces utilizaron las superficies lisas de las piedras uniformes para plasmar su historia.<br><br>La Estela de los Dos Glifos presenta en una de sus caras dos glifos calendáricos: <em>10 caña</em> y <em>9 ojo de reptil</em>. Es probable que su importancia resida en la alusión a la fundación de la ciudad.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Two-Glyph Stela</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>Stelae were monuments on which historical events that governed the life of Mesoamerican peoples were recorded and commemorated. In many cases, stelae are stones carved into a rectangular shape with inscriptions on four sides. At other times, they used the smooth surfaces of regularly shaped stones to capture their history.<br><br>The Two-Glyph Stela displays two calendrical glyphs on one of its faces: <em>10 Reed</em> and <em>9 Reptile's Eye</em>. The date recorded probably alludes to the city's foundation.</p> </div> </div> </div>"
+        },
+        {
           "pitch": -6.8,
           "yaw": 2.6,
           "type": "scene",
@@ -629,6 +641,66 @@
           "sceneId": "imagen21"
         },
         {
+          "pitch": -5.0,
+          "yaw": -115.9,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala2/Escultura 2.webp' alt='Descripción'><div class='tarjeta-info'><h3>Ceramica de Xochicalco.</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -10.3,
+          "yaw": -121,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>La Cerámica</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>La cerámica de Xochicalco fue de elaboración local, de ahí su uniformidad. Aún así la calidad de pieza a pieza varía debido a la presencia de varios linajes de alfareros.<br><br>Unos se dedicaron a elaborar vasijas para quienes pertenecían a los estratos superiores, creando más diversidad de formas y diseños, con mejores acabados. Otros linajes manufacturaron para el común de la gente, así que sus productos fueron más simples y más pequeños que los otros.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Ceramics</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>Ceramics at Xochicalco were produced locally, which explains its uniformity. However, quality varies from piece to piece, as a result of the presence of diverse potters' lineages.<br><br>Some artisans produced vessels for members of the upper classes, creating greater diversity in shapes and designs, with better finishes. Other lineages manufactured wares for the commoners, so their products were simpler and smaller than the more elaborate pieces.</p> </div> </div> </div>"
+        },
+        {
+          "pitch": -3.5,
+          "yaw": -165,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala2/Escultura 3.webp' alt='Descripción'><div class='tarjeta-info'><h3>Altares Domesticos.</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -15.3,
+          "yaw": -150.4,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Altares Domésticos</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>En los altares domésticos la estratificación social es muy clara. Mientras que en una casa de gente noble el altar tenía una escultura del Dios Viejo del Fuego, <em>Huehueteotl</em> -que portaba una vasija para quemar copal-, en la casa de los plebeyos usaron un sahumerio, es decir, un sencillo cajete con mango y en algunos casos con perforaciones.<br><br>Asimismo, en el primero existía un incensario decorado con picos, en el otro, simples vasos con aplicaciones que simulaban granos de café. Por último, en uno, las figurillas que representan dioses fueron de mayor tamaño y mejor talla; en el otro, aquellas apenas tenían los rasgos esbozados.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Domestic Altars</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>Social stratification is clearly expressed in domestic altars. In the home of the nobility the altar had a sculpture of the Old Fire God—Huehueteotl who carried a vessel on his head to burn copal incense—while the household of plebeians had an incense burner in the shape of a simple bowl, sometimes with perforations, and a long handle.<br><br>Similarly, in the first case there was a censer decorated with pointed projections; in the other, a simple vessel with appliqué that simulated coffee beans. Finally, in the former, figures representing deities were larger and better carved; in the latter, they only had schematic features.</p> </div> </div> </div>"
+        },
+        {
+          "pitch": -4.6,
+          "yaw": 65.9,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala2/Escultura 4.webp' alt='Descripción'><div class='tarjeta-info'><h3>La efigie.</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -11.5,
+          "yaw": 70,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Efigie del Incensario</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>La efigie del incensario muestra a una mujer vestida con enredo y <em>quexquemetl</em>, adornada con un tocado torcido probablemente elaborado con su propio pelo y cordeles; tiene, asimismo, grandes orejeras. La postura de la figura y las varas que porta, quizás ramas floridas, indican la representación de una danzante, acompañante femenino de los ritos religiosos.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>The Censer Effigy</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>The censer effigy shows a woman dressed in a skirt and <em>quexquemetl</em> (triangular tunic) and a twisted headdress, probably shaped with her own hair and decorative bands; she also wears large earspools. Her position and the objects she holds, perhaps flowering branches, suggest the representation of a dancer, a female participant in religious rites.</p> </div> </div> </div>"
+        },
+        {
+          "pitch": -1.9,
+          "yaw": -36.9,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala2/Escultura 5.webp' alt='Descripción'><div class='tarjeta-info'><h3>La diosa de la fertilidad.</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -18.5,
+          "yaw": -45,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Diosa de la Fertilidad</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>Aunque es una escultura muy sobria, sin elementos iconográficos, por las características del templo donde fue encontrada puede considerarse como una diosa de la fertilidad. El templo es una cueva excavada en la roca del cerro cuya fachada está recubierta con piedra labrada y aplanada con cal y arena. La cueva asocia a la diosa con el mundo inferior, en el que se encuentran la tierra, representada como las fauces de un lagarto: lo femenino, el agua de los manantiales; todo ello relacionado con la fertilidad. En el periodo Posclásico, esta diosa fue conocida como Xochiquetzal.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Fertility Goddess</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>Although it is an extremely simple sculpture, without detailed iconographic elements, it is regarded as a fertility goddess based on the temple where it was found.<br><br>The temple consisted of a cave carved into the rock of the hill, whose façade was covered with worked stone coated with a lime and sand plaster. The cave associated the goddess with the lower realm, that of the earth, represented by the jaws of a crocodile: the female realm, water from springs; all of these elements related to fertility. In the Postclassic period this goddess was known as Xochiquetzal.</p> </div> </div> </div>"
+        },
+        {
+          "pitch": -10.1,
+          "yaw": 10.4,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala2/Escultura 6.webp' alt='Descripción'><div class='tarjeta-info'><h3>Altar de las olas.</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -0.5,
+          "yaw": 39,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Altar de las Olas</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>La estratificación social en Xochicalco se refleja en las terrazas constructivas de la ciudad; es decir, las plataformas de la cima del cerro fueron ocupadas por gente de mayor rango social, y tenían un acceso restringido; en cambio, las terrazas de la parte baja estuvieron habitadas por personas de estratos inferiores, y con una mayor comunicación.<br><br>El Altar de las Olas perteneció al Salón de la Plaza Principal, la tercera terraza más alta. Localizado al norte y centro de aquél, sirvió para cerrar simbólicamente el Salón. La policromía que muestra en tonos de azul y verde aluden al elemento agua que se relaciona con el culto al dios Tláloc.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Altar with Waves</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>Social stratification in Xochicalco was reflected in the city's architectural terraces; in other words, access to the platforms on the hilltops was restricted because these were occupied by people of higher social rank. In contrast, the terraces in the lower areas, which afforded greater communication, were inhabited by individuals of lower social status.<br><br>The Altar with Waves formed part of the Hall of the Main Plaza, the city's third highest terrace. Located at the north and central part of the hall, it served to symbolically to close it. The blue and green polychrome painting alludes to water, the element associated with the veneration of Tlaloc, the rain god.</p> </div> </div> </div>"
+        },
+        {
           "pitch": -10.0,
           "yaw": -15.8,
           "type": "scene",
@@ -648,6 +720,54 @@
           "type": "scene",
           "text": "Regresar al pasillo",
           "sceneId": "imagen22"
+        },
+        {
+          "pitch": -1.6,
+          "yaw": -148.8,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala2/Escultura 7.webp' alt='Descripción'><div class='tarjeta-info'><h3>Incensario.</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -16.6,
+          "yaw": -144.5,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Incensario Elaborado</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>Elaborado incensario muestra a un individuo de escasa vestimenta, pues nada más lleva <em>maxtlatl</em> y sandalias. Está adornado con un sencillo tocado, orejeras y un collar en forma semicircular que, por su colocación, podría significar que tenía incrustaciones de piedras azul-verdes.<br><br>La pintura corporal de color negro y el morral son atributos propios de un sacerdote; tanto la vara que porta -que tiene la forma irregular del rayo y podría ser un bastón de lluvia- como los roleos que los enmarcan, son signos acuáticos del dios de la lluvia, Tláloc.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Elaborate Censer</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>The elaborate censer shows a man simply garbed in a loincloth and sandals. He wears a plain headdress, earspools, and a semicircular necklace, which based on its placement and color, suggests blue-green stone beads. The black body paint and the bag are priestly attributes. Both the staff he carries—in the irregular shape of a lightning bolt perhaps representing a rain or rattle staff—and the blue curvilinear design framing him are aquatic emblems of the rain god, Tlaloc.</p> </div> </div> </div>"
+        },
+        {
+          "pitch": -4.5,
+          "yaw": -28.3,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala2/Escultura 8.webp' alt='Descripción'><div class='tarjeta-info'><h3>Yelmo de serpiente.</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -13.8,
+          "yaw": -16.5,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Señor Yelmo de Serpiente</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>En la escultura se aprecia un rostro cubierto con un yelmo con forma de casco y sólo deja la cara al descubierto.<br><br>El yelmo es una abstracción de los principales atributos de la serpiente. Con las fauces abiertas deja ver los colmillos superiores e inferiores así como una lengua bífida. En la parte de arriba está la nariz. A los lados, grandes ojos de reptil. El yelmo tiene tantos roleos que, de un ser tan simple, se convierte en una representación compleja e impactante.<br><br>El Señor Yelmo de Serpiente, adornado con una banda y orejeras, es un ejemplo más de las representaciones de la nobleza xochicalca.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Lord Serpent Helmet</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>The sculpture shows a head covered with a helmet revealing only the face within.<br><br>The helmet is an abstraction of the serpent's main attributes: its gaping jaws displaying upper and lower fangs, as well as a forked tongue. Above is the nose and on the sides, large reptiles' eyes. The helmet's abundant curvilinear elements transform it into a complex, striking image. Lord Serpent Helmet, adorned with a headband and ear ornaments, is another example of the representation of the Xochicalco nobility.</p> </div> </div> </div>"
+        },
+        {
+          "pitch": -7.2,
+          "yaw": 68.1,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala2/Escultura 9.webp' alt='Descripción'><div class='tarjeta-info'><h3>Rituales.</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -12.0,
+          "yaw": 82.6,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Los Sacerdotes</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>Los sacerdotes ocuparon un lugar preponderante dentro de la sociedad, ya que, a través del ritual, reproducían la ideología de la sociedad. Elemento importante de las ceremonias religiosas, el atuendo de los sacerdotes abarcaba desde su apariencia física hasta el vestido y los adornos que iban de acuerdo al tipo de ceremonia a realizar.<br><br>A manera de pectoral, las máscaras pendían de un collar de cuentas de piedra verde. La mayor parte de éstas son de claro estilo teotihuacano; otras tienen rasgos que indican el contacto con diversas regiones, donde las máscaras también fueron símbolos religiosos.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Priests</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>Priests occupied a preeminent position in society, because through ritual they perpetuated the society's ideology. An important element of religious ceremonies, the priests' costume included their physical appearance, garments, and ornaments that depended on the type of ceremony to be performed.<br><br>Worn as pectorals, masks were suspended from a greenstone bead necklace. Most masks are clearly in the Teotihuacan style; others have features that indicate contact with various regions, where masks also served as religious symbols.</p> </div> </div> </div>"
+        },
+        {
+          "pitch": -1.7,
+          "yaw": 30.9,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala2/Escultura 10.webp' alt='Descripción'><div class='tarjeta-info'><h3>Instrumentos de cocina.</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -7.1,
+          "yaw": 35.5,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Instrumentos para Moler</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>La forma de los instrumentos para moler estaba determinada por el tipo de materia que iban a triturar. Por ejemplo, el metate extendido, colocado sobre una plataforma baja debido a que carece de patas, fue utilizado para moler <em>nixtamal</em>. El cuenco, por su tosco acabado, fue utilizado para pulverizar las arcillas utilizadas como pigmentos en la elaboración de cerámica. En el pequeño metate machacaron costosos y raros pigmentos, necesarios para la pintura mural. Por último, el cuenco de fina talla y con soportes sirvió en las ceremonias, tal vez para desmenuzar exóticas plantas que permitieran a los hombres hablar con los dioses.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Grinding Implements</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>The shape of grinding implements was determined by the type of material that was to be ground. For example, a long grinding stone on a low base without feet was to grind <em>nixtamal</em>, a prepared corn mixture.<br><br>Bowls with a rough surface were used to grind clay used to decorate ceramics. In small mortars they ground costly, rare pigments, needed in mural painting. Finally, the finely carved bowl with supports served in ceremonies, perhaps to crumble exotic plants that made it possible for people to speak with the gods.</p> </div> </div> </div>"
         },
         {
           "pitch": -10.0,
