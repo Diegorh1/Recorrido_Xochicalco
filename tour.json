@@ -1,6 +1,6 @@
 {
   "default": {
-    "firstScene": "imagen20",
+    "firstScene": "imagen18",
     "sceneFadeDuration": 1000,
     "autoLoad": true
 },
