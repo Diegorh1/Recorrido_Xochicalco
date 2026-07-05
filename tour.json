@@ -1,14 +1,8 @@
 {
   "default": {
-<<<<<<< HEAD
     "firstScene": "imagen24",
-=======
-<<<<<<< HEAD
     "firstScene": "imagen29",
-=======
     "firstScene": "imagen2",
->>>>>>> edgar-rama
->>>>>>> 6365754713195d15360209e970a45911a5cde95d
     "sceneFadeDuration": 1000,
     "autoLoad": true
   },
@@ -201,8 +195,7 @@
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/8.webp",
       "hotSpots": [
-<<<<<<< HEAD
-=======
+
        {
           "pitch": -6.6,
           "yaw": -106.6,
@@ -227,7 +220,6 @@
         "type": "info",
         "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Maqueta prehispánica</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Representación de un juego de pelota unido a un basamento piramidal. Esta maqueta, labrada en piedra volcánica, es claro ejemplo del carácter sagrado que tuvo el juego de pelota entre las culturas prehispánicas, ya que asocia un espacio religioso a un espacio lúdico. Sobre la base piramidal existía un adoratorio en el que se hacían prácticas religiosas.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Pre-Hispanic Model</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Representation of a ballcourt joined to a pyramidal platform. This architectural model, worked in volcanic stone, is a clear example of the sacred nature of the ballgame among pre-Hispanic cultures; it compounds the space of a game with a religious site. On the pyramidal base there was a shrine where religious practices would have been carried out.</p> </div> </div> </div>"
         },
->>>>>>> edgar-rama
         {
           "pitch": -4.4,
           "yaw": 82.5,
@@ -250,15 +242,13 @@
       "panorama": "assets/panoramicaswebp/9.webp",
       "hotSpots": [
         {
-<<<<<<< HEAD
-=======
+
         "pitch": -29.0,
         "yaw": -43.1,
         "type": "info",
         "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Maqueta de la zona excavada</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Maqueta de Xochicalco donde se contemplan los edificios que hasta hoy se han explorado. Podemos apreciar las modificaciones hechas por los antiguos habitantes sobre el cerro para construir el asentamiento fortificado de la ciudad, es necesario destacar que los poderes políticos y religiosos encabezaban la urbe, habitando ahí los personajes más importantes.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Model of the Excavated Area</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Architectural model of Xochicalco showing the buildings explored to date. The ancient inhabitants massively modified the hills to build a fortified city. Such large-scale works were directed by the city's political and religious leaders, as notable characters usually lived in the city.</p> </div> </div> </div>"
         },
         {
->>>>>>> edgar-rama
           "pitch": -18,
           "yaw": 107,
           "type": "scene",
@@ -279,8 +269,7 @@
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/10.webp",
       "hotSpots": [
-<<<<<<< HEAD
-=======
+
          {
           "pitch": -9.5,
           "yaw": -97.5,
@@ -311,7 +300,6 @@
       "type": "info",
       "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Xochiquetzal</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Escultura a la deidad <em>Xochiquetzal</em>, labrada en roca volcánica y hallada en la Acrópolis de Xochicalco.<br><br>El personaje, de sexo indefinido, está sentado en posición de sumisión y adornado con plumas que representan lo precioso en Mesoamérica. Presenta símbolos de movimiento y caracoles cortados, similares a los del Templo de las Serpientes Emplumadas.<br><br>Pesa unos 1600 kilos y es conocida localmente como <em>La Malinche</em>.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Xochiquetzal</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Sculpture of the deity <em>Xochiquetzal</em>, carved in volcanic rock and found in the Acropolis of Xochicalco.<br><br>The character, of unidentified sex, is seated in a position of submission and adorned with feathers representing preciousness in Mesoamerica. It features cut shells and movement symbols similar to those in the Temple of the Feathered Serpents.<br><br>Weighing around 3520 pounds, this deity is locally known as <em>La Malinche</em>.</p> </div> </div> </div>"
       },
->>>>>>> edgar-rama
         {
           "pitch": -22,
           "yaw": 103,
