@@ -17,6 +17,12 @@
           "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/autobus.webp' alt='Pieza'><div class='tarjeta-info'><h3>Parador de espera</h3>Este sitio es donde los aútobuses hacen paradas</div></div>"
         },
         {
+          "pitch": 6.6,
+          "yaw": -70.1,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/piramide1.webP' alt='Pieza'><div class='tarjeta-info'><h3>Piramides</h3><p>Su estructura más famosa es la Pirámide de las Serpientes Emplumadas, destacada por sus relieves que muestran la fusión de influencias teotihuacanas, mayas y zapotecas</p></div></div>"
+        },
+        {
           "pitch": -25,
           "yaw": -102,
           "type": "scene",
@@ -38,12 +44,6 @@
       "panorama": "assets/panoramicaswebp/2.webp",
       "hotSpots": [
         {
-          "pitch": 5,
-          "yaw": -30,
-          "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/2.webp' alt='Pieza'><div class='tarjeta-info'><h3>Estela de los Glifos</h3><p>Esta pieza data del periodo epiclásico...</p></div></div>"
-        },
-        {
           "pitch": -7.5,
           "yaw": 133,
           "type": "scene",
@@ -64,6 +64,12 @@
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/3.webp",
       "hotSpots": [
+        {
+          "pitch": -5.4,
+          "yaw": -57.3,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/tvazteca.webp' alt='Pieza'><div class='tarjeta-info'><h3>Xochicalco</h3></div></div>"
+        },
         {
           "pitch": -4.4,
           "yaw": 82.5,
@@ -127,6 +133,24 @@
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/6.webp",
       "hotSpots": [
+        {
+          "pitch": -1.1,
+          "yaw": -108,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/datos.webp' alt='Pieza'></div>"
+        },
+        {
+          "pitch": -11.1,
+          "yaw": 100,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/bienvenido.webp' alt='Pieza'></div>"
+        },
+        {
+          "pitch": -4.5,
+          "yaw": 27.5,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/arqui.webp' alt='Pieza'></div>"
+        },
         {
           "pitch": -10.4,
           "yaw": 77.5,
