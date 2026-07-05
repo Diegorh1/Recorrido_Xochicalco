@@ -55,16 +55,14 @@ div.pnlm-tooltip span::after {
 .tarjeta-museo {
     display: flex;
     flex-direction: column;
-    width: 650px;
-    background-color: #ffffff !important; /* Fuerza blanco sólido */
-    opacity: 1 !important;                /* Fuerza opacidad total */
-    border-radius: 12px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-    padding: 20px;
-    color: #333333;                       /* Color de texto oscuro */
-    border: 1px solid #ddd;
+    width: 300px; /* Tamaño normal y cómodo */
+    background-color: rgba(0, 0, 0, 0.85); /* Fondo oscuro para legibilidad */
+    border-radius: 12px; /* Redondeado elegante */
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5); /* Sombra para que "flote" */
 }
 
+/* Ajuste de la imagen */
 .tarjeta-museo img {
     width: 100%;
     height: auto; /* Muestra la imagen completa sin recortes */
