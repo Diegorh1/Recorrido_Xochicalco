@@ -1,6 +1,14 @@
 {
   "default": {
+<<<<<<< HEAD
     "firstScene": "imagen24",
+=======
+<<<<<<< HEAD
+    "firstScene": "imagen29",
+=======
+    "firstScene": "imagen2",
+>>>>>>> edgar-rama
+>>>>>>> 6365754713195d15360209e970a45911a5cde95d
     "sceneFadeDuration": 1000,
     "autoLoad": true
   },
@@ -193,6 +201,33 @@
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/8.webp",
       "hotSpots": [
+<<<<<<< HEAD
+=======
+       {
+          "pitch": -6.6,
+          "yaw": -106.6,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/MAPA.webp' alt='Pieza'></div>"
+        },
+        {
+          "pitch": -9.5,
+          "yaw": 117,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/letinicio.webp' alt='Pieza'></div>"
+        },
+        {
+          "pitch": -9.0,
+          "yaw": 13.4,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/taquilla.webp' alt='Pieza'></div>"
+        },
+        {
+        "pitch": -12.4,
+        "yaw": -167.6,
+        "type": "info",
+        "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Maqueta prehispánica</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Representación de un juego de pelota unido a un basamento piramidal. Esta maqueta, labrada en piedra volcánica, es claro ejemplo del carácter sagrado que tuvo el juego de pelota entre las culturas prehispánicas, ya que asocia un espacio religioso a un espacio lúdico. Sobre la base piramidal existía un adoratorio en el que se hacían prácticas religiosas.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Pre-Hispanic Model</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Representation of a ballcourt joined to a pyramidal platform. This architectural model, worked in volcanic stone, is a clear example of the sacred nature of the ballgame among pre-Hispanic cultures; it compounds the space of a game with a religious site. On the pyramidal base there was a shrine where religious practices would have been carried out.</p> </div> </div> </div>"
+        },
+>>>>>>> edgar-rama
         {
           "pitch": -4.4,
           "yaw": 82.5,
@@ -215,6 +250,15 @@
       "panorama": "assets/panoramicaswebp/9.webp",
       "hotSpots": [
         {
+<<<<<<< HEAD
+=======
+        "pitch": -29.0,
+        "yaw": -43.1,
+        "type": "info",
+        "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Maqueta de la zona excavada</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Maqueta de Xochicalco donde se contemplan los edificios que hasta hoy se han explorado. Podemos apreciar las modificaciones hechas por los antiguos habitantes sobre el cerro para construir el asentamiento fortificado de la ciudad, es necesario destacar que los poderes políticos y religiosos encabezaban la urbe, habitando ahí los personajes más importantes.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Model of the Excavated Area</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Architectural model of Xochicalco showing the buildings explored to date. The ancient inhabitants massively modified the hills to build a fortified city. Such large-scale works were directed by the city's political and religious leaders, as notable characters usually lived in the city.</p> </div> </div> </div>"
+        },
+        {
+>>>>>>> edgar-rama
           "pitch": -18,
           "yaw": 107,
           "type": "scene",
@@ -235,6 +279,39 @@
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/10.webp",
       "hotSpots": [
+<<<<<<< HEAD
+=======
+         {
+          "pitch": -9.5,
+          "yaw": -97.5,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/cuadro.webp' alt='Pieza'></div>"
+        },
+        {
+          "pitch": -7.1,
+          "yaw": -166.6,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/let3.webp' alt='Pieza'></div>"
+        },
+        {
+          "pitch": -7.1,
+          "yaw": -146.6,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/let2.webp' alt='Pieza'></div>"
+        },
+        {
+          "pitch": -2.1,
+          "yaw": -37.5,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/let1.webp' alt='Pieza'></div>"
+        },
+        {
+      "pitch": -14.1,
+      "yaw": -25.1,
+      "type": "info",
+      "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Xochiquetzal</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Escultura a la deidad <em>Xochiquetzal</em>, labrada en roca volcánica y hallada en la Acrópolis de Xochicalco.<br><br>El personaje, de sexo indefinido, está sentado en posición de sumisión y adornado con plumas que representan lo precioso en Mesoamérica. Presenta símbolos de movimiento y caracoles cortados, similares a los del Templo de las Serpientes Emplumadas.<br><br>Pesa unos 1600 kilos y es conocida localmente como <em>La Malinche</em>.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Xochiquetzal</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Sculpture of the deity <em>Xochiquetzal</em>, carved in volcanic rock and found in the Acropolis of Xochicalco.<br><br>The character, of unidentified sex, is seated in a position of submission and adorned with feathers representing preciousness in Mesoamerica. It features cut shells and movement symbols similar to those in the Temple of the Feathered Serpents.<br><br>Weighing around 3520 pounds, this deity is locally known as <em>La Malinche</em>.</p> </div> </div> </div>"
+      },
+>>>>>>> edgar-rama
         {
           "pitch": -22,
           "yaw": 103,
@@ -809,7 +886,7 @@
       ]
     },
     "imagen29": {
-      "title": "sala 5",
+      "title": "Sala 5 / Room 5, Los rituales del juego - World of Gods",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/29.webp",
       "hotSpots": [
@@ -824,15 +901,22 @@
           "pitch": -20.0,
           "yaw": 15.8,
           "type": "scene",
-          "text": "Avanzar por la sala",
+          "text": "Avanzar por la sala 5",
           "sceneId": "imagen30"
         },
         {
           "pitch": -20.0,
           "yaw": -35.8,
           "type": "scene",
-          "text": "Avanzar por la sala",
+          "text": "Avanzar por la sala 5",
           "sceneId": "imagen31"
+        },
+        {
+          "pitch": -18.0,
+          "yaw": 38.8,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Cosmología Xochicalca</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>La visión del cosmos de los xochicalcas está sintetizada en el aro del Juego de Pelota Este. Su forma señala la concepción cíclica del transcurso del tiempo. En la parte inferior hay dos guacamayas de cuyos picos penden <em>chalchihuites</em> y plumas, símbolos de su estridente parloteo. Ellas siguen una dirección este-oeste, figurando al sol en su movimiento del amanecer al atardecer.<br><br>En la parte superior está un murciélago con alas desplegadas y las patas flexionadas. Cada una de sus alas está decorada con dos huesos cruzados y una turquesa. Es un ser nocturno que expresa la noche y el frío.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Xochicalco Cosmology</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>The worldview of the people of Xochicalco is synthesized in the ring from the East Ballcourt. Its form shows the cyclic conception of the passage of time. In the lower part <em>chalchihuites</em> (greenstone beads) and feathers hang from the beaks of two macaws as a sign of their strident cries. They follow an east-west direction, representing the sun's movement from dawn to dusk.<br><br>In the upper part is a bat with outstretched wings and flexed legs. Each of its wings is decorated with two crossed bones and a sign for turquoise. It is a nocturnal being, a symbol of night and cold.</p> </div> </div> </div>",
+          "sceneId": "imagen30"
         }
       ]
     },
