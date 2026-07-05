@@ -4,15 +4,15 @@
 :root {
     --color-fondo: #F9F6F0;
     --color-primario: #4A5D23; /* Verde olivo */
-    --color-primario-oscuro: #364419;
+    --color-primario-oscuro: #2D3A15;
     --color-secundario: #C17A4D; /* Terracota */
     --color-secundario-claro: #D6946A;
-    --color-oscuro: #233131; /* Gris oscuro verdoso */
+    --color-oscuro: #1A2525; /* Gris oscuro verdoso */
     --color-texto: #333333;
     --color-blanco: #ffffff;
+    --color-dorado-museo: #D4AF37; /* Dorado para las placas */
 }
 
-/* Activa el desplazamiento suave en toda la página para el botón */
 html { 
     scroll-behavior: smooth; 
 }
@@ -27,7 +27,6 @@ body {
     font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     background-color: var(--color-fondo);
     color: var(--color-texto);
-    /* IMPORTANTE: Permite el scroll vertical pero oculta barras horizontales */
     overflow-x: hidden; 
 }
 
@@ -36,7 +35,7 @@ body {
    ========================================= */
 #panorama {
     width: 100vw;
-    height: 100vh; /* Ocupará toda la pantalla cuando el usuario baje hacia él */
+    height: 100vh;
     background-color: #000;
     display: block;
 }
@@ -45,62 +44,82 @@ div.pnlm-tooltip span {
     padding: 0 !important;
     background-color: transparent !important;
     border: none !important;
+    pointer-events: auto !important; 
 }
 
 div.pnlm-tooltip span::after {
     display: none !important;
 }
 
-/* El contenedor de la tarjeta dentro del visor */
+/* EL CONTENEDOR DE LA TARJETA (TAMAÑO GRANDE PARA PC) */
 .tarjeta-museo {
-    display: flex;
-    flex-direction: column;
-    width: 300px; /* Tamaño normal y cómodo */
-    background-color: rgba(0, 0, 0, 0.85); /* Fondo oscuro para legibilidad */
-    border-radius: 12px; /* Redondeado elegante */
-    overflow: hidden;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.5); /* Sombra para que "flote" */
+    display: flex !important;
+    flex-direction: column !important;
+    width: 600px !important; /* Aumentado de 450px a 600px para PC */
+    background-color: var(--color-primario-oscuro) !important; 
+    border-radius: 12px !important;
+    overflow: hidden !important;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.85) !important; /* Sombra un poco más profunda */
+    border: 2px solid var(--color-dorado-museo) !important; 
+    transition: opacity 0.3s ease, visibility 0.3s ease !important;
 }
 
-/* Ajuste de la imagen */
+/* LA IMAGEN (Se hace grande automáticamente por la proporción) */
 .tarjeta-museo img {
-    width: 100%;
-    height: auto; /* Muestra la imagen completa sin recortes */
-    border-bottom: 3px solid #f39c12;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+    width: 100% !important;
+    aspect-ratio: 16 / 9 !important;
+    height: auto !important;
+    object-fit: cover !important;
+    border-bottom: 3px solid var(--color-dorado-museo) !important;
+    transition: transform 0.4s ease;
     cursor: zoom-in;
-    position: relative;
-    z-index: 1;
 }
 
-/* Efecto de Zoom al pasar el cursor */
-.tarjeta-museo img:hover {
-    transform: scale(1.7); /* Nivel de aumento */
-    z-index: 10;
-    box-shadow: 0 15px 30px rgba(0,0,0,0.9);
-    border-radius: 8px;
-    border-bottom: none;
+.tarjeta-museo:hover img {
+    transform: scale(1.05) !important;
 }
 
+/* EL CONTENEDOR DEL TEXTO (CON SCROLL INTERNO AMPLIO) */
 .tarjeta-info {
-    padding: 15px;
-    color: white;
-    text-align: left;
-    font-family: 'Segoe UI', Arial, sans-serif;
+    padding: 24px !important; /* Más espacio interior para respirar en PC */
+    text-align: justify !important;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    
+    max-height: 250px !important; /* Más alto en PC antes de requerir scroll */
+    overflow-y: auto !important;  
+}
+
+/* BARRA DE SCROLL PERSONALIZADA */
+.tarjeta-info::-webkit-scrollbar {
+    width: 8px;
+}
+.tarjeta-info::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2); 
+    border-radius: 10px;
+}
+.tarjeta-info::-webkit-scrollbar-thumb {
+    background-color: var(--color-dorado-museo); 
+    border-radius: 10px;
 }
 
 .tarjeta-info h3 {
-    margin-bottom: 8px;
-    font-size: 18px;
-    color: #f39c12;
+    margin-bottom: 15px !important;
+    font-size: 1.6rem !important; /* Título mucho más grande en PC */
+    color: var(--color-dorado-museo) !important; 
+    line-height: 1.2 !important;
+    text-align: center !important;
 }
 
+/* LAS COLUMNAS DE TEXTO */
 .tarjeta-info p {
-    font-size: 14px;
-    line-height: 1.5;
-    color: #e0e0e0;
+    font-size: 1.1rem !important; /* Texto de lectura más grande y cómodo */
+    line-height: 1.7 !important;
+    color: #E8EBE4 !important; 
+    margin: 0 !important;
+    
+    column-count: 2 !important;
+    column-gap: 30px !important; /* Más separación entre columnas */
 }
 
 /* =========================================
@@ -108,73 +127,47 @@ div.pnlm-tooltip span::after {
    ========================================= */
 header {
     background-color: var(--color-oscuro);
-    background-image: linear-gradient(135deg, rgba(35, 49, 49, 0.95) 0%, rgba(74, 93, 35, 0.85) 100%), url('assets/panoramicaswebp/museo1.jpeg');
+    background-image: linear-gradient(135deg, rgba(26, 37, 37, 0.9) 0%, rgba(74, 93, 35, 0.7) 100%), url('assets/panoramicaswebp/museo1.jpeg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     color: var(--color-blanco);
     text-align: center;
-    padding: 4rem 2rem;
-    border-bottom: 5px solid var(--color-secundario);
-    min-height: 60vh; 
+    padding: clamp(3rem, 10vw, 6rem) 2rem;
+    border-bottom: 6px solid var(--color-secundario);
+    min-height: 65vh; 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
 header h1 {
     margin-bottom: 15px;
-    font-size: 3.5rem;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    text-shadow: 2px 4px 8px rgba(0,0,0,0.6);
     letter-spacing: 2px;
+    font-weight: 800;
 }
 
 header p {
-    font-size: 1.3rem;
-    max-width: 600px;
-    line-height: 1.6;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-}
-
-.btn-desplazar {
-    margin-top: 3rem;
-    padding: 12px 30px;
-    border: 2px solid var(--color-blanco);
-    border-radius: 30px;
-    color: var(--color-blanco);
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.1rem;
-    transition: all 0.3s ease;
-    animation: rebote 2s infinite;
-    background-color: rgba(255,255,255,0.1);
-    backdrop-filter: blur(5px);
-}
-
-.btn-desplazar:hover {
-    background-color: var(--color-blanco);
-    color: var(--color-oscuro);
-    transform: scale(1.05);
-}
-
-@keyframes rebote {
-    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
-    40% { transform: translateY(-10px); }
-    60% { transform: translateY(-5px); }
+    font-size: clamp(1rem, 2.5vw, 1.3rem);
+    max-width: 700px;
+    line-height: 1.7;
+    text-shadow: 1px 2px 4px rgba(0,0,0,0.6);
+    opacity: 0.95;
 }
 
 /* =========================================
-   3. ESTILOS DEL CARRUSEL FULL WIDTH
+   3. ESTILOS DEL CARRUSEL
    ========================================= */
 .carousel-container {
     position: relative;
     width: 100vw;
-    height: 60vh;
+    height: clamp(40vh, 60vw, 60vh); 
     overflow: hidden;
     background-color: #000;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 }
 
 .carousel-track {
@@ -188,21 +181,21 @@ header p {
     min-width: 100%;
     height: 100%;
     object-fit: cover;
-    filter: brightness(0.9);
+    filter: brightness(0.85);
 }
 
 .carousel-btn {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(35, 49, 49, 0.6);
-    backdrop-filter: blur(4px);
+    background-color: rgba(26, 37, 37, 0.5);
+    backdrop-filter: blur(8px);
     color: var(--color-blanco);
-    border: none;
-    width: 60px;
-    height: 60px;
+    border: 1px solid rgba(255,255,255,0.2);
+    width: 50px;
+    height: 50px;
     cursor: pointer;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     border-radius: 50%;
     z-index: 10;
     transition: all 0.3s ease;
@@ -214,14 +207,15 @@ header p {
 .carousel-btn:hover {
     background-color: var(--color-secundario);
     transform: translateY(-50%) scale(1.1);
+    border-color: var(--color-secundario);
 }
 
-.prev { left: 30px; }
-.next { right: 30px; }
+.prev { left: 20px; }
+.next { right: 20px; }
 
 .carousel-dots {
     position: absolute;
-    bottom: 30px;
+    bottom: 25px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -230,19 +224,18 @@ header p {
 }
 
 .dot {
-    width: 14px;
-    height: 14px;
-    background-color: rgba(255, 255, 255, 0.4);
-    border: 2px solid transparent;
+    width: 12px;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.3);
     border-radius: 50%;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 .dot.activo, .dot:hover {
     background-color: var(--color-secundario);
-    border-color: var(--color-blanco);
-    transform: scale(1.2);
+    transform: scale(1.4);
+    box-shadow: 0 0 10px rgba(193, 122, 77, 0.5);
 }
 
 /* =========================================
@@ -251,37 +244,37 @@ header p {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 4rem 2rem;
+    padding: clamp(3rem, 5vw, 5rem) 1.5rem;
     flex-grow: 1;
 }
 
 .intro-section {
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: clamp(3rem, 5vw, 5rem);
 }
 
 .intro-section h2 { 
     color: var(--color-primario); 
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+    font-size: clamp(2rem, 4vw, 2.8rem);
+    margin-bottom: 1.5rem;
     position: relative;
     display: inline-block;
 }
 
 .intro-section h2::after {
     content: '';
-    width: 60%;
+    width: 50px;
     height: 4px;
     background-color: var(--color-secundario);
     position: absolute;
-    bottom: -10px;
+    bottom: -12px;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 2px;
 }
 
 .intro-section p {
-    font-size: 1.1rem;
+    font-size: clamp(1rem, 2vw, 1.15rem);
     line-height: 1.8;
     color: #555;
     max-width: 800px;
@@ -290,35 +283,37 @@ header p {
 
 .info-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2.5rem;
     margin-bottom: 4rem;
 }
 
 .info-card {
     background-color: var(--color-blanco);
-    border-radius: 12px;
-    padding: 2rem;
-    box-shadow: 0 8px 15px rgba(0,0,0,0.05);
-    border-top: 5px solid var(--color-primario);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 16px;
+    padding: 2.5rem 2rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.04);
+    border-top: 6px solid var(--color-primario);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
 .info-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 25px rgba(0,0,0,0.1);
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
     border-top-color: var(--color-secundario);
 }
 
 .info-card h3 {
     color: var(--color-oscuro);
     margin-top: 0;
+    margin-bottom: 1rem;
     font-size: 1.4rem;
 }
 
 .info-card p {
     color: #666;
-    line-height: 1.6;
+    line-height: 1.7;
+    font-size: 1rem;
 }
 
 /* =========================================
@@ -327,45 +322,41 @@ header p {
 .location-section {
     background-color: var(--color-oscuro);
     color: var(--color-blanco);
-    padding: 4rem 1rem;
+    padding: clamp(3rem, 5vw, 5rem) 1.5rem;
     text-align: center;
-    border-top: 5px solid var(--color-primario);
+    border-top: 6px solid var(--color-primario-oscuro);
 }
 
 .location-section h2 {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
+    font-size: clamp(1.8rem, 3vw, 2.2rem);
+    margin-bottom: 1rem;
+    color: var(--color-blanco);
 }
 
 .location-section p {
-    color: #aaa;
-    margin-bottom: 2rem;
+    color: #b0b0b0;
+    margin-bottom: 2.5rem;
     font-size: 1.1rem;
 }
 
 .map-container {
     max-width: 900px;
     margin: 0 auto;
-    border-radius: 12px;
+    border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-    border: 3px solid rgba(255,255,255,0.1);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+    border: 1px solid rgba(255,255,255,0.05);
+    aspect-ratio: 16 / 9; 
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
 }
 
 /* =========================================
-   6. RESPONSIVE DESIGN
+   6. ESTILOS DEL RECORRIDO 360 E INTERACCIÓN
    ========================================= */
-@media (max-width: 768px) {
-    header h1 { font-size: 2.5rem; }
-    .carousel-container { height: 40vh; }
-    .carousel-btn { width: 40px; height: 40px; font-size: 1.2rem; }
-}
-
-/* =========================================
-   7. ESTILOS DEL RECORRIDO 360 E INTERACCIÓN
-   ========================================= */
-   
-/* Contenedor a pantalla completa oculto inicialmente */
 #contenedor-360 {
     display: none; 
     position: fixed;
@@ -377,60 +368,211 @@ header p {
     background-color: #000;
 }
 
-/* El panorama debe ocupar todo el contenedor */
-#panorama {
-    width: 100%;
-    height: 100%;
-}
-
-/* Botón flotante para cerrar el visor */
 #btn-cerrar-360 {
     position: absolute;
     top: 20px;
     right: 20px;
     z-index: 10000;
-    padding: 10px 20px;
-    background-color: #c0392b; /* Rojo elegante */
+    padding: 12px 24px;
+    background-color: rgba(193, 122, 77, 0.9); 
+    backdrop-filter: blur(5px);
     color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 1rem;
-    font-weight: bold;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
-    transition: transform 0.2s;
-}
-
-#btn-cerrar-360:hover {
-    transform: scale(1.05);
-    background-color: #e74c3c;
-}
-
-/* Caja de diseño donde vive el botón de iniciar */
-.seccion-llamada-360 {
-    text-align: center;
-    padding: 4rem 1rem;
-    background-color: rgba(74, 93, 35, 0.1); /* Verde olivo muy claro usando tu color primario */
-    border-radius: 12px;
-    margin-bottom: 4rem;
-}
-
-/* Diseño del botón para abrir el visor */
-.btn-primario {
-    background-color: var(--color-primario);
-    color: white;
-    padding: 15px 40px;
-    font-size: 1.2rem;
     border: none;
     border-radius: 30px;
     cursor: pointer;
-    font-weight: bold;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    font-size: 1rem;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
     transition: all 0.3s ease;
-    margin-top: 1rem;
+}
+
+#btn-cerrar-360:hover {
+    background-color: var(--color-secundario);
+    transform: scale(1.05);
+}
+
+.seccion-llamada-360 {
+    text-align: center;
+    padding: clamp(3rem, 5vw, 5rem) 1.5rem;
+    background: linear-gradient(135deg, rgba(74, 93, 35, 0.05) 0%, rgba(193, 122, 77, 0.05) 100%);
+    border-radius: 20px;
+    border: 1px solid rgba(74, 93, 35, 0.1);
+    margin-bottom: 2rem;
+}
+
+.btn-primario {
+    background-color: var(--color-primario);
+    color: white;
+    padding: 16px 45px;
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow: 0 8px 20px rgba(74, 93, 35, 0.3);
+    transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+    margin-top: 1.5rem;
+    display: inline-block;
 }
 
 .btn-primario:hover {
-    background-color: var(--color-secundario);
-    transform: translateY(-3px);
+    background-color: var(--color-primario-oscuro);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 25px rgba(74, 93, 35, 0.4);
+}
+
+/* =========================================
+   7. MEDIA QUERIES (AJUSTES ESPECÍFICOS MÓVIL)
+   ========================================= */
+@media (max-width: 768px) {
+    .carousel-btn { 
+        width: 40px; 
+        height: 40px; 
+        font-size: 1.2rem; 
+    }
+    .prev { left: 10px; }
+    .next { right: 10px; }
+    
+    .map-container {
+        aspect-ratio: 4 / 3;
+    }
+    
+    #btn-cerrar-360 {
+        top: 15px;
+        right: 15px;
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    /* --- AJUSTE CELULAR (TARJETAS REDUCIDAS PARA ADAPTARSE) --- */
+    .tarjeta-museo {
+        width: 85vw !important;
+        max-width: 320px !important; 
+    }
+    
+    .tarjeta-info {
+        padding: 15px !important;
+        max-height: 150px !important; /* El scroll se activa más pronto en móvil */
+    }
+    
+    .tarjeta-info h3 {
+        font-size: 1.1rem !important; /* Regresa a un tamaño legible en móvil */
+        margin-bottom: 10px !important;
+    }
+    
+    .tarjeta-info p {
+        font-size: 0.9rem !important; /* Texto más compacto en móvil */
+        line-height: 1.4 !important;
+        column-count: 1 !important; /* Desactiva las 2 columnas en pantallas pequeñas */
+    }
+}
+
+@media (max-width: 480px) {
+    .info-card {
+        padding: 2rem 1.5rem; 
+    }
+}
+
+/* =========================================
+   8. MODAL PARA IMÁGENES AMPLIADAS (LIGHTBOX)
+   ========================================= */
+.modal-overlay {
+    display: none; /* Oculto por defecto */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.85); /* Fondo oscuro semitransparente */
+    z-index: 100000; /* Por encima del visor 360 */
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* Clase que inyectaremos con JS para mostrarlo */
+.modal-overlay.activo {
+    display: flex;
+    opacity: 1;
+}
+
+.modal-contenido {
+    position: relative;
+    max-width: 85vw; /* En PC deja un buen margen alrededor */
+    max-height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-contenido img {
+    max-width: 100%;
+    max-height: 85vh;
+    object-fit: contain; /* Evita que la foto se deforme o recorte */
+    border-radius: 8px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.8);
+    border: 2px solid var(--color-dorado-museo);
+}
+
+.btn-cerrar-modal {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    background-color: var(--color-primario-oscuro);
+    color: var(--color-dorado-museo);
+    border: 2px solid var(--color-dorado-museo);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease;
+}
+
+.btn-cerrar-modal:hover {
+    transform: scale(1.1);
+}
+
+/* Ajuste específico para que en celular no se vea apretado */
+@media (max-width: 768px) {
+    .modal-contenido {
+        max-width: 92vw; 
+        max-height: 90vh;
+    }
+    .btn-cerrar-modal {
+        top: -15px;
+        right: -10px;
+        width: 35px;
+        height: 35px;
+        font-size: 1.2rem;
+    }
+}
+/* =========================================
+   9. CORRECCIÓN TÁCTIL PARA CELULARES (FAT FINGER FIX)
+   ========================================= */
+
+/* Elimina el retraso de 300ms de los navegadores móviles al tocar */
+#panorama {
+    touch-action: manipulation !important; 
+}
+
+/* Creamos un "campo de fuerza" invisible alrededor del icono para atrapar los dedos */
+@media (max-width: 768px) {
+    .pnlm-hotspot-base::before {
+        content: "";
+        position: absolute;
+        /* Esto hace que el área tocable se expanda 15px en todas las direcciones */
+        top: -15px;
+        bottom: -15px;
+        left: -15px;
+        right: -15px;
+        border-radius: 50%;
+        /* z-index asegura que el toque lo reciba esta capa invisible */
+        z-index: 10; 
+    }
 }
