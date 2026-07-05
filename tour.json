@@ -1,6 +1,6 @@
 {
   "default": {
-    "firstScene": "imagen2",
+    "firstScene": "imagen17",
     "sceneFadeDuration": 1000,
     "autoLoad": true
   },
@@ -364,6 +364,427 @@
           "type": "scene",
           "text": "Regresar al pasillo",
           "sceneId": "imagen16"
+        },
+        {
+          "pitch": -10.5,
+          "yaw": -0.4,
+          "type": "scene",
+          "text": "Avanzar a la sala 1. Los dones de la Tierra: Hacedores de vida",
+          "sceneId": "imagen18"
+        },
+        {
+          "pitch": -9.4,
+          "yaw": -62.9,
+          "type": "scene",
+          "text": "Avanzar a la sala 2. Hombres guerreros, hombres sacerdotes",
+          "sceneId": "imagen21"
+        },
+        {
+          "pitch": -6.8,
+          "yaw": -121.0,
+          "type": "scene",
+          "text": "Avanzar a la sala 3. Resguardo de los hombres",
+          "sceneId": "imagen24"
+        },
+        {
+          "pitch": -18.8,
+          "yaw": 179.0,
+          "type": "scene",
+          "text": "Avanzar por el pasillo",
+          "sceneId": "imagen27"
+        }
+      ]
+    },
+    "imagen18": {
+      "title": "sala 1",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/18.webp",
+      "hotSpots": [
+        {
+          "pitch": -10.0,
+          "yaw": 179.8,
+          "type": "scene",
+          "text": "Regresar al pasillo",
+          "sceneId": "imagen17"
+        },
+        {
+          "pitch": -8.7,
+          "yaw": 30.8,
+          "type": "scene",
+          "text": "Avanzar por la sala 1",
+          "sceneId": "imagen19"
+        },
+        {
+          "pitch": -10.0,
+          "yaw": -30.8,
+          "type": "scene",
+          "text": "Avanzar por la sala 1",
+          "sceneId": "imagen20"
+        }
+      ]
+    },
+    "imagen19": {
+      "title": "sala 1",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/19.webp",
+      "hotSpots": [
+        {
+          "pitch": -10.0,
+          "yaw": 179.8,
+          "type": "scene",
+          "text": "Regresar por el pasillo",
+          "sceneId": "imagen18"
+        },
+        {
+          "pitch": -16.0,
+          "yaw": -112.8,
+          "type": "scene",
+          "text": "Avanzar por el pasillo",
+          "sceneId": "imagen20"
+        }
+      ]
+    },
+    "imagen20": {
+      "title": "sala 1",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/20.webp",
+      "hotSpots": [
+        {
+          "pitch": -10.0,
+          "yaw": 90.8,
+          "type": "scene",
+          "text": "Regresar al pasillo",
+          "sceneId": "imagen19"
+        },
+        {
+          "pitch": -11.0,
+          "yaw": 160.8,
+          "type": "scene",
+          "text": "Avanzar por la sala",
+          "sceneId": "imagen18"
+        }
+      ]
+    },
+    "imagen21": {
+      "title": "sala 1",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/21.webp",
+      "hotSpots": [
+        {
+          "pitch": -18.0,
+          "yaw": 153.8,
+          "type": "scene",
+          "text": "Regresar al pasillo",
+          "sceneId": "imagen17"
+        },
+        {
+          "pitch": -6.8,
+          "yaw": 2.6,
+          "type": "scene",
+          "text": "Avanzar por la sala",
+          "sceneId": "imagen22"
+        },
+        {
+          "pitch": -5.6,
+          "yaw": -60.8,
+          "type": "scene",
+          "text": "Avanzar por la sala",
+          "sceneId": "imagen23"
+        }
+      ]
+    },
+    "imagen22": {
+      "title": "sala 1",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/22.webp",
+      "hotSpots": [
+        {
+          "pitch": -5.7,
+          "yaw": -90,
+          "type": "scene",
+          "text": "Regresar al pasillo",
+          "sceneId": "imagen21"
+        },
+        {
+          "pitch": -10.0,
+          "yaw": -15.8,
+          "type": "scene",
+          "text": "Avanzar por la sala",
+          "sceneId": "imagen23"
+        }
+      ]
+    },
+    "imagen23": {
+      "title": "sala 1",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/23.webp",
+      "hotSpots": [
+        {
+          "pitch": -10.0,
+          "yaw": -60.8,
+          "type": "scene",
+          "text": "Regresar al pasillo",
+          "sceneId": "imagen22"
+        },
+        {
+          "pitch": -10.0,
+          "yaw": 10.8,
+          "type": "scene",
+          "text": "Regresar por la sala",
+          "sceneId": "imagen21"
+        }
+      ]
+    },
+    "imagen24": {
+      "title": "sala 1",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/24.webp",
+      "hotSpots": [
+        {
+          "pitch": -11.0,
+          "yaw": -60.8,
+          "type": "scene",
+          "text": "Regresar al pasillo principal",
+          "sceneId": "imagen17"
+        },
+        {
+          "pitch": -16.0,
+          "yaw": 145.8,
+          "type": "scene",
+          "text": "Avanzar por la sala",
+          "sceneId": "imagen25"
+        },
+        {
+          "pitch": -16.0,
+          "yaw": 90.8,
+          "type": "scene",
+          "text": "Avanzar por la sala",
+          "sceneId": "imagen26"
+        }
+      ]
+    },
+    "imagen25": {
+      "title": "sala 1",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/25.webp",
+      "hotSpots": [
+        {
+          "pitch": -10.0,
+          "yaw": -60.8,
+          "type": "scene",
+          "text": "Regresar por la sala",
+          "sceneId": "imagen24"
+        },
+        {
+          "pitch": -15.0,
+          "yaw": 10.8,
+          "type": "scene",
+          "text": "Avanzar por la sala",
+          "sceneId": "imagen26"
+        }
+      ]
+    },
+    "imagen26": {
+      "title": "sala 1",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/26.webp",
+      "hotSpots": [
+        {
+          "pitch": -10.0,
+          "yaw": -55.8,
+          "type": "scene",
+          "text": "Regresar por la sala",
+          "sceneId": "imagen25"
+        },
+        {
+          "pitch": -10.0,
+          "yaw": 10.8,
+          "type": "scene",
+          "text": "Regresar por la sala",
+          "sceneId": "imagen24"
+        }
+      ]
+    },
+    "imagen27": {
+      "title": "sala 1",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/27.webp",
+      "hotSpots": [
+        {
+          "pitch": -10.0,
+          "yaw": 140.8,
+          "type": "scene",
+          "text": "Regresar al pasillo",
+          "sceneId": "imagen17"
+        },
+        {
+          "pitch": -10.0,
+          "yaw": -40.8,
+          "type": "scene",
+          "text": "Avanzar por el pasillo",
+          "sceneId": "imagen28"
+        }
+      ]
+    },
+    "imagen28": {
+      "title": "pasillo",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/28.webp",
+      "hotSpots": [
+        {
+          "pitch": -4.0,
+          "yaw": -104.8,
+          "type": "scene",
+          "text": "Regresar al pasillo",
+          "sceneId": "imagen27"
+        },
+        {
+          "pitch": -10.0,
+          "yaw": 1.8,
+          "type": "scene",
+          "text": "Avanzar a la sala 5. Los rituales del juego",
+          "sceneId": "imagen29"
+        },
+        {
+          "pitch": -10.0,
+          "yaw": -50.8,
+          "type": "scene",
+          "text": "Avanzar a la sala 4. Manos creadoras, delicados artistas",
+          "sceneId": "imagen32"
+        },
+        {
+          "pitch": -10.0,
+          "yaw": -189.8,
+          "type": "scene",
+          "text": "Avanzar a la salida",
+          "sceneId": "imagen33"
+        }
+      ]
+    },
+    "imagen29": {
+      "title": "sala 5",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/29.webp",
+      "hotSpots": [
+        {
+          "pitch": -10.0,
+          "yaw": -190.8,
+          "type": "scene",
+          "text": "Regresar al pasillo principal",
+          "sceneId": "imagen28"
+        },
+        {
+          "pitch": -20.0,
+          "yaw": 15.8,
+          "type": "scene",
+          "text": "Avanzar por la sala",
+          "sceneId": "imagen30"
+        },
+        {
+          "pitch": -20.0,
+          "yaw": -35.8,
+          "type": "scene",
+          "text": "Avanzar por la sala",
+          "sceneId": "imagen31"
+        }
+      ]
+    },
+    "imagen30": {
+      "title": "sala 4",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/30.webp",
+      "hotSpots": [
+        {
+          "pitch": -10.0,
+          "yaw": 140.8,
+          "type": "scene",
+          "text": "Regresar por la sala",
+          "sceneId": "imagen29"
+        },
+        {
+          "pitch": -10.0,
+          "yaw": -150.8,
+          "type": "scene",
+          "text": "Avanzar por la sala",
+          "sceneId": "imagen31"
+        }
+      ]
+    },
+    "imagen31": {
+      "title": "salida",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/31.webp",
+      "hotSpots": [
+        {
+          "pitch": -17.0,
+          "yaw": -125.8,
+          "type": "scene",
+          "text": "avanzar por la sala",
+          "sceneId": "imagen29"
+        },
+        {
+          "pitch": -10.0,
+          "yaw": 160.8,
+          "type": "scene",
+          "text": "regresar por la sala",
+          "sceneId": "imagen30"
+        }
+      ]
+    },
+    "imagen32": {
+      "title": "salida",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/32.webp",
+      "hotSpots": [
+        {
+          "pitch": -10.0,
+          "yaw": -10.8,
+          "type": "scene",
+          "text": "Regresar al pasillo principal",
+          "sceneId": "imagen28"
+        }
+      ]
+    }
+    ,
+    "imagen33": {
+      "title": "salida",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/33.webp",
+      "hotSpots": [
+        {
+          "pitch": -10.0,
+          "yaw": -90.8,
+          "type": "scene",
+          "text": "Ingresar de vuelta al museo",
+          "sceneId": "imagen28"
+        },
+        {
+          "pitch": -10.0,
+          "yaw": -10.8,
+          "type": "scene",
+          "text": "Avanzar por fuera del museo",
+          "sceneId": "imagen34"
+        }
+      ]
+    },
+    "imagen34": {
+      "title": "salida",
+      "type": "equirectangular",
+      "panorama": "assets/panoramicaswebp/34.webp",
+      "hotSpots": [
+        {
+          "pitch": -10.0,
+          "yaw": -125.8,
+          "type": "scene",
+          "text": "Regresar al museo",
+          "sceneId": "imagen33"
+        },
+        {
+          "pitch": -10.0,
+          "yaw": 10.8,
+          "type": "scene",
+          "text": "Ingresar al museo",
+          "sceneId": "imagen10"
         }
       ]
     }
