@@ -1,6 +1,6 @@
 {
   "default": {
-    "firstScene": "imagen2",
+    "firstScene": "imagen29",
     "sceneFadeDuration": 1000,
     "autoLoad": true
   },
@@ -662,7 +662,7 @@
       ]
     },
     "imagen29": {
-      "title": "sala 5",
+      "title": "Sala 5 / Room 5, Los rituales del juego - World of Gods",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/29.webp",
       "hotSpots": [
@@ -677,15 +677,22 @@
           "pitch": -20.0,
           "yaw": 15.8,
           "type": "scene",
-          "text": "Avanzar por la sala",
+          "text": "Avanzar por la sala 5",
           "sceneId": "imagen30"
         },
         {
           "pitch": -20.0,
           "yaw": -35.8,
           "type": "scene",
-          "text": "Avanzar por la sala",
+          "text": "Avanzar por la sala 5",
           "sceneId": "imagen31"
+        },
+        {
+          "pitch": -18.0,
+          "yaw": 38.8,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Cosmología Xochicalca</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>La visión del cosmos de los xochicalcas está sintetizada en el aro del Juego de Pelota Este. Su forma señala la concepción cíclica del transcurso del tiempo. En la parte inferior hay dos guacamayas de cuyos picos penden <em>chalchihuites</em> y plumas, símbolos de su estridente parloteo. Ellas siguen una dirección este-oeste, figurando al sol en su movimiento del amanecer al atardecer.<br><br>En la parte superior está un murciélago con alas desplegadas y las patas flexionadas. Cada una de sus alas está decorada con dos huesos cruzados y una turquesa. Es un ser nocturno que expresa la noche y el frío.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Xochicalco Cosmology</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>The worldview of the people of Xochicalco is synthesized in the ring from the East Ballcourt. Its form shows the cyclic conception of the passage of time. In the lower part <em>chalchihuites</em> (greenstone beads) and feathers hang from the beaks of two macaws as a sign of their strident cries. They follow an east-west direction, representing the sun's movement from dawn to dusk.<br><br>In the upper part is a bat with outstretched wings and flexed legs. Each of its wings is decorated with two crossed bones and a sign for turquoise. It is a nocturnal being, a symbol of night and cold.</p> </div> </div> </div>",
+          "sceneId": "imagen30"
         }
       ]
     },
