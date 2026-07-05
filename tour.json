@@ -1,6 +1,6 @@
 {
   "default": {
-    "firstScene": "imagen2",
+    "firstScene": "imagen29",
     "sceneFadeDuration": 1000,
     "autoLoad": true
   },
@@ -25,7 +25,8 @@
           "pitch": -25,
           "yaw": -102,
           "type": "scene",
-          "text": "<div class='tarjeta-museo'><div class='tarjeta-info'><h3>Ir al pasillo de entrada</h3></div></div>"          "sceneId": "imagen2"
+          "text": "<div class='tarjeta-museo'><div class='tarjeta-info'><h3>Ir al pasillo de entrada</h3></div></div>",
+          "sceneId": "imagen2"
         },
         {
           "pitch": -8.2,
@@ -66,7 +67,7 @@
           "pitch": -5.4,
           "yaw": -57.3,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/tvazteca.webp' alt='Pieza' tabindex='0'><div class='tarjeta-info'><h3>Xochicalco</h3><p>Escribe aquí la descripción o información sobre esta vista de Xochicalco.</p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/tvazteca.webp' alt='Pieza' tabindex='0'></div>"
         },
         {
           "pitch": -4.4,
@@ -135,8 +136,7 @@
           "pitch": -1.1,
           "yaw": -108,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/datos.webp' alt='Pieza' tabindex='0'></div>"
-
+          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/datos.webp' alt='Pieza' tabindex='0' style='width: 400px;'></div>"
         },
         {
           "pitch": -11.1,
@@ -576,11 +576,8 @@
           "pitch": 2.4,
           "yaw": -138.3,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/LETRERO-1.webp' alt='Descripción'><div class='tarjeta-info'><h3>Título de tu pieza</h3><p>Aquí puedes poner todo el texto descriptivo que necesites mostrar.</p></div></div>"
+          "text": "<div class='tarjeta-museo' style='width: 500px; max-width: 90vw; pointer-events: auto;'> <img src='assets/panoramicaswebp/sala3/LETRERO-1.webp' alt='Descripción' tabindex='0' style='width: 100%; display: block; border-radius: 8px;'> <div class='tarjeta-info' style='width: 100%; margin-top: 10px; padding: 15px;'> <h3>Título de tu pieza</h3> </div> </div>"
         },
-
-        
-
         {
           "pitch": -16.0,
           "yaw": 145.8,
@@ -725,8 +722,7 @@
           "pitch": -18.0,
           "yaw": 38.8,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Cosmología Xochicalca</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>La visión del cosmos de los xochicalcas está sintetizada en el aro del Juego de Pelota Este. Su forma señala la concepción cíclica del transcurso del tiempo. En la parte inferior hay dos guacamayas de cuyos picos penden <em>chalchihuites</em> y plumas, símbolos de su estridente parloteo. Ellas siguen una dirección este-oeste, figurando al sol en su movimiento del amanecer al atardecer.<br><br>En la parte superior está un murciélago con alas desplegadas y las patas flexionadas. Cada una de sus alas está decorada con dos huesos cruzados y una turquesa. Es un ser nocturno que expresa la noche y el frío.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Xochicalco Cosmology</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>The worldview of the people of Xochicalco is synthesized in the ring from the East Ballcourt. Its form shows the cyclic conception of the passage of time. In the lower part <em>chalchihuites</em> (greenstone beads) and feathers hang from the beaks of two macaws as a sign of their strident cries. They follow an east-west direction, representing the sun's movement from dawn to dusk.<br><br>In the upper part is a bat with outstretched wings and flexed legs. Each of its wings is decorated with two crossed bones and a sign for turquoise. It is a nocturnal being, a symbol of night and cold.</p> </div> </div> </div>",
-          "sceneId": "imagen30"
+          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Cosmología Xochicalca</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>La visión del cosmos de los xochicalcas está sintetizada en el aro del Juego de Pelota Este. Su forma señala la concepción cíclica del transcurso del tiempo. En la parte inferior hay dos guacamayas de cuyos picos penden <em>chalchihuites</em> y plumas, símbolos de su estridente parloteo. Ellas siguen una dirección este-oeste, figurando al sol en su movimiento del amanecer al atardecer.<br><br>En la parte superior está un murciélago con alas desplegadas y las patas flexionadas. Cada una de sus alas está decorada con dos huesos cruzados y una turquesa. Es un ser nocturno que expresa la noche y el frío.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Xochicalco Cosmology</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>The worldview of the people of Xochicalco is synthesized in the ring from the East Ballcourt. Its form shows the cyclic conception of the passage of time. In the lower part <em>chalchihuites</em> (greenstone beads) and feathers hang from the beaks of two macaws as a sign of their strident cries. They follow an east-west direction, representing the sun's movement from dawn to dusk.<br><br>In the upper part is a bat with outstretched wings and flexed legs. Each of its wings is decorated with two crossed bones and a sign for turquoise. It is a nocturnal being, a symbol of night and cold.</p> </div> </div> </div>"
         }
       ]
     },
