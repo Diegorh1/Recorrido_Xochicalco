@@ -1,6 +1,6 @@
 {
   "default": {
-    "firstScene": "imagen2",
+    "firstScene": "imagen32",
     "sceneFadeDuration": 1000,
     "autoLoad": true
 },
@@ -1344,6 +1344,120 @@
           "type": "scene",
           "text": "Regresar al pasillo principal",
           "sceneId": "imagen28"
+        },
+        {
+          "pitch": -5.6,
+          "yaw": -34.8,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <p><strong>ESPAÑOL</strong><br>Todos los incensarios que llevan la efigie de un felino, sin importar el tamaño son iguales. Esto se debió a que su producción fue tan controlada que los artesanos usaron moldes para elaborar la figura. Estos incensarios-efigie, junto con los danzantes con ramas floridas, fueron utilizados en los rituales; en ellos quemaron resinas aromáticas al mismo tiempo que oraban por una cosecha abundante, es decir, por la fertilidad de la tierra.<br><br><strong>ENGLISH</strong><br>All censers that bear the effigy of a feline, no matter what size, are the same. This was because their production was so strictly controlled that artisans used molds to make the figure. These effigy-incense burners, together with the dancers with flowering branches, were used in rituals; aromatic resins were burned in them at the same time that prayers were uttered for abundant harvests and the earth's fertility.</p> </div> </div>"
+        },
+        {
+          "pitch": -1.6,
+          "yaw": -32.8,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/IMAGENES DIEGO/img32/32_1.webP' alt='Descripción'><div class='tarjeta-info'><h3></h3><p></p></div></div>"
+        },
+        {
+          "pitch": -10.6,
+          "yaw": -20.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <p><strong>ESPAÑOL</strong><br>Esta excepcional escultura cerámica, única en Xochicalco, muestra la cabeza de un mamífero. Por la forma alargada de la cabeza, las orejas pequeñas y puntiagudas y la protuberancia sobre el hocico, al parecer se trata de la representación de una zorra. Los semicírculos que tienen a ambos lados de la cabeza quizá destaquen algún atributo físico del animal. Su forma, nada común, no da indicios de su función.<br><br><strong>ENGLISH</strong><br>This exceptional ceramic sculpture, unique in Xochicalco, shows the head of a mammal. The elongated shape of the head, the small, pointed ears, and the protuberance over the snout suggest it represents a fox. The semicircles on both sides of the head perhaps highlight one of the animal's physical attributes. Its highly unusual shape does not elucidate its function.</p> </div> </div>"
+        },
+        {
+          "pitch": -1.6,
+          "yaw": -19.5,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/IMAGENES DIEGO/img32/32_2.webP' alt='Descripción'><div class='tarjeta-info'><h3></h3><p></p></div></div>"
+        },
+        {
+          "pitch": -12.2,
+          "yaw": -47.2,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>Escultura de puma / Puma sculpture </h3> <p><strong>ESPAÑOL</strong><br>En la religión mesoamericana el puma, junto con el ocelote y el jaguar, está relacionado con la tierra. Su presencia se asocia con el culto a la fertilidad. El atributo que destaca es el moño alrededor del cuello, símbolo que indicaba el control que los sacerdotes creían que ejercía sobre la naturaleza. El pectoral es una insignia de alto rango, es decir, es el gato más grande entre los felinos.<br>Es una escultura ejecutada con gran maestría y existen otras de la misma forma y tamaño, ya que fueron manufacturadas con la ayuda de moldes, para su producción en serie.<br><br><strong>ENGLISH</strong><br>In Mesoamerican religion, the puma, along with the ocelot and jaguar, were related to the earth. Their presence was associated with the fertility cult. A noteworthy attribute is the bow on the neck, a symbol of the control that they believed priests exercised over nature. The pectoral is insignia of high rank, in other words, it is the most imposing animal in the feline family. It is a sculpture executed with great skill and there are others in the same size and shape, because they were made with molds to be mass produced.</p> </div> </div>"
+        },
+        {
+          "pitch": -2.2,
+          "yaw": -47.2,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/IMAGENES DIEGO/img32/32_3.webP' alt='Descripción'><div class='tarjeta-info'><h3>Escultura de puma / Puma sculpture </h3><p></p></div></div>"
+        },
+        {
+          "pitch": -6.0,
+          "yaw": -72.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>Cántaro con Rana / Vessel with Frog</h3> <p><strong>ESPAÑOL</strong><br>El cántaro fue una de las principales vasijas cerámicas utilizadas en la época anterior a la llegada de los españoles. La ligereza del barro, la forma alargada y sus tres asas, una de ellas más baja que las otras, permitió cargarla sin dificultad con el <em>mecapal</em>. Fue utilizada para transportar gran variedad de materias primas.<br>Una de sus principales funciones en Xochicalco fue la de acarrear agua desde el río Tembembe. En este caso adornaron el cántaro con una rana, animal que simboliza el agua.<br><br><strong>ENGLISH</strong><br>Pitchers were one of the principal forms of pottery used prior to the Spaniards' arrival. Their lightweight, elongated design with three lugs, one below the others, made it possible to carry them easily with a leather tumpline. They were used to transport a wide variety of raw materials. One of their main purposes in Xochicalco was to carry water from the Tembembe River. In this case they decorated the pitcher with a frog, a symbol of water.</p> </div> </div>"
+        },
+        {
+          "pitch": -2.2,
+          "yaw": -72.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/IMAGENES DIEGO/img32/32_4.webP' alt='Descripción'><div class='tarjeta-info'><h3>Cántaro con Rana / Vessel with Frog</h3> <p></p></div></div>"
+        },
+        {
+          "pitch": -8.2,
+          "yaw": -88.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <p><strong>ESPAÑOL</strong><br>Tinajas, ollas y cántaros de diferentes formas y tamaños. Las tinajas, imposibles de mover debido a su gran tamaño y peso, sirvieron principalmente para guardar granos, como maíz y frijol, aunque también depositaban agua en ellas. La función de las ollas variaba según su tamaño. Las más grandes servían para almacenar y las más pequeñas para cocinar. Los cántaros fueron perfectos para acarrear agua; además, como se les podía colgar del techo, no ocuparon gran espacio dentro de la casa.<br><br><strong>ENGLISH</strong><br>Basins, tall pots, and pitchers in different shapes and sizes. Basins, which were impossible to move because of their size and weight, served mainly to store grains, such as corn and beans, although they were also used for water storage. The function of pots varied depending on their size. The largest were for storage and the smallest for cooking. Pitchers were perfect for carrying water; they could also be hung from the ceiling, so they would not take up much space in the house.</p> </div> </div>"
+        },
+        {
+          "pitch": -4.2,
+          "yaw": -88.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/IMAGENES DIEGO/img32/32_5.webP' alt='Descripción'><div class='tarjeta-info'> <p></p></div></div>"
+        },
+        {
+          "pitch": -8.3,
+          "yaw": -110.2,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <p><strong>ESPAÑOL</strong><br>Los lapidarios alcanzaron el máximo desarrollo de la técnica lítica en el Epiclásico. Si bien la variedad de instrumentos fue limitada, ello no impedía a los artesanos desarrollar sus habilidades. Los cuchillos fueron utilizados por los sacerdotes en los sacrificios o como parte del armamento de los guerreros, junto con las puntas de lanza. Las navajillas, debido a su filo, fueron un arma cuando se las montaba en una macana; en cambio, en manos de un médico, realizaron cortes perfectos que ayudaron al enfermo a sanar.<br><br><strong>ENGLISH</strong><br>Lapidary stone artisans achieved the highest development of lithic techniques in the Epiclassic. Although the variety of tools was limited, this did not prevent artisans from developing their skill. Knives were used by priests in sacrifices or as weaponry for warriors, who also used spearheads. Sharp-edged blades were mounted on clubs as arms known as macanas; the same blades in the hands of physicians were used as cutting implements to cure the sick.</p> </div> </div>"
+        },
+        {
+          "pitch": -8.3,
+          "yaw": -120.2,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/IMAGENES DIEGO/img32/32_6.webP' alt='Descripción'><div class='tarjeta-info'> <p></p></div></div>"
+        },
+        {
+          "pitch": -12.3,
+          "yaw": -138.2,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'><p><strong>ESPAÑOL</strong><br>Con finas arenas y cordeles, pacientes manos pulieron máscaras y figurillas de todos tamaños y gran variedad de materias primas. Los lapidarios trabajaron el oscuro basalto de grano fino, duras piedras verdes, la pizarra de fractura laminar, el veteado asbesto, esquisto, caliza, por mencionar algunas de ellas.<br>En algunas figurillas llegaron a plasmar el tipo físico de la región, así como su vestimenta; otras fueron talladas con abstracciones de animales míticos.<br><br><strong>ENGLISH</strong><br>With fine-grained sand and cord, patient hands polished masks and figurines of all sizes made from a wide range of raw materials. Lapidary artisans worked the dense, dark basalt, hard greenstone, fractured slate sheets, mottled asbestos, schist, and limestone, to mention a few. Some figurines depicted the physical type of the region, as well as local attire; others were abstractly carved mythical animals.</p> </div> </div>"
+        },
+        {
+          "pitch": -12.3,
+          "yaw": -150.2,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/IMAGENES DIEGO/img32/32_7.webP' alt='Descripción'><div class='tarjeta-info'> <p></p></div></div>"
+        },
+        {
+          "pitch": -22.0,
+          "yaw": 170.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>Jaguares Descarnados / Fleshless Jaguars</h3> <p><strong>ESPAÑOL</strong><br>El principal atributo que distingue a un jaguar de otros felinos son las manchas oscuras que cubren su cuerpo. En estas esculturas, en las que el lapidario logró tallar con gran realismo la figura del jaguar, las manchas fueron representadas por roleos.<br>En su famélico cuerpo se ven costillas y vértebras. Al parecer, los jaguares están hambrientos. Asociados a la tierra, su esquelético cuerpo quizá simbolizaba la esterilidad de la misma, por lo que serían representaciones de épocas de escasez.<br><br><strong>ENGLISH</strong><br>The principal attribute that sets a jaguar apart from other felines are the dark spots covering its body. In these sculptures, in which the lapidary artisan carved the jaguar's figure with remarkable realism, the spots were represented as scrolls.<br>Their emaciated bodies display ribs and vertebrae. Apparently the jaguars are hungry. Associated with the earth, their skeletal bodies perhaps symbolized the barrenness of the land, so they might be allusions to famine and times of scarcity.</p> </div> </div>"
+        },
+        {
+          "pitch": -10.3,
+          "yaw": 49.2,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/IMAGENES DIEGO/img32/32_8.webP' alt='Descripción'><div class='tarjeta-info'> <p> </p></div></div>"
+        },
+        {
+          "pitch": -15.3,
+          "yaw": 51.2,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <p><strong>ESPAÑOL</strong><br>Los machacadores de papel y la abundancia del amate en el territorio de Xochicalco, permitieron la especialización en la producción de papel. Peleteros y tejedores utilizaron punzones de hueso. El tamaño es evidencia del desgaste por el uso continuo. Hachas de garganta, hachuelas y formones fueron parte del arreo de los carpinteros y escultores que trabajaban la madera. Estos utensilios los usaron para cortar troncos, descortezarlos y rebajar la madera hasta obtener la forma deseada. El acabado final lo lograron frotando con fibras vegetales, cueros y arenas finas.<br><br><strong>ENGLISH</strong><br>Artisans who mashed paper pulp and the abundance of bark paper in the Xochicalco region made specialization in papermaking possible. Hide workers and weavers wielded bone awls. Size attests to wear from continuous use. Grooved stone axe heads, hatchets, and chisels were part of the gear of carpenters and sculptors who carved wood. They used these utensils to cut trunks, remove bark, and to plane wood into the desired shape. Then they rubbed it with plant fibers, skins, and fine-grained sand to produce the final finish.</p> </div> </div>"
+        },
+        {
+          "pitch": -1.9,
+          "yaw": 10.2,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/IMAGENES DIEGO/img32/32_9.webP' alt='Descripción'><div class='tarjeta-info'> <p> </p></div></div>"
+        },
+        {
+          "pitch": -7.0,
+          "yaw": 10.2,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <p><strong>ESPAÑOL</strong><br>Como los grandes pintores, los maestros xochicalcas conocían el proceso técnico relacionado con la pintura mural. Ellos trabajaron las materias primas para conseguir sus materiales; así, pulverizaron y mezclaron los pigmentos hasta obtener los tonos deseados; también apagaron cal y la dejaron reposar el tiempo necesario para que, al aplicar sus pinturas sobre el aplanado, hecho con esa misma cal y arena, los colores se conservaran. Aunque controlados por los sacerdotes, que dictaban los cánones a seguir, la pintura fue producto del artista.<br><br><strong>ENGLISH</strong><br>Just as great painters, Xochicalco master craftsmen were familiar with the technical process for mural painting. They worked raw materials, pulverizing and mixing pigments to produce the tones they needed. They also slaked lime and let it age so when they applied paint to plaster surfaces made from this same lime combined with sand, the colors would be preserved. Although overseen by priests who dictated the canons to be followed, the final painting was the artist's creation.</p> </div> </div>"
         }
       ]
     }
