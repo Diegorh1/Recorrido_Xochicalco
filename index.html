@@ -1,442 +1,379 @@
 <!DOCTYPE html>
-
 <html lang="es">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Xochicalco - Recorrido Virtual e Información</title>
-
    
-
-    <!-- CSS de Pannellum -->
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.7/build/pannellum.css"/>
-
    
+    <!-- Versión 3.0 para forzar la limpieza de caché en GitHub Pages -->
+    <link rel="stylesheet" href="css/style.css?v=3.0">
 
-    <!-- Tu archivo de estilos -->
+    <!-- Estilos del botón flotante integrados -->
+    <style>
+        .btn-flotante {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            background-color: #d1a13b; /* Dorado */
+            color: #fff;
+            border: none;
+            padding: 12px 24px;
+            font-size: 1rem;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
 
-    <link rel="stylesheet" href="css/style.css?v=1.1">
+        .btn-flotante:hover {
+            background-color: #b5892f;
+            transform: scale(1.05);
+        }
 
+        @media (max-width: 768px) {
+            .btn-flotante {
+                top: 15px;
+                right: 15px;
+                padding: 10px 16px;
+                font-size: 0.85rem;
+                box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+            }
+        }
+    </style>
 </head>
-
 <body>
-
-
-
-    <!-- ========================================== -->
-
-    <!-- CONTENIDO PRINCIPAL DEL SITIO WEB          -->
-
-    <!-- ========================================== -->
-
     <div id="sitio-web">
-
-       
-
-        <!-- 1. TÍTULO / HEADER -->
-
+        
         <header>
-
-            <h1>Xochicalco</h1>
-
-            <p>La Casa de las Flores. Un viaje a uno de los centros urbanos más fascinantes del periodo Epiclásico mesoamericano.</p>
-
+            <h1>Museo de Sitio de Xochicalco</h1>
+            <p>El espacio que resguarda y exhibe el patrimonio cultural que los Xochicalcas nos dejaron como legado de su grandeza cultural.</p>
         </header>
 
-
-
-        <!-- 2. CARRUSEL -->
-
         <section class="carousel-container" id="contenido-principal">
-
             <div class="carousel-track" id="track">
-
-                <img src="assets/panoramicaswebp/museo1.webP" alt="Museo Xochicalco" class="carousel-slide">
-
-                <img src="assets/panoramicaswebp/piramide1.webP" alt="Pirámide Xochicalco" class="carousel-slide">
-
-                <img src="assets/panoramicaswebp/museo2.webP" alt="Interiores Museo" class="carousel-slide">
-
-                <img src="assets/panoramicaswebp/piramide2.webP" alt="Interiores Museo" class="carousel-slide">
-
+                <img src="https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/107.webP" alt="Museo Xochicalco" class="carousel-slide">
+                <img src="https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/107.webP" alt="Pirámide Xochicalco" class="carousel-slide">
+                <img src="https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/108.webP" alt="Interiores Museo" class="carousel-slide">
+                <img src="https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/109.webP" alt="Interiores Museo" class="carousel-slide">
             </div>
-
            
-
             <button class="carousel-btn prev" id="btn-prev">❮</button>
-
             <button class="carousel-btn next" id="btn-next">❯</button>
-
            
-
             <div class="carousel-dots">
-
                 <span class="dot activo" data-index="0"></span>
-
                 <span class="dot" data-index="1"></span>
-
                 <span class="dot" data-index="2"></span>
-
                 <span class="dot" data-index="3"></span>
-
-
-
             </div>
-
         </section>
 
-
-
-        <!-- 3. INFORMACIÓN -->
-
         <div class="container">
-
             <section class="intro-section">
-
-                <h2>Patrimonio de la Humanidad</h2>
-
-                <p>Ubicada en el estado de Morelos, la zona arqueológica de <strong>Xochicalco</strong> es un testimonio excepcional de la reorganización política y cultural de Mesoamérica tras la caída de Teotihuacán. Su diseño urbano sobre terrazas artificiales demuestra un nivel avanzado de ingeniería y planeación.</p>
-
+                <h2>Zona de Monumentos Arqueológicos de Xochicalco</h2>
+                <p>Sitio arqueológico mexicano que forma parte del patrimonio mundial desde <strong>1999</strong>. Sus valores patrimoniales se pueden apreciar tanto en la zona arqueológica abierta al público como en su museo ecológico.</p>
             </section>
-
-
 
             <section class="info-grid">
-
                 <div class="info-card">
-
                     <h3>🐍 Templo de la Serpiente Emplumada</h3>
-
                     <p>La estructura más emblemática del sitio. Sus relieves esculpidos muestran deidades sentadas rodeadas de majestuosas serpientes emplumadas, representando una profunda mezcla de culturas mayas, zapotecas y nahuas.</p>
-
                 </div>
-
                 <div class="info-card">
-
-                    <h3>🔭 Observatorio Astronómico</h3>
-
-                    <p>Una cueva subterránea modificada artificialmente. Durante el solsticio de verano, un haz de luz solar penetra a través de una chimenea natural, proyectándose en el suelo del lugar de forma espectacular.</p>
-
+                    <h3>Calendario de Horizonte</h3>
+                    <p>Xochicalco es de los pocos lugares prehispánicos en donde contaban el paso del sol durante todo el año mediante un basamento piramidal con precisión impresionante marcando principalmente los equinoccios y los solsticios.</p>
                 </div>
-
                 <div class="info-card">
-
-                    <h3>⚽ Juegos de Pelota</h3>
-
+                    <h3>⚫ Juego de Pelota</h3>
                     <p>Xochicalco cuenta con al menos tres canchas para el tradicional juego de pelota mesoamericano, evidencia de la gran importancia ritual y social de esta práctica en la ciudad fortificada.</p>
-
                 </div>
-
             </section>
-
-
-
-            <!-- 4. BOTÓN DEL RECORRIDO 360 (EN MEDIO) -->
 
             <section class="seccion-llamada-360">
-
-                <h2>Explora la Zona Arqueológica</h2>
-
-                <p>Sumérgete en el sitio como si estuvieras ahí mismo con nuestra experiencia inmersiva.</p>
-
+                <h2>Explora el Museo de Sitio de <strong>Xochicalco.</strong></h2>
+                <p>Adentrate en el recorrido virtual del museo como si estuvieras ahí mismo con esta experiencia inmersiva</p>
                 <button id="btn-abrir-360" class="btn-primario">👀 Iniciar Recorrido Virtual 360°</button>
-
             </section>
-
         </div>
 
-
-
-        <!-- 5. UBICACIÓN / FOOTER -->
-
         <footer class="location-section">
-
             <h2>Ubicación del Sitio</h2>
-
-            <p>Miacatlán, Morelos, México.</p>
-
+            <p>Temixco, Morelos, México.</p>
             <div class="map-container">
-
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15106.669865612344!2d-99.3082539!3d18.8048255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdd6279fcfd2b1%3A0xf6f0f9b37c093a!2sZona%20Arqueol%C3%B3gica%20de%20Xochicalco!5e0!3m2!1ses-419!2smx!4v1700000000000" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
             </div>
-
         </footer>
 
-
-
-    </div> <!-- FIN SITO WEB -->
-
-
-
-    <!-- ========================================== -->
-
-    <!-- CONTENEDOR DEL RECORRIDO 360 (OCULTO)      -->
-
-    <!-- ========================================== -->
-
-    <div id="contenedor-360">
-
-        <button id="btn-cerrar-360">✖ Cerrar Recorrido</button>
-
+    </div> 
+    
+    <div id="contenedor-360" style="display: none;">
+        <div class="controles-superiores">
+            <button id="btn-cerrar-360" class="btn-control">✖ Cerrar Recorrido</button>
+            <button id="btn-abrir-mapa" class="btn-control">🗺️ Abrir Mapa</button>
+            <button id="btn-vr-interno" class="btn-control" onclick="goToVR()" style="background: #00d2ff; color: #000; font-weight: bold; border: none;">🥽 Modo VR</button>
+        </div>
+        
         <div id="panorama"></div>
-
     </div>
 
-
-
-    <!-- ========================================== -->
-
-    <!-- SCRIPTS                                    -->
-
-    <!-- ========================================== -->
-
-   
-
-    <!-- Librería Pannellum -->
-
+    <!-- Script de Pannellum -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.7/build/pannellum.js"></script>
 
-
-
-    <!-- LÓGICA DEL RECORRIDO 360° -->
-
+    <!-- SCRIPT PRINCIPAL: MAPA, VISOR Y PINES ACTIVOS -->
     <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            let visorIniciado = false;
+            let miVisor;
+            let datosRecorrido = null;
 
-        let visorIniciado = false;
+            const btnAbrir = document.getElementById('btn-abrir-360');
+            const btnCerrar = document.getElementById('btn-cerrar-360');
+            const sitioWeb = document.getElementById('sitio-web');
+            const contenedor360 = document.getElementById('contenedor-360');
 
-
-
-        const btnAbrir = document.getElementById('btn-abrir-360');
-
-        const btnCerrar = document.getElementById('btn-cerrar-360');
-
-        const sitioWeb = document.getElementById('sitio-web');
-
-        const contenedor360 = document.getElementById('contenedor-360');
-
-
-
-        btnAbrir.addEventListener('click', function() {
-
-            sitioWeb.style.display = 'none';
-
-            contenedor360.style.display = 'block';
-
-
-
-            if (!visorIniciado) {
-
-                fetch('tour.json')
-
-                    .then(respuesta => respuesta.json())
-
-                    .then(datos => {
-
-                        const miVisor = pannellum.viewer('panorama', datos);
-
-
-
-                        miVisor.on('mousedown', function(event) {
-
-                            const pitch = miVisor.getPitch();
-
-                            const yaw = miVisor.getYaw();
-
-                            console.log(`"pitch": ${pitch.toFixed(1)},`);
-
-                            console.log(`"yaw": ${yaw.toFixed(1)},`);
-
-                            console.log("-----------------------");
-
-                        });
-
-                       
-
-                        visorIniciado = true;
-
-                    })
-
-                    .catch(error => {
-
-                        console.error("¡Atención! El archivo tour.json tiene un error:", error);
-
-                    });
-
+            function actualizarPinMapa(escenaId) {
+                document.querySelectorAll('.pin-mapa').forEach(pin => {
+                    pin.classList.remove('pin-activo');
+                    const escenasAsignadas = pin.getAttribute('data-escenas');
+                    if (escenasAsignadas) {
+                        const lista = escenasAsignadas.split(',');
+                        if (lista.includes(escenaId)) {
+                            pin.classList.add('pin-activo');
+                        }
+                    }
+                });
             }
 
-        });
+            function actualizarTituloCustom(escenaId) {
+                const tituloDiv = document.getElementById('titulo-escena-custom');
+                if (!tituloDiv) return;
+                let titulo = "";
 
+                if (datosRecorrido) {
+                    if (datosRecorrido.default && datosRecorrido.scenes && datosRecorrido.scenes[escenaId]) {
+                        titulo = datosRecorrido.scenes[escenaId].title;
+                    } else if (datosRecorrido[escenaId]) {
+                        titulo = datosRecorrido[escenaId].title;
+                    }
+                }
 
+                if (titulo) {
+                    tituloDiv.innerText = titulo;
+                    tituloDiv.style.display = 'block';
+                } else {
+                    tituloDiv.style.display = 'none';
+                }
+            }
 
-        btnCerrar.addEventListener('click', function() {
+            btnAbrir.addEventListener('click', function() {
+                sitioWeb.style.display = 'none';
+                contenedor360.style.display = 'block';
 
-            contenedor360.style.display = 'none';
+                if (!visorIniciado) {
+                    fetch('tour.json')
+                        .then(respuesta => respuesta.json())
+                        .then(datos => {
+                            datosRecorrido = datos;
+                            miVisor = pannellum.viewer('panorama', datos);
+                            
+                            miVisor.on('mousedown', function(event) {
+                                const pitch = miVisor.getPitch();
+                                const yaw = miVisor.getYaw();
+                                console.log(`"pitch": ${pitch.toFixed(1)},`);
+                                console.log(`"yaw": ${yaw.toFixed(1)},`);
+                                console.log("-----------------------");
+                            });
 
-            sitioWeb.style.display = 'block';
+                            miVisor.on('load', function() {
+                                const escenaActual = miVisor.getScene();
+                                actualizarPinMapa(escenaActual);
+                                actualizarTituloCustom(escenaActual);
+                            });
 
-        });
+                            miVisor.on('scenechange', function(escenaId) {
+                                actualizarPinMapa(escenaId);
+                                actualizarTituloCustom(escenaId);
+                            });
 
-    </script>
+                            visorIniciado = true;
 
-
-
-    <!-- LÓGICA DEL CARRUSEL -->
-
-    <script>
-
-        const track = document.getElementById('track');
-
-        const dots = document.querySelectorAll('.dot');
-
-        const slides = document.querySelectorAll('.carousel-slide');
-
-        let indexCarrusel = 0;
-
-        let carruselInterval;
-
-
-
-        function moverCarrusel(nuevoIndex) {
-
-            indexCarrusel = nuevoIndex;
-
-            if (indexCarrusel < 0) indexCarrusel = slides.length - 1;
-
-            if (indexCarrusel >= slides.length) indexCarrusel = 0;
-
-           
-
-            track.style.transform = `translateX(-${indexCarrusel * 100}%)`;
-
-           
-
-            dots.forEach(dot => dot.classList.remove('activo'));
-
-            dots[indexCarrusel].classList.add('activo');
-
-        }
-
-
-
-        function iniciarAutoplay() {
-
-            carruselInterval = setInterval(() => moverCarrusel(indexCarrusel + 1), 5000);
-
-        }
-
-
-
-        function reiniciarAutoplay() {
-
-            clearInterval(carruselInterval);
-
-            iniciarAutoplay();
-
-        }
-
-
-
-        document.getElementById('btn-next').addEventListener('click', () => {
-
-            moverCarrusel(indexCarrusel + 1);
-
-            reiniciarAutoplay();
-
-        });
-
-
-
-        document.getElementById('btn-prev').addEventListener('click', () => {
-
-            moverCarrusel(indexCarrusel - 1);
-
-            reiniciarAutoplay();
-
-        });
-
-
-
-        dots.forEach((dot, i) => {
-
-            dot.addEventListener('click', () => {
-
-                moverCarrusel(i);
-
-                reiniciarAutoplay();
-
+                            // Verificar si venimos de VR y redirigir a la sala correcta
+                            const urlParams = new URLSearchParams(window.location.search);
+                            const sceneFromVR = urlParams.get('scene');
+                            if (sceneFromVR) {
+                                setTimeout(() => {
+                                    miVisor.loadScene(sceneFromVR);
+                                }, 400);
+                            }
+                        })
+                        .catch(error => {
+                            console.error("¡Atención! El archivo tour.json tiene un error:", error);
+                        });
+                }
             });
 
+            btnCerrar.addEventListener('click', function() {
+                contenedor360.style.display = 'none';
+                sitioWeb.style.display = 'block';
+                window.history.replaceState({}, document.title, window.location.pathname);
+            });
+
+            // LÓGICA DEL MAPA EN PANTALLA COMPLETA
+            const btnAbrirMapa = document.getElementById('btn-abrir-mapa');
+            const btnCerrarMapa = document.getElementById('btn-cerrar-mapa');
+            const mapaNavegacion = document.getElementById('mapa-navegacion');
+
+            function toggleHotspots(estado) {
+                if (estado) document.body.classList.add('ocultar-hotspots');
+                else document.body.classList.remove('ocultar-hotspots');
+            }
+
+            if (btnAbrirMapa && mapaNavegacion) {
+                btnAbrirMapa.addEventListener('click', () => {
+                    mapaNavegacion.style.display = 'flex'; 
+                    toggleHotspots(true); 
+                    if (miVisor) actualizarPinMapa(miVisor.getScene());
+                });
+
+                btnCerrarMapa.addEventListener('click', () => {
+                    mapaNavegacion.style.display = 'none';
+                    toggleHotspots(false); 
+                });
+
+                mapaNavegacion.addEventListener('click', (evento) => {
+                    if (evento.target === mapaNavegacion) {
+                        mapaNavegacion.style.display = 'none';
+                        toggleHotspots(false);
+                    }
+                });
+
+                document.querySelectorAll('.pin-mapa').forEach(pin => {
+                    pin.addEventListener('click', function() {
+                        const escenasAsignadas = this.getAttribute('data-escenas') || this.getAttribute('data-escena');
+                        if (escenasAsignadas) {
+                            const listaEscenas = escenasAsignadas.split(',');
+                            const escenaDestino = listaEscenas[0]; 
+                            if (miVisor && escenaDestino) {
+                                miVisor.loadScene(escenaDestino);
+                                mapaNavegacion.style.display = 'none'; 
+                                toggleHotspots(false); 
+                            }
+                        }
+                    });
+                });
+            }
+
+            // Auto-click en "Abrir" si la URL trae una sala
+            const paramsCheck = new URLSearchParams(window.location.search);
+            if (paramsCheck.get('scene')) {
+                btnAbrir.click();
+            }
+
+            // Exponemos goToVR globalmente
+            window.goToVR = function() {
+                let scene = 'imagen2'; 
+                if (visorIniciado && miVisor && miVisor.getScene()) {
+                    scene = miVisor.getScene();
+                }
+                window.location.href = `visor-vr.html?scene=${scene}`;
+            };
+        });
+    </script>
+
+    <!-- SCRIPT DEL CARRUSEL -->
+    <script>
+        const track = document.getElementById('track');
+        const dots = document.querySelectorAll('.dot');
+        const slides = document.querySelectorAll('.carousel-slide');
+        let indexCarrusel = 0;
+        let carruselInterval;
+
+        function moverCarrusel(nuevoIndex) {
+            indexCarrusel = nuevoIndex;
+            if (indexCarrusel < 0) indexCarrusel = slides.length - 1;
+            if (indexCarrusel >= slides.length) indexCarrusel = 0;
+            
+            track.style.transform = `translateX(-${indexCarrusel * 100}%)`;
+            
+            dots.forEach(dot => dot.classList.remove('activo'));
+            if (dots[indexCarrusel]) dots[indexCarrusel].classList.add('activo');
+        }
+
+        function iniciarAutoplay() {
+            carruselInterval = setInterval(() => moverCarrusel(indexCarrusel + 1), 5000);
+        }
+
+        function reiniciarAutoplay() {
+            clearInterval(carruselInterval);
+            iniciarAutoplay();
+        }
+
+        const btnNext = document.getElementById('btn-next');
+        const btnPrev = document.getElementById('btn-prev');
+
+        if (btnNext) btnNext.addEventListener('click', () => {
+            moverCarrusel(indexCarrusel + 1);
+            reiniciarAutoplay();
         });
 
+        if (btnPrev) btnPrev.addEventListener('click', () => {
+            moverCarrusel(indexCarrusel - 1);
+            reiniciarAutoplay();
+        });
 
+        dots.forEach((dot, i) => {
+            dot.addEventListener('click', () => {
+                moverCarrusel(i);
+                reiniciarAutoplay();
+            });
+        });
 
         iniciarAutoplay();
-
     </script>
 
+    <!-- SCRIPT DEL LIGHTBOX DE IMÁGENES -->
     <script>
-
-        // --- LÓGICA DEL LIGHTBOX PARA LAS TARJETAS ---
-
-// Escucha clics en cualquier parte del documento
-document.addEventListener('click', function(evento) {
-    // Si el clic fue específicamente en una imagen dentro de tu tarjeta
-    if (evento.target.matches('.tarjeta-museo img')) {
-        const rutaImagen = evento.target.src;
-        abrirModalImagen(rutaImagen);
-    }
-});
-
-function abrirModalImagen(src) {
-    let modal = document.getElementById('modal-lightbox');
-    
-    // Si el modal no existe, lo construimos dinámicamente
-    if (!modal) {
-        modal = document.createElement('div');
-        modal.id = 'modal-lightbox';
-        modal.className = 'modal-overlay';
-        modal.innerHTML = `
-            <div class="modal-contenido">
-                <button class="btn-cerrar-modal">&times;</button>
-                <img id="img-lightbox" src="" alt="Vista detallada">
-            </div>
-        `;
-        document.body.appendChild(modal);
-
-        // Lógica para cerrar desde el botón (la "X")
-        modal.querySelector('.btn-cerrar-modal').addEventListener('click', cerrarModalImagen);
-        
-        // Lógica para cerrar si hacen clic afuera de la foto (en el fondo oscuro)
-        modal.addEventListener('click', function(evento) {
-            if (evento.target === modal) cerrarModalImagen();
+        document.addEventListener('click', function(evento) {
+            if (evento.target.matches('.tarjeta-museo img')) {
+                const rutaImagen = evento.target.src;
+                abrirModalImagen(rutaImagen);
+            }
         });
-    }
 
-    // Le pasamos la ruta de la foto clickeada y mostramos la ventana
-    document.getElementById('img-lightbox').src = src;
-    modal.classList.add('activo');
-}
+        function abrirModalImagen(src) {
+            let modal = document.getElementById('modal-lightbox');
+            if (!modal) {
+                modal = document.createElement('div');
+                modal.id = 'modal-lightbox';
+                modal.className = 'modal-overlay';
+                modal.innerHTML = `
+                    <div class="modal-contenido">
+                        <button class="btn-cerrar-modal">×</button>
+                        <img id="img-lightbox" src="" alt="Vista detallada">
+                    </div>
+                `;
+                document.body.appendChild(modal);
+                modal.querySelector('.btn-cerrar-modal').addEventListener('click', cerrarModalImagen);
+                modal.addEventListener('click', function(evento) {
+                    if (evento.target === modal) cerrarModalImagen();
+                });
+            }
+            document.getElementById('img-lightbox').src = src;
+            modal.classList.add('activo');
+            document.body.classList.add('ocultar-hotspots');
+        }
 
-function cerrarModalImagen() {
-    const modal = document.getElementById('modal-lightbox');
-    if (modal) {
-        modal.classList.remove('activo');
-    }
-}
+        function cerrarModalImagen() {
+            const modal = document.getElementById('modal-lightbox');
+            if (modal) {
+                modal.classList.remove('activo');
+                document.body.classList.remove('ocultar-hotspots');
+            }
+        }
     </script>
-
-
-
-
-
-
-
 </body>
-
 </html>
