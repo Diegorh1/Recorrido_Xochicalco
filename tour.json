@@ -1,6 +1,6 @@
 {
   "default": {
-    "firstScene": "imagen32",
+    "firstScene": "imagen34",
     "sceneFadeDuration": 1000,
     "autoLoad": true
 },
@@ -1372,7 +1372,7 @@
     "imagen34": {
       "title": "salida",
       "type": "equirectangular",
-      "panorama": "assets/panoramicaswebp/34.webp",
+      "panorama": "assets/panoramicaswebp/34.webP",
       "hotSpots": [
         {
           "pitch": -10.0,
