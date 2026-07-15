@@ -1,6 +1,6 @@
 {
   "default": {
-    "firstScene": "imagen6",
+    "firstScene": "imagen8",
     "sceneFadeDuration": 1000,
     "autoLoad": true
 },
@@ -186,7 +186,7 @@
       ]
     },
     "imagen7": {
-      "title": "pasillo",
+      "title": "Antesala de la entrada al Museo.",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/7.webp",
       "hotSpots": [
@@ -203,11 +203,17 @@
           "type": "scene",
           "text": "Avanzar al museo",
           "sceneId": "imagen8"
+        },
+          {
+          "pitch": 19.4,
+          "yaw": -122.6,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; padding: 15px 20px; box-sizing: border-box;'> <div style='display: flex; justify-content: space-between; text-align: left;'> <div style='width: 47%; border-right: 1px solid #777; padding-right: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; margin-bottom: 10px;'>Sistema de Agua y Energía</div> <div style='color: #fff; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ESPAÑOL</div> <div style='color: #fff; font-weight: bold; line-height: 1.4; font-size: 1rem;'>Torre de agua y sistema fotovoltaico.</div> </div> <div style='width: 47%; padding-left: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; font-style: italic; margin-bottom: 10px;'>Water and Energy System</div> <div style='color: #aaa; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ENGLISH</div> <div style='color: #ddd; font-style: italic; line-height: 1.4; font-size: 1rem;'>Water tower and photovoltaic system.</div> </div> </div> </div>"
         }
       ]
     },
     "imagen8": {
-      "title": "pasillo",
+      "title": "Entrada al museo",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/8.webp",
       "hotSpots": [
@@ -221,13 +227,13 @@
           "pitch": -9.5,
           "yaw": 117,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/letinicio.webp' alt='Pieza'></div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 400px; overflow-y: scroll; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/letinicio.webp' alt='Pieza' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> <div style='color: #d1a13b; font-size: 1.4rem; font-weight: bold; margin-bottom: 15px; border-bottom: 1px solid #555; padding-bottom: 8px;'>Visítanos en:</div> <div onclick=\"window.open('https://lugares.inah.gob.mx/es/node/4307', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 12px 15px; margin-bottom: 12px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 1rem; margin-bottom: 4px;'>Lugares INAH - Zona Arqueológica</div> <div style='color: #aaa; font-size: 0.8rem; font-style: italic;'>lugares.inah.gob.mx</div> </div> <div onclick=\"window.open('https://lugares.inah.gob.mx/es/node/4306', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 12px 15px; margin-bottom: 12px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 1rem; margin-bottom: 4px;'>Lugares INAH - Museo de Sitio</div> <div style='color: #aaa; font-size: 0.8rem; font-style: italic;'>lugares.inah.gob.mx</div> </div> <div onclick=\"window.open('https://www.facebook.com/ZAXochicalco', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 12px 15px; margin-bottom: 30px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 1rem; margin-bottom: 4px;'>Xochicalco Morelos - Facebook</div> <div style='color: #aaa; font-size: 0.8rem; font-style: italic;'>@ZAXochicalco</div> </div> <div style='color: #d1a13b; font-size: 1.4rem; font-weight: bold; margin-bottom: 15px; border-bottom: 1px solid #555; padding-bottom: 8px;'>Conoce más:</div> <div onclick=\"window.open('https://www.youtube.com/watch?v=3aFJZiHkND0&t=4s', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 12px 15px; margin-bottom: 12px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 1rem; margin-bottom: 4px;'>Museo de Sitio Xochicalco - YouTube</div> <div style='color: #aaa; font-size: 0.8rem; font-style: italic;'>Ver video en YouTube</div> </div> <div onclick=\"window.open('https://www.youtube.com/watch?v=bGvfhpgELf4&t=45s', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 12px 15px; margin-bottom: 12px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 1rem; margin-bottom: 4px;'>Observatorio prehispánico - YouTube</div> <div style='color: #aaa; font-size: 0.8rem; font-style: italic;'>Ver video en YouTube</div> </div> <div onclick=\"window.open('https://www.inah.gob.mx', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 12px 15px; margin-bottom: 12px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 1rem; margin-bottom: 4px;'>Instituto Nacional de Antropología e Historia</div> <div style='color: #aaa; font-size: 0.8rem; font-style: italic;'>www.inah.gob.mx</div> </div> <div onclick=\"window.open('https://es.unesco.org/', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 12px 15px; margin-bottom: 10px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 1rem; margin-bottom: 4px;'>UNESCO</div> <div style='color: #aaa; font-size: 0.8rem; font-style: italic;'>es.unesco.org</div> </div> </div> </div>"
         },
         {
           "pitch": -9.0,
           "yaw": 13.4,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/taquilla.webp' alt='Pieza'></div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 400px; overflow-y: scroll; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/taquilla.webp' alt='Taquilla' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> <div style='color: #d1a13b; font-size: 1.2rem; font-weight: bold; margin-bottom: 15px; border-bottom: 1px solid #555; padding-bottom: 8px;'>Mayor información acerca de:<br><span style='font-size: 0.9rem; font-style: italic; color: #aaa;'>Detailed information:</span></div> <div onclick=\"window.open('https://lugares.inah.gob.mx/es/node/4306', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 12px 15px; margin-bottom: 12px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 1rem; margin-bottom: 4px;'>Museo de Sitio de Xochicalco</div> <div style='color: #aaa; font-size: 0.8rem; font-style: italic;'>Ver información</div> </div> <div onclick=\"window.open('https://lugares.inah.gob.mx/es/node/4307', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 12px 15px; margin-bottom: 12px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 1rem; margin-bottom: 4px;'>Zona Arqueológica de Xochicalco</div> <div style='color: #aaa; font-size: 0.8rem; font-style: italic;'>Ver información</div> </div> <div onclick=\"window.open('https://drive.google.com/uc?id=1s7wMIzSOpTjqtdqMkHds8dVbnOz6YN4F&export=download', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 12px 15px; margin-bottom: 10px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 1rem; margin-bottom: 4px;'>Mapa de la Zona Arqueológica (PDF)</div> <div style='color: #aaa; font-size: 0.8rem; font-style: italic;'>Descargar / Ver PDF</div> </div> </div> </div>"
         },
         {
           "pitch": -12.4,
