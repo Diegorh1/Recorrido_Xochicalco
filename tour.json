@@ -1,12 +1,12 @@
 {
   "default": {
-    "firstScene": "imagen2",
+    "firstScene": "imagen6",
     "sceneFadeDuration": 1000,
     "autoLoad": true
 },
   "scenes": {
     "imagen1": {
-      "title": "Espacio de abordaje",
+      "title": "Área de descanso",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/1.webp",
       "hotSpots": [
@@ -20,26 +20,26 @@
           "pitch": 6.6,
           "yaw": -70.1,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/piramide1.webP' alt='Pieza'><div class='tarjeta-info'><h3>Piramides</h3><p>Su estructura más famosa es la Pirámide de las Serpientes Emplumadas, destacada por sus relieves que muestran la fusión de influencias teotihuacanas, mayas y zapotecas</p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/piramide1.webP' alt='Pieza'><div class='tarjeta-info'><h3>Zona Arqueológica de Xochicalco</h3><h2>Fachada Oriente de la Zona Arqueológica, resalta al centro de la imagen la Gran Pirámide ubicada en la Plaza de la Estela de los Dos Glifos.</h2></div></div>"
         },
         {
           "pitch": -25,
           "yaw": -102,
           "type": "scene",
-          "text": "Ir al pasillo de entrada",
+          "text": "Ir al inicio del recorrido",
           "sceneId": "imagen2"
         },
         {
           "pitch": -8.2,
           "yaw": -170.8,
           "type": "scene",
-          "text": "Ir a la entrada principal",
+          "text": "Camino al Museo",
           "sceneId": "imagen3"
         }
       ]
     },
     "imagen2": {
-      "title": "Entrada principal",
+      "title": "Inicio del recorrido",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/2.webp",
       "hotSpots": [
@@ -47,7 +47,7 @@
           "pitch": -7.5,
           "yaw": 133,
           "type": "scene",
-          "text": "Regresar al Espacio de abordaje",
+          "text": "Vista desde el interior del área de descanso.",
           "sceneId": "imagen1"
         },
         {
@@ -60,7 +60,7 @@
       ]
     },
     "imagen3": {
-      "title": "Sala de exhibición",
+      "title": "Placa de las 13 Maravillas",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/3.webp",
       "hotSpots": [
@@ -68,7 +68,7 @@
           "pitch": -5.4,
           "yaw": -57.3,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/tvazteca.webp' alt='Pieza'><div class='tarjeta-info'><h3>Xochicalco</h3></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/tvazteca.webp' alt='Pieza'><div class='tarjeta-info'><h3>Placa conmemorativa de iniciativa denominada 13 maravillas de México creadas por el hombre. Año 2007.</h3></div></div>"
         },
         {
           "pitch": -4.4,
@@ -87,7 +87,7 @@
       ]
     },
     "imagen4": {
-      "title": "pasillo",
+      "title": "Camino al estacionamiento del Museo.",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/4.webp",
       "hotSpots": [
@@ -104,11 +104,17 @@
           "type": "scene",
           "text": "Avanzar por el pasillo",
           "sceneId": "imagen5"
+        },
+          {
+          "pitch": 24.4,
+          "yaw": -16.6,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; padding: 15px 20px; box-sizing: border-box;'> <div style='display: flex; justify-content: space-between; text-align: left;'> <div style='width: 47%; border-right: 1px solid #777; padding-right: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; margin-bottom: 10px;'>Iluminación</div> <div style='color: #fff; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ESPAÑOL</div> <div style='color: #fff; font-weight: bold; line-height: 1.4; font-size: 1rem;'>Sistema de iluminación solar independiente.</div> </div> <div style='width: 47%; padding-left: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; font-style: italic; margin-bottom: 10px;'>Lighting</div> <div style='color: #aaa; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ENGLISH</div> <div style='color: #ddd; font-style: italic; line-height: 1.4; font-size: 1rem;'>Independent solar lighting system.</div> </div> </div> </div>"
         }
       ]
     },
     "imagen5": {
-      "title": "pasillo",
+      "title": "Camino al Museo",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/5E.webp",
       "hotSpots": [
@@ -125,11 +131,23 @@
           "type": "scene",
           "text": "Avanzar por el pasillo",
           "sceneId": "imagen6"
+        },
+          {
+          "pitch": 32.4,
+          "yaw": -113.6,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; padding: 15px 20px; box-sizing: border-box;'> <div style='display: flex; justify-content: space-between; text-align: left;'> <div style='width: 47%; border-right: 1px solid #777; padding-right: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; margin-bottom: 10px;'>Iluminación</div> <div style='color: #fff; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ESPAÑOL</div> <div style='color: #fff; font-weight: bold; line-height: 1.4; font-size: 1rem;'>Sistema de iluminación solar independiente.</div> </div> <div style='width: 47%; padding-left: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; font-style: italic; margin-bottom: 10px;'>Lighting</div> <div style='color: #aaa; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ENGLISH</div> <div style='color: #ddd; font-style: italic; line-height: 1.4; font-size: 1rem;'>Independent solar lighting system.</div> </div> </div> </div>"
+        },
+          {
+          "pitch": 6.4,
+          "yaw": -20.6,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; padding: 15px 20px; box-sizing: border-box;'> <div style='display: flex; justify-content: space-between; text-align: left;'> <div style='width: 47%; border-right: 1px solid #777; padding-right: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; margin-bottom: 10px;'>Cerro del Jumil</div> <div style='color: #fff; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ESPAÑOL</div> <div style='color: #fff; font-weight: bold; line-height: 1.4; font-size: 1rem;'>Vestigios arqueológicos asociados a Xochicalco.</div> </div> <div style='width: 47%; padding-left: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; font-style: italic; margin-bottom: 10px;'>Jumil Hill</div> <div style='color: #aaa; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ENGLISH</div> <div style='color: #ddd; font-style: italic; line-height: 1.4; font-size: 1rem;'>Archaeological remains associated with Xochicalco.</div> </div> </div> </div>"
         }
       ]
     },
     "imagen6": {
-      "title": "pasillo",
+      "title": "Exterior del museo",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/6.webp",
       "hotSpots": [
@@ -149,7 +167,7 @@
           "pitch": -4.5,
           "yaw": 27.5,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/arqui.webp' alt='Pieza'></div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; max-width: 500px; max-height: 400px; overflow: auto; display: flex; justify-content: center; align-items: center;'> <img src='assets/imagenes edgar/arqui.webp' alt='Pieza' style='width: 100%; height: auto; transition: transform 0.3s ease; cursor: zoom-in;' onclick='this.style.transform = this.style.transform === \"scale(2)\" ? \"scale(1)\" : \"scale(2)\"'> </div>"
         },
         {
           "pitch": -10.4,
