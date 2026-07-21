@@ -44,25 +44,39 @@ div.pnlm-tooltip span {
     padding: 0 !important;
     background-color: transparent !important;
     border: none !important;
-    pointer-events: auto !important; 
+    pointer-events: auto !important;
+    
+    /* --- EL TRUCO PARA CENTRAR SIN PELEAR CON PANNELLUM --- */
+    position: absolute !important;
+    margin: 0 !important; /* Mata el margen chueco por defecto */
+    left: 0 !important; 
+    top: 0 !important;
+    transform: translate(-50%, -50%) !important; /* Centra el contenedor completo */
+    width: max-content !important; /* Abraza el tamaño de tu tarjeta */
 }
 
 div.pnlm-tooltip span::after {
     display: none !important;
 }
 
-/* EL CONTENEDOR DE LA TARJETA (TAMAÑO GRANDE PARA PC) */
+/* EL CONTENEDOR DE LA TARJETA (PC / GLOBAL) */
 .tarjeta-museo {
     display: flex !important;
     flex-direction: column !important;
-    width: 600px !important;
+    
+    /* --- TAMAÑOS --- */
+    width: 90vw !important;
+    max-width: 600px !important;
+    /* ¡ELIMINAMOS EL TRANSFORM DE AQUÍ! */
+    pointer-events: auto !important; 
+    
     background-color: var(--color-primario-oscuro) !important; 
     border-radius: 12px !important;
     overflow: hidden !important;
     box-shadow: 0 15px 40px rgba(0,0,0,0.85) !important;
     border: 2px solid var(--color-dorado-museo) !important; 
     transition: opacity 0.3s ease, visibility 0.3s ease !important;
-}
+}  
 
 /* LA IMAGEN */
 .tarjeta-museo img {
@@ -85,7 +99,7 @@ div.pnlm-tooltip span::after {
     text-align: justify !important;
     white-space: normal !important;
     word-wrap: break-word !important;
-    max-height: 250px !important;
+    max-height: 50vh !important; /* Usa el 50% de la pantalla en lugar de 250px fijos */
     overflow-y: auto !important;  
 }
 
@@ -412,15 +426,17 @@ header p {
         aspect-ratio: 4 / 3;
     }
 
-    /* --- AJUSTE CELULAR (TARJETAS REDUCIDAS PARA ADAPTARSE) --- */
+    /* --- AJUSTE CELULAR PARA LAS TARJETAS --- */
     .tarjeta-museo {
-        width: 85vw !important;
-        max-width: 320px !important; 
+        width: 90vw !important;
+        max-width: 400px !important; 
+        /* ¡ELIMINAMOS EL TRANSFORM DE AQUÍ TAMBIÉN! */
     }
     
     .tarjeta-info {
         padding: 15px !important;
-        max-height: 150px !important;
+        max-height: 60vh !important; 
+        overflow-y: auto !important; 
     }
     
     .tarjeta-info h3 {
@@ -548,7 +564,6 @@ header p {
     right: 15px;
     z-index: 1000;
     
-    /* FORZAR ORDEN DE LOS BOTONES PARA QUE NO SE ENCIMEN */
     display: flex !important;
     flex-direction: row !important;
     gap: 10px !important;
