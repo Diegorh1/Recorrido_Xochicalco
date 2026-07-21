@@ -681,3 +681,57 @@ header p {
         right: 15px;
     }
 }
+/* ==========================================
+   12. CORRECCIÓN DE CAPAS (Z-INDEX 3D FIX)
+   ========================================== */
+
+/* Obliga a los botones de Pannellum a quedarse hundidos */
+.pnlm-hotspot-base {
+    z-index: 1 !important;
+}
+
+/* Escudo 3D para el modal de las imágenes ampliadas */
+.modal-overlay {
+    z-index: 999999 !important;
+    transform: translateZ(1000px) !important; 
+}
+
+/* Escudo 3D para el mapa de navegación */
+#mapa-navegacion {
+    z-index: 999999 !important;
+    transform: translateZ(1000px) !important; 
+}
+
+/* ==========================================
+   SOLUCIÓN DEFINITIVA: OCULTAR HOTSPOTS AL ABRIR MODALES
+   ========================================== */
+body.ocultar-hotspots .pnlm-hotspot-base,
+body.ocultar-hotspots .pnlm-tooltip {
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+    transition: opacity 0.2s ease, visibility 0.2s ease !important;
+}
+
+/* ==========================================
+   13. INDICADOR "ESTÁS AQUÍ" EN EL MAPA
+   ========================================== */
+.pin-mapa.pin-activo {
+    background-color: var(--color-primario) !important; /* Verde olivo de tu tema */
+    border-color: var(--color-dorado-museo) !important; /* Borde dorado para combinar */
+    transform: translate(-50%, -50%) scale(1.5) !important;
+    box-shadow: 0 0 15px rgba(74, 93, 35, 0.8) !important; /* Sombra del mismo verde */
+    z-index: 10;
+    animation: latido-mapa 1.2s infinite alternate ease-in-out;
+}
+
+@keyframes latido-mapa {
+    0% { 
+        transform: translate(-50%, -50%) scale(1.4); 
+        box-shadow: 0 0 10px rgba(74, 93, 35, 0.6); 
+    }
+    100% { 
+        transform: translate(-50%, -50%) scale(1.8); 
+        box-shadow: 0 0 25px rgba(74, 93, 35, 1), 0 0 40px rgba(74, 93, 35, 0.8); 
+    }
+}
