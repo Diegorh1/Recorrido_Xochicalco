@@ -56,6 +56,11 @@ div.pnlm-tooltip span::after {
     display: flex !important;
     flex-direction: column !important;
     width: 600px !important;
+    
+    /* --- LÍNEA CLAVE PARA CENTRAR LA TARJETA EN EL VISOR --- */
+    transform: translate(-50%, -50%) !important; 
+    /* -------------------------------------------------------- */
+    
     background-color: var(--color-primario-oscuro) !important; 
     border-radius: 12px !important;
     overflow: hidden !important;
@@ -416,11 +421,15 @@ header p {
     .tarjeta-museo {
         width: 85vw !important;
         max-width: 320px !important; 
+        /* Centra la tarjeta en el punto de anclaje para no tener que mirar hacia arriba */
+        transform: translate(-50%, -50%) !important; 
     }
     
     .tarjeta-info {
         padding: 15px !important;
-        max-height: 150px !important;
+        /* Usa el 60% del alto de la pantalla del celular en lugar de limitarlo a 150px */
+        max-height: 60vh !important; 
+        overflow-y: auto !important; /* Habilita el scroll interno si el texto es largo */
     }
     
     .tarjeta-info h3 {
