@@ -757,29 +757,51 @@ body.ocultar-hotspots .pnlm-tooltip {
 }
 
 /* ========================================== */
-/* FORZAR TÍTULOS EN MÓVIL (PANNELLUM)        */
+/* TÍTULO PERSONALIZADO BLINDADO              */
 /* ========================================== */
-.pnlm-panorama-info {
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    z-index: 100 !important;
+
+/* Apagamos el título original de Pannellum en todos los dispositivos */
+.pnlm-title-box {
+    display: none !important;
 }
 
-.pnlm-title-box {
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    position: absolute !important;
-    top: 10px !important;
-    left: 45px !important; /* Lo separa de los controles de zoom */
-    background-color: rgba(0, 0, 0, 0.7) !important; /* Fondo oscuro */
-    color: #ffffff !important; /* Letra blanca */
-    padding: 6px 12px !important;
-    border-radius: 6px !important;
-    font-size: 15px !important;
-    font-family: sans-serif !important;
-    white-space: nowrap !important; /* Evita que el texto se parta en dos líneas */
-    z-index: 9999 !important;
-    pointer-events: none !important; /* Para que no estorbe si el usuario lo toca */
+/* Diseñamos nuestro propio título que Pannellum no puede controlar */
+.titulo-custom {
+    position: absolute;
+    bottom: 30px; /* Lo despegamos 30px desde abajo */
+    top: auto; /* Anulamos cualquier posicionamiento superior anterior */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #ffffff; 
+    
+    /* Cambiamos el detalle dorado a la parte superior de la caja */
+    border-top: 3px solid #d1a13b; 
+    border-bottom: none;
+    
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    z-index: 1000;
+    pointer-events: none;
+    
+    /* Modificaciones clave para textos muy largos */
+    white-space: normal; /* Permite que el texto salte a una segunda línea si no cabe */
+    text-align: center;
+    max-width: 90vw; /* Evita que la caja sea más ancha que la pantalla */
+    width: max-content; /* Se ajusta al texto automáticamente */
+    
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.5); /* Sombra ajustada hacia arriba */
+    display: none; 
+}
+/* Ajuste para que se vea perfecto en celular */
+@media (max-width: 768px) {
+    .titulo-custom {
+        bottom: 25px; /* Separación desde abajo en móviles */
+        font-size: 0.9rem;
+        padding: 8px 15px;
+        max-width: 95vw; /* Aprovechamos un poquito más el ancho en pantallas pequeñas */
+    }
 }
