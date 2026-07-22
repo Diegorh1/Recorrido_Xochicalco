@@ -7,9 +7,10 @@
    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.7/build/pannellum.css"/>
    
-    <link rel="stylesheet" href="css/style.css?v=2.0">
+    <!-- Versión 3.0 para forzar la limpieza de caché en GitHub Pages -->
+    <link rel="stylesheet" href="css/style.css?v=3.0">
 
-    <!-- Estilos del botón flotante integrados (puedes moverlos a style.css) -->
+    <!-- Estilos del botón flotante integrados -->
     <style>
         .btn-flotante {
             position: fixed;
@@ -31,6 +32,16 @@
         .btn-flotante:hover {
             background-color: #b5892f;
             transform: scale(1.05);
+        }
+
+        @media (max-width: 768px) {
+            .btn-flotante {
+                top: 15px;
+                right: 15px;
+                padding: 10px 16px;
+                font-size: 0.85rem;
+                box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+            }
         }
     </style>
 </head>
@@ -133,6 +144,10 @@
     <!-- VISOR 360 -->
     <!-- ========================================== -->
     <div id="contenedor-360">
+        
+        <!-- NUEVO: Título personalizado blindado -->
+        <div id="titulo-escena-custom" class="titulo-custom"></div>
+
         <div class="controles-superiores">
             <button id="btn-cerrar-360" class="btn-control">✖ Cerrar Recorrido</button>
             <button id="btn-abrir-mapa" class="btn-control">🗺️ Abrir Mapa</button>
@@ -147,6 +162,7 @@
     <script>
         let visorIniciado = false;
         let miVisor;
+        let datosRecorrido = null; // Guardará el JSON para los títulos
 
         const btnAbrir = document.getElementById('btn-abrir-360');
         const btnAbrirFlotante = document.getElementById('btn-flotante-360');
@@ -164,6 +180,27 @@
             });
         }
 
+        // NUEVA FUNCIÓN: Extrae y muestra el título personalizado
+        function actualizarTituloCustom(escenaId) {
+            const tituloDiv = document.getElementById('titulo-escena-custom');
+            let titulo = "";
+
+            if (datosRecorrido) {
+                if (datosRecorrido.default && datosRecorrido.scenes && datosRecorrido.scenes[escenaId]) {
+                    titulo = datosRecorrido.scenes[escenaId].title;
+                } else if (datosRecorrido[escenaId]) {
+                    titulo = datosRecorrido[escenaId].title;
+                }
+            }
+
+            if (titulo) {
+                tituloDiv.innerText = titulo;
+                tituloDiv.style.display = 'block';
+            } else {
+                tituloDiv.style.display = 'none';
+            }
+        }
+
         function iniciarRecorridoVirtual() {
             sitioWeb.style.display = 'none';
             btnAbrirFlotante.style.display = 'none'; 
@@ -173,6 +210,7 @@
                 fetch('tour.json')
                     .then(respuesta => respuesta.json())
                     .then(datos => {
+                        datosRecorrido = datos; // Guardamos el JSON cargado
                         miVisor = pannellum.viewer('panorama', datos);
                         
                         miVisor.on('mousedown', function(event) {
@@ -184,11 +222,14 @@
                         });
 
                         miVisor.on('load', function() {
-                            actualizarPinMapa(miVisor.getScene());
+                            const escenaActual = miVisor.getScene();
+                            actualizarPinMapa(escenaActual);
+                            actualizarTituloCustom(escenaActual); // Pintar título
                         });
 
                         miVisor.on('scenechange', function(escenaId) {
                             actualizarPinMapa(escenaId);
+                            actualizarTituloCustom(escenaId); // Pintar título al cambiar sala
                         });
 
                         visorIniciado = true;
