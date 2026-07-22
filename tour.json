@@ -201,7 +201,7 @@
           "pitch": -8.8,
           "yaw": 132,
           "type": "scene",
-          "text": "Avanzar al museo",
+          "text": "Avanzar a la taquilla",
           "sceneId": "imagen8"
         },
           {
@@ -213,7 +213,7 @@
       ]
     },
     "imagen8": {
-      "title": "Entrada al museo",
+      "title": "Entrada a la taquilla del museo.",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/8.webp",
       "hotSpots": [
@@ -222,6 +222,12 @@
           "yaw": -106.6,
           "type": "info",
           "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/MAPA.webp' alt='Pieza'></div>"
+        },
+        {
+          "pitch": -44.6,
+          "yaw": 20.6,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/vit10.webp' alt='Pieza'></div>"
         },
         {
           "pitch": -9.5,
@@ -258,7 +264,7 @@
       ]
     },
     "imagen9": {
-      "title": "pasillo",
+      "title": "Sala de Introducción y Exposiciones Temporales / Introduction Room",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/9.webp",
       "hotSpots": [
@@ -285,7 +291,7 @@
       ]
     },
     "imagen10": {
-      "title": "pasillo",
+      "title": "Sala de Introducción y Exposiciones Temporales / Introduction Room",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/10.webp",
       "hotSpots": [
@@ -336,7 +342,7 @@
       ]
     },
     "imagen11": {
-      "title": "pasillo",
+      "title": "Pasillo de las Joyas / Jewels Corridor",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/11.webp",
       "hotSpots": [
@@ -371,7 +377,7 @@
       ]
     },
     "imagen12": {
-      "title": "pasillo",
+      "title": "Fuera del museo, cerca del Pasillo de las Joyas",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/12.webp",
       "hotSpots": [
@@ -385,7 +391,7 @@
       ]
     },
     "imagen13": {
-      "title": "pasillo",
+      "title": "Fuera del museo, cerca del Pasillo de las Joyas",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/13.webp",
       "hotSpots": [
@@ -399,7 +405,7 @@
       ]
     },
     "imagen14": {
-      "title": "pasillo",
+      "title": "Pasillo de las Joyas / Jewels Corridor",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/14.webp",
       "hotSpots": [
@@ -432,7 +438,7 @@
       ]
     },
     "imagen15": {
-      "title": "pasillo",
+      "title": "Pasillo de las Joyas / Jewels Corridor",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/15.webp",
       "hotSpots": [
@@ -465,7 +471,7 @@
       ]
     },
     "imagen16": {
-      "title": "pasillo",
+      "title": "Pasillo de las Joyas / Jewels Corridor",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/16.webp",
       "hotSpots": [
@@ -498,7 +504,7 @@
       ]
     },
     "imagen17": {
-      "title": "pasillo",
+      "title": "Acceso a la sala 1, 2 y 3. / Access to Rooms 1, 2 and 3.",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/17.webp",
       "hotSpots": [
@@ -536,8 +542,6 @@
           "text": "Avanzar a la sala 3. Resguardo de los hombres",
           "sceneId": "imagen24"
         },
-
-       
         {
           "pitch": -18.8,
           "yaw": 179.0,
@@ -548,7 +552,7 @@
       ]
     },
     "imagen18": {
-      "title": "sala 1",
+      "title": "SALA 1 Los dones de la Tierra: Hacedores de vida. / Room 1 Gifts from the Land, Creators of Life.",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/18.webp",
       "hotSpots": [
@@ -600,7 +604,7 @@
       ]
     },
     "imagen19": {
-      "title": "sala 1",
+      "title": "SALA 1 Los dones de la Tierra: Hacedores de vida. / Room 1 Gifts from the Land, Creators of Life.",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/19.webp",
       "hotSpots": [
@@ -663,7 +667,7 @@
       ]
     },
     "imagen20": {
-      "title": "sala 1",
+      "title": "SALA 1 Los dones de la Tierra: Hacedores de vida. / Room 1 Gifts from the Land, Creators of Life.",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/20.webp",
       "hotSpots": [
@@ -720,7 +724,7 @@
       ]
     },
     "imagen21": {
-      "title": "sala 1",
+      "title": "SALA 2 Hombres guerreros, hombres sacerdotes / Room 2 Warriors and Priests",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/21.webp",
       "hotSpots": [
@@ -760,7 +764,7 @@
       ]
     },
     "imagen22": {
-      "title": "sala 1",
+      "title": "SALA 2 Hombres guerreros, hombres sacerdotes / Room 2 Warriors and Priests",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/22.webp",
       "hotSpots": [
@@ -841,7 +845,7 @@
       ]
     },
     "imagen23": {
-      "title": "sala 1",
+      "title": "SALA 2 Hombres guerreros, hombres sacerdotes / Room 2 Warriors and Priests",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/23.webp",
       "hotSpots": [
@@ -910,7 +914,7 @@
       ]
     },
     "imagen24": {
-      "title": "sala 1",
+      "title": "SALA 3 Xochicalco, resguardo de hombres / Room 3 Xochicalco, a Shelter for Men.",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/24.webp",
       "hotSpots": [
@@ -980,7 +984,7 @@
       ]
     },
     "imagen25": {
-      "title": "sala 1",
+      "title": "SALA 3 Xochicalco, resguardo de hombres / Room 3 Xochicalco, a Shelter for Men.",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/25.webp",
       "hotSpots": [
@@ -1067,7 +1071,7 @@
       ]
     },
     "imagen26": {
-      "title": "sala 1",
+      "title": "SALA 3 Xochicalco, resguardo de hombres / Room 3 Xochicalco, a Shelter for Men.",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/26.webp",
       "hotSpots": [
@@ -1136,7 +1140,7 @@
       ]
     },
     "imagen27": {
-      "title": "sala 1",
+      "title": "Pasillo cronológico / Chronical Corridor",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/27.webp",
       "hotSpots": [
@@ -1181,7 +1185,7 @@
       ]
     },
     "imagen28": {
-      "title": "pasillo",
+      "title": "Acceso a la sala 7 y 8 / Access to Rooms 7 and 8.",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/28.webp",
       "hotSpots": [
@@ -1216,7 +1220,7 @@
       ]
     },
     "imagen29": {
-      "title": "Sala 5 / Room 5, Los rituales del juego - World of Gods",
+      "title": "SALA 5 Los rituales del juego / Room 5 World of Gods.",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/29.webp",
       "hotSpots": [
@@ -1250,7 +1254,7 @@
       ]
     },
     "imagen30": {
-      "title": "sala 4",
+      "title": "SALA 5 Los rituales del juego / Room 5 World of Gods.",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/30.webp",
       "hotSpots": [
@@ -1295,7 +1299,7 @@
       ]
     },
     "imagen31": {
-      "title": "salida",
+      "title": "SALA 5 Los rituales del juego / Room 5 World of Gods.",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/31.webp",
       "hotSpots": [
@@ -1364,7 +1368,7 @@
       ]
     },
             "imagen32": {
-          "title": "salida",
+          "title": "SALA 4 Manos creadoras, delicados artistas / Room 4 Exquisite Creators, Monumental Artists.",
           "type": "equirectangular",
           "panorama": "assets/panoramicaswebp/32.webp",
           "hotSpots": [
@@ -1493,7 +1497,7 @@
         }
     ,
     "imagen33": {
-      "title": "salida",
+      "title": "Salida",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/33.webp",
       "hotSpots": [
