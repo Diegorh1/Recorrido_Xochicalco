@@ -8,19 +8,19 @@
     "imagen1": {
       "title": "Área de descanso",
       "type": "equirectangular",
-      "panorama": "ASSETS2/1.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/1.webp",
       "hotSpots": [
         {
           "pitch": -13,
           "yaw": 93.6,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='ASSETS2/35.webp' alt='Pieza'><div class='tarjeta-info'><h3>Parador de espera</h3>Este sitio es donde los aútobuses hacen paradas</div></div>"
+          "text": "<div class='tarjeta-museo'><img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/35.webp' alt='Pieza'><div class='tarjeta-info'><h3>Parador de espera</h3>Este sitio es donde los aútobuses hacen paradas</div></div>"
         },
         {
           "pitch": 6.6,
           "yaw": -70.1,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='ASSETS2/36.webp' alt='Pieza'><div class='tarjeta-info'><h3>Zona Arqueológica de Xochicalco</h3><h2>Fachada Oriente de la Zona Arqueológica, resalta al centro de la imagen la Gran Pirámide ubicada en la Plaza de la Estela de los Dos Glifos.</h2></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/36.webP' alt='Pieza'><div class='tarjeta-info'><h3>Zona Arqueológica de Xochicalco</h3><h2>Fachada Oriente de la Zona Arqueológica, resalta al centro de la imagen la Gran Pirámide ubicada en la Plaza de la Estela de los Dos Glifos.</h2></div></div>"
         },
         {
           "pitch": -25,
@@ -41,7 +41,7 @@
     "imagen2": {
       "title": "Inicio del recorrido",
       "type": "equirectangular",
-      "panorama": "ASSETS2/2.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/2.webp",
       "hotSpots": [
         {
           "pitch": -7.5,
@@ -62,13 +62,13 @@
     "imagen3": {
       "title": "Placa de las 13 Maravillas",
       "type": "equirectangular",
-      "panorama": "ASSETS2/3.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/3.webp",
       "hotSpots": [
         {
           "pitch": -5.4,
           "yaw": -57.3,
           "type": "info",
-          "text": "<div class='tarjeta-museo' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/37.webp' alt='Pieza'> <div class='tarjeta-info'> <h3>Placa conmemorativa de iniciativa denominada 13 maravillas de México creadas por el hombre. Año 2007.</h3> </div> </div>"
+          "text": "<div class='tarjeta-museo' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/37.webp' alt='Pieza'> <div class='tarjeta-info'> <h3>Placa conmemorativa de iniciativa denominada 13 maravillas de México creadas por el hombre. Año 2007.</h3> </div> </div>"
         },
         {
           "pitch": -4.4,
@@ -89,7 +89,7 @@
     "imagen4": {
       "title": "Camino al estacionamiento del Museo.",
       "type": "equirectangular",
-      "panorama": "ASSETS2/4.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/4.webp",
       "hotSpots": [
         {
           "pitch": -7.4,
@@ -116,7 +116,7 @@
     "imagen5": {
       "title": "Camino al Museo",
       "type": "equirectangular",
-      "panorama": "ASSETS2/5.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/5.webp",
       "hotSpots": [
         {
           "pitch": -6.0,
@@ -149,25 +149,25 @@
     "imagen6": {
       "title": "Exterior del museo",
       "type": "equirectangular",
-      "panorama": "ASSETS2/6.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/6.webp",
       "hotSpots": [
         {
           "pitch": -1.1,
           "yaw": -108,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='ASSETS2/38.webp' alt='Pieza'></div>"
+          "text": "<div class='tarjeta-museo'><img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/38.webp' alt='Pieza'></div>"
         },
         {
           "pitch": -11.1,
           "yaw": 100,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='ASSETS2/39.webp' alt='Pieza'></div>"
+          "text": "<div class='tarjeta-museo'><img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/39.webp' alt='Pieza'></div>"
         },
         {
           "pitch": -4.5,
           "yaw": 27.5,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; max-width: 500px; max-height: 400px; overflow: auto; display: flex; justify-content: center; align-items: center;'> <img src='ASSETS2/40.webp' alt='Pieza' style='width: 100%; height: auto; transition: transform 0.3s ease; cursor: zoom-in;' onclick='this.style.transform = this.style.transform === \"scale(2)\" ? \"scale(1)\" : \"scale(2)\"'> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; max-width: 500px; max-height: 400px; overflow: auto; display: flex; justify-content: center; align-items: center;'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/40.webp' alt='Pieza' style='width: 100%; height: auto; transition: transform 0.3s ease; cursor: zoom-in;' onclick='this.style.transform = this.style.transform === \"scale(2)\" ? \"scale(1)\" : \"scale(2)\"'> </div>"
         },
         {
           "pitch": -10.4,
@@ -188,7 +188,7 @@
     "imagen7": {
       "title": "Antesala de la entrada al Museo.",
       "type": "equirectangular",
-      "panorama": "ASSETS2/7.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/7.webp",
       "hotSpots": [
         {
           "pitch": -20,
@@ -215,31 +215,31 @@
     "imagen8": {
       "title": "Entrada a la taquilla del museo.",
       "type": "equirectangular",
-      "panorama": "ASSETS2/8.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/8.webp",
       "hotSpots": [
        {
           "pitch": -6.6,
           "yaw": -106.6,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='ASSETS2/41.webp' alt='Pieza'></div>"
+          "text": "<div class='tarjeta-museo'><img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/41.webp' alt='Pieza'></div>"
         },
         {
           "pitch": -44.6,
           "yaw": 20.6,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='ASSETS2/42.webp' alt='Pieza'></div>"
+          "text": "<div class='tarjeta-museo'><img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/42.webp' alt='Pieza'></div>"
         },
         {
           "pitch": -9.5,
           "yaw": 117,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 400px; overflow-y: scroll; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='ASSETS2/43.webp' alt='Pieza' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> <div style='color: #d1a13b; font-size: 1.4rem; font-weight: bold; margin-bottom: 15px; border-bottom: 1px solid #555; padding-bottom: 8px;'>Visítanos en:</div> <div onclick=\"window.open('https://lugares.inah.gob.mx/es/node/4307', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 12px 15px; margin-bottom: 12px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 1rem; margin-bottom: 4px;'>Lugares INAH - Zona Arqueológica</div> <div style='color: #aaa; font-size: 0.8rem; font-style: italic;'>lugares.inah.gob.mx</div> </div> <div onclick=\"window.open('https://lugares.inah.gob.mx/es/node/4306', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 12px 15px; margin-bottom: 12px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 1rem; margin-bottom: 4px;'>Lugares INAH - Museo de Sitio</div> <div style='color: #aaa; font-size: 0.8rem; font-style: italic;'>lugares.inah.gob.mx</div> </div> <div onclick=\"window.open('https://www.facebook.com/ZAXochicalco', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 12px 15px; margin-bottom: 30px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 1rem; margin-bottom: 4px;'>Xochicalco Morelos - Facebook</div> <div style='color: #aaa; font-size: 0.8rem; font-style: italic;'>@ZAXochicalco</div> </div> <div style='color: #d1a13b; font-size: 1.4rem; font-weight: bold; margin-bottom: 15px; border-bottom: 1px solid #555; padding-bottom: 8px;'>Conoce más:</div> <div onclick=\"window.open('https://www.youtube.com/watch?v=3aFJZiHkND0&t=4s', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 12px 15px; margin-bottom: 12px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 1rem; margin-bottom: 4px;'>Museo de Sitio Xochicalco - YouTube</div> <div style='color: #aaa; font-size: 0.8rem; font-style: italic;'>Ver video en YouTube</div> </div> <div onclick=\"window.open('https://www.youtube.com/watch?v=bGvfhpgELf4&t=45s', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 12px 15px; margin-bottom: 12px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 1rem; margin-bottom: 4px;'>Observatorio prehispánico - YouTube</div> <div style='color: #aaa; font-size: 0.8rem; font-style: italic;'>Ver video en YouTube</div> </div> <div onclick=\"window.open('https://www.inah.gob.mx', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 12px 15px; margin-bottom: 12px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 1rem; margin-bottom: 4px;'>Instituto Nacional de Antropología e Historia</div> <div style='color: #aaa; font-size: 0.8rem; font-style: italic;'>www.inah.gob.mx</div> </div> <div onclick=\"window.open('https://es.unesco.org/', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 12px 15px; margin-bottom: 10px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 1rem; margin-bottom: 4px;'>UNESCO</div> <div style='color: #aaa; font-size: 0.8rem; font-style: italic;'>es.unesco.org</div> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 400px; overflow-y: scroll; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/43.webp' alt='Pieza' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> <div style='color: #d1a13b; font-size: 1.4rem; font-weight: bold; margin-bottom: 15px; border-bottom: 1px solid #555; padding-bottom: 8px;'>Visítanos en:</div> <div onclick=\"window.open('https://lugares.inah.gob.mx/es/node/4307', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 12px 15px; margin-bottom: 12px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 1rem; margin-bottom: 4px;'>Lugares INAH - Zona Arqueológica</div> <div style='color: #aaa; font-size: 0.8rem; font-style: italic;'>lugares.inah.gob.mx</div> </div> <div onclick=\"window.open('https://lugares.inah.gob.mx/es/node/4306', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 12px 15px; margin-bottom: 12px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 1rem; margin-bottom: 4px;'>Lugares INAH - Museo de Sitio</div> <div style='color: #aaa; font-size: 0.8rem; font-style: italic;'>lugares.inah.gob.mx</div> </div> <div onclick=\"window.open('https://www.facebook.com/ZAXochicalco', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 12px 15px; margin-bottom: 30px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 1rem; margin-bottom: 4px;'>Xochicalco Morelos - Facebook</div> <div style='color: #aaa; font-size: 0.8rem; font-style: italic;'>@ZAXochicalco</div> </div> <div style='color: #d1a13b; font-size: 1.4rem; font-weight: bold; margin-bottom: 15px; border-bottom: 1px solid #555; padding-bottom: 8px;'>Conoce más:</div> <div onclick=\"window.open('https://www.youtube.com/watch?v=3aFJZiHkND0&t=4s', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 12px 15px; margin-bottom: 12px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 1rem; margin-bottom: 4px;'>Museo de Sitio Xochicalco - YouTube</div> <div style='color: #aaa; font-size: 0.8rem; font-style: italic;'>Ver video en YouTube</div> </div> <div onclick=\"window.open('https://www.youtube.com/watch?v=bGvfhpgELf4&t=45s', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 12px 15px; margin-bottom: 12px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 1rem; margin-bottom: 4px;'>Observatorio prehispánico - YouTube</div> <div style='color: #aaa; font-size: 0.8rem; font-style: italic;'>Ver video en YouTube</div> </div> <div onclick=\"window.open('https://www.inah.gob.mx', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 12px 15px; margin-bottom: 12px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 1rem; margin-bottom: 4px;'>Instituto Nacional de Antropología e Historia</div> <div style='color: #aaa; font-size: 0.8rem; font-style: italic;'>www.inah.gob.mx</div> </div> <div onclick=\"window.open('https://es.unesco.org/', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 12px 15px; margin-bottom: 10px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 1rem; margin-bottom: 4px;'>UNESCO</div> <div style='color: #aaa; font-size: 0.8rem; font-style: italic;'>es.unesco.org</div> </div> </div> </div>"
         },
         {
           "pitch": -9.0,
           "yaw": 13.4,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 400px; overflow-y: scroll; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='ASSETS2/44.webp' alt='Taquilla' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> <div style='color: #d1a13b; font-size: 1.2rem; font-weight: bold; margin-bottom: 15px; border-bottom: 1px solid #555; padding-bottom: 8px;'>Mayor información acerca de:</div> <div onclick=\"window.open('https://lugares.inah.gob.mx/es/node/4306', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 12px 15px; margin-bottom: 12px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 1rem; margin-bottom: 4px;'>Museo de Sitio de Xochicalco</div> <div style='color: #aaa; font-size: 0.8rem; font-style: italic;'>Ver información</div> </div> <div onclick=\"window.open('https://lugares.inah.gob.mx/es/node/4307', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 12px 15px; margin-bottom: 12px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 1rem; margin-bottom: 4px;'>Zona Arqueológica de Xochicalco</div> <div style='color: #aaa; font-size: 0.8rem; font-style: italic;'>Ver información</div> </div> <div onclick=\"window.open('https://drive.google.com/uc?id=1s7wMIzSOpTjqtdqMkHds8dVbnOz6YN4F&export=download', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 12px 15px; margin-bottom: 10px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 1rem; margin-bottom: 4px;'>Mapa de la Zona Arqueológica (PDF)</div> <div style='color: #aaa; font-size: 0.8rem; font-style: italic;'>Descargar / Ver PDF</div> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 400px; overflow-y: scroll; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/44.webp' alt='Taquilla' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> <div style='color: #d1a13b; font-size: 1.2rem; font-weight: bold; margin-bottom: 15px; border-bottom: 1px solid #555; padding-bottom: 8px;'>Mayor información acerca de:</div> <div onclick=\"window.open('https://lugares.inah.gob.mx/es/node/4306', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 12px 15px; margin-bottom: 12px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 1rem; margin-bottom: 4px;'>Museo de Sitio de Xochicalco</div> <div style='color: #aaa; font-size: 0.8rem; font-style: italic;'>Ver información</div> </div> <div onclick=\"window.open('https://lugares.inah.gob.mx/es/node/4307', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 12px 15px; margin-bottom: 12px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 1rem; margin-bottom: 4px;'>Zona Arqueológica de Xochicalco</div> <div style='color: #aaa; font-size: 0.8rem; font-style: italic;'>Ver información</div> </div> <div onclick=\"window.open('https://drive.google.com/uc?id=1s7wMIzSOpTjqtdqMkHds8dVbnOz6YN4F&export=download', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 12px 15px; margin-bottom: 10px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 1rem; margin-bottom: 4px;'>Mapa de la Zona Arqueológica (PDF)</div> <div style='color: #aaa; font-size: 0.8rem; font-style: italic;'>Descargar / Ver PDF</div> </div> </div> </div>"
         },
         {
           "pitch": -12.4,
@@ -266,7 +266,7 @@
     "imagen9": {
       "title": "Sala de Introducción y Exposiciones Temporales / Introduction Room",
       "type": "equirectangular",
-      "panorama": "ASSETS2/9.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/9.webp",
       "hotSpots": [
         {
           "pitch": -29.0,
@@ -293,31 +293,31 @@
     "imagen10": {
       "title": "Sala de Introducción y Exposiciones Temporales / Introduction Room",
       "type": "equirectangular",
-      "panorama": "ASSETS2/10.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/10.webp",
       "hotSpots": [
          {
           "pitch": -9.5,
           "yaw": -97.5,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='ASSETS2/45.webp' alt='Pieza'></div>"
+          "text": "<div class='tarjeta-museo'><img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/45.webp' alt='Pieza'></div>"
         },
         {
           "pitch": -7.1,
           "yaw": -166.6,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='ASSETS2/46.webp' alt='Pieza'></div>"
+          "text": "<div class='tarjeta-museo'><img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/46.webp' alt='Pieza'></div>"
         },
         {
           "pitch": -7.1,
           "yaw": -146.6,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='ASSETS2/47.webp' alt='Pieza'></div>"
+          "text": "<div class='tarjeta-museo'><img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/47.webp' alt='Pieza'></div>"
         },
         {
           "pitch": -2.1,
           "yaw": -37.5,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='ASSETS2/48.webp' alt='Pieza'></div>"
+          "text": "<div class='tarjeta-museo'><img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/48.webp' alt='Pieza'></div>"
         },
         {
           "pitch": -14.1,
@@ -344,7 +344,7 @@
     "imagen11": {
       "title": "Pasillo de las Joyas / Jewels Corridor",
       "type": "equirectangular",
-      "panorama": "ASSETS2/11.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/11.webp",
       "hotSpots": [
         {
           "pitch": -25.2,
@@ -379,7 +379,7 @@
     "imagen12": {
       "title": "Fuera del museo, cerca del Pasillo de las Joyas",
       "type": "equirectangular",
-      "panorama": "ASSETS2/12.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/12.webp",
       "hotSpots": [
         {
           "pitch": -17.5,
@@ -393,7 +393,7 @@
     "imagen13": {
       "title": "Fuera del museo, cerca del Pasillo de las Joyas",
       "type": "equirectangular",
-      "panorama": "ASSETS2/13.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/13.webp",
       "hotSpots": [
         {
           "pitch": -10,
@@ -407,19 +407,19 @@
     "imagen14": {
       "title": "Pasillo de las Joyas / Jewels Corridor",
       "type": "equirectangular",
-      "panorama": "ASSETS2/14.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/14.webp",
       "hotSpots": [
         {
           "pitch": -0.7,
           "yaw": -3.5,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='ASSETS2/49.webp' alt='Máscara Teotihuacana' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> <div style='display: flex; justify-content: space-between; text-align: left;'> <div style='width: 47%; border-right: 1px solid #777; padding-right: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; margin-bottom: 10px;'>Máscara Teotihuacana</div> <div style='color: #fff; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ESPAÑOL</div> <div style='color: #fff; font-weight: bold; line-height: 1.4; font-size: 0.95rem;'>Máscara de estilo teotihuacano que, engarzada con las cuentas, formaban el pectoral de un gran señor xochicalca. Este tipo de adornos fueron usados únicamente por la nobleza en ceremonias muy relevantes.</div> </div> <div style='width: 47%; padding-left: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; font-style: italic; margin-bottom: 10px;'>Teotihuacan Mask</div> <div style='color: #aaa; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ENGLISH</div> <div style='color: #ddd; font-style: italic; line-height: 1.4; font-size: 0.95rem;'>A Teotihuacan style mask, with a string of beads, formed the pectoral of a great lord of Xochicalco. This type of adornment was worn solely by the nobility for important ceremonies.</div> </div> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/49.webp' alt='Máscara Teotihuacana' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> <div style='display: flex; justify-content: space-between; text-align: left;'> <div style='width: 47%; border-right: 1px solid #777; padding-right: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; margin-bottom: 10px;'>Máscara Teotihuacana</div> <div style='color: #fff; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ESPAÑOL</div> <div style='color: #fff; font-weight: bold; line-height: 1.4; font-size: 0.95rem;'>Máscara de estilo teotihuacano que, engarzada con las cuentas, formaban el pectoral de un gran señor xochicalca. Este tipo de adornos fueron usados únicamente por la nobleza en ceremonias muy relevantes.</div> </div> <div style='width: 47%; padding-left: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; font-style: italic; margin-bottom: 10px;'>Teotihuacan Mask</div> <div style='color: #aaa; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ENGLISH</div> <div style='color: #ddd; font-style: italic; line-height: 1.4; font-size: 0.95rem;'>A Teotihuacan style mask, with a string of beads, formed the pectoral of a great lord of Xochicalco. This type of adornment was worn solely by the nobility for important ceremonies.</div> </div> </div> </div> </div>"
         },
         {
           "pitch": -4.4,
           "yaw": 12.1,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='ASSETS2/50.webp' alt='Moldes de Cerámica' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> <div style='display: flex; justify-content: space-between; text-align: left;'> <div style='width: 47%; border-right: 1px solid #777; padding-right: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; margin-bottom: 10px;'>Moldes de Cerámica</div> <div style='color: #fff; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ESPAÑOL</div> <div style='color: #fff; font-weight: bold; line-height: 1.4; font-size: 0.95rem; margin-bottom: 15px;'>Los moldes de cerámica fueron utilizados para reproducir en serie efigies de los incensarios. Los había para rostros humanos, tanto de jóvenes como de ancianos; o bien, de cabezas de felinos, aves y reptiles.</div> <div onclick=\"window.open('https://soundcloud.com/user-643544445/moldes-de-ceramica', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 10px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 0.85rem;'>🎧 Escuchar Audioguía</div> <div style='color: #aaa; font-size: 0.75rem; font-style: italic;'>SoundCloud</div> </div> </div> <div style='width: 47%; padding-left: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; font-style: italic; margin-bottom: 10px;'>Ceramic Molds</div> <div style='color: #aaa; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ENGLISH</div> <div style='color: #ddd; font-style: italic; line-height: 1.4; font-size: 0.95rem; margin-bottom: 15px;'>Ceramic molds were used to mass produce effigies on censers. They have been found in the shape of human faces, youthful and old, as well as feline, bird, and reptile heads.</div> <div onclick=\"window.open('https://soundcloud.com/user-643544445/ceramic-molds', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 10px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #ddd; font-weight: bold; font-size: 0.85rem; font-style: italic;'>🎧 Listen to Audio Guide</div> <div style='color: #aaa; font-size: 0.75rem; font-style: italic;'>SoundCloud</div> </div> </div> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/50.webp' alt='Moldes de Cerámica' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> <div style='display: flex; justify-content: space-between; text-align: left;'> <div style='width: 47%; border-right: 1px solid #777; padding-right: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; margin-bottom: 10px;'>Moldes de Cerámica</div> <div style='color: #fff; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ESPAÑOL</div> <div style='color: #fff; font-weight: bold; line-height: 1.4; font-size: 0.95rem; margin-bottom: 15px;'>Los moldes de cerámica fueron utilizados para reproducir en serie efigies de los incensarios. Los había para rostros humanos, tanto de jóvenes como de ancianos; o bien, de cabezas de felinos, aves y reptiles.</div> <div onclick=\"window.open('https://soundcloud.com/user-643544445/moldes-de-ceramica', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 10px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 0.85rem;'>🎧 Escuchar Audioguía</div> <div style='color: #aaa; font-size: 0.75rem; font-style: italic;'>SoundCloud</div> </div> </div> <div style='width: 47%; padding-left: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; font-style: italic; margin-bottom: 10px;'>Ceramic Molds</div> <div style='color: #aaa; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ENGLISH</div> <div style='color: #ddd; font-style: italic; line-height: 1.4; font-size: 0.95rem; margin-bottom: 15px;'>Ceramic molds were used to mass produce effigies on censers. They have been found in the shape of human faces, youthful and old, as well as feline, bird, and reptile heads.</div> <div onclick=\"window.open('https://soundcloud.com/user-643544445/ceramic-molds', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 10px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #ddd; font-weight: bold; font-size: 0.85rem; font-style: italic;'>🎧 Listen to Audio Guide</div> <div style='color: #aaa; font-size: 0.75rem; font-style: italic;'>SoundCloud</div> </div> </div> </div> </div> </div>"
         },
         {
           "pitch": -35.2,
@@ -440,19 +440,19 @@
     "imagen15": {
       "title": "Pasillo de las Joyas / Jewels Corridor",
       "type": "equirectangular",
-      "panorama": "ASSETS2/15.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/15.webp",
       "hotSpots": [
         {
           "pitch": -9.4,
           "yaw": 33.9,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='ASSETS2/51.webp' alt='Incensario de Felino' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> <div style='display: flex; justify-content: space-between; text-align: left;'> <div style='width: 47%; border-right: 1px solid #777; padding-right: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; margin-bottom: 10px;'>Incensario de Felino</div> <div style='color: #fff; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ESPAÑOL</div> <div style='color: #fff; font-weight: bold; line-height: 1.4; font-size: 0.95rem; margin-bottom: 15px;'>Incensario de cerámica que porta la efigie de un felino, mismo que está adornado con un cordón y un moño; a los lados presenta atados que podrían ser símbolos del fuego. En la concepción prehispánica los felinos fueron considerados como seres asociados con la luna, la noche y la humedad. Encontrado dentro de una habitación, el incensario forma parte de los elementos de un altar doméstico.</div> <div onclick=\"window.open('https://soundcloud.com/user-643544445/incensario-de-ceramica', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 10px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 0.85rem;'>🎧 Escuchar Audioguía</div> <div style='color: #aaa; font-size: 0.75rem; font-style: italic;'>SoundCloud</div> </div> </div> <div style='width: 47%; padding-left: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; font-style: italic; margin-bottom: 10px;'>Feline Censer</div> <div style='color: #aaa; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ENGLISH</div> <div style='color: #ddd; font-style: italic; line-height: 1.4; font-size: 0.95rem; margin-bottom: 15px;'>Ceramic censer bearing a feline effigy adorned with a rope and bow, flanked by knots that might be fire symbols. In pre-Hispanic thought felines were regarded as beings associated with the moon, nighttime, and moisture. Found inside a room, the censer formed part of the paraphernalia of a domestic altar.</div> <div onclick=\"window.open('https://soundcloud.com/user-643544445/ceramic-censer', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 10px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #ddd; font-weight: bold; font-size: 0.85rem; font-style: italic;'>🎧 Listen to Audio Guide</div> <div style='color: #aaa; font-size: 0.75rem; font-style: italic;'>SoundCloud</div> </div> </div> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/51.webp' alt='Incensario de Felino' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> <div style='display: flex; justify-content: space-between; text-align: left;'> <div style='width: 47%; border-right: 1px solid #777; padding-right: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; margin-bottom: 10px;'>Incensario de Felino</div> <div style='color: #fff; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ESPAÑOL</div> <div style='color: #fff; font-weight: bold; line-height: 1.4; font-size: 0.95rem; margin-bottom: 15px;'>Incensario de cerámica que porta la efigie de un felino, mismo que está adornado con un cordón y un moño; a los lados presenta atados que podrían ser símbolos del fuego. En la concepción prehispánica los felinos fueron considerados como seres asociados con la luna, la noche y la humedad. Encontrado dentro de una habitación, el incensario forma parte de los elementos de un altar doméstico.</div> <div onclick=\"window.open('https://soundcloud.com/user-643544445/incensario-de-ceramica', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 10px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 0.85rem;'>🎧 Escuchar Audioguía</div> <div style='color: #aaa; font-size: 0.75rem; font-style: italic;'>SoundCloud</div> </div> </div> <div style='width: 47%; padding-left: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; font-style: italic; margin-bottom: 10px;'>Feline Censer</div> <div style='color: #aaa; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ENGLISH</div> <div style='color: #ddd; font-style: italic; line-height: 1.4; font-size: 0.95rem; margin-bottom: 15px;'>Ceramic censer bearing a feline effigy adorned with a rope and bow, flanked by knots that might be fire symbols. In pre-Hispanic thought felines were regarded as beings associated with the moon, nighttime, and moisture. Found inside a room, the censer formed part of the paraphernalia of a domestic altar.</div> <div onclick=\"window.open('https://soundcloud.com/user-643544445/ceramic-censer', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 10px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #ddd; font-weight: bold; font-size: 0.85rem; font-style: italic;'>🎧 Listen to Audio Guide</div> <div style='color: #aaa; font-size: 0.75rem; font-style: italic;'>SoundCloud</div> </div> </div> </div> </div> </div>"
         },
         {
           "pitch": 5.7,
           "yaw": -17.9,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='ASSETS2/52.webp' alt='Flor de Cinco Pétalos' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> <div style='display: flex; justify-content: space-between; text-align: left;'> <div style='width: 47%; border-right: 1px solid #777; padding-right: 15px;'> <div style='color: #d1a13b; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ESPAÑOL</div> <div style='color: #fff; font-weight: bold; line-height: 1.4; font-size: 0.95rem;'>Escultura estilizada que representa una flor de cinco pétalos. Fue hallada con otras piezas similares en uno de los patios de la Acrópolis. Su posición permite aseverar que formó parte del remate de un pórtico.</div> </div> <div style='width: 47%; padding-left: 15px;'> <div style='color: #d1a13b; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ENGLISH</div> <div style='color: #ddd; font-style: italic; line-height: 1.4; font-size: 0.95rem;'>Stylized sculpture representing a flower with five petals. It was found with other similar pieces in one of the patios of the Acropolis. Its position suggests it formed part of the ornamentation over a portico.</div> </div> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/52.webp' alt='Flor de Cinco Pétalos' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> <div style='display: flex; justify-content: space-between; text-align: left;'> <div style='width: 47%; border-right: 1px solid #777; padding-right: 15px;'> <div style='color: #d1a13b; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ESPAÑOL</div> <div style='color: #fff; font-weight: bold; line-height: 1.4; font-size: 0.95rem;'>Escultura estilizada que representa una flor de cinco pétalos. Fue hallada con otras piezas similares en uno de los patios de la Acrópolis. Su posición permite aseverar que formó parte del remate de un pórtico.</div> </div> <div style='width: 47%; padding-left: 15px;'> <div style='color: #d1a13b; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ENGLISH</div> <div style='color: #ddd; font-style: italic; line-height: 1.4; font-size: 0.95rem;'>Stylized sculpture representing a flower with five petals. It was found with other similar pieces in one of the patios of the Acropolis. Its position suggests it formed part of the ornamentation over a portico.</div> </div> </div> </div> </div>"
         },
         {
           "pitch": -22.4,
@@ -473,19 +473,19 @@
     "imagen16": {
       "title": "Pasillo de las Joyas / Jewels Corridor",
       "type": "equirectangular",
-      "panorama": "ASSETS2/16.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/16.webp",
       "hotSpots": [
         {
           "pitch": -8.3,
           "yaw": 38.6,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='ASSETS2/53.webp' alt='Danzantes' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> <div style='display: flex; justify-content: space-between; text-align: left;'> <div style='width: 47%; border-right: 1px solid #777; padding-right: 15px;'> <div style='color: #d1a13b; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ESPAÑOL</div> <div style='color: #fff; font-weight: bold; line-height: 1.4; font-size: 0.95rem;'>Las figuras son danzantes que ejecutan un baile alrededor del sol, probablemente con motivo de alguna celebración religiosa. Su representación en una vasija cerámica hace suponer que el festejo fue de tipo popular.</div> </div> <div style='width: 47%; padding-left: 15px;'> <div style='color: #d1a13b; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ENGLISH</div> <div style='color: #ddd; font-style: italic; line-height: 1.4; font-size: 0.95rem;'>The figures are performing a dance around the sun, probably in conjunction with a religious celebration. Their representation on a ceramic vessel suggests the popular nature of the festivity.</div> </div> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/53.webp' alt='Danzantes' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> <div style='display: flex; justify-content: space-between; text-align: left;'> <div style='width: 47%; border-right: 1px solid #777; padding-right: 15px;'> <div style='color: #d1a13b; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ESPAÑOL</div> <div style='color: #fff; font-weight: bold; line-height: 1.4; font-size: 0.95rem;'>Las figuras son danzantes que ejecutan un baile alrededor del sol, probablemente con motivo de alguna celebración religiosa. Su representación en una vasija cerámica hace suponer que el festejo fue de tipo popular.</div> </div> <div style='width: 47%; padding-left: 15px;'> <div style='color: #d1a13b; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ENGLISH</div> <div style='color: #ddd; font-style: italic; line-height: 1.4; font-size: 0.95rem;'>The figures are performing a dance around the sun, probably in conjunction with a religious celebration. Their representation on a ceramic vessel suggests the popular nature of the festivity.</div> </div> </div> </div> </div>"
         },
         {
           "pitch": -9.3,
           "yaw": -7.1,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='ASSETS2/54.webp' alt='Almena de barro' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> <div style='display: flex; justify-content: space-between; text-align: left;'> <div style='width: 47%; border-right: 1px solid #777; padding-right: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; margin-bottom: 10px;'>Almena de barro</div> <div style='color: #fff; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ESPAÑOL</div> <div style='color: #fff; font-weight: bold; line-height: 1.4; font-size: 0.95rem; margin-bottom: 15px;'>Almena de barro que exhibe a una airosa guacamaya saliendo de entre el follaje. Con esta ave los prehispánicos simbolizaron al sol y al día. Formó parte del almenado de un salón de la Acrópolis.</div> <div onclick=\"window.open('https://soundcloud.com/user-643544445/almena-de-barro', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 10px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 0.85rem;'>🎧 Escuchar Audioguía</div> <div style='color: #aaa; font-size: 0.75rem; font-style: italic;'>SoundCloud</div> </div> </div> <div style='width: 47%; padding-left: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; font-style: italic; margin-bottom: 10px;'>Clay battlement</div> <div style='color: #aaa; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ENGLISH</div> <div style='color: #ddd; font-style: italic; line-height: 1.4; font-size: 0.95rem; margin-bottom: 15px;'>Terracotta roof ornament from a hall on the Acropolis that displays an elegant macaw emerging from foliage. For pre-Hispanic peoples this bird symbolized the sun and daytime.</div> <div onclick=\"window.open('https://soundcloud.com/user-643544445/clay-battlement', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 10px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #ddd; font-weight: bold; font-size: 0.85rem; font-style: italic;'>🎧 Listen to Audio Guide</div> <div style='color: #aaa; font-size: 0.75rem; font-style: italic;'>SoundCloud</div> </div> </div> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/54.webp' alt='Almena de barro' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> <div style='display: flex; justify-content: space-between; text-align: left;'> <div style='width: 47%; border-right: 1px solid #777; padding-right: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; margin-bottom: 10px;'>Almena de barro</div> <div style='color: #fff; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ESPAÑOL</div> <div style='color: #fff; font-weight: bold; line-height: 1.4; font-size: 0.95rem; margin-bottom: 15px;'>Almena de barro que exhibe a una airosa guacamaya saliendo de entre el follaje. Con esta ave los prehispánicos simbolizaron al sol y al día. Formó parte del almenado de un salón de la Acrópolis.</div> <div onclick=\"window.open('https://soundcloud.com/user-643544445/almena-de-barro', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 10px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 0.85rem;'>🎧 Escuchar Audioguía</div> <div style='color: #aaa; font-size: 0.75rem; font-style: italic;'>SoundCloud</div> </div> </div> <div style='width: 47%; padding-left: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; font-style: italic; margin-bottom: 10px;'>Clay battlement</div> <div style='color: #aaa; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ENGLISH</div> <div style='color: #ddd; font-style: italic; line-height: 1.4; font-size: 0.95rem; margin-bottom: 15px;'>Terracotta roof ornament from a hall on the Acropolis that displays an elegant macaw emerging from foliage. For pre-Hispanic peoples this bird symbolized the sun and daytime.</div> <div onclick=\"window.open('https://soundcloud.com/user-643544445/clay-battlement', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 10px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #ddd; font-weight: bold; font-size: 0.85rem; font-style: italic;'>🎧 Listen to Audio Guide</div> <div style='color: #aaa; font-size: 0.75rem; font-style: italic;'>SoundCloud</div> </div> </div> </div> </div> </div>"
         },
         {
           "pitch": -25.1,
@@ -506,7 +506,7 @@
     "imagen17": {
       "title": "Acceso a la sala 1, 2 y 3. / Access to Rooms 1, 2 and 3.",
       "type": "equirectangular",
-      "panorama": "ASSETS2/17.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/17.webp",
       "hotSpots": [
         {
           "pitch": -10.0,
@@ -554,13 +554,13 @@
     "imagen18": {
       "title": "SALA 1 Los dones de la Tierra: Hacedores de vida. / Room 1 Gifts from the Land, Creators of Life.",
       "type": "equirectangular",
-      "panorama": "ASSETS2/18.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/18.webp",
       "hotSpots": [
         {
           "pitch": -7.7,
           "yaw": 14.5,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='ASSETS2/55.webp' alt='Cabeza de mariposa' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> <div style='display: flex; justify-content: space-between; text-align: left;'> <div style='width: 47%; border-right: 1px solid #777; padding-right: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; margin-bottom: 10px;'>Cabeza de mariposa</div> <div style='color: #fff; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ESPAÑOL</div> <div style='color: #fff; font-weight: bold; line-height: 1.4; font-size: 0.95rem; margin-bottom: 15px;'>Esta escultura tan estilizada que es el colmo de la abstracción, es la cabeza de una mariposa que muestra los ojos, las antenas y la trompa enrollada. El insecto impresionó tanto a sacerdotes y artistas no sólo por lo colorido de sus alas, sino también por el ciclo de vida, con la metamorfosis que convierte a la oruga en un ser completamente diferente que puede volar.<br><br>En la iconografía mesoamericana, la mariposa expresó simbólicamente la vegetación o la fertilidad, o bien el alma de algún guerrero o gobernante muerto.</div> <div onclick=\"window.open('https://soundcloud.com/user-643544445/cabeza-de-mariposa', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 10px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 0.85rem;'>🎧 Escuchar Audioguía</div> <div style='color: #aaa; font-size: 0.75rem; font-style: italic;'>SoundCloud</div> </div> </div> <div style='width: 47%; padding-left: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; font-style: italic; margin-bottom: 10px;'>Butterfly head</div> <div style='color: #aaa; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ENGLISH</div> <div style='color: #ddd; font-style: italic; line-height: 1.4; font-size: 0.95rem; margin-bottom: 15px;'>This highly stylized sculpture, which is the epitome of abstraction, is the head of a butterfly showing its eyes, antennae, and curled snout. The insect impressed priests and artists alike, not only for its colorful wings, but also for the metamorphosis of its life cycle, in which the caterpillar is transformed into a completely different being that could fly.<br><br>In Mesoamerican iconography, the butterfly symbolically expressed vegetation and fertility, as well as the soul of dead warriors and rulers.</div> <div onclick=\"window.open('https://soundcloud.com/user-643544445/butterfly-head', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 10px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #ddd; font-weight: bold; font-size: 0.85rem; font-style: italic;'>🎧 Listen to Audio Guide</div> <div style='color: #aaa; font-size: 0.75rem; font-style: italic;'>SoundCloud</div> </div> </div> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/55.webp' alt='Cabeza de mariposa' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> <div style='display: flex; justify-content: space-between; text-align: left;'> <div style='width: 47%; border-right: 1px solid #777; padding-right: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; margin-bottom: 10px;'>Cabeza de mariposa</div> <div style='color: #fff; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ESPAÑOL</div> <div style='color: #fff; font-weight: bold; line-height: 1.4; font-size: 0.95rem; margin-bottom: 15px;'>Esta escultura tan estilizada que es el colmo de la abstracción, es la cabeza de una mariposa que muestra los ojos, las antenas y la trompa enrollada. El insecto impresionó tanto a sacerdotes y artistas no sólo por lo colorido de sus alas, sino también por el ciclo de vida, con la metamorfosis que convierte a la oruga en un ser completamente diferente que puede volar.<br><br>En la iconografía mesoamericana, la mariposa expresó simbólicamente la vegetación o la fertilidad, o bien el alma de algún guerrero o gobernante muerto.</div> <div onclick=\"window.open('https://soundcloud.com/user-643544445/cabeza-de-mariposa', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 10px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 0.85rem;'>🎧 Escuchar Audioguía</div> <div style='color: #aaa; font-size: 0.75rem; font-style: italic;'>SoundCloud</div> </div> </div> <div style='width: 47%; padding-left: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; font-style: italic; margin-bottom: 10px;'>Butterfly head</div> <div style='color: #aaa; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ENGLISH</div> <div style='color: #ddd; font-style: italic; line-height: 1.4; font-size: 0.95rem; margin-bottom: 15px;'>This highly stylized sculpture, which is the epitome of abstraction, is the head of a butterfly showing its eyes, antennae, and curled snout. The insect impressed priests and artists alike, not only for its colorful wings, but also for the metamorphosis of its life cycle, in which the caterpillar is transformed into a completely different being that could fly.<br><br>In Mesoamerican iconography, the butterfly symbolically expressed vegetation and fertility, as well as the soul of dead warriors and rulers.</div> <div onclick=\"window.open('https://soundcloud.com/user-643544445/butterfly-head', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 10px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #ddd; font-weight: bold; font-size: 0.85rem; font-style: italic;'>🎧 Listen to Audio Guide</div> <div style='color: #aaa; font-size: 0.75rem; font-style: italic;'>SoundCloud</div> </div> </div> </div> </div> </div>"
         },
         {
           "pitch": -7.9,
@@ -572,13 +572,13 @@
           "pitch": -7.9,
           "yaw": 90,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='ASSETS2/56.webp' alt='Pieza'></div>"
+          "text": "<div class='tarjeta-museo'><img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/56.webp' alt='Pieza'></div>"
         },
         {
           "pitch": -14.7,
           "yaw": -1.7,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='ASSETS2/57.webp' alt='El Señor de las Serpientes' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> <div style='display: flex; justify-content: space-between; text-align: left;'> <div style='width: 47%; border-right: 1px solid #777; padding-right: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; margin-bottom: 10px;'>Señor de las Serpientes</div> <div style='color: #fff; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ESPAÑOL</div> <div style='color: #fff; font-weight: bold; line-height: 1.4; font-size: 0.95rem; margin-bottom: 15px;'>El Señor de las Serpientes representa a la nobleza dirigente de Xochicalco. Guarda una postura regia y severa. Lleva un faldellín y está ataviado ricamente con una banda de plumas entrelazadas rematada al centro por un <em>chalchihuite</em>; además tiene grandes orejeras, un collar y pulseras. Su rango social se manifiesta por el tocado de cabezas de serpiente y las cuatro serpientes que envuelven su cuerpo.<br><br>Esta representación genérica de la nobleza también se puede apreciar en los personajes sedentes entre los cuerpos de las serpientes emplumadas de la Pirámide de las Serpientes Emplumadas, así como en el <em>Señor Yelmo de Serpiente</em>.</div> <div onclick=\"window.open('https://soundcloud.com/user-643544445/senor-de-las-serpientes', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 10px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 0.85rem;'>🎧 Escuchar Audioguía</div> <div style='color: #aaa; font-size: 0.75rem; font-style: italic;'>SoundCloud</div> </div> </div> <div style='width: 47%; padding-left: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; font-style: italic; margin-bottom: 10px;'>Lord of the Serpents</div> <div style='color: #aaa; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ENGLISH</div> <div style='color: #ddd; font-style: italic; line-height: 1.4; font-size: 0.95rem; margin-bottom: 15px;'>The Lord of the Serpents represents the ruling nobility of Xochicalco. His bearing is regal and severe. He wears a skirt and is richly attired with a headband of interlaced feathers with a <em>chalchihuite</em> (greenstone bead) in the middle; in addition to large earflares, a necklace, and wristlets. His social rank is suggested by his headdress and the four snakes that are wrapped around his body.<br><br>This generic depiction of nobility may also be seen in the seated figures interspersed between the undulating serpent bodies on the Pyramid of the Feathered Serpents, as well as in the case of <em>Lord Serpent Helmet</em>.</div> <div onclick=\"window.open('https://soundcloud.com/user-643544445/the-lord-of-the-serpents', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 10px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #ddd; font-weight: bold; font-size: 0.85rem; font-style: italic;'>🎧 Listen to Audio Guide</div> <div style='color: #aaa; font-size: 0.75rem; font-style: italic;'>SoundCloud</div> </div> </div> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/57.webp' alt='El Señor de las Serpientes' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> <div style='display: flex; justify-content: space-between; text-align: left;'> <div style='width: 47%; border-right: 1px solid #777; padding-right: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; margin-bottom: 10px;'>Señor de las Serpientes</div> <div style='color: #fff; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ESPAÑOL</div> <div style='color: #fff; font-weight: bold; line-height: 1.4; font-size: 0.95rem; margin-bottom: 15px;'>El Señor de las Serpientes representa a la nobleza dirigente de Xochicalco. Guarda una postura regia y severa. Lleva un faldellín y está ataviado ricamente con una banda de plumas entrelazadas rematada al centro por un <em>chalchihuite</em>; además tiene grandes orejeras, un collar y pulseras. Su rango social se manifiesta por el tocado de cabezas de serpiente y las cuatro serpientes que envuelven su cuerpo.<br><br>Esta representación genérica de la nobleza también se puede apreciar en los personajes sedentes entre los cuerpos de las serpientes emplumadas de la Pirámide de las Serpientes Emplumadas, así como en el <em>Señor Yelmo de Serpiente</em>.</div> <div onclick=\"window.open('https://soundcloud.com/user-643544445/senor-de-las-serpientes', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 10px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #fff; font-weight: bold; font-size: 0.85rem;'>🎧 Escuchar Audioguía</div> <div style='color: #aaa; font-size: 0.75rem; font-style: italic;'>SoundCloud</div> </div> </div> <div style='width: 47%; padding-left: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; font-style: italic; margin-bottom: 10px;'>Lord of the Serpents</div> <div style='color: #aaa; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ENGLISH</div> <div style='color: #ddd; font-style: italic; line-height: 1.4; font-size: 0.95rem; margin-bottom: 15px;'>The Lord of the Serpents represents the ruling nobility of Xochicalco. His bearing is regal and severe. He wears a skirt and is richly attired with a headband of interlaced feathers with a <em>chalchihuite</em> (greenstone bead) in the middle; in addition to large earflares, a necklace, and wristlets. His social rank is suggested by his headdress and the four snakes that are wrapped around his body.<br><br>This generic depiction of nobility may also be seen in the seated figures interspersed between the undulating serpent bodies on the Pyramid of the Feathered Serpents, as well as in the case of <em>Lord Serpent Helmet</em>.</div> <div onclick=\"window.open('https://soundcloud.com/user-643544445/the-lord-of-the-serpents', '_blank')\" style='background: rgba(255, 255, 255, 0.05); padding: 10px; border-left: 4px solid #d1a13b; border-radius: 0 5px 5px 0; cursor: pointer;'> <div style='color: #ddd; font-weight: bold; font-size: 0.85rem; font-style: italic;'>🎧 Listen to Audio Guide</div> <div style='color: #aaa; font-size: 0.75rem; font-style: italic;'>SoundCloud</div> </div> </div> </div> </div> </div>"
         },
         {
           "pitch": -10.0,
@@ -606,7 +606,7 @@
     "imagen19": {
       "title": "SALA 1 Los dones de la Tierra: Hacedores de vida. / Room 1 Gifts from the Land, Creators of Life.",
       "type": "equirectangular",
-      "panorama": "ASSETS2/19.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/19.webp",
       "hotSpots": [
         {
           "pitch": -10.0,
@@ -632,7 +632,7 @@
           "pitch": -17.7,
           "yaw": 130.0,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/58.webP' alt='Descripción' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/58.webp' alt='Descripción' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
         },
         {
           "pitch": -29.5,
@@ -650,7 +650,7 @@
           "pitch": -5.6,
           "yaw": -25.0,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/59.webP' alt='Descripción' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/59.webp' alt='Descripción' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
         },
         {
           "pitch": -36.3,
@@ -662,14 +662,14 @@
           "pitch": -20.6,
           "yaw": -57.0,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/60.webP' alt='Descripción' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/60.webP' alt='Descripción' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
         }
       ]
     },
     "imagen20": {
       "title": "SALA 1 Los dones de la Tierra: Hacedores de vida. / Room 1 Gifts from the Land, Creators of Life.",
       "type": "equirectangular",
-      "panorama": "ASSETS2/20.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/20.webp",
       "hotSpots": [
         {
           "pitch": -10.0,
@@ -695,7 +695,7 @@
           "pitch": -1.0,
           "yaw": 1.8,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/61.webP' alt='Descripción' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/61.webP' alt='Descripción' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
         },
         {
           "pitch": -23.3,
@@ -707,13 +707,13 @@
           "pitch": -23.3,
           "yaw": -135.8,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/62.webP' alt='Descripción' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/62.webP' alt='Descripción' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
         },
         {
           "pitch": -10.2,
           "yaw": -166.6,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/63.webP' alt='Descripción' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/63.webP' alt='Descripción' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
         },
         {
           "pitch": -15.5,
@@ -726,7 +726,7 @@
     "imagen21": {
       "title": "SALA 2 Hombres guerreros, hombres sacerdotes / Room 2 Warriors and Priests",
       "type": "equirectangular",
-      "panorama": "ASSETS2/21.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/21.webp",
       "hotSpots": [
         {
           "pitch": -18.0,
@@ -739,7 +739,7 @@
           "pitch": 3.4,
           "yaw": -29.4,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center;'> <img src='ASSETS2/64.webp' alt='El señor de rojo' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center;'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/64.webp' alt='El señor de rojo' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> </div> </div>"
         },
         {
           "pitch": -20.3,
@@ -766,7 +766,7 @@
     "imagen22": {
       "title": "SALA 2 Hombres guerreros, hombres sacerdotes / Room 2 Warriors and Priests",
       "type": "equirectangular",
-      "panorama": "ASSETS2/22.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/22.webp",
       "hotSpots": [
         {
           "pitch": -5.7,
@@ -779,7 +779,7 @@
           "pitch": -5.0,
           "yaw": -115.9,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center;'> <img src='ASSETS2/65.webp' alt='Imagen de exposición' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center;'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/65.webp' alt='Imagen de exposición' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> </div> </div>"
         },
           {
           "pitch": -10.3,
@@ -791,7 +791,7 @@
           "pitch": -3.5,
           "yaw": -165,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center;'> <img src='ASSETS2/66.webp' alt='Imagen de exposición' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center;'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/66.webp' alt='Imagen de exposición' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> </div> </div>"
         },
         {
           "pitch": -15.3,
@@ -803,7 +803,7 @@
           "pitch": -4.6,
           "yaw": 65.9,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center;'> <img src='ASSETS2/67.webp' alt='Imagen de exposición' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center;'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/67.webp' alt='Imagen de exposición' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> </div> </div>"
         },
         {
           "pitch": -11.5,
@@ -815,7 +815,7 @@
           "pitch": -1.9,
           "yaw": -36.9,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='ASSETS2/68.webp' alt='La diosa de la fertilidad' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> <div style='display: flex; justify-content: space-between; text-align: left;'> <div style='width: 47%; border-right: 1px solid #777; padding-right: 15px;'> <div style='color: #d1a13b; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ESPAÑOL</div> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; margin-bottom: 10px;'>La diosa de la fertilidad</div> </div> <div style='width: 47%; padding-left: 15px;'> <div style='color: #d1a13b; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ENGLISH</div> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; font-style: italic; margin-bottom: 10px;'>Goddess of Fertility</div> </div> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/68.webp' alt='La diosa de la fertilidad' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> <div style='display: flex; justify-content: space-between; text-align: left;'> <div style='width: 47%; border-right: 1px solid #777; padding-right: 15px;'> <div style='color: #d1a13b; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ESPAÑOL</div> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; margin-bottom: 10px;'>La diosa de la fertilidad</div> </div> <div style='width: 47%; padding-left: 15px;'> <div style='color: #d1a13b; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ENGLISH</div> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; font-style: italic; margin-bottom: 10px;'>Goddess of Fertility</div> </div> </div> </div> </div>"
         },
           {
           "pitch": -18.5,
@@ -827,7 +827,7 @@
           "pitch": -10.1,
           "yaw": 10.4,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='ASSETS2/69.webp' alt='Altar de las olas' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> <div style='display: flex; justify-content: space-between; text-align: left;'> <div style='width: 47%; border-right: 1px solid #777; padding-right: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; margin-bottom: 10px;'>Altar de las Olas</div> <div style='color: #fff; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ESPAÑOL</div> </div> <div style='width: 47%; padding-left: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; font-style: italic; margin-bottom: 10px;'>Altar of the Waves</div> <div style='color: #aaa; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ENGLISH</div> </div> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/69.webp' alt='Altar de las olas' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> <div style='display: flex; justify-content: space-between; text-align: left;'> <div style='width: 47%; border-right: 1px solid #777; padding-right: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; margin-bottom: 10px;'>Altar de las Olas</div> <div style='color: #fff; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ESPAÑOL</div> </div> <div style='width: 47%; padding-left: 15px;'> <div style='color: #d1a13b; font-size: 1.3rem; font-weight: bold; font-style: italic; margin-bottom: 10px;'>Altar of the Waves</div> <div style='color: #aaa; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ENGLISH</div> </div> </div> </div> </div>"
         },
         {
           "pitch": -0.5,
@@ -847,7 +847,7 @@
     "imagen23": {
       "title": "SALA 2 Hombres guerreros, hombres sacerdotes / Room 2 Warriors and Priests",
       "type": "equirectangular",
-      "panorama": "ASSETS2/23.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/23.webp",
       "hotSpots": [
         {
           "pitch": -10.0,
@@ -860,7 +860,7 @@
           "pitch": -1.6,
           "yaw": -148.8,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center;'> <img src='ASSETS2/70.webp' alt='Incensario' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center;'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/70.webp' alt='Incensario' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> </div> </div>"
         },
         {
           "pitch": -16.6,
@@ -872,7 +872,7 @@
           "pitch": -4.5,
           "yaw": -28.3,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center;'> <img src='ASSETS2/71.webp' alt='Yelmo de serpiente' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center;'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/71.webp' alt='Yelmo de serpiente' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> </div> </div>"
         },
         {
           "pitch": -13.8,
@@ -884,7 +884,7 @@
           "pitch": -7.2,
           "yaw": 68.1,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center;'> <img src='ASSETS2/72.webp' alt='Rituales' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center;'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/72.webp' alt='Rituales' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> </div> </div>"
         },
         {
           "pitch": -12.0,
@@ -896,7 +896,7 @@
           "pitch": -1.7,
           "yaw": 30.9,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center;'> <img src='ASSETS2/73.webp' alt='Instrumentos de cocina' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center;'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/73.webp' alt='Instrumentos de cocina' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> </div> </div>"
         },
         {
           "pitch": -7.1,
@@ -916,7 +916,7 @@
     "imagen24": {
       "title": "SALA 3 Xochicalco, resguardo de hombres / Room 3 Xochicalco, a Shelter for Men.",
       "type": "equirectangular",
-      "panorama": "ASSETS2/24.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/24.webp",
       "hotSpots": [
         {
           "pitch": -11.0,
@@ -929,13 +929,13 @@
           "pitch": 2.4,
           "yaw": -138.3,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='ASSETS2/74.webp' alt='Xochicalco, resguardo de hombres' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> <div style='display: flex; justify-content: space-between; text-align: left;'> <div style='width: 47%; border-right: 1px solid #777; padding-right: 15px;'> <div style='color: #d1a13b; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ESPAÑOL</div> <div style='color: #fff; font-weight: bold; line-height: 1.4; font-size: 0.95rem;'>Xochicalco, resguardo de hombres. Cartel informativo.</div> </div> <div style='width: 47%; padding-left: 15px;'> <div style='color: #d1a13b; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ENGLISH</div> <div style='color: #ddd; font-style: italic; line-height: 1.4; font-size: 0.95rem;'>Xochicalco, shelter of men. Informative sign.</div> </div> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/74.webp' alt='Xochicalco, resguardo de hombres' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> <div style='display: flex; justify-content: space-between; text-align: left;'> <div style='width: 47%; border-right: 1px solid #777; padding-right: 15px;'> <div style='color: #d1a13b; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ESPAÑOL</div> <div style='color: #fff; font-weight: bold; line-height: 1.4; font-size: 0.95rem;'>Xochicalco, resguardo de hombres. Cartel informativo.</div> </div> <div style='width: 47%; padding-left: 15px;'> <div style='color: #d1a13b; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ENGLISH</div> <div style='color: #ddd; font-style: italic; line-height: 1.4; font-size: 0.95rem;'>Xochicalco, shelter of men. Informative sign.</div> </div> </div> </div> </div>"
         },
         {
           "pitch": -9.9,
           "yaw": 120.0,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='ASSETS2/75.webp' alt='Estela de los dos glifos' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> <div style='display: flex; justify-content: space-between; text-align: left;'> <div style='width: 47%; border-right: 1px solid #777; padding-right: 15px;'> <div style='color: #d1a13b; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ESPAÑOL</div> <div style='color: #fff; font-weight: bold; line-height: 1.4; font-size: 0.95rem;'>Estela de los dos glifos.</div> </div> <div style='width: 47%; padding-left: 15px;'> <div style='color: #d1a13b; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ENGLISH</div> <div style='color: #ddd; font-style: italic; line-height: 1.4; font-size: 0.95rem;'>Stela of the Two Glyphs.</div> </div> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; width: 500px; font-family: sans-serif; cursor: default; padding: 0;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <div style='max-height: 450px; overflow-y: auto; padding: 20px; box-sizing: border-box; overscroll-behavior: contain;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/75.webp' alt='Estela de los dos glifos' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);'> </div> <div style='display: flex; justify-content: space-between; text-align: left;'> <div style='width: 47%; border-right: 1px solid #777; padding-right: 15px;'> <div style='color: #d1a13b; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ESPAÑOL</div> <div style='color: #fff; font-weight: bold; line-height: 1.4; font-size: 0.95rem;'>Estela de los dos glifos.</div> </div> <div style='width: 47%; padding-left: 15px;'> <div style='color: #d1a13b; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 8px;'>ENGLISH</div> <div style='color: #ddd; font-style: italic; line-height: 1.4; font-size: 0.95rem;'>Stela of the Two Glyphs.</div> </div> </div> </div> </div>"
         },
         {
           "pitch": -32.3,
@@ -947,7 +947,7 @@
           "pitch": -9.7,
           "yaw": -179.4,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/76.webp' alt='Arquitectura' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/76.webp' alt='Arquitectura' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
         },
         {
           "pitch": -11.7,
@@ -959,7 +959,7 @@
           "pitch": -8.0,
           "yaw": 30.0,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/77.webp' alt='Ornamentación juego de pelota' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/77.webp' alt='Ornamentación juego de pelota' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
         },
         {
           "pitch": -5.0,
@@ -986,7 +986,7 @@
     "imagen25": {
       "title": "SALA 3 Xochicalco, resguardo de hombres / Room 3 Xochicalco, a Shelter for Men.",
       "type": "equirectangular",
-      "panorama": "ASSETS2/25.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/25.webp",
       "hotSpots": [
         {
           "pitch": -10.0,
@@ -999,7 +999,7 @@
           "pitch": -2.0,
           "yaw": -80.7,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/78.webp' alt='Tzompantli' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/78.webp' alt='Tzompantli' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
         },
         {
           "pitch": -2.0,
@@ -1011,7 +1011,7 @@
           "pitch": -13.2,
           "yaw": -92.7,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/79.webp' alt='Tambores' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/79.webp' alt='Tambores' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
         },
         {
           "pitch": -20.5,
@@ -1023,13 +1023,13 @@
           "pitch": -1.2,
           "yaw": -113.7,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/80.webp' alt='Cartel informativo' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/80.webp' alt='Cartel informativo' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
         },
         {
           "pitch": -19.2,
           "yaw": -105.9,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/81.webp' alt='El tiempo y el calendario' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/81.webp' alt='El tiempo y el calendario' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
         },
         {
           "pitch": -12.5,
@@ -1041,7 +1041,7 @@
           "pitch": -11.0,
           "yaw": 150.6,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/82.webp' alt='Más Arquitectura' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/82.webp' alt='Más Arquitectura' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
         },
         {
           "pitch": -21.3,
@@ -1053,7 +1053,7 @@
           "pitch": -6.3,
           "yaw": 55.8,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/83.webp' alt='Símbolos Tlalocan' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/83.webp' alt='Símbolos Tlalocan' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
         },
         {
           "pitch": -20.6,
@@ -1073,7 +1073,7 @@
     "imagen26": {
       "title": "SALA 3 Xochicalco, resguardo de hombres / Room 3 Xochicalco, a Shelter for Men.",
       "type": "equirectangular",
-      "panorama": "ASSETS2/26.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/26.webp",
       "hotSpots": [
         {
           "pitch": -10.0,
@@ -1098,13 +1098,13 @@
           "pitch": -2.4,
           "yaw": -116.7,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/84.webp' alt='Perfiles, Líneas, Trazos' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/84.webp' alt='Perfiles, Líneas, Trazos' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
         },
         {
           "pitch": -15.1,
           "yaw": 152.7,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/85.webp' alt='Innovaciones en la Ciudad' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/85.webp' alt='Innovaciones en la Ciudad' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
         },
         {
           "pitch": -16.0,
@@ -1116,13 +1116,13 @@
           "pitch": 1.8,
           "yaw": 78.2,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/86.webp' alt='Nuevos Poderes' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/86.webp' alt='Nuevos Poderes' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
         },
         {
           "pitch": 0.0,
           "yaw": 37.2,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/87.webp' alt='Temazcal' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/87.webp' alt='Temazcal' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
         },
         {
           "pitch": -5.5,
@@ -1142,7 +1142,7 @@
     "imagen27": {
       "title": "Pasillo cronológico / Chronical Corridor",
       "type": "equirectangular",
-      "panorama": "ASSETS2/27.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/27.webp",
       "hotSpots": [
         {
           "pitch": -10.0,
@@ -1155,25 +1155,25 @@
           "pitch": -2.9,
           "yaw": -178.0,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='ASSETS2/88.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/88.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
         },
         {
           "pitch": -1.9,
           "yaw": -120,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='ASSETS2/89.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/89.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
         },
         {
           "pitch": -4.5,
           "yaw": -62,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='ASSETS2/90.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/90.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
         },
         {
           "pitch": -6,
           "yaw": 0.0,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='ASSETS2/91.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/91.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
         },
         {
           "pitch": -10.0,
@@ -1187,7 +1187,7 @@
     "imagen28": {
       "title": "Acceso a la sala 4 y 5 / Access to Rooms 4 and 5.",
       "type": "equirectangular",
-      "panorama": "ASSETS2/28.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/28.webp",
       "hotSpots": [
         {
           "pitch": -4.0,
@@ -1222,7 +1222,7 @@
     "imagen29": {
       "title": "SALA 5 Los rituales del juego / Room 5 World of Gods.",
       "type": "equirectangular",
-      "panorama": "ASSETS2/29.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/29.webp",
       "hotSpots": [
         {
           "pitch": -10.0,
@@ -1256,7 +1256,7 @@
     "imagen30": {
       "title": "SALA 5 Los rituales del juego / Room 5 World of Gods.",
       "type": "equirectangular",
-      "panorama": "ASSETS2/30.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/30.webp",
       "hotSpots": [
         {
           "pitch": -10.0,
@@ -1282,7 +1282,7 @@
           "pitch": -10.2,
           "yaw": -54.0,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/92.webP' alt='Imagen' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/92.webP' alt='Imagen' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
         },
         {
           "pitch": -18.4,
@@ -1294,14 +1294,14 @@
           "pitch": -10.2,
           "yaw": -94.0,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/93.webP' alt='Imagen' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/93.webP' alt='Imagen' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
         }
       ]
     },
     "imagen31": {
       "title": "SALA 5 Los rituales del juego / Room 5 World of Gods.",
       "type": "equirectangular",
-      "panorama": "ASSETS2/31.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/31.webp",
       "hotSpots": [
         {
           "pitch": -17.0,
@@ -1327,7 +1327,7 @@
           "pitch": -11.5,
           "yaw": 115.5,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/94.webP' alt='Imagen' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/94.webP' alt='Imagen' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
         },
         {
           "pitch": -33.1,
@@ -1345,7 +1345,7 @@
           "pitch": -11.5,
           "yaw": -66.0,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/95.webP' alt='Imagen' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/95.webP' alt='Imagen' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
         },
         {
           "pitch": -12.8,
@@ -1357,7 +1357,7 @@
           "pitch": -5.8,
           "yaw": -99.6,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/96.webP' alt='Imagen' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/96.webP' alt='Imagen' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
         },
         {
           "pitch": -19.0,
@@ -1370,7 +1370,7 @@
             "imagen32": {
           "title": "SALA 4 Manos creadoras, delicados artistas / Room 4 Exquisite Creators, Monumental Artists.",
           "type": "equirectangular",
-          "panorama": "ASSETS2/32.webp",
+          "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/32.webp",
           "hotSpots": [
             {
               "pitch": -10.0,
@@ -1389,7 +1389,7 @@
               "pitch": -1.6,
               "yaw": -32.8,
               "type": "info",
-              "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/97.webP' alt='Imagen' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+              "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/97.webP' alt='Imagen' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
             },
             {
               "pitch": -10.6,
@@ -1401,7 +1401,7 @@
               "pitch": -1.6,
               "yaw": -19.5,
               "type": "info",
-              "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/98.webP' alt='Imagen' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+              "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/98.webP' alt='Imagen' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
             },
             {
               "pitch": -12.2,
@@ -1413,7 +1413,7 @@
               "pitch": -2.2,
               "yaw": -47.2,
               "type": "info",
-              "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/99.webP' alt='Imagen' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+              "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/99.webP' alt='Imagen' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
             },
             {
               "pitch": -6.0,
@@ -1425,7 +1425,7 @@
               "pitch": -2.2,
               "yaw": -72.0,
               "type": "info",
-              "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/100.webP' alt='Imagen' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+              "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/100.webP' alt='Imagen' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
             },
             {
               "pitch": -8.2,
@@ -1437,7 +1437,7 @@
               "pitch": -4.2,
               "yaw": -88.0,
               "type": "info",
-              "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/101.webP' alt='Imagen' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+              "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/101.webP' alt='Imagen' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
             },
             {
               "pitch": -8.3,
@@ -1449,7 +1449,7 @@
               "pitch": -8.3,
               "yaw": -120.2,
               "type": "info",
-              "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/102.webP' alt='Imagen' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+              "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/102.webP' alt='Imagen' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
             },
             {
               "pitch": -12.3,
@@ -1461,7 +1461,7 @@
               "pitch": -12.3,
               "yaw": -150.2,
               "type": "info",
-              "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/103.webP' alt='Imagen' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+              "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/103.webP' alt='Imagen' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
             },
             {
               "pitch": -22.0,
@@ -1473,7 +1473,7 @@
               "pitch": -10.3,
               "yaw": 49.2,
               "type": "info",
-              "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/104.webP' alt='Imagen' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+              "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/104.webP' alt='Imagen' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
             },
             {
               "pitch": -15.3,
@@ -1485,7 +1485,7 @@
               "pitch": -1.9,
               "yaw": 10.2,
               "type": "info",
-              "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='ASSETS2/105.webP' alt='Imagen' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+              "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/105.webP' alt='Imagen' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
             },
             {
               "pitch": -7.0,
@@ -1499,7 +1499,7 @@
     "imagen33": {
       "title": "Salida",
       "type": "equirectangular",
-      "panorama": "ASSETS2/33.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/33.webp",
       "hotSpots": [
         {
           "pitch": -10.0,
@@ -1520,7 +1520,7 @@
     "imagen34": {
       "title": "salida",
       "type": "equirectangular",
-      "panorama": "ASSETS2/34.webP",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/34.webp",
       "hotSpots": [
         {
           "pitch": -10.0,
