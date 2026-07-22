@@ -757,23 +757,29 @@ body.ocultar-hotspots .pnlm-tooltip {
 }
 
 /* ========================================== */
-/* FORZAR VISIBILIDAD DEL TÍTULO DE LA ESCENA */
+/* FORZAR TÍTULOS EN MÓVIL (PANNELLUM)        */
 /* ========================================== */
-
-/* Evita que el título desaparezca por inactividad */
-.pnlm-title-box {
+.pnlm-panorama-info {
     display: block !important;
-    opacity: 1 !important;
     visibility: visible !important;
-    transition: none !important;
+    opacity: 1 !important;
+    z-index: 100 !important;
 }
 
-/* Ajuste opcional para celulares: hacerlo un poco más grande y notorio */
-@media (max-width: 768px) {
-    .pnlm-title-box {
-        font-size: 16px !important;
-        padding: 5px 10px !important;
-        background-color: rgba(0, 0, 0, 0.6) !important; /* Un fondo oscuro semitransparente para que resalte */
-        border-radius: 5px;
-    }
+.pnlm-title-box {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    position: absolute !important;
+    top: 10px !important;
+    left: 45px !important; /* Lo separa de los controles de zoom */
+    background-color: rgba(0, 0, 0, 0.7) !important; /* Fondo oscuro */
+    color: #ffffff !important; /* Letra blanca */
+    padding: 6px 12px !important;
+    border-radius: 6px !important;
+    font-size: 15px !important;
+    font-family: sans-serif !important;
+    white-space: nowrap !important; /* Evita que el texto se parta en dos líneas */
+    z-index: 9999 !important;
+    pointer-events: none !important; /* Para que no estorbe si el usuario lo toca */
 }
