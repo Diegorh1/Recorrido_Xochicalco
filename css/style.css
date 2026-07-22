@@ -799,9 +799,9 @@ body.ocultar-hotspots .pnlm-tooltip {
 /* Ajuste para que se vea perfecto en celular */
 @media (max-width: 768px) {
     .titulo-custom {
-        bottom: 25px; /* Separación desde abajo en móviles */
+        bottom: 60px; /* ¡AUMENTAMOS ESTO! Lo subimos para que no choque con la barra del celular */
         font-size: 0.9rem;
         padding: 8px 15px;
-        max-width: 95vw; /* Aprovechamos un poquito más el ancho en pantallas pequeñas */
+        max-width: 95vw; 
     }
 }
