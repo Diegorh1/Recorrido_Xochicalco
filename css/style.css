@@ -139,7 +139,7 @@ div.pnlm-tooltip span::after {
    ========================================= */
 header {
     background-color: var(--color-oscuro);
-    background-image: linear-gradient(135deg, rgba(26, 37, 37, 0.9) 0%, rgba(74, 93, 35, 0.7) 100%), url('assets/panoramicaswebp/museo1.jpeg');
+    background-image: linear-gradient(135deg, rgba(26, 37, 37, 0.9) 0%, rgba(74, 93, 35, 0.7) 100%), url('ASSETS2/106.webP');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
