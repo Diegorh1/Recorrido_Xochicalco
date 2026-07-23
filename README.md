@@ -18,7 +18,7 @@ Es un trabajo de investigación y desarrollo tecnológico creado desde el **Inst
 *   **Diseño Responsivo:** Interfaz adaptada para visualizarse sin problemas tanto en computadoras de escritorio como en dispositivos móviles (smartphones y tablets).
 *   **Almacenamiento Desacoplado:** Separación de la lógica del sitio web y el almacenamiento de recursos pesados para optimizar el control de versiones y la velocidad de entrega.
 
-## 🛠️ Arquitectura y Tecnologías Utilizadas
+##  Arquitectura y Tecnologías Utilizadas
 
 El sistema está construido con una arquitectura moderna orientada al rendimiento y la escalabilidad:
 
