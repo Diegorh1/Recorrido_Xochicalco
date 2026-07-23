@@ -632,7 +632,7 @@
           "pitch": -17.7,
           "yaw": 130.0,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/58.webp' alt='Descripción' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/58.webP' alt='Descripción' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
         },
         {
           "pitch": -29.5,
@@ -650,7 +650,7 @@
           "pitch": -5.6,
           "yaw": -25.0,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/59.webp' alt='Descripción' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto; cursor: default; padding: 10px;' onwheel='event.stopPropagation();' onmousedown='event.stopPropagation();' ontouchstart='event.stopPropagation();'> <img src='https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/59.webP' alt='Descripción' style='max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.3); display: block;'> </div>"
         },
         {
           "pitch": -36.3,
@@ -1520,7 +1520,7 @@
     "imagen34": {
       "title": "salida",
       "type": "equirectangular",
-      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/34.webp",
+      "panorama": "https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/34.webP",
       "hotSpots": [
         {
           "pitch": -10.0,
