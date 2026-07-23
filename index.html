@@ -46,11 +46,9 @@
     </style>
 </head>
 <body>
-
-    <!-- BOTÓN FLOTANTE 360 -->
-     <!-- <button id="btn-flotante-360" class="btn-flotante">👀 Iniciar recorrido Virtual 360°</button> -->
-
     <div id="sitio-web">
+            <!-- BOTÓN FLOTANTE 360 -->
+     <!-- <button id="btn-flotante-360" class="btn-flotante">👀 Iniciar recorrido Virtual 360°</button> -->
        
         <header>
             <h1>Museo de Sitio de Xochicalco</h1>
@@ -59,10 +57,10 @@
 
         <section class="carousel-container" id="contenido-principal">
             <div class="carousel-track" id="track">
-                <img src="assets/panoramicaswebp/museo1.webP" alt="Museo Xochicalco" class="carousel-slide">
-                <img src="assets/panoramicaswebp/piramide1.webP" alt="Pirámide Xochicalco" class="carousel-slide">
-                <img src="assets/panoramicaswebp/museo2.webP" alt="Interiores Museo" class="carousel-slide">
-                <img src="assets/panoramicaswebp/piramide2.webP" alt="Interiores Museo" class="carousel-slide">
+                <img src="https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/107.webP" alt="Museo Xochicalco" class="carousel-slide">
+                <img src="https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/107.webP" alt="Pirámide Xochicalco" class="carousel-slide">
+                <img src="https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/108.webP" alt="Interiores Museo" class="carousel-slide">
+                <img src="https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/109.webP" alt="Interiores Museo" class="carousel-slide">
             </div>
            
             <button class="carousel-btn prev" id="btn-prev">❮</button>
@@ -120,7 +118,7 @@
     <div id="mapa-navegacion" style="display: none;">
         <button id="btn-cerrar-mapa" class="btn-cerrar-modal">×</button>
         <div class="mapa-wrapper" id="mapa-contenido">
-            <img src="assets/panoramicaswebp/MAPA.webp" alt="Mapa de Navegación del Sitio">
+            <img src="https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/110.webp" alt="Mapa de Navegación del Sitio">
             
             <button class="pin-mapa" data-escenas="imagen7" style="top: 85%; left: 20%;" title="Entrar al museo"></button>
             <button class="pin-mapa" data-escenas="imagen8,imagen9" style="top: 78%; left: 18%;" title="Entrar a la taquilla"></button>
@@ -165,7 +163,7 @@
         let datosRecorrido = null; // Guardará el JSON para los títulos
 
         const btnAbrir = document.getElementById('btn-abrir-360');
-        const btnAbrirFlotante = document.getElementById('btn-flotante-360');
+        //const btnAbrirFlotante = document.getElementById('btn-flotante-360');
         const btnCerrar = document.getElementById('btn-cerrar-360');
         const sitioWeb = document.getElementById('sitio-web');
         const contenedor360 = document.getElementById('contenedor-360');
@@ -203,7 +201,7 @@
 
         function iniciarRecorridoVirtual() {
             sitioWeb.style.display = 'none';
-            btnAbrirFlotante.style.display = 'none'; 
+            //btnAbrirFlotante.style.display = 'none'; 
             contenedor360.style.display = 'block';
 
             if (!visorIniciado) {
@@ -241,12 +239,12 @@
         }
 
         btnAbrir.addEventListener('click', iniciarRecorridoVirtual);
-        btnAbrirFlotante.addEventListener('click', iniciarRecorridoVirtual);
+        //btnAbrirFlotante.addEventListener('click', iniciarRecorridoVirtual);
 
         btnCerrar.addEventListener('click', function() {
             contenedor360.style.display = 'none';
             sitioWeb.style.display = 'block';
-            btnAbrirFlotante.style.display = 'block';
+            //btnAbrirFlotante.style.display = 'block';
         });
 
         // ==========================================
