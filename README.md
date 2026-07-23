@@ -29,8 +29,6 @@ El sistema está construido con una arquitectura moderna orientada al rendimient
 
 ##  Estructura del Proyecto
 
-*Nota: Por cuestiones de rendimiento y buenas prácticas, los recursos multimedia pesados (imágenes panorámicas) no se versionan en este repositorio. Se consumen directamente desde el almacenamiento en la nube a través de peticiones HTTP.*
-
 ```text
 ├── css/
 │   └── style.css       # Estilos generales e interfaz de usuario
