@@ -6,13 +6,19 @@
 
 Este repositorio contiene el código fuente del sistema interactivo diseñado exclusivamente para el **Museo Arqueológico de Xochicalco**. Este proyecto es un recorrido virtual 360° en donde cualquier persona puede acceder, explorar y conocer la zona arqueológica desde la comodidad de cualquier sitio alrededor del mundo.
 
-##  Características Principales
+## 🎓 Contexto Académico y Desarrollo
+
+Este sistema fue desarrollado como proyecto central durante el **Congreso Internacional del Verano de Investigación en Ciencia y Tecnología 2026 (VIICyT-26)**. 
+
+Es un trabajo de investigación y desarrollo tecnológico creado desde el **Instituto Tecnológico de Zacatepec (ITZ)**, enfocado en aplicar arquitecturas web modernas e infraestructura en la nube para la preservación y difusión del patrimonio cultural interactivo.
+
+## ✨ Características Principales
 *   **Exploración Inmersiva:** Navegación en 360 grados por las instalaciones del museo y la zona arqueológica.
 *   **Alto Rendimiento:** Carga ultrarrápida de imágenes de alta resolución gracias a la distribución a través de la CDN global de Cloudflare.
 *   **Diseño Responsivo:** Interfaz adaptada para visualizarse sin problemas tanto en computadoras de escritorio como en dispositivos móviles (smartphones y tablets).
-*   **Almacenamiento Desacoplado:** Separación de la lógica del sitio web y el almacenamiento de recursos pesados para optimizar el control de versiones.
+*   **Almacenamiento Desacoplado:** Separación de la lógica del sitio web y el almacenamiento de recursos pesados para optimizar el control de versiones y la velocidad de entrega.
 
-## Arquitectura y Tecnologías Utilizadas
+## 🛠️ Arquitectura y Tecnologías Utilizadas
 
 El sistema está construido con una arquitectura moderna orientada al rendimiento y la escalabilidad:
 
@@ -21,7 +27,9 @@ El sistema está construido con una arquitectura moderna orientada al rendimient
 *   **Almacenamiento en la Nube (Object Storage):** Cloudflare R2. Se utiliza un *bucket* dedicado para alojar más de 100 imágenes panorámicas optimizadas en formato `.webp`, garantizando bajo consumo de ancho de banda y tiempos de respuesta mínimos.
 *   **Hosting y Despliegue:** Cloudflare Pages para la entrega del sitio estático a nivel mundial.
 
-##  Estructura del Proyecto
+## 📂 Estructura del Proyecto
+
+*Nota: Por cuestiones de rendimiento y buenas prácticas, los recursos multimedia pesados (imágenes panorámicas) no se versionan en este repositorio. Se consumen directamente desde el almacenamiento en la nube a través de peticiones HTTP.*
 
 ```text
 ├── css/
