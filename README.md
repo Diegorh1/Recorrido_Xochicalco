@@ -7,8 +7,9 @@
 Este repositorio contiene el código fuente del sistema interactivo diseñado exclusivamente para el **Museo Arqueológico de Xochicalco**. Este proyecto es un recorrido virtual 360° en donde cualquier persona puede acceder, explorar y conocer la zona arqueológica desde la comodidad de cualquier sitio alrededor del mundo.
 
 ## Clonar el proyecto
+```text
 git clone https://github.com/Diegorh1/Recorrido_Xochicalco.git
-
+```
 ##  Contexto Académico y Desarrollo
 
 Este sistema fue desarrollado como proyecto central durante el **Congreso Internacional del Verano de Investigación en Ciencia y Tecnología 2026 (VIICyT-26)**. 
