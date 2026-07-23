@@ -6,24 +6,24 @@
 
 Este repositorio contiene el código fuente del sistema interactivo diseñado exclusivamente para el **Museo Arqueológico de Xochicalco**. Este proyecto es un recorrido virtual 360° en donde cualquier persona puede acceder, explorar y conocer la zona arqueológica desde la comodidad de cualquier sitio alrededor del mundo.
 
-##  Contexto Académico y Desarrollo
+## 🎓 Contexto Académico y Desarrollo
 
 Este sistema fue desarrollado como proyecto central durante el **Congreso Internacional del Verano de Investigación en Ciencia y Tecnología 2026 (VIICyT-26)**. 
 
 Es un trabajo de investigación y desarrollo tecnológico creado desde el **Instituto Tecnológico de Zacatepec (ITZ)**, enfocado en aplicar arquitecturas web modernas e infraestructura en la nube para la preservación y difusión del patrimonio cultural interactivo.
 
 ##  Características Principales
-*   **Exploración Inmersiva:** Navegación en 360 grados por las instalaciones del museo y la zona arqueológica.
+*   **Exploración Inmersiva:** Navegación fluida en 360 grados por las instalaciones del museo y la zona arqueológica.
 *   **Alto Rendimiento:** Carga ultrarrápida de imágenes de alta resolución gracias a la distribución a través de la CDN global de Cloudflare.
 *   **Diseño Responsivo:** Interfaz adaptada para visualizarse sin problemas tanto en computadoras de escritorio como en dispositivos móviles (smartphones y tablets).
 *   **Almacenamiento Desacoplado:** Separación de la lógica del sitio web y el almacenamiento de recursos pesados para optimizar el control de versiones y la velocidad de entrega.
 
-##  Arquitectura y Tecnologías Utilizadas
+## 🛠️ Arquitectura y Tecnologías Utilizadas
 
 El sistema está construido con una arquitectura moderna orientada al rendimiento y la escalabilidad:
 
-*   **Frontend:** HTML5, CSS3.
-*   **Motor 360:** WebGL interactivo configurado mediante estructuración de datos en `tour.json`.
+*   **Frontend:** HTML5, CSS3 y JavaScript.
+*   **Visor 360:** [Pannellum](https://pannellum.org/) — Librería *open-source* ligera basada en WebGL para la visualización de panorámicas inmersivas, controlada mediante la estructuración de nodos en un archivo `tour.json`.
 *   **Almacenamiento en la Nube (Object Storage):** Cloudflare R2. Se utiliza un *bucket* dedicado para alojar más de 100 imágenes panorámicas optimizadas en formato `.webp`, garantizando bajo consumo de ancho de banda y tiempos de respuesta mínimos.
 *   **Hosting y Despliegue:** Cloudflare Pages para la entrega del sitio estático a nivel mundial.
 
