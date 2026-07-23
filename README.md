@@ -1,4 +1,4 @@
-# 🏛️ Recorrido Virtual Xochicalco
+#  Recorrido Virtual Xochicalco
 
 ![Estado: Completado](https://img.shields.io/badge/Estado-Completado-success)
 ![Despliegue: Cloudflare Pages](https://img.shields.io/badge/Despliegue-Cloudflare_Pages-F38020?logo=cloudflare&logoColor=white)
@@ -6,7 +6,7 @@
 
 Este repositorio contiene el código fuente del sistema interactivo diseñado exclusivamente para el **Museo Arqueológico de Xochicalco**. Este proyecto es un recorrido virtual 360° en donde cualquier persona puede acceder, explorar y conocer la zona arqueológica desde la comodidad de cualquier sitio alrededor del mundo.
 
-## 🎓 Contexto Académico y Desarrollo
+##  Contexto Académico y Desarrollo
 
 Este sistema fue desarrollado como proyecto central durante el **Congreso Internacional del Verano de Investigación en Ciencia y Tecnología 2026 (VIICyT-26)**. 
 
@@ -18,7 +18,7 @@ Es un trabajo de investigación y desarrollo tecnológico creado desde el **Inst
 *   **Diseño Responsivo:** Interfaz adaptada para visualizarse sin problemas tanto en computadoras de escritorio como en dispositivos móviles (smartphones y tablets).
 *   **Almacenamiento Desacoplado:** Separación de la lógica del sitio web y el almacenamiento de recursos pesados para optimizar el control de versiones y la velocidad de entrega.
 
-## 🛠️ Arquitectura y Tecnologías Utilizadas
+##  Arquitectura y Tecnologías Utilizadas
 
 El sistema está construido con una arquitectura moderna orientada al rendimiento y la escalabilidad:
 
