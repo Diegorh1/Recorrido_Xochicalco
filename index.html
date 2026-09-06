@@ -73,10 +73,13 @@
             </div>
         </footer>
 
-    </div> <div id="contenedor-360">
+    </div> 
+    
+    <div id="contenedor-360">
         <div class="controles-superiores">
             <button id="btn-cerrar-360" class="btn-control">✖ Cerrar Recorrido</button>
             <button id="btn-abrir-mapa" class="btn-control">🗺️ Abrir Mapa</button>
+            <button id="btn-vr-interno" class="btn-control" onclick="goToVR()" style="background: #00d2ff; color: #000; font-weight: bold; border: none;">🥽 Modo VR</button>
         </div>
         
         <div id="mapa-navegacion" style="display: none;">
@@ -105,76 +108,106 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.7/build/pannellum.js"></script>
 
     <script>
-        let visorIniciado = false;
-        let miVisor;
+        // Envolvemos todo el bloque para solucionar el error de variables del editor
+        document.addEventListener('DOMContentLoaded', () => {
+            let visorIniciado = false;
+            let miVisor;
 
-        const btnAbrir = document.getElementById('btn-abrir-360');
-        const btnCerrar = document.getElementById('btn-cerrar-360');
-        const sitioWeb = document.getElementById('sitio-web');
-        const contenedor360 = document.getElementById('contenedor-360');
+            const btnAbrir = document.getElementById('btn-abrir-360');
+            const btnCerrar = document.getElementById('btn-cerrar-360');
+            const sitioWeb = document.getElementById('sitio-web');
+            const contenedor360 = document.getElementById('contenedor-360');
 
-        btnAbrir.addEventListener('click', function() {
-            sitioWeb.style.display = 'none';
-            contenedor360.style.display = 'block';
+            btnAbrir.addEventListener('click', function() {
+                sitioWeb.style.display = 'none';
+                contenedor360.style.display = 'block';
 
-            if (!visorIniciado) {
-                fetch('tour.json')
-                    .then(respuesta => respuesta.json())
-                    .then(datos => {
-                        miVisor = pannellum.viewer('panorama', datos);
-                        miVisor.on('mousedown', function(event) {
-                            const pitch = miVisor.getPitch();
-                            const yaw = miVisor.getYaw();
-                            console.log(`"pitch": ${pitch.toFixed(1)},`);
-                            console.log(`"yaw": ${yaw.toFixed(1)},`);
-                            console.log("-----------------------");
+                if (!visorIniciado) {
+                    fetch('tour.json')
+                        .then(respuesta => respuesta.json())
+                        .then(datos => {
+                            miVisor = pannellum.viewer('panorama', datos);
+                            miVisor.on('mousedown', function(event) {
+                                const pitch = miVisor.getPitch();
+                                const yaw = miVisor.getYaw();
+                                console.log(`"pitch": ${pitch.toFixed(1)},`);
+                                console.log(`"yaw": ${yaw.toFixed(1)},`);
+                                console.log("-----------------------");
+                            });
+                            visorIniciado = true;
+
+                            // 1. Verificar si venimos de VR y redirigir a la sala correcta
+                            const urlParams = new URLSearchParams(window.location.search);
+                            const sceneFromVR = urlParams.get('scene');
+                            if (sceneFromVR) {
+                                setTimeout(() => {
+                                    miVisor.loadScene(sceneFromVR);
+                                }, 400); // Pequeña pausa para que Pannellum termine de construirse
+                            }
+                        })
+                        .catch(error => {
+                            console.error("¡Atención! El archivo tour.json tiene un error:", error);
                         });
-                        visorIniciado = true;
-                    })
-                    .catch(error => {
-                        console.error("¡Atención! El archivo tour.json tiene un error:", error);
-                    });
-            }
-        });
-
-        btnCerrar.addEventListener('click', function() {
-            contenedor360.style.display = 'none';
-            sitioWeb.style.display = 'block';
-        });
-
-        // ----------------------------------------------------
-        // LÓGICA DEL MAPA EN PANTALLA COMPLETA
-        // ----------------------------------------------------
-        const btnAbrirMapa = document.getElementById('btn-abrir-mapa');
-        const btnCerrarMapa = document.getElementById('btn-cerrar-mapa');
-        const mapaNavegacion = document.getElementById('mapa-navegacion');
-
-        // Abrir el mapa
-        btnAbrirMapa.addEventListener('click', () => {
-            mapaNavegacion.style.display = 'flex'; // Usamos flex para centrar
-        });
-
-        // Cerrar el mapa con la X
-        btnCerrarMapa.addEventListener('click', () => {
-            mapaNavegacion.style.display = 'none';
-        });
-
-        // Cerrar el mapa si dan clic afuera de la imagen (en la zona oscura)
-        mapaNavegacion.addEventListener('click', (evento) => {
-            if (evento.target === mapaNavegacion) {
-                mapaNavegacion.style.display = 'none';
-            }
-        });
-
-        // Navegar a la sala y CERRAR el mapa automáticamente
-        document.querySelectorAll('.pin-mapa').forEach(pin => {
-            pin.addEventListener('click', function() {
-                const escenaDestino = this.getAttribute('data-escena');
-                if (miVisor && escenaDestino) {
-                    miVisor.loadScene(escenaDestino);
-                    mapaNavegacion.style.display = 'none'; // Se esconde al elegir
                 }
             });
+
+            btnCerrar.addEventListener('click', function() {
+                contenedor360.style.display = 'none';
+                sitioWeb.style.display = 'block';
+                
+                // 2. Limpiar la URL al cerrar el visor para evitar bucles si lo vuelve a abrir
+                window.history.replaceState({}, document.title, window.location.pathname);
+            });
+
+            // ----------------------------------------------------
+            // LÓGICA DEL MAPA EN PANTALLA COMPLETA
+            // ----------------------------------------------------
+            const btnAbrirMapa = document.getElementById('btn-abrir-mapa');
+            const btnCerrarMapa = document.getElementById('btn-cerrar-mapa');
+            const mapaNavegacion = document.getElementById('mapa-navegacion');
+
+            btnAbrirMapa.addEventListener('click', () => {
+                mapaNavegacion.style.display = 'flex'; 
+            });
+
+            btnCerrarMapa.addEventListener('click', () => {
+                mapaNavegacion.style.display = 'none';
+            });
+
+            mapaNavegacion.addEventListener('click', (evento) => {
+                if (evento.target === mapaNavegacion) {
+                    mapaNavegacion.style.display = 'none';
+                }
+            });
+
+            document.querySelectorAll('.pin-mapa').forEach(pin => {
+                pin.addEventListener('click', function() {
+                    const escenaDestino = this.getAttribute('data-escena');
+                    if (miVisor && escenaDestino) {
+                        miVisor.loadScene(escenaDestino);
+                        mapaNavegacion.style.display = 'none'; 
+                    }
+                });
+            });
+
+            // ----------------------------------------------------
+            // LÓGICA DEL MODO VR Y AUTO-ARRANQUE
+            // ----------------------------------------------------
+            
+            // 3. Auto-click en "Abrir" si la URL trae una sala (cuando el usuario vuelve de VR)
+            const paramsCheck = new URLSearchParams(window.location.search);
+            if (paramsCheck.get('scene')) {
+                btnAbrir.click();
+            }
+
+            // Exponemos goToVR a todo el documento para que los botones HTML lo encuentren
+            window.goToVR = function() {
+                let scene = 'imagen2'; 
+                if (visorIniciado && miVisor && miVisor.getScene()) {
+                    scene = miVisor.getScene();
+                }
+                window.location.href = `vr.html?scene=${scene}`;
+            };
         });
     </script>
 
@@ -189,9 +222,9 @@
             indexCarrusel = nuevoIndex;
             if (indexCarrusel < 0) indexCarrusel = slides.length - 1;
             if (indexCarrusel >= slides.length) indexCarrusel = 0;
-           
+            
             track.style.transform = `translateX(-${indexCarrusel * 100}%)`;
-           
+            
             dots.forEach(dot => dot.classList.remove('activo'));
             dots[indexCarrusel].classList.add('activo');
         }
