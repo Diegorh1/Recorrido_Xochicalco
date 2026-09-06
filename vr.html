@@ -7,6 +7,8 @@
 
   <!-- Motor WebXR (A-Frame) -->
   <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+  <!-- Componente extra para orientar el panel hacia el usuario -->
+  <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
 
   <style>
     body {
@@ -20,7 +22,7 @@
       top: 15px;
       left: 15px;
       z-index: 9999;
-      background: rgba(0, 0, 0, 0.7);
+      background: rgba(0, 0, 0, 0.8);
       color: #fff;
       border: 1px solid #fff;
       padding: 10px 16px;
@@ -41,12 +43,12 @@
   <a-scene webxr="optionalFeatures: hit-test, local-floor">
     
     <!-- Imagen Panorámica 360 -->
-    <a-sky id="sky" radius="10" rotation="0 0 0"></a-sky>
+    <a-sky id="sky" radius="10" rotation="0 90 0"></a-sky>
 
-    <!-- Contenedor dinámico de Hotspots -->
+    <!-- Contenedor dinámico de esferas de interacción -->
     <a-entity id="hotspots-container"></a-entity>
 
-    <!-- Cámara y Controles -->
+    <!-- Cámara y Controles (VR / Móvil / PC) -->
     <a-entity id="rig" position="0 1.6 0">
       <a-camera look-controls="pointerLockEnabled: false">
         <a-cursor 
@@ -62,32 +64,29 @@
           animation__click="property: scale; startEvents: click; easing: easeInCubic; dur: 150; from: 0.1 0.1 0.1; to: 1 1 1">
         </a-cursor>
       </a-camera>
-
+      
+      <!-- Punteros láser para Quest/Pico -->
       <a-entity laser-controls="hand: right" raycaster="objects: .clickable; lineColor: #00ffff"></a-entity>
       <a-entity laser-controls="hand: left" raycaster="objects: .clickable; lineColor: #00ffff"></a-entity>
     </a-entity>
 
-    <!-- PIVOTE PARA TARJETA 3D (DISEÑO MEJORADO) -->
-    <a-entity id="card-wrapper">
-      <a-entity id="card-3d" position="0 0 -2.5" visible="false">
-        
-        <!-- Fondo dinámico oscuro -->
-        <a-plane id="card-bg" width="3.0" height="3.2" color="#111111" opacity="0.95"></a-plane>
-        
-        <!-- Botón de Cerrar (X) arriba a la derecha -->
-        <a-plane id="card-close" class="clickable" position="1.3 1.4 0.03" width="0.3" height="0.3" color="#d32f2f">
-          <a-text value="X" align="center" position="0 0 0.01" scale="1.2 1.2 1.2" font="https://cdn.aframe.io/fonts/DejaVu-sdf.fnt"></a-text>
-        </a-plane>
+    <!-- PANEL DE INFORMACIÓN 3D -->
+    <a-entity id="card-wrapper" visible="false">
+      <!-- Fondo oscuro translúcido -->
+      <a-plane id="card-bg" width="3.0" height="3.2" color="#111111" opacity="0.95"></a-plane>
+      
+      <!-- Botón de Cerrar (X) -->
+      <a-plane id="card-close" class="clickable" position="1.3 1.4 0.03" width="0.3" height="0.3" color="#d32f2f">
+        <a-text value="X" align="center" position="0 0 0.01" scale="1.2 1.2 1.2"></a-text>
+      </a-plane>
 
-        <!-- Imagen de la pieza (se oculta si no hay imagen) -->
-        <a-image id="card-img" src="" position="0 0.7 0.02" width="2.6" height="1.2" visible="false"></a-image>
-        
-        <!-- Título y Texto (Usando fuente DejaVu para soportar acentos y ñ) -->
-        <a-text id="card-title" value="Título" position="-1.3 -0.1 0.02" anchor="left" baseline="top" color="#f5a623" width="2.8" wrap-count="38" font="https://cdn.aframe.io/fonts/DejaVu-sdf.fnt"></a-text>
-        
-        <a-text id="card-text" value="Descripción..." position="-1.3 -0.4 0.02" anchor="left" baseline="top" color="#ffffff" width="2.8" wrap-count="48" font="https://cdn.aframe.io/fonts/DejaVu-sdf.fnt"></a-text>
-        
-      </a-entity>
+      <!-- Imagen (se ajusta dinámicamente) -->
+      <a-image id="card-img" src="" position="0 0.8 0.02" width="2.6" height="1.2" visible="false"></a-image>
+      
+      <!-- Textos con Tipografía Roboto (Soporta Ñ y acentos) -->
+      <a-text id="card-title" value="Título" position="-1.35 0.0 0.02" anchor="left" baseline="top" color="#f5a623" width="2.7" wrap-count="35" font="https://raw.githubusercontent.com/etiennepinchon/aframe-fonts/master/fonts/roboto/Roboto-Medium.json" shader="msdf"></a-text>
+      
+      <a-text id="card-text" value="Descripción..." position="-1.35 -0.3 0.02" anchor="left" baseline="top" color="#ffffff" width="2.7" wrap-count="45" font="https://raw.githubusercontent.com/etiennepinchon/aframe-fonts/master/fonts/roboto/Roboto-Regular.json" shader="msdf"></a-text>
     </a-entity>
 
   </a-scene>
@@ -96,6 +95,12 @@
     const JSON_URL = 'tour.json'; 
     let tourData = null;
     let currentSceneId = '';
+
+    // ==========================================
+    // VARIABLES GLOBALES DE CALIBRACIÓN
+    // ==========================================
+ let yawOffset = 0; 
+let pitchOffset = 28;
 
     const urlParams = new URLSearchParams(window.location.search);
     const requestedScene = urlParams.get('scene');
@@ -107,35 +112,50 @@
         const startScene = requestedScene || data.default.firstScene || Object.keys(data.scenes)[0];
         loadScene(startScene);
       })
-      .catch(err => console.error("Error al cargar el archivo JSON:", err));
+      .catch(err => console.error("Error al cargar JSON:", err));
 
-    // NUEVO PARSER: Extrae la imagen y el texto limpiamente
+    // ========================================================
+    // MATEMÁTICAS: Pannellum (Pitch/Yaw) a WebXR (X, Y, Z)
+    // ========================================================
+   function pannellumToCartesian(pitch, yaw, radius = 4.0) {
+  // Invertimos el yaw (-yaw) porque A-Frame gira al revés que Pannellum
+  const radYaw = (-yaw + yawOffset) * (Math.PI / 180);
+  const radPitch = (pitch + pitchOffset) * (Math.PI / 180);
+
+  const x = radius * Math.cos(radPitch) * Math.sin(radYaw);
+  const y = radius * Math.sin(radPitch);
+  const z = radius * Math.cos(radPitch) * Math.cos(radYaw);
+
+  return `${x} ${y} ${z}`;
+}
+
+    // ========================================================
+    // PARSER: Limpiar y extraer datos del HTML del JSON
+    // ========================================================
     function parseHotspotText(htmlContent) {
       const tempDiv = document.createElement('div');
       tempDiv.innerHTML = htmlContent.replace(/<br\s*\/?>/gi, '\n').replace(/<\/p>/gi, '\n\n');
 
-      // 1. Extraer la URL de la imagen
       const imgElem = tempDiv.querySelector('img');
       const imgSrc = imgElem ? imgElem.getAttribute('src') : null;
       if (imgElem) imgElem.remove();
 
-      // 2. Extraer el Título
       const titleElem = tempDiv.querySelector('h3');
       const title = titleElem ? titleElem.textContent.trim() : 'Información';
       if (titleElem) titleElem.remove();
 
-      // 3. Extraer el texto descriptivo
       let body = tempDiv.textContent.trim();
       body = body.replace(/\n\s*\n/g, '\n\n');
 
-      // Límite de texto para no desbordar el panel
-      if (body.length > 600) {
-        body = body.substring(0, 597) + '...';
-      }
+      if (!body) body = "Escultura o detalle arquitectónico de Xochicalco.";
+      if (body.length > 550) body = body.substring(0, 547) + '...';
 
       return { title, body, imgSrc };
     }
 
+    // ========================================================
+    // CARGAR ESCENA Y DIBUJAR BOTONES
+    // ========================================================
     function loadScene(sceneId) {
       if (!tourData || !tourData.scenes[sceneId]) return;
       currentSceneId = sceneId;
@@ -145,30 +165,29 @@
       
       const container = document.querySelector('#hotspots-container');
       container.innerHTML = '';
-      document.querySelector('#card-3d').setAttribute('visible', 'false');
+      document.querySelector('#card-wrapper').setAttribute('visible', 'false');
 
       if (!scene.hotSpots) return;
 
       scene.hotSpots.forEach(hs => {
-        const pivot = document.createElement('a-entity');
-        pivot.setAttribute('rotation', `${hs.pitch} ${-hs.yaw} 0`);
+        const absolutePos = pannellumToCartesian(hs.pitch, hs.yaw, 4.0);
 
         if (hs.type === 'scene') {
           const sphere = document.createElement('a-sphere');
-          sphere.setAttribute('position', '0 0 -4');
-          sphere.setAttribute('radius', '0.22');
+          sphere.setAttribute('position', absolutePos);
+          sphere.setAttribute('radius', '0.12');
           sphere.setAttribute('color', '#00d2ff');
           sphere.setAttribute('material', 'emissive: #0077b6; emissiveIntensity: 0.6');
           sphere.setAttribute('class', 'clickable');
           sphere.setAttribute('animation', 'property: scale; to: 1.25 1.25 1.25; dir: alternate; loop: true; dur: 900');
 
           sphere.addEventListener('click', () => loadScene(hs.sceneId));
-          pivot.appendChild(sphere);
+          container.appendChild(sphere);
 
         } else if (hs.type === 'info') {
           const infoSphere = document.createElement('a-sphere');
-          infoSphere.setAttribute('position', '0 0 -4');
-          infoSphere.setAttribute('radius', '0.20');
+          infoSphere.setAttribute('position', absolutePos);
+          infoSphere.setAttribute('radius', '0.12');
           infoSphere.setAttribute('color', '#f5a623');
           infoSphere.setAttribute('material', 'emissive: #cc7a00; emissiveIntensity: 0.7');
           infoSphere.setAttribute('class', 'clickable');
@@ -176,7 +195,6 @@
           infoSphere.addEventListener('click', () => {
             const { title, body, imgSrc } = parseHotspotText(hs.text);
             
-            // Elementos del DOM 3D
             const cardWrapper = document.querySelector('#card-wrapper');
             const cardBg = document.querySelector('#card-bg');
             const cardImg = document.querySelector('#card-img');
@@ -184,48 +202,76 @@
             const cardText = document.querySelector('#card-text');
             const cardClose = document.querySelector('#card-close');
             
-            // Rotamos la tarjeta para mirarla de frente
-            cardWrapper.setAttribute('rotation', `${hs.pitch} ${-hs.yaw} 0`);
+            const panelPos = pannellumToCartesian(hs.pitch, hs.yaw, 2.5);
+            cardWrapper.setAttribute('position', panelPos);
+            cardWrapper.setAttribute('look-at', '#rig'); 
             
-            // LÓGICA DINÁMICA: Acomodar el diseño dependiendo de si hay imagen o no
             if (imgSrc) {
               cardImg.setAttribute('src', imgSrc);
               cardImg.setAttribute('visible', 'true');
-              
-              // Hacemos el panel más alto y bajamos los textos
               cardBg.setAttribute('height', '3.2');
-              cardTitle.setAttribute('position', '-1.3 -0.1 0.02');
-              cardText.setAttribute('position', '-1.3 -0.4 0.02');
               cardClose.setAttribute('position', '1.3 1.4 0.03');
+              cardTitle.setAttribute('position', '-1.35 0.0 0.02');
+              cardText.setAttribute('position', '-1.35 -0.3 0.02');
             } else {
+              cardImg.setAttribute('src', '');
               cardImg.setAttribute('visible', 'false');
-              
-              // Hacemos el panel más corto y subimos los textos
-              cardBg.setAttribute('height', '2.0');
-              cardTitle.setAttribute('position', '-1.3 0.7 0.02');
-              cardText.setAttribute('position', '-1.3 0.4 0.02');
-              cardClose.setAttribute('position', '1.3 0.8 0.03');
+              cardBg.setAttribute('height', '1.8');
+              cardClose.setAttribute('position', '1.3 0.7 0.03');
+              cardTitle.setAttribute('position', '-1.35 0.6 0.02');
+              cardText.setAttribute('position', '-1.35 0.3 0.02');
             }
 
             cardTitle.setAttribute('value', title);
             cardText.setAttribute('value', body);
-            document.querySelector('#card-3d').setAttribute('visible', 'true');
+            cardWrapper.setAttribute('visible', 'true');
           });
           
-          pivot.appendChild(infoSphere);
+          container.appendChild(infoSphere);
         }
-        
-        container.appendChild(pivot);
       });
     }
 
     document.querySelector('#card-close').addEventListener('click', () => {
-      document.querySelector('#card-3d').setAttribute('visible', 'false');
+      document.querySelector('#card-wrapper').setAttribute('visible', 'false');
     });
 
     function exitToStandardView() {
       window.location.href = `index.html?scene=${currentSceneId}`;
     }
+
+    // ==========================================
+    // HERRAMIENTA PARA OBTENER COORDENADAS AL HACER CLIC
+    // ==========================================
+    window.addEventListener('click', (e) => {
+      if(e.target.id === 'exit-btn' || e.target.closest('#card-wrapper')) return;
+
+      const camera = document.querySelector('[camera]');
+      if (camera) {
+        const rot = camera.getAttribute('rotation');
+        const pitch = (rot.x - pitchOffset);
+        let yaw = (-rot.y - yawOffset) % 360;
+        
+        if (yaw > 180) yaw -= 360;
+        if (yaw < -180) yaw += 360;
+        
+        console.log(`%c"pitch": ${pitch.toFixed(2)},\n"yaw": ${yaw.toFixed(2)}`, "color: #00d2ff; font-weight: bold; font-size: 14px;");
+      }
+    });
+
+    // ==========================================
+    // HERRAMIENTA DE CALIBRACIÓN EN VIVO (4 DIRECCIONES)
+    // ==========================================
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight') yawOffset -= 1; 
+      else if (e.key === 'ArrowLeft') yawOffset += 1;
+      else if (e.key === 'ArrowUp') pitchOffset += 1; // Sube la esfera
+      else if (e.key === 'ArrowDown') pitchOffset -= 1; // Baja la esfera
+      else return; 
+
+      console.log(`%c[Calibrador] yawOffset: ${yawOffset} | pitchOffset: ${pitchOffset}`, 'color: #00ffcc; font-weight: bold; font-size: 16px;');
+      loadScene(currentSceneId); // Recarga para aplicar la nueva posición visual
+    });
   </script>
 </body>
 </html>
