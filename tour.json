@@ -3,7 +3,7 @@
     "firstScene": "imagen2",
     "sceneFadeDuration": 1000,
     "autoLoad": true
-  },
+},
   "scenes": {
     "imagen1": {
       "title": "Espacio de abordaje",
@@ -14,7 +14,7 @@
           "pitch": -13,
           "yaw": 93.6,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/autobus.webp' alt='Pieza' tabindex='0'><div class='tarjeta-info'><h3>Parador de espera</h3><p>Este sitio es donde los autobuses hacen paradas.</p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/autobus.webp' alt='Pieza'><div class='tarjeta-info'><h3>Parador de espera</h3>Este sitio es donde los aútobuses hacen paradas</div></div>"
         },
         {
           "pitch": 6.6,
@@ -26,7 +26,7 @@
           "pitch": -25,
           "yaw": -102,
           "type": "scene",
-          "text": "<div class='tarjeta-museo'><div class='tarjeta-info'><h3>Ir al pasillo de entrada</h3></div></div>",
+          "text": "Ir al pasillo de entrada",
           "sceneId": "imagen2"
         },
         {
@@ -43,12 +43,6 @@
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/2.webp",
       "hotSpots": [
-        {
-          "pitch": 5,
-          "yaw": -30,
-          "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/2.webp' alt='Pieza'><div class='tarjeta-info'><h3>Estela de los Glifos</h3><p>Esta pieza data del periodo epiclásico...</p></div></div>"
-        },
         {
           "pitch": -7.5,
           "yaw": 133,
@@ -84,7 +78,7 @@
           "sceneId": "imagen2"
         },
         {
-          "pitch": -7.6,
+          "pitch": -7.6 ,
           "yaw": -120.5,
           "type": "scene",
           "text": "Avanzar por el pasillo",
@@ -199,6 +193,30 @@
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/8.webp",
       "hotSpots": [
+       {
+          "pitch": -6.6,
+          "yaw": -106.6,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/MAPA.webp' alt='Pieza'></div>"
+        },
+        {
+          "pitch": -9.5,
+          "yaw": 117,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/letinicio.webp' alt='Pieza'></div>"
+        },
+        {
+          "pitch": -9.0,
+          "yaw": 13.4,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/taquilla.webp' alt='Pieza'></div>"
+        },
+        {
+          "pitch": -12.4,
+          "yaw": -167.6,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3></h3> <p><strong>ESPAÑOL</strong><br>Representación de un juego de pelota unido a un basamento piramidal. Esta maqueta, labrada en piedra volcánica, es claro ejemplo del carácter sagrado que tuvo el juego de pelota entre las culturas prehispánicas, ya que asocia un espacio religioso a un espacio lúdico. Sobre la base piramidal existía un adoratorio en el que se hacían prácticas religiosas.<br><br><strong>ENGLISH</strong><br>Representation of a ballcourt joined to a pyramidal platform. This architectural model, worked in volcanic stone, is a clear example of the sacred nature of the ballgame among pre-Hispanic cultures; it compounds the space of a game with a religious site. On the pyramidal base there was a shrine where religious practices would have been carried out.</p> </div> </div>"
+        },
         {
           "pitch": -4.4,
           "yaw": 82.5,
@@ -221,6 +239,12 @@
       "panorama": "assets/panoramicaswebp/9.webp",
       "hotSpots": [
         {
+          "pitch": -29.0,
+          "yaw": -43.1,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>Maqueta de la zona excavada / Model of the Excavated Area</h3> <p><strong>ESPAÑOL</strong><br>Maqueta de Xochicalco donde se contemplan los edificios que hasta hoy se han explorado. Podemos apreciar las modificaciones hechas por los antiguos habitantes sobre el cerro para construir el asentamiento fortificado de la ciudad, es necesario destacar que los poderes políticos y religiosos encabezaban la urbe, habitando ahí los personajes más importantes.<br><br><strong>ENGLISH</strong><br>Architectural model of Xochicalco showing the buildings explored to date. The ancient inhabitants massively modified the hills to build a fortified city. Such large-scale works were directed by the city's political and religious leaders, as notable characters usually lived in the city.</p> </div> </div>"
+        },
+        {
           "pitch": -18,
           "yaw": 107,
           "type": "scene",
@@ -241,6 +265,36 @@
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/10.webp",
       "hotSpots": [
+         {
+          "pitch": -9.5,
+          "yaw": -97.5,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/cuadro.webp' alt='Pieza'></div>"
+        },
+        {
+          "pitch": -7.1,
+          "yaw": -166.6,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/let3.webp' alt='Pieza'></div>"
+        },
+        {
+          "pitch": -7.1,
+          "yaw": -146.6,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/let2.webp' alt='Pieza'></div>"
+        },
+        {
+          "pitch": -2.1,
+          "yaw": -37.5,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/imagenes edgar/let1.webp' alt='Pieza'></div>"
+        },
+        {
+          "pitch": -14.1,
+          "yaw": -25.1,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>Xochiquetzal / Xochiquetzal</h3> <p><strong>ESPAÑOL</strong><br>Escultura a la deidad <em>Xochiquetzal</em>, labrada en roca volcánica y hallada en la Acrópolis de Xochicalco.<br><br>El personaje, de sexo indefinido, está sentado en posición de sumisión y adornado con plumas que representan lo precioso en Mesoamérica. Presenta símbolos de movimiento y caracoles cortados, similares a los del Templo de las Serpientes Emplumadas.<br><br>Pesa unos 1600 kilos y es conocida localmente como <em>La Malinche</em>.<br><br><strong>ENGLISH</strong><br>Sculpture of the deity <em>Xochiquetzal</em>, carved in volcanic rock and found in the Acropolis of Xochicalco.<br><br>The character, of unidentified sex, is seated in a position of submission and adorned with feathers representing preciousness in Mesoamerica. It features cut shells and movement symbols similar to those in the Temple of the Feathered Serpents.<br><br>Weighing around 3520 pounds, this deity is locally known as <em>La Malinche</em>.</p> </div> </div>"
+        },
         {
           "pitch": -22,
           "yaw": 103,
@@ -325,19 +379,18 @@
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/14.webp",
       "hotSpots": [
-
         {
           "pitch": -0.7,
           "yaw": -3.5,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/fig1.webp' alt='Máscara Teotihuacana' style='max-width: 100%; max-height: 300px; border-radius: 8px; object-fit: cover;' /> </div> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Máscara Teotihuacana</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Máscara de estilo teotihuacano que, engarzada con las cuentas, formaban el pectoral de un gran señor xochicalca. Este tipo de adornos fueron usados únicamente por la nobleza en ceremonias muy relevantes.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Teotihuacan Mask</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>A Teotihuacan style mask, with a string of beads, formed the pectoral of a great lord of Xochicalco. This type of adornment was worn solely by the nobility for important ceremonies.</p> </div> </div> </div>"
-            },
-                {
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <img src='assets/imagenes edgar/fig1.webp' alt='Máscara Teotihuacana' /> <div class='tarjeta-info'> <h3>Máscara Teotihuacana / Teotihuacan Mask</h3> <p><strong>ESPAÑOL</strong><br>Máscara de estilo teotihuacano que, engarzada con las cuentas, formaban el pectoral de un gran señor xochicalca. Este tipo de adornos fueron usados únicamente por la nobleza en ceremonias muy relevantes.<br><br><strong>ENGLISH</strong><br>A Teotihuacan style mask, with a string of beads, formed the pectoral of a great lord of Xochicalco. This type of adornment was worn solely by the nobility for important ceremonies.</p> </div> </div>"
+        },
+        {
           "pitch": -4.4,
           "yaw": 12.1,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/fig2.webp' alt='Moldes de Cerámica' style='max-width: 100%; max-height: 300px; border-radius: 8px; object-fit: cover;' /> </div> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Moldes de Cerámica</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Los moldes de cerámica fueron utilizados para reproducir en serie efigies de los incensarios. Los había para rostros humanos, tanto de jóvenes como de ancianos; o bien, de cabezas de felinos, aves y reptiles.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Ceramic Molds</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Ceramic molds were used to mass produce effigies on censers. They have been found in the shape of human faces, youthful and old, as well as feline, bird, and reptile heads.</p> </div> </div> </div>"
-            },
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <img src='assets/imagenes edgar/fig2.webp' alt='Moldes de Cerámica' /> <div class='tarjeta-info'> <h3>Moldes de Cerámica / Ceramic Molds</h3> <p><strong>ESPAÑOL</strong><br>Los moldes de cerámica fueron utilizados para reproducir en serie efigies de los incensarios. Los había para rostros humanos, tanto de jóvenes como de ancianos; o bien, de cabezas de felinos, aves y reptiles.<br><br><strong>ENGLISH</strong><br>Ceramic molds were used to mass produce effigies on censers. They have been found in the shape of human faces, youthful and old, as well as feline, bird, and reptile heads.</p> </div> </div>"
+        },
         {
           "pitch": -35.2,
           "yaw": 82.5,
@@ -360,17 +413,17 @@
       "panorama": "assets/panoramicaswebp/15.webp",
       "hotSpots": [
         {
-            "pitch": -9.4,
-            "yaw": 33.9,
-            "type": "info",
-            "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/fig3.webp' alt='Incensario de Felino' style='max-width: 100%; max-height: 300px; border-radius: 8px; object-fit: cover;' /> </div> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Incensario de Felino</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Incensario de cerámica que porta la efigie de un felino, mismo que está adornado con un cordón y un moño; a los lados presenta atados que podrían ser símbolos del fuego. En la concepción prehispánica los felinos fueron considerados como seres asociados con la luna, la noche y la humedad. Encontrado dentro de una habitación, el incensario forma parte de los elementos de un altar doméstico.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Feline Censer</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Ceramic censer bearing a feline effigy adorned with a rope and bow, flanked by knots that might be fire symbols. In pre-Hispanic thought felines were regarded as beings associated with the moon, nighttime, and moisture. Found inside a room, the censer formed part of the paraphernalia of a domestic altar.</p> </div> </div> </div>"
-          },
-          {
-            "pitch": 5.7,
-            "yaw": -17.9,
-            "type": "info",
-            "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/fig4.webp' alt='Flor de Cinco Pétalos' style='max-width: 100%; max-height: 300px; border-radius: 8px; object-fit: cover;' /> </div> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Flor de Cinco Pétalos</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Escultura estilizada que representa una flor de cinco pétalos. Fue hallada con otras piezas similares en uno de los patios de la Acrópolis. Su posición permite aseverar que formó parte del remate de un pórtico.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Five-Petal Flower</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Stylized sculpture representing a flower with five petals. It was found with other similar pieces in one of the patios of the Acropolis. Its position suggests it formed part of the ornamentation over a portico.</p> </div> </div> </div>"
-          },
+          "pitch": -9.4,
+          "yaw": 33.9,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <img src='assets/imagenes edgar/fig3.webp' alt='Incensario de Felino' /> <div class='tarjeta-info'> <h3>Incensario de Felino / Feline Censer</h3> <p><strong>ESPAÑOL</strong><br>Incensario de cerámica que porta la efigie de un felino, mismo que está adornado con un cordón y un moño; a los lados presenta atados que podrían ser símbolos del fuego. En la concepción prehispánica los felinos fueron considerados como seres asociados con la luna, la noche y la humedad. Encontrado dentro de una habitación, el incensario forma parte de los elementos de un altar doméstico.<br><br><strong>ENGLISH</strong><br>Ceramic censer bearing a feline effigy adorned with a rope and bow, flanked by knots that might be fire symbols. In pre-Hispanic thought felines were regarded as beings associated with the moon, nighttime, and moisture. Found inside a room, the censer formed part of the paraphernalia of a domestic altar.</p> </div> </div>"
+        },
+        {
+          "pitch": 5.7,
+          "yaw": -17.9,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <img src='assets/imagenes edgar/fig4.webp' alt='Flor de Cinco Pétalos' /> <div class='tarjeta-info'> <h3>Flor de Cinco Pétalos / Five-Petal Flower</h3> <p><strong>ESPAÑOL</strong><br>Escultura estilizada que representa una flor de cinco pétalos. Fue hallada con otras piezas similares en uno de los patios de la Acrópolis. Su posición permite aseverar que formó parte del remate de un pórtico.<br><br><strong>ENGLISH</strong><br>Stylized sculpture representing a flower with five petals. It was found with other similar pieces in one of the patios of the Acropolis. Its position suggests it formed part of the ornamentation over a portico.</p> </div> </div>"
+        },
         {
           "pitch": -22.4,
           "yaw": 94.5,
@@ -396,13 +449,13 @@
           "pitch": -8.3,
           "yaw": 38.6,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/fig5.webp' alt='Danzantes' style='max-width: 100%; max-height: 300px; border-radius: 8px; object-fit: cover;' /> </div> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Danzantes</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Las figuras son danzantes que ejecutan un baile alrededor del sol, probablemente con motivo de alguna celebración religiosa. Su representación en una vasija cerámica hace suponer que el festejo fue de tipo popular.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Dancers</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>The figures are performing a dance around the sun, probably in conjunction with a religious celebration. Their representation on a ceramic vessel suggests the popular nature of the festivity.</p> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <img src='assets/imagenes edgar/fig5.webp' alt='Danzantes' /> <div class='tarjeta-info'> <h3>Danzantes / Dancers</h3> <p style='text-align: justify !important;'><strong>ESPAÑOL</strong><br>Las figuras son danzantes que ejecutan un baile alrededor del sol, probablemente con motivo de alguna celebración religiosa. Su representación en una vasija cerámica hace suponer que el festejo fue de tipo popular.<br><br><strong>ENGLISH</strong><br>The figures are performing a dance around the sun, probably in conjunction with a religious celebration. Their representation on a ceramic vessel suggests the popular nature of the festivity.</p> </div> </div>"
         },
         {
           "pitch": -9.3,
           "yaw": -7.1,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/fig6.webp' alt='Almena de Guacamaya' style='max-width: 100%; max-height: 300px; border-radius: 8px; object-fit: cover;' /> </div> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Almena de Guacamaya</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Almena de barro que exhibe a una airosa guacamaya saliendo de entre el follaje. Con esta ave los prehispánicos simbolizaron al sol y al día. Formó parte del almenado de un salón de la Acrópolis.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Macaw Roof Ornament</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>Terracotta roof ornament from a hall on the Acropolis that displays an elegant macaw emerging from foliage. For pre-Hispanic peoples this bird symbolized the sun and daytime.</p> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <img src='assets/imagenes edgar/fig6.webp' alt='Almena de Guacamaya' /> <div class='tarjeta-info'> <h3>Almena de Guacamaya / Macaw Roof Ornament</h3> <p style='text-align: justify !important;'><strong>ESPAÑOL</strong><br>Almena de barro que exhibe a una airosa guacamaya saliendo de entre el follaje. Con esta ave los prehispánicos simbolizaron al sol y al día. Formó parte del almenado de un salón de la Acrópolis.<br><br><strong>ENGLISH</strong><br>Terracotta roof ornament from a hall on the Acropolis that displays an elegant macaw emerging from foliage. For pre-Hispanic peoples this bird symbolized the sun and daytime.</p> </div> </div>"
         },
         {
           "pitch": -25.1,
@@ -453,6 +506,8 @@
           "text": "Avanzar a la sala 3. Resguardo de los hombres",
           "sceneId": "imagen24"
         },
+
+       
         {
           "pitch": -18.8,
           "yaw": 179.0,
@@ -489,7 +544,7 @@
           "pitch": -14.7,
           "yaw": -1.7,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div style='text-align: center; margin-bottom: 20px;'> <img src='assets/imagenes edgar/vit8.webp' alt='El Señor de las Serpientes' style='max-width: 100%; max-height: 300px; border-radius: 8px; object-fit: cover;' /> </div> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Señor de las Serpientes</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>El Señor de las Serpientes representa a la nobleza dirigente de Xochicalco. Guarda una postura regia y severa. Lleva un faldellín y está ataviado ricamente con una banda de plumas entrelazadas rematada al centro por un <em>chalchihuite</em>; además tiene grandes orejeras, un collar y pulseras. Su rango social se manifiesta por el tocado de cabezas de serpiente y las cuatro serpientes que envuelven su cuerpo.<br><br>Esta representación genérica de la nobleza también se puede apreciar en los personajes sedentes entre los cuerpos de las serpientes emplumadas de la Pirámide de las Serpientes Emplumadas, así como en el <em>Señor Yelmo de Serpiente</em>.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Lord of the Serpents</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>The Lord of the Serpents represents the ruling nobility of Xochicalco. His bearing is regal and severe. He wears a skirt and is richly attired with a headband of interlaced feathers with a <em>chalchihuite</em> (greenstone bead) in the middle; in addition to large earflares, a necklace, and wristlets. His social rank is suggested by his headdress and the four snakes that are wrapped around his body.<br><br>This generic depiction of nobility may also be seen in the seated figures interspersed between the undulating serpent bodies on the Pyramid of the Feathered Serpents, as well as in the case of <em>Lord Serpent Helmet</em>.</p> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <img src='assets/imagenes edgar/vit8.webp' alt='El Señor de las Serpientes' /> <div class='tarjeta-info'> <h3>Señor de las Serpientes / Lord of the Serpents</h3> <p style='text-align: justify !important;'><strong>ESPAÑOL</strong><br>El Señor de las Serpientes representa a la nobleza dirigente de Xochicalco. Guarda una postura regia y severa. Lleva un faldellín y está ataviado ricamente con una banda de plumas entrelazadas rematada al centro por un <em>chalchihuite</em>; además tiene grandes orejeras, un collar y pulseras. Su rango social se manifiesta por el tocado de cabezas de serpiente y las cuatro serpientes que envuelven su cuerpo.<br><br>Esta representación genérica de la nobleza también se puede apreciar en los personajes sedentes entre los cuerpos de las serpientes emplumadas de la Pirámide de las Serpientes Emplumadas, así como en el <em>Señor Yelmo de Serpiente</em>.<br><br><strong>ENGLISH</strong><br>The Lord of the Serpents represents the ruling nobility of Xochicalco. His bearing is regal and severe. He wears a skirt and is richly attired with a headband of interlaced feathers with a <em>chalchihuite</em> (greenstone bead) in the middle; in addition to large earflares, a necklace, and wristlets. His social rank is suggested by his headdress and the four snakes that are wrapped around his body.<br><br>This generic depiction of nobility may also be seen in the seated figures interspersed between the undulating serpent bodies on the Pyramid of the Feathered Serpents, as well as in the case of <em>Lord Serpent Helmet</em>.</p> </div> </div>"
         },
         {
           "pitch": -10.0,
@@ -650,13 +705,13 @@
           "pitch": 3.4,
           "yaw": -29.4,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/sala2/ESCULTURA 1.webp' alt='Descripción'><div class='tarjeta-info'><h3>El señor de rojo</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <img src='assets/sala2/ESCULTURA1.webp' alt='El señor de rojo' /> <div class='tarjeta-info'> <h3></h3> <p style='text-align: justify !important;'></div> </div>"
         },
         {
           "pitch": -20.3,
           "yaw": -24.7,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Estela de los Dos Glifos</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>Las estelas fueron monumentos en los que se registraron y conmemoraron los acontecimientos históricos que regían la vida de los pueblos mesoamericanos. En muchos casos, las estelas son rocas talladas de forma rectangular y con inscripciones en los cuatro lados. Otras veces utilizaron las superficies lisas de las piedras uniformes para plasmar su historia.<br><br>La Estela de los Dos Glifos presenta en una de sus caras dos glifos calendáricos: <em>10 caña</em> y <em>9 ojo de reptil</em>. Es probable que su importancia resida en la alusión a la fundación de la ciudad.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Two-Glyph Stela</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>Stelae were monuments on which historical events that governed the life of Mesoamerican peoples were recorded and commemorated. In many cases, stelae are stones carved into a rectangular shape with inscriptions on four sides. At other times, they used the smooth surfaces of regularly shaped stones to capture their history.<br><br>The Two-Glyph Stela displays two calendrical glyphs on one of its faces: <em>10 Reed</em> and <em>9 Reptile's Eye</em>. The date recorded probably alludes to the city's foundation.</p> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>Estela de los Dos Glifos / Two-Glyph Stela</h3> <p style='text-align: justify !important;'><strong>ESPAÑOL</strong><br>Las estelas fueron monumentos en los que se registraron y conmemoraron los acontecimientos históricos que regían la vida de los pueblos mesoamericanos. En muchos casos, las estelas son rocas talladas de forma rectangular y con inscripciones en los cuatro lados. Otras veces utilizaron las superficies lisas de las piedras uniformes para plasmar su historia.<br><br>La Estela de los Dos Glifos presenta en una de sus caras dos glifos calendáricos: <em>10 caña</em> y <em>9 ojo de reptil</em>. Es probable que su importancia resida en la alusión a la fundación de la ciudad.<br><br><strong>ENGLISH</strong><br>Stelae were monuments on which historical events that governed the life of Mesoamerican peoples were recorded and commemorated. In many cases, stelae are stones carved into a rectangular shape with inscriptions on four sides. At other times, they used the smooth surfaces of regularly shaped stones to capture their history.<br><br>The Two-Glyph Stela displays two calendrical glyphs on one of its faces: <em>10 Reed</em> and <em>9 Reptile's Eye</em>. The date recorded probably alludes to the city's foundation.</p> </div> </div>"
         },
         {
           "pitch": -6.8,
@@ -690,61 +745,61 @@
           "pitch": -5.0,
           "yaw": -115.9,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/sala2/Escultura 2.webp' alt='Descripción'><div class='tarjeta-info'><h3>Ceramica de Xochicalco.</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <img src='assets/sala2/ESCULTURA2.webp' alt='Cerámica de Xochicalco' /> <div class='tarjeta-info'> <h3>Cerámica de Xochicalco / Xochicalco Ceramics</h3> <p><strong>ESPAÑOL</strong><br>Aquí puedes agregar la descripción en español sobre la cerámica.<br><br><strong>ENGLISH</strong><br>Here you can add the English description about the ceramics.</p> </div> </div>"
         },
         {
           "pitch": -10.3,
-          "yaw": -121,
+          "yaw": -121.0,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>La Cerámica</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>La cerámica de Xochicalco fue de elaboración local, de ahí su uniformidad. Aún así la calidad de pieza a pieza varía debido a la presencia de varios linajes de alfareros.<br><br>Unos se dedicaron a elaborar vasijas para quienes pertenecían a los estratos superiores, creando más diversidad de formas y diseños, con mejores acabados. Otros linajes manufacturaron para el común de la gente, así que sus productos fueron más simples y más pequeños que los otros.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Ceramics</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>Ceramics at Xochicalco were produced locally, which explains its uniformity. However, quality varies from piece to piece, as a result of the presence of diverse potters' lineages.<br><br>Some artisans produced vessels for members of the upper classes, creating greater diversity in shapes and designs, with better finishes. Other lineages manufactured wares for the commoners, so their products were simpler and smaller than the more elaborate pieces.</p> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>La Cerámica / Ceramics</h3> <p><strong>ESPAÑOL</strong><br>La cerámica de Xochicalco fue de elaboración local, de ahí su uniformidad. Aún así la calidad de pieza a pieza varía debido a la presencia de varios linajes de alfareros.<br><br>Unos se dedicaron a elaborar vasijas para quienes pertenecían a los estratos superiores, creando más diversidad de formas y diseños, con mejores acabados. Otros linajes manufacturaron para el común de la gente, así que sus productos fueron más simples y más pequeños que los otros.<br><br><strong>ENGLISH</strong><br>Ceramics at Xochicalco were produced locally, which explains its uniformity. However, quality varies from piece to piece, as a result of the presence of diverse potters' lineages.<br><br>Some artisans produced vessels for members of the upper classes, creating greater diversity in shapes and designs, with better finishes. Other lineages manufactured wares for the commoners, so their products were simpler and smaller than the more elaborate pieces.</p> </div> </div>"
         },
         {
           "pitch": -3.5,
           "yaw": -165,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/sala2/Escultura 3.webp' alt='Descripción'><div class='tarjeta-info'><h3>Altares Domesticos.</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala2/ESCULTURA3.webp' alt='Descripción'><div class='tarjeta-info'><h3>Altares Domesticos.</h3><p></p></div></div>"
         },
         {
           "pitch": -15.3,
           "yaw": -150.4,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Altares Domésticos</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>En los altares domésticos la estratificación social es muy clara. Mientras que en una casa de gente noble el altar tenía una escultura del Dios Viejo del Fuego, <em>Huehueteotl</em> -que portaba una vasija para quemar copal-, en la casa de los plebeyos usaron un sahumerio, es decir, un sencillo cajete con mango y en algunos casos con perforaciones.<br><br>Asimismo, en el primero existía un incensario decorado con picos, en el otro, simples vasos con aplicaciones que simulaban granos de café. Por último, en uno, las figurillas que representan dioses fueron de mayor tamaño y mejor talla; en el otro, aquellas apenas tenían los rasgos esbozados.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Domestic Altars</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>Social stratification is clearly expressed in domestic altars. In the home of the nobility the altar had a sculpture of the Old Fire God—Huehueteotl who carried a vessel on his head to burn copal incense—while the household of plebeians had an incense burner in the shape of a simple bowl, sometimes with perforations, and a long handle.<br><br>Similarly, in the first case there was a censer decorated with pointed projections; in the other, a simple vessel with appliqué that simulated coffee beans. Finally, in the former, figures representing deities were larger and better carved; in the latter, they only had schematic features.</p> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>Altares Domésticos / Domestic Altars</h3> <p><strong>ESPAÑOL</strong><br>En los altares domésticos la estratificación social es muy clara. Mientras que en una casa de gente noble el altar tenía una escultura del Dios Viejo del Fuego, <em>Huehueteotl</em> -que portaba una vasija para quemar copal-, en la casa de los plebeyos usaron un sahumerio, es decir, un sencillo cajete con mango y en algunos casos con perforaciones.<br><br>Asimismo, en el primero existía un incensario decorado con picos, en el otro, simples vasos con aplicaciones que simulaban granos de café. Por último, en uno, las figurillas que representan dioses fueron de mayor tamaño y mejor talla; en el otro, aquellas apenas tenían los rasgos esbozados.<br><br><strong>ENGLISH</strong><br>Social stratification is clearly expressed in domestic altars. In the home of the nobility the altar had a sculpture of the Old Fire God—Huehueteotl who carried a vessel on his head to burn copal incense—while the household of plebeians had an incense burner in the shape of a simple bowl, sometimes with perforations, and a long handle.<br><br>Similarly, in the first case there was a censer decorated with pointed projections; in the other, a simple vessel with appliqué that simulated coffee beans. Finally, in the former, figures representing deities were larger and better carved; in the latter, they only had schematic features.</p> </div> </div>"
         },
         {
           "pitch": -4.6,
           "yaw": 65.9,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/sala2/Escultura 4.webp' alt='Descripción'><div class='tarjeta-info'><h3>La efigie.</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala2/ESCULTURA4.webp' alt='Descripción'><div class='tarjeta-info'><h3>La efigie.</h3><p></p></div></div>"
         },
         {
           "pitch": -11.5,
-          "yaw": 70,
+          "yaw": 70.0,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Efigie del Incensario</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>La efigie del incensario muestra a una mujer vestida con enredo y <em>quexquemetl</em>, adornada con un tocado torcido probablemente elaborado con su propio pelo y cordeles; tiene, asimismo, grandes orejeras. La postura de la figura y las varas que porta, quizás ramas floridas, indican la representación de una danzante, acompañante femenino de los ritos religiosos.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>The Censer Effigy</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>The censer effigy shows a woman dressed in a skirt and <em>quexquemetl</em> (triangular tunic) and a twisted headdress, probably shaped with her own hair and decorative bands; she also wears large earspools. Her position and the objects she holds, perhaps flowering branches, suggest the representation of a dancer, a female participant in religious rites.</p> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>Efigie del Incensario / The Censer Effigy</h3> <p><strong>ESPAÑOL</strong><br>La efigie del incensario muestra a una mujer vestida con enredo y <em>quexquemetl</em>, adornada con un tocado torcido probablemente elaborado con su propio pelo y cordeles; tiene, asimismo, grandes orejeras. La postura de la figura y las varas que porta, quizás ramas floridas, indican la representación de una danzante, acompañante femenino de los ritos religiosos.<br><br><strong>ENGLISH</strong><br>The censer effigy shows a woman dressed in a skirt and <em>quexquemetl</em> (triangular tunic) and a twisted headdress, probably shaped with her own hair and decorative bands; she also wears large earspools. Her position and the objects she holds, perhaps flowering branches, suggest the representation of a dancer, a female participant in religious rites.</p> </div> </div>"
         },
         {
           "pitch": -1.9,
           "yaw": -36.9,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/sala2/Escultura 5.webp' alt='Descripción'><div class='tarjeta-info'><h3>La diosa de la fertilidad.</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala2/ESCULTURA5.webp' alt='Descripción'><div class='tarjeta-info'><h3>La diosa de la fertilidad.</h3><p></p></div></div>"
         },
         {
           "pitch": -18.5,
-          "yaw": -45,
+          "yaw": -45.0,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Diosa de la Fertilidad</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>Aunque es una escultura muy sobria, sin elementos iconográficos, por las características del templo donde fue encontrada puede considerarse como una diosa de la fertilidad. El templo es una cueva excavada en la roca del cerro cuya fachada está recubierta con piedra labrada y aplanada con cal y arena. La cueva asocia a la diosa con el mundo inferior, en el que se encuentran la tierra, representada como las fauces de un lagarto: lo femenino, el agua de los manantiales; todo ello relacionado con la fertilidad. En el periodo Posclásico, esta diosa fue conocida como Xochiquetzal.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Fertility Goddess</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>Although it is an extremely simple sculpture, without detailed iconographic elements, it is regarded as a fertility goddess based on the temple where it was found.<br><br>The temple consisted of a cave carved into the rock of the hill, whose façade was covered with worked stone coated with a lime and sand plaster. The cave associated the goddess with the lower realm, that of the earth, represented by the jaws of a crocodile: the female realm, water from springs; all of these elements related to fertility. In the Postclassic period this goddess was known as Xochiquetzal.</p> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>Diosa de la Fertilidad / Fertility Goddess</h3> <p><strong>ESPAÑOL</strong><br>Aunque es una escultura muy sobria, sin elementos iconográficos, por las características del templo donde fue encontrada puede considerarse como una diosa de la fertilidad. El templo es una cueva excavada en la roca del cerro cuya fachada está recubierta con piedra labrada y aplanada con cal y arena. La cueva asocia a la diosa con el mundo inferior, en el que se encuentran la tierra, representada como las fauces de un lagarto: lo femenino, el agua de los manantiales; todo ello relacionado con la fertilidad. En el periodo Posclásico, esta diosa fue conocida como Xochiquetzal.<br><br><strong>ENGLISH</strong><br>Although it is an extremely simple sculpture, without detailed iconographic elements, it is regarded as a fertility goddess based on the temple where it was found.<br><br>The temple consisted of a cave carved into the rock of the hill, whose façade was covered with worked stone coated with a lime and sand plaster. The cave associated the goddess with the lower realm, that of the earth, represented by the jaws of a crocodile: the female realm, water from springs; all of these elements related to fertility. In the Postclassic period this goddess was known as Xochiquetzal.</p> </div> </div>"
         },
         {
           "pitch": -10.1,
           "yaw": 10.4,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/sala2/Escultura 6.webp' alt='Descripción'><div class='tarjeta-info'><h3>Altar de las olas.</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala2/ESCULTURA6.webp' alt='Descripción'><div class='tarjeta-info'><h3>Altar de las olas.</h3><p></p></div></div>"
         },
         {
           "pitch": -0.5,
-          "yaw": 39,
+          "yaw": 39.0,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Altar de las Olas</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>La estratificación social en Xochicalco se refleja en las terrazas constructivas de la ciudad; es decir, las plataformas de la cima del cerro fueron ocupadas por gente de mayor rango social, y tenían un acceso restringido; en cambio, las terrazas de la parte baja estuvieron habitadas por personas de estratos inferiores, y con una mayor comunicación.<br><br>El Altar de las Olas perteneció al Salón de la Plaza Principal, la tercera terraza más alta. Localizado al norte y centro de aquél, sirvió para cerrar simbólicamente el Salón. La policromía que muestra en tonos de azul y verde aluden al elemento agua que se relaciona con el culto al dios Tláloc.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Altar with Waves</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>Social stratification in Xochicalco was reflected in the city's architectural terraces; in other words, access to the platforms on the hilltops was restricted because these were occupied by people of higher social rank. In contrast, the terraces in the lower areas, which afforded greater communication, were inhabited by individuals of lower social status.<br><br>The Altar with Waves formed part of the Hall of the Main Plaza, the city's third highest terrace. Located at the north and central part of the hall, it served to symbolically to close it. The blue and green polychrome painting alludes to water, the element associated with the veneration of Tlaloc, the rain god.</p> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>Altar de las Olas / Altar with Waves</h3> <p><strong>ESPAÑOL</strong><br>La estratificación social en Xochicalco se refleja en las terrazas constructivas de la ciudad; es decir, las plataformas de la cima del cerro fueron ocupadas por gente de mayor rango social, y tenían un acceso restringido; en cambio, las terrazas de la parte baja estuvieron habitadas por personas de estratos inferiores, y con una mayor comunicación.<br><br>El Altar de las Olas perteneció al Salón de la Plaza Principal, la tercera terraza más alta. Localizado al norte y centro de aquél, sirvió para cerrar simbólicamente el Salón. La policromía que muestra en tonos de azul y verde aluden al elemento agua que se relaciona con el culto al dios Tláloc.<br><br><strong>ENGLISH</strong><br>Social stratification in Xochicalco was reflected in the city's architectural terraces; in other words, access to the platforms on the hilltops was restricted because these were occupied by people of higher social rank. In contrast, the terraces in the lower areas, which afforded greater communication, were inhabited by individuals of lower social status.<br><br>The Altar with Waves formed part of the Hall of the Main Plaza, the city's third highest terrace. Located at the north and central part of the hall, it served to symbolically to close it. The blue and green polychrome painting alludes to water, the element associated with the veneration of Tlaloc, the rain god.</p> </div> </div>"
         },
         {
           "pitch": -10.0,
@@ -771,49 +826,49 @@
           "pitch": -1.6,
           "yaw": -148.8,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/sala2/Escultura 7.webp' alt='Descripción'><div class='tarjeta-info'><h3>Incensario.</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala2/ESCULTURA7.webp' alt='Descripción'><div class='tarjeta-info'><h3>Incensario.</h3><p></p></div></div>"
         },
         {
           "pitch": -16.6,
           "yaw": -144.5,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Incensario Elaborado</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>Elaborado incensario muestra a un individuo de escasa vestimenta, pues nada más lleva <em>maxtlatl</em> y sandalias. Está adornado con un sencillo tocado, orejeras y un collar en forma semicircular que, por su colocación, podría significar que tenía incrustaciones de piedras azul-verdes.<br><br>La pintura corporal de color negro y el morral son atributos propios de un sacerdote; tanto la vara que porta -que tiene la forma irregular del rayo y podría ser un bastón de lluvia- como los roleos que los enmarcan, son signos acuáticos del dios de la lluvia, Tláloc.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Elaborate Censer</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>The elaborate censer shows a man simply garbed in a loincloth and sandals. He wears a plain headdress, earspools, and a semicircular necklace, which based on its placement and color, suggests blue-green stone beads. The black body paint and the bag are priestly attributes. Both the staff he carries—in the irregular shape of a lightning bolt perhaps representing a rain or rattle staff—and the blue curvilinear design framing him are aquatic emblems of the rain god, Tlaloc.</p> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>Incensario Elaborado / Elaborate Censer</h3> <p><strong>ESPAÑOL</strong><br>Elaborado incensario muestra a un individuo de escasa vestimenta, pues nada más lleva <em>maxtlatl</em> y sandalias. Está adornado con un sencillo tocado, orejeras y un collar en forma semicircular que, por su colocación, podría significar que tenía incrustaciones de piedras azul-verdes.<br><br>La pintura corporal de color negro y el morral son atributos propios de un sacerdote; tanto la vara que porta -que tiene la forma irregular del rayo y podría ser un bastón de lluvia- como los roleos que los enmarcan, son signos acuáticos del dios de la lluvia, Tláloc.<br><br><strong>ENGLISH</strong><br>The elaborate censer shows a man simply garbed in a loincloth and sandals. He wears a plain headdress, earspools, and a semicircular necklace, which based on its placement and color, suggests blue-green stone beads. The black body paint and the bag are priestly attributes. Both the staff he carries—in the irregular shape of a lightning bolt perhaps representing a rain or rattle staff—and the blue curvilinear design framing him are aquatic emblems of the rain god, Tlaloc.</p> </div> </div>"
         },
         {
           "pitch": -4.5,
           "yaw": -28.3,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/sala2/Escultura 8.webp' alt='Descripción'><div class='tarjeta-info'><h3>Yelmo de serpiente.</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala2/ESCULTURA8.webp' alt='Descripción'><div class='tarjeta-info'><h3>Yelmo de serpiente.</h3><p></p></div></div>"
         },
         {
           "pitch": -13.8,
           "yaw": -16.5,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Señor Yelmo de Serpiente</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>En la escultura se aprecia un rostro cubierto con un yelmo con forma de casco y sólo deja la cara al descubierto.<br><br>El yelmo es una abstracción de los principales atributos de la serpiente. Con las fauces abiertas deja ver los colmillos superiores e inferiores así como una lengua bífida. En la parte de arriba está la nariz. A los lados, grandes ojos de reptil. El yelmo tiene tantos roleos que, de un ser tan simple, se convierte en una representación compleja e impactante.<br><br>El Señor Yelmo de Serpiente, adornado con una banda y orejeras, es un ejemplo más de las representaciones de la nobleza xochicalca.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Lord Serpent Helmet</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>The sculpture shows a head covered with a helmet revealing only the face within.<br><br>The helmet is an abstraction of the serpent's main attributes: its gaping jaws displaying upper and lower fangs, as well as a forked tongue. Above is the nose and on the sides, large reptiles' eyes. The helmet's abundant curvilinear elements transform it into a complex, striking image. Lord Serpent Helmet, adorned with a headband and ear ornaments, is another example of the representation of the Xochicalco nobility.</p> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>Señor Yelmo de Serpiente / Lord Serpent Helmet</h3> <p><strong>ESPAÑOL</strong><br>En la escultura se aprecia un rostro cubierto con un yelmo con forma de casco y sólo deja la cara al descubierto.<br><br>El yelmo es una abstracción de los principales atributos de la serpiente. Con las fauces abiertas deja ver los colmillos superiores e inferiores así como una lengua bífida. En la parte de arriba está la nariz. A los lados, grandes ojos de reptil. El yelmo tiene tantos roleos que, de un ser tan simple, se convierte en una representación compleja e impactante.<br><br>El Señor Yelmo de Serpiente, adornado con una banda y orejeras, es un ejemplo más de las representaciones de la nobleza xochicalca.<br><br><strong>ENGLISH</strong><br>The sculpture shows a head covered with a helmet revealing only the face within.<br><br>The helmet is an abstraction of the serpent's main attributes: its gaping jaws displaying upper and lower fangs, as well as a forked tongue. Above is the nose and on the sides, large reptiles' eyes. The helmet's abundant curvilinear elements transform it into a complex, striking image. Lord Serpent Helmet, adorned with a headband and ear ornaments, is another example of the representation of the Xochicalco nobility.</p> </div> </div>"
         },
         {
           "pitch": -7.2,
           "yaw": 68.1,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/sala2/Escultura 9.webp' alt='Descripción'><div class='tarjeta-info'><h3>Rituales.</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala2/ESCULTURA9.webp' alt='Descripción'><div class='tarjeta-info'><h3>Rituales.</h3><p></p></div></div>"
         },
         {
           "pitch": -12.0,
           "yaw": 82.6,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Los Sacerdotes</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>Los sacerdotes ocuparon un lugar preponderante dentro de la sociedad, ya que, a través del ritual, reproducían la ideología de la sociedad. Elemento importante de las ceremonias religiosas, el atuendo de los sacerdotes abarcaba desde su apariencia física hasta el vestido y los adornos que iban de acuerdo al tipo de ceremonia a realizar.<br><br>A manera de pectoral, las máscaras pendían de un collar de cuentas de piedra verde. La mayor parte de éstas son de claro estilo teotihuacano; otras tienen rasgos que indican el contacto con diversas regiones, donde las máscaras también fueron símbolos religiosos.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Priests</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>Priests occupied a preeminent position in society, because through ritual they perpetuated the society's ideology. An important element of religious ceremonies, the priests' costume included their physical appearance, garments, and ornaments that depended on the type of ceremony to be performed.<br><br>Worn as pectorals, masks were suspended from a greenstone bead necklace. Most masks are clearly in the Teotihuacan style; others have features that indicate contact with various regions, where masks also served as religious symbols.</p> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>Los Sacerdotes / Priests</h3> <p><strong>ESPAÑOL</strong><br>Los sacerdotes ocuparon un lugar preponderante dentro de la sociedad, ya que, a través del ritual, reproducían la ideología de la sociedad. Elemento importante de las ceremonias religiosas, el atuendo de los sacerdotes abarcaba desde su apariencia física hasta el vestido y los adornos que iban de acuerdo al tipo de ceremonia a realizar.<br><br>A manera de pectoral, las máscaras pendían de un collar de cuentas de piedra verde. La mayor parte de éstas son de claro estilo teotihuacano; otras tienen rasgos que indican el contacto con diversas regiones, donde las máscaras también fueron símbolos religiosos.<br><br><strong>ENGLISH</strong><br>Priests occupied a preeminent position in society, because through ritual they perpetuated the society's ideology. An important element of religious ceremonies, the priests' costume included their physical appearance, garments, and ornaments that depended on the type of ceremony to be performed.<br><br>Worn as pectorals, masks were suspended from a greenstone bead necklace. Most masks are clearly in the Teotihuacan style; others have features that indicate contact with various regions, where masks also served as religious symbols.</p> </div> </div>"
         },
         {
           "pitch": -1.7,
           "yaw": 30.9,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/sala2/Escultura 10.webp' alt='Descripción'><div class='tarjeta-info'><h3>Instrumentos de cocina.</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala2/ESCULTURA10.webp' alt='Descripción'><div class='tarjeta-info'><h3>Instrumentos de cocina.</h3><p></p></div></div>"
         },
         {
           "pitch": -7.1,
           "yaw": 35.5,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Instrumentos para Moler</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>La forma de los instrumentos para moler estaba determinada por el tipo de materia que iban a triturar. Por ejemplo, el metate extendido, colocado sobre una plataforma baja debido a que carece de patas, fue utilizado para moler <em>nixtamal</em>. El cuenco, por su tosco acabado, fue utilizado para pulverizar las arcillas utilizadas como pigmentos en la elaboración de cerámica. En el pequeño metate machacaron costosos y raros pigmentos, necesarios para la pintura mural. Por último, el cuenco de fina talla y con soportes sirvió en las ceremonias, tal vez para desmenuzar exóticas plantas que permitieran a los hombres hablar con los dioses.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Grinding Implements</h3> <p style='font-size: 0.95rem; line-height: 1.5;'>The shape of grinding implements was determined by the type of material that was to be ground. For example, a long grinding stone on a low base without feet was to grind <em>nixtamal</em>, a prepared corn mixture.<br><br>Bowls with a rough surface were used to grind clay used to decorate ceramics. In small mortars they ground costly, rare pigments, needed in mural painting. Finally, the finely carved bowl with supports served in ceremonies, perhaps to crumble exotic plants that made it possible for people to speak with the gods.</p> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>Instrumentos para Moler / Grinding Implements</h3> <p><strong>ESPAÑOL</strong><br>La forma de los instrumentos para moler estaba determinada por el tipo de materia que iban a triturar. Por ejemplo, el metate extendido, colocado sobre una plataforma baja debido a que carece de patas, fue utilizado para moler <em>nixtamal</em>. El cuenco, por su tosco acabado, fue utilizado para pulverizar las arcillas utilizadas como pigmentos en la elaboración de cerámica. En el pequeño metate machacaron costosos y raros pigmentos, necesarios para la pintura mural. Por último, el cuenco de fina talla y con soportes sirvió en las ceremonias, tal vez para desmenuzar exóticas plantas que permitieran a los hombres hablar con los dioses.<br><br><strong>ENGLISH</strong><br>The shape of grinding implements was determined by the type of material that was to be ground. For example, a long grinding stone on a low base without feet was to grind <em>nixtamal</em>, a prepared corn mixture.<br><br>Bowls with a rough surface were used to grind clay used to decorate ceramics. In small mortars they ground costly, rare pigments, needed in mural painting. Finally, the finely carved bowl with supports served in ceremonies, perhaps to crumble exotic plants that made it possible for people to speak with the gods.</p> </div> </div>"
         },
         {
           "pitch": -10.0,
@@ -840,19 +895,43 @@
           "pitch": 2.4,
           "yaw": -138.3,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/panoramicaswebp/sala3/LETRERO-1.webp' alt='Descripción'><div class='tarjeta-info'><h3>Título de tu pieza</h3><p>Aquí puedes poner todo el texto descriptivo que necesites mostrar.</p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala3/LETRERO-1.webp' alt='Descripción'><div class='tarjeta-info'><h3>Xochicalco, resguardo de hombres</h3><p>Cartel informativo..</p></div></div>"
+        },
+        {
+          "pitch": -9.9,
+          "yaw": 120.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/sala3/Escultura1.1.webp' alt='Descripción'><div class='tarjeta-info'><h3>Estela de los dos glifos</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -32.3,
+          "yaw": 120.7,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>Estela de los Dos Glifos / Two-Glyph Stela</h3> <p><strong>ESPAÑOL</strong><br>Las estelas fueron monumentos en los que se registraron y conmemoraron los acontecimientos históricos que regían la vida de los pueblos mesoamericanos. En muchos casos, las estelas son rocas talladas de forma rectangular y con inscripciones en los cuatro lados. Otras veces utilizaron las superficies lisas de las piedras uniformes para plasmar su historia.<br><br>La Estela de los Dos Glifos presenta en una de sus caras dos glifos calendáricos: <em>10 caña</em> y <em>9 ojo de reptil</em>. Es probable que su importancia resida en la alusión a la fundación de la ciudad.<br><br><strong>ENGLISH</strong><br>Stelae were monuments on which historical events that governed the life of Mesoamerican peoples were recorded and commemorated. In many cases, stelae are stones carved into a rectangular shape with inscriptions on four sides. At other times, they used the smooth surfaces of regularly shaped stones to capture their history.<br><br>The Two-Glyph Stela displays two calendrical glyphs on one of its faces: <em>10 Reed</em> and <em>9 Reptile's Eye</em>. The date recorded probably alludes to the city's foundation.</p> </div> </div>"
+        },
+        {
+          "pitch": -9.7,
+          "yaw": -179.4,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/sala3/ESCULTURA2.webp' alt='Descripción'><div class='tarjeta-info'><h3>Arquitectura</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -11.7,
+          "yaw": -175.5,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>Arquitectos y Albañiles / Architects and Masons</h3> <p><strong>ESPAÑOL</strong><br>El constante crecimiento de la ciudad requirió de un buen número de arquitectos y albañiles, de ahí la profusión de sus instrumentos de trabajo, como las plomadas, las <em>llanas</em> (alisadores), los pulidores y las mezcleras.<br><br>La categoría del arquitecto se notaba por la calidad de sus artefactos de trabajo, por ejemplo: las mejores plomadas fueron las de piedra verde, no sólo por su resistencia sino también por ser de forma perfecta y de buen acabado.<br><br><strong>ENGLISH</strong><br>The ongoing growth of the city required a large number of architects and masons, as well as a profusion of work tools, such as stone plumb bobs, trowels, polishers, and mortar pans.<br><br>The architect's status was reflected in the quality of his work implements, for example: the best plumb bobs were made of greenstone, not only because they were more resistant, but they were more finely carved and finished.</p> </div> </div>"
         },
         {
           "pitch": -8.0,
           "yaw": 30.0,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/sala3/ESCULTURA 10.webp' alt='Descripción'><div class='tarjeta-info'><h3>Ornamentación juego de pelota.</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/sala3/ESCULTURA10.webp' alt='Descripción'><div class='tarjeta-info'><h3>Ornamentación juego de pelota.</h3><p></p></div></div>"
         },
         {
           "pitch": -5.0,
           "yaw": 0.0,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Ornamentación del Juego de Pelota Norte</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>Parte de la ornamentación del Juego de Pelota Norte consistía en grandes caracoles empotrados en los tableros de los laterales. Estos símbolos acuáticos también predominan en la decoración del temazcal que, junto con el estanque, son dependencias asociadas al Juego de Pelota.<br><br>Caracoles, conchas, estrellas marinas y agua, son los signos y glifos iconográficos que hacen referencia a Tláloc. Son mudas plegarias al dios de la lluvia para lograr buenas cosechas.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>North Ballcourt Ornamentation</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #fff;'>Part of the ornamentation of the North Ballcourt consisted of large seashells tenoned into the rectangular panels of the side walls. These aquatic symbols also predominated in the decoration of the steambath, which together with the pool, were rooms associated with the Ballcourt.<br><br>Seashells, starfish, and water are signs and iconographic elements that refer to Tlaloc. They are silent prayers to the god of rain to ensure abundant harvests.</p> </div> </div> </div>"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>Ornamentación del Juego de Pelota Norte / North Ballcourt Ornamentation</h3> <p><strong>ESPAÑOL</strong><br>Parte de la ornamentación del Juego de Pelota Norte consistía en grandes caracoles empotrados en los tableros de los laterales. Estos símbolos acuáticos también predominan en la decoración del temazcal que, junto con el estanque, son dependencias asociadas al Juego de Pelota.<br><br>Caracoles, conchas, estrellas marinas y agua, son los signos y glifos iconográficos que hacen referencia a Tláloc. Son mudas plegarias al dios de la lluvia para lograr buenas cosechas.<br><br><strong>ENGLISH</strong><br>Part of the ornamentation of the North Ballcourt consisted of large seashells tenoned into the rectangular panels of the side walls. These aquatic symbols also predominated in the decoration of the steambath, which together with the pool, were rooms associated with the Ballcourt.<br><br>Seashells, starfish, and water are signs and iconographic elements that refer to Tlaloc. They are silent prayers to the god of rain to ensure abundant harvests.</p> </div> </div>"
         },
         {
           "pitch": -16.0,
@@ -883,6 +962,72 @@
           "sceneId": "imagen24"
         },
         {
+          "pitch": -2.0,
+          "yaw": -80.7,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/sala3/ESCULTURA3.webp' alt='Descripción'><div class='tarjeta-info'><h3>Tzompantli</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -2.0,
+          "yaw": -85.7,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>Tzompantli</h3> <p><strong>ESPAÑOL</strong><br>En México-Tenochtitlan construyeron muros con cabezas humanas ensartadas llamados <em>tzompantli</em>, que también representaron en forma de esculturas. La presencia de esculturas de cráneos en Xochicalco es un antecedente de los <em>tzompantli</em>. Es probable que estén relacionados con el ciclo de la vida y la muerte, fundamento de la religión mesoamericana.<br><br><strong>ENGLISH</strong><br>In the Aztec capital of Mexico-Tenochtitlan, they built walls with human skulls hung on poles forming <em>tzompantli</em>, which were also represented sculpturally. The presence of skull sculptures at Xochicalco is a precedent for these <em>tzompantli</em>. They were probably linked to the life and death cycle, which was the foundation of Mesoamerican religion.</p> </div> </div>"
+        },
+        {
+          "pitch": -13.2,
+          "yaw": -92.7,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/sala3/ESCULTURA4.webp' alt='Descripción'><div class='tarjeta-info'><h3>Tambores</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -20.5,
+          "yaw": -88.7,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>Arquitectura Masiva / Massive Architecture</h3> <p><strong>ESPAÑOL</strong><br>Tambores que pertenecían a enormes y gruesas columnas, sillares de basamentos de gran altura y cornisas de elaborados edificios, que expresan la arquitectura masiva que predominaba en la urbe. Sin embargo, aquella se aligeraba por los vanos sin puertas, tan altos y anchos, así como por el tamaño de las habitaciones, cuya superficie daba la sensación de amplitud.<br><br><strong>ENGLISH</strong><br>Drums from enormous thick columns, stone blocks from tall platforms, and cornices from elaborate buildings exemplified the massive architecture that predominated in the city. However, architecture was lightened by tall, wide openings lacking doors and by the size of rooms, whose dimensions conveyed the sensation of spaciousness.</p> </div> </div>"
+        },
+        {
+          "pitch": -1.2,
+          "yaw": -113.7,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/sala3/LETRERO4.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -19.2,
+          "yaw": -105.9,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/sala3/ESCULTURA5.webp' alt='Descripción'><div class='tarjeta-info'><h3>El tiempo y el calendario</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -12.5,
+          "yaw": -106.1,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>El Tiempo y el Calendario / Time and the Calendar</h3> <p><strong>ESPAÑOL</strong><br>El tiempo fue sumamente importante para los prehispánicos, la creación de los seres animados e inanimados se registraba en el ciclo calendárico, de tal manera que desde los dioses hasta el más insignificante objeto tenían nombre calendárico. Este clavo fue tallado con el nombre calendárico <em>4 casa</em>, y fue empotrado en los altos taludes de la plataforma de la Plaza Principal de Xochicalco para festejar el término de su construcción.<br><br><strong>ENGLISH</strong><br>Time was extremely important for pre-Hispanic people. The creation of animate and inanimate beings was recorded in the calendrical cycle in such a way that everything from the gods to the most minor of objects had a calendrical name. This nail carved with the calendrical name <em>4 House</em> was set into the tall sloping wall of the platform in the Main Plaza of Xochicalco to celebrate the completion of its construction.</p> </div> </div>"
+        },
+        {
+          "pitch": -11.0,
+          "yaw": 150.6,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/sala3/ESCULTURA6.webp' alt='Descripción'><div class='tarjeta-info'><h3>Más Arquitectura</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -21.3,
+          "yaw": 150.8,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>Planeación y Construcción / Planning and Construction</h3> <p><strong>ESPAÑOL</strong><br>Los arquitectos que tuvieron a su cargo la planeación y construcción de la ciudad fueron a tal grado meticulosos que se apoyaron en maquetas, modelos de las construcciones que después ejecutarían a tamaño real.<br><br>Contemplaron también la apariencia final de los edificios, por lo que los decoraron con pintura mural y con almenas de barro y piedra. Además, en piedra tallaron glifos y esculturas como insignias de las casas, asociados directamente con el rango del individuo que las habitaba.<br><br><strong>ENGLISH</strong><br>The architects in charge of planning and building the city were so meticulous that they relied on architectural models of constructions that they later built as full-scale structures.<br><br>They also took into account the final appearance of buildings, which they decorated with mural painting and ceramic and stone roof ornaments. In addition, they carved glyphs and sculptures of stone as household insignia, directly linked to the rank of the individual who lived there.</p> </div> </div>"
+        },
+        {
+          "pitch": -6.3,
+          "yaw": 55.8,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/sala3/ESCULTURA7.webp' alt='Descripción'><div class='tarjeta-info'><h3>Símbolos Tlalocan</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -20.6,
+          "yaw": 81.8,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>Símbolos del Tlalocan / Symbols of Tlalocan</h3> <p><strong>ESPAÑOL</strong><br>Figuras como estrellas de mar, caracoles, conchas, peces, entre otros, estuvieron asociadas con las lluvias, y fueron utilizadas como símbolos del <em>Tlalocan</em>, lugar habitado por Tláloc, Dios de todos los bienes y males acaecidos por el agua, al cual estaba dedicada la capilla de la Gran Pirámide de Xochicalco. Estas estrellas marinas probablemente estuvieron empotradas en algunos de los tableros de este edificio.<br><br><strong>ENGLISH</strong><br>Figures such as starfish, seashells, fish, and other elements were associated with rain and were used as symbols of Tlalocan, the dwelling place of Tlaloc, the god of all good and evil caused by water. The chapel in the Great Pyramid of Xochicalco was dedicated to this deity. These starfish were probably set into the wall panels of that building.</p> </div> </div>"
+        },
+        {
           "pitch": -15.0,
           "yaw": 10.8,
           "type": "scene",
@@ -902,6 +1047,54 @@
           "type": "scene",
           "text": "Regresar por la sala",
           "sceneId": "imagen25"
+        },
+        {
+          "pitch": -10.9,
+          "yaw": -77.5,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>Mensajes en la Decoración / Messages in Decoration</h3> <p><strong>ESPAÑOL</strong><br>Además de agradar la vista, la decoración de los edificios fue un medio para transmitir mensajes. Signos como las flores hablan de la fertilidad. Las flores de cinco pétalos, caladas y con terminación en espiga, fueron empotradas en el remate y pretil del pórtico de la Acrópolis, figurando una rama florida.<br><br>Otro tipo de decoración, asociada a la lluvia y a la humedad, son estrellas marinas talladas en piedra. El tambor indica que estuvieron empotradas, quizás, en algunos de los tableros de la Gran Pirámide, cuyo templo alojaba al dios Tláloc.<br><br><strong>ENGLISH</strong><br>In addition to pleasing the eye, building decoration was a means of transmitting messages. Signs such as flowers spoke of fertility. Five-petalled flowers, openwork and ending in a peg were inserted into the upper part of the wall of the portico of the Acropolis to give the impression of a flowering branch.<br><br>Another type of decoration, associated with rain and moisture, is the starfish carved in stone. The drum suggests these pieces were perhaps tenoned into the wall panels of the Great Pyramid, whose temple housed the god Tlaloc.</p> </div> </div>"
+        },
+        {
+          "pitch": -4.0,
+          "yaw": -95.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>Flores y el Mundo Superior / Flowers and the Upper World</h3> <p><strong>ESPAÑOL</strong><br>En Morelos es característico que después de lluvias el campo comienza a florecer: iniciando la temporada de secas el manto de la virgen cubre el campo de azul; con los primeros fríos vemos racimos de flores blancas del cazahuate; para febrero el guayacan se engalana de rosa; y para mayo al finalizar la época de secas, el cacaloxochitl nos regala con sus flores blancas, rosas y amarillas.<br><br>Por ello, las flores en la época prehispánica pertenecían al mundo superior, generalmente fueron utilizadas como representaciones del día, el fuego, el sol, la temporada de secas. Estas esculturas de flores decoraban los frisos del principal edificio de Xochicalco; la Acrópolis.<br><br><strong>ENGLISH</strong><br>In Morelos after the rains the countryside begins to bloom; when the dry season begins the Virgin's mantle covers the landscape in blue; with the onset of cold weather we see clusters of white <em>cazahuate</em> flowers; by February the <em>guayacan</em> trees are bedecked in pink; and by May at the end of the dry season, the <em>cacaloxochitl</em> gives us its white, pink, and yellow flowers.<br><br>Therefore, the flowers in pre-Hispanic times belonged to the upper world and were generally used as representations of daytime, fire, sun, the dry season. These sculptures of flowers decorated the friezes of the main building in Xochicalco: the Acropolis.</p> </div> </div>"
+        },
+        {
+          "pitch": -2.4,
+          "yaw": -116.7,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <img src='assets/sala3/LETRERO3.webp' alt='Perfiles, Líneas, Trazos' /> <div class='tarjeta-info'> <h3>Perfiles, Líneas, Trazos / Profiles, Lines, Strokes</h3></div> </div>"
+        },
+        {
+          "pitch": -15.1,
+          "yaw": 152.7,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <img src='assets/sala3/ESCULTURA8.webp' alt='Innovaciones en la Ciudad' /> <div class='tarjeta-info'> <h3>Innovaciones en la Ciudad / Innovations in the City</h3></div> </div>"
+        },
+        {
+          "pitch": -16.0,
+          "yaw": 165.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>Planeación de la Ciudad / City Planning</h3> <p><strong>ESPAÑOL</strong><br>Los constructores que planearon la ciudad tomaron en cuenta la buena orientación -para evitar fríos o calores excesivos-, la calidad de los materiales de construcción- a fin de dar solidez y frescura a las habitaciones-, y la distribución ordenada de los spaces, cada uno planeado para una función específica.<br><br>Uno de los problemas considerados por los arquitectos fue el deterioro causado por la humedad. Para solucionarlo, construyeron pretiles que, junto con el desnivel del techo, permitieron conducir el agua de lluvia a través de los bajantes hasta los patios.<br><br><strong>ENGLISH</strong><br>The builders who planned the city took into account the ideal orientation of buildings to avoid excessive cold and heat, the quality of construction materials to make rooms solid and fresh, and the design to ensure the orderly distribution of spaces, each one planned for a specific function.<br><br>One of the problems considered by architects was deterioration caused by humidity. To prevent it, they built parapets, which together with the slope of the roof, allowed rainwater to be channeled on slanted surfaces to patios.</p> </div> </div>"
+        },
+        {
+          "pitch": 1.8,
+          "yaw": 78.2,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <img src='assets/sala3/LETRERO2.webp' alt='Nuevos Poderes' /> <div class='tarjeta-info'></div> </div>"
+        },
+        {
+          "pitch": 0.0,
+          "yaw": 37.2,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/sala3/ESCULTURA9.webp' alt='Descripción'><div class='tarjeta-info'><h3>Temazcal.</h3><p></p></div></div>"
+        },
+        {
+          "pitch": -5.5,
+          "yaw": 38.8,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>El Temazcal / The Temazcal</h3> <p><strong>ESPAÑOL</strong><br>El temazcal, o baño de vapor, fue un cuarto con una cámara de combustión sobre la cual colocaron un fogón construido con columnillas de piedra. Sobre este dispusieron gran cantidad de cantos rodados que, ya calientes y al contacto del agua producían vapor.<br><br>Asociado al Juego de Pelota Norte, el temazcal fue un edificio de tipo religioso, de ahí su gran tamaño y profusa decoración. Estrellas, conchas marinas y discos de cerámica con policromía son algunos de los adornos asociados con el culto a Tláloc que se encuentran en el temazcal.<br><br><strong>ENGLISH</strong><br>The <em>temazcal</em>, or sweatbath, was a room with a combustion chamber in which they placed a fireplace constructed of stone columns placed together. Large amounts of heated round stones were arranged on top of this and were doused with water to produce steam.<br><br>Associated with the North Ballcourt, the steambath was a religious building, which explains its large dimensions and profuse decoration. Ceramic stars, seashells, and disks with traces of polychromy are some of the decorations associated with the worship of Tlaloc found in the <em>temazcal</em>.</p> </div> </div>"
         },
         {
           "pitch": -10.0,
@@ -928,25 +1121,25 @@
           "pitch": -2.9,
           "yaw": -178.0,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/img27/LETRERO 1.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/img27/LETRERO1.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
         },
         {
           "pitch": -1.9,
           "yaw": -120,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/img27/LETRERO 2.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/img27/LETRERO2.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
         },
         {
           "pitch": -4.5,
           "yaw": -62,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/img27/LETRERO 3.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/img27/LETRERO3.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
         },
         {
           "pitch": -6,
           "yaw": 0.0,
           "type": "info",
-          "text": "<div class='tarjeta-museo'><img src='assets/img27/LETRERO 4.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
+          "text": "<div class='tarjeta-museo'><img src='assets/img27/LETRERO4.webp' alt='Descripción'><div class='tarjeta-info'><h3>Cartel informativo</h3><p></p></div></div>"
         },
         {
           "pitch": -10.0,
@@ -993,7 +1186,7 @@
       ]
     },
     "imagen29": {
-      "title": "sala 5",
+      "title": "Sala 5 / Room 5, Los rituales del juego - World of Gods",
       "type": "equirectangular",
       "panorama": "assets/panoramicaswebp/29.webp",
       "hotSpots": [
@@ -1008,22 +1201,21 @@
           "pitch": -20.0,
           "yaw": 15.8,
           "type": "scene",
-          "text": "Avanzar por la sala",
+          "text": "Avanzar por la sala 5",
           "sceneId": "imagen30"
         },
         {
           "pitch": -20.0,
           "yaw": -35.8,
           "type": "scene",
-          "text": "Avanzar por la sala",
+          "text": "Avanzar por la sala 5",
           "sceneId": "imagen31"
         },
         {
           "pitch": -18.0,
           "yaw": 38.8,
           "type": "info",
-          "text": "<div class='tarjeta-museo' style='width: 650px; padding: 20px;'> <div class='tarjeta-info' style='display: flex; gap: 30px;'> <div style='flex: 1;'> <h3 style='color: var(--color-primario-oscuro); border-bottom: 2px solid var(--color-secundario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Cosmología Xochicalca</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>La visión del cosmos de los xochicalcas está sintetizada en el aro del Juego de Pelota Este. Su forma señala la concepción cíclica del transcurso del tiempo. En la parte inferior hay dos guacamayas de cuyos picos penden <em>chalchihuites</em> y plumas, símbolos de su estridente parloteo. Ellas siguen una dirección este-oeste, figurando al sol en su movimiento del amanecer al atardecer.<br><br>En la parte superior está un murciélago con alas desplegadas y las patas flexionadas. Cada una de sus alas está decorada con dos huesos cruzados y una turquesa. Es un ser nocturno que expresa la noche y el frío.</p> </div> <div style='flex: 1; border-left: 1px solid #ccc; padding-left: 20px;'> <h3 style='color: var(--color-secundario); border-bottom: 2px solid var(--color-primario); display: inline-block; padding-bottom: 5px; margin-bottom: 10px;'>Xochicalco Cosmology</h3> <p style='font-size: 0.95rem; line-height: 1.5; color: #444;'>The worldview of the people of Xochicalco is synthesized in the ring from the East Ballcourt. Its form shows the cyclic conception of the passage of time. In the lower part <em>chalchihuites</em> (greenstone beads) and feathers hang from the beaks of two macaws as a sign of their strident cries. They follow an east-west direction, representing the sun's movement from dawn to dusk.<br><br>In the upper part is a bat with outstretched wings and flexed legs. Each of its wings is decorated with two crossed bones and a sign for turquoise. It is a nocturnal being, a symbol of night and cold.</p> </div> </div> </div>",
-          "sceneId": "imagen30"
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>Cosmología Xochicalca / Xochicalco Cosmology</h3> <p><strong>ESPAÑOL</strong><br>La visión del cosmos de los xochicalcas está sintetizada en el aro del Juego de Pelota Este. Su forma señala la concepción cíclica del transcurso del tiempo. En la parte inferior hay dos guacamayas de cuyos picos penden <em>chalchihuites</em> y plumas, símbolos de su estridente parloteo. Ellas siguen una dirección este-oeste, figurando al sol en su movimiento del amanecer al atardecer.<br><br>En la parte superior está un murciélago con alas desplegadas y las patas flexionadas. Cada una de sus alas está decorada con dos huesos cruzados y una turquesa. Es un ser nocturno que expresa la noche y el frío.<br><br><strong>ENGLISH</strong><br>The worldview of the people of Xochicalco is synthesized in the ring from the East Ballcourt. Its form shows the cyclic conception of the passage of time. In the lower part <em>chalchihuites</em> (greenstone beads) and feathers hang from the beaks of two macaws as a sign of their strident cries. They follow an east-west direction, representing the sun's movement from dawn to dusk.<br><br>In the upper part is a bat with outstretched wings and flexed legs. Each of its wings is decorated with two crossed bones and a sign for turquoise. It is a nocturnal being, a symbol of night and cold.</p> </div> </div>"
         }
       ]
     },
@@ -1045,6 +1237,30 @@
           "type": "scene",
           "text": "Avanzar por la sala",
           "sceneId": "imagen31"
+        },
+        {
+          "pitch": -19.2,
+          "yaw": -54.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3></h3> <p><strong>ESPAÑOL</strong><br>Escultura de forma trapezoidal que descansaba sobre uno de los altares de la Acrópolis. El glifo principal consta del símbolo <em>ojo de reptil</em> y el numeral 4. La cuerda del lado derecho indica un <em>atado de año</em>. En la parte superior, los glifos <em>1 muerte</em> y posiblemente <em>2 movimiento</em> están flanqueados por una mano: la del lado derecho lleva un círculo; la mano del lado opuesto sostiene un punzón. Al parecer, el registro narra dos acontecimientos en diferentes fechas calendáricas que tuvieron lugar en el año <em>4 ojo de reptil</em>.<br><br><strong>ENGLISH</strong><br>Sculpture in the shape of a trapezoid that rested on one of the altars in the Acropolis. The main glyph consists of the <em>Reptile's Eye</em> symbol and the number four. The cord on the right indicates a <em>year bundle</em>. In the upper part, the glyphs <em>1 Death</em> and possibly <em>2 Movement</em> are flanked by a hand: the one on the right has a circle; the hand on the opposite site holds an awl. Apparently the relief records two events on different calendrical dates that took place in the <em>fourth year Reptile's Eye</em>.</p> </div> </div>"
+        },
+        {
+          "pitch": -10.2,
+          "yaw": -54.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/IMAGENES DIEGO/img29/29_1.webP' alt='Descripción'><div class='tarjeta-info'><h3></h3><p></p></div></div>"
+        },
+        {
+          "pitch": -18.4,
+          "yaw": -94.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>Elementos del Juego de Pelota / Ballgame Elements</h3> <p><strong>ESPAÑOL</strong><br>Parte de los elementos asociados al juego de pelota fueron el yugo y las mandíbulas de caimanes o lagartos. El primero fue símbolo del jugador, aquél que representaría al dios. Las fauces de caimán simbolizan la tierra, monstruo devorador por cuya boca desaparecen los astros, los seres humanos y las semillas.<br><br>Las entrañas del monstruo fueron consideradas como el lugar de la oscuridad, el frío y la muerte. Sin embargo, eran el preludio del día, de la vida, del brote de las semillas y de los frutos.<br><br><strong>ENGLISH</strong><br>Among the elements associated with the ballgame were the yoke and caiman or alligator mandibles. The former was a symbol of the player, he who represented the god. The caiman jaws symbolized the earth as the voracious monster that swallowed the stars, human beings, and seeds. The innards of the earth monster were regarded as the place of darkness, cold, and death. However, they were the prelude to daylight, life, and the sprouting of seeds and fruit.</p> </div> </div>"
+        },
+        {
+          "pitch": -10.2,
+          "yaw": -94.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/IMAGENES DIEGO/img29/29_2.webP' alt='Descripción'><div class='tarjeta-info'><h3></h3><p></p></div></div>"
         }
       ]
     },
@@ -1066,6 +1282,54 @@
           "type": "scene",
           "text": "regresar por la sala",
           "sceneId": "imagen30"
+        },
+        {
+          "pitch": -18.1,
+          "yaw": 115.5,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3></h3> <p><strong>ESPAÑOL</strong><br>Los pueblos prehispánicos acompañaban las ceremonias y hacían su vida más alegre por medio de la música. Para fabricar instrumentos utilizaron gran variedad de materiales. Grandes y huecos caracoles de barro producían dulces sonidos al paso del aire. Silbatos y flautas, güiros excavados en huesos humanos y caracoles a los que se les introducía una bolita de barro para que sonaran como cascabeles. Con todos ellos orquestaban bellas melodías a las que se unían cantos.<br><br><strong>ENGLISH</strong><br>Music accompanied the ceremonies conducted by pre-Hispanic people and livened up their daily lives. To produce instruments, they used a wide variety of materials. Giant, hollow clay shells produced sweet sounds with the passage of air. Whistles and flutes, <em>güiros</em> (ridged musical instruments here carved on human bones), and small shells with a tiny clay pellet that sounded like rattles were among the instruments used to orchestrate beautiful melodies accompanied by song.</p> </div> </div>"
+        },
+        {
+          "pitch": -11.5,
+          "yaw": 115.5,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/IMAGENES DIEGO/img29/29_3.webP' alt='Descripción'><div class='tarjeta-info'><h3></h3><p></p></div></div>"
+        },
+        {
+          "pitch": -33.1,
+          "yaw": 66.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3></h3> <p><strong>ESPAÑOL</strong><br>Este relieve formó parte de una de las escenas representadas en la Pirámide de las Serpientes Emplumadas. En cada una de ellas aparece un guerrero de alto rango, el glifo de algún lugar y los símbolos de pago de tributo. El jaguar fue parte de un topónimo, es decir, aludía a una población sojuzgada por Xochicalco, la que debía entregar el pago.<br><br><strong>ENGLISH</strong><br>This relief formed part of one of the scenes on the Pyramid of the Feathered Serpents. A high-ranking warrior appears in each of them, the place glyph, and the symbols for tribute payment. The jaguar was part of a place name; as a town subjugated by Xochicalco, it had to pay tribute.</p> </div> </div>"
+        },
+        {
+          "pitch": -17.5,
+          "yaw": -58.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3></h3> <p><strong>ESPAÑOL</strong><br>Los vasos y los incensarios estuvieron presentes en todos los rituales. Los primeros, de paredes altas y boca estrecha, fueron utilizados para ofrecer a los dioses algún tipo de bebida que pudo ser agua, pulque o, incluso, sangre. Para quemar resinas utilizaron los incensarios, tanto los complejos -con gran variedad de efigies entre las que destacan la del murciélago y el anciano con un yelmo de serpiente-, como los sencillos, decorados únicamente con picos y bandas.<br><br><strong>ENGLISH</strong><br>Pottery vessels and censers were a part of all rituals. Tall vessels with a narrow mouth were used to give liquid libations to the gods such as water, pulque, or even blood. They used censers to burn aromatic resin incense. Some were complex- with a variety of effigies such as the bat or the old man with serpent helmet—and others simply decorated with cones and bands.</p> </div> </div>"
+        },
+        {
+          "pitch": -11.5,
+          "yaw": -66.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/IMAGENES DIEGO/img29/29_4.webP' alt='Descripción'><div class='tarjeta-info'><h3></h3><p></p></div></div>"
+        },
+        {
+          "pitch": -12.8,
+          "yaw": -99.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3></h3> <p><strong>ESPAÑOL</strong><br>En las vasijas de cerámica es donde se encuentra representado, por lo común, Tláloc. En ellas se simbolizan los cántaros de donde los <em>tlaloques</em> vertían la lluvia. Con excéntricos -rebuscadas formas trabajadas en obsidiana- crearon esculturas abstractas del dios según sus atributos: anteojeras, bigoteras y colmillos. Estas sólo se encontraban en los altares de los templos. Las figurillas fueron parte de los rituales domésticos. Se consideraba que, al morir, el alma de los individuos se iría al <em>Tlalocan</em>, paraíso regido por Tláloc, por lo que la máscara con la efigie del enfermo puede ser asociada con el culto al dios de la lluvia.<br><br><strong>ENGLISH</strong><br>Tlaloc, the rain god, is most commonly represented on ceramic vessels. These Tlaloc vessels symbolize the pitchers where <em>tlaloques</em>, tiny water deities, pour rain. With eccentrics—obsidian worked into curvilinear forms—they created abstract sculptures of the rain god with his attributes: goggles, moustache, and fangs. These were only found on altars of temples. The figures were part of domestic rituals. It was believed that at death, the soul of the deceased went to Tlalocan, the paradise of Tlaloc, so the mask with the effigy of the sick person was perhaps associated with rain god veneration.</p> </div> </div>"
+        },
+        {
+          "pitch": -5.8,
+          "yaw": -99.6,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/IMAGENES DIEGO/img29/29_5.webP' alt='Descripción'><div class='tarjeta-info'><h3></h3><p></p></div></div>"
+        },
+        {
+          "pitch": -19.0,
+          "yaw": -142.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3></h3> <p><strong>ESPAÑOL</strong><br>Debido a la destrucción de que fue objeto y a la erosión causada por el paso del tiempo, la Estela 6 caña -tallada en una piedra de forma irregular-, esta incompleta y se han perdido algunos glifos. En la cara frontal aún se observa el glifo calendárico <em>6 caña</em>, por encima de él, cuatro círculos cada uno con dos líneas cruzadas que los dividieron en cuatro. En cada cuarto hay otro círculo, así como en el cruce de las líneas. Estos símbolos llamados quincunces representan los cinco árboles que sostienen al cielo. La cara posterior evidencia el glifo <em>9 ojo de reptil</em>.<br><br><strong>ENGLISH</strong><br>The target of destruction and eroded by the passage of time, Stela 6 Reed—an irregularly shaped carved stone—is incomplete and some glyphs are no longer legible. The front side still bears the calendrical glyph <em>6 Reed</em>. Above it there are four disks, each divided into four by crossed lines. Each quarter has another disk, as well as the intersection of lines. These symbols, known as quincunxes, represented the five trees that upheld the sky. The back side bears the glyph <em>9 Reptile's Eye</em>.</p> </div> </div>"
         }
       ]
     },
@@ -1080,9 +1344,124 @@
           "type": "scene",
           "text": "Regresar al pasillo principal",
           "sceneId": "imagen28"
+        },
+        {
+          "pitch": -5.6,
+          "yaw": -34.8,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <p><strong>ESPAÑOL</strong><br>Todos los incensarios que llevan la efigie de un felino, sin importar el tamaño son iguales. Esto se debió a que su producción fue tan controlada que los artesanos usaron moldes para elaborar la figura. Estos incensarios-efigie, junto con los danzantes con ramas floridas, fueron utilizados en los rituales; en ellos quemaron resinas aromáticas al mismo tiempo que oraban por una cosecha abundante, es decir, por la fertilidad de la tierra.<br><br><strong>ENGLISH</strong><br>All censers that bear the effigy of a feline, no matter what size, are the same. This was because their production was so strictly controlled that artisans used molds to make the figure. These effigy-incense burners, together with the dancers with flowering branches, were used in rituals; aromatic resins were burned in them at the same time that prayers were uttered for abundant harvests and the earth's fertility.</p> </div> </div>"
+        },
+        {
+          "pitch": -1.6,
+          "yaw": -32.8,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/IMAGENES DIEGO/img32/32_1.webP' alt='Descripción'><div class='tarjeta-info'><h3></h3><p></p></div></div>"
+        },
+        {
+          "pitch": -10.6,
+          "yaw": -20.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <p><strong>ESPAÑOL</strong><br>Esta excepcional escultura cerámica, única en Xochicalco, muestra la cabeza de un mamífero. Por la forma alargada de la cabeza, las orejas pequeñas y puntiagudas y la protuberancia sobre el hocico, al parecer se trata de la representación de una zorra. Los semicírculos que tienen a ambos lados de la cabeza quizá destaquen algún atributo físico del animal. Su forma, nada común, no da indicios de su función.<br><br><strong>ENGLISH</strong><br>This exceptional ceramic sculpture, unique in Xochicalco, shows the head of a mammal. The elongated shape of the head, the small, pointed ears, and the protuberance over the snout suggest it represents a fox. The semicircles on both sides of the head perhaps highlight one of the animal's physical attributes. Its highly unusual shape does not elucidate its function.</p> </div> </div>"
+        },
+        {
+          "pitch": -1.6,
+          "yaw": -19.5,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/IMAGENES DIEGO/img32/32_2.webP' alt='Descripción'><div class='tarjeta-info'><h3></h3><p></p></div></div>"
+        },
+        {
+          "pitch": -12.2,
+          "yaw": -47.2,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>Escultura de puma / Puma sculpture </h3> <p><strong>ESPAÑOL</strong><br>En la religión mesoamericana el puma, junto con el ocelote y el jaguar, está relacionado con la tierra. Su presencia se asocia con el culto a la fertilidad. El atributo que destaca es el moño alrededor del cuello, símbolo que indicaba el control que los sacerdotes creían que ejercía sobre la naturaleza. El pectoral es una insignia de alto rango, es decir, es el gato más grande entre los felinos.<br>Es una escultura ejecutada con gran maestría y existen otras de la misma forma y tamaño, ya que fueron manufacturadas con la ayuda de moldes, para su producción en serie.<br><br><strong>ENGLISH</strong><br>In Mesoamerican religion, the puma, along with the ocelot and jaguar, were related to the earth. Their presence was associated with the fertility cult. A noteworthy attribute is the bow on the neck, a symbol of the control that they believed priests exercised over nature. The pectoral is insignia of high rank, in other words, it is the most imposing animal in the feline family. It is a sculpture executed with great skill and there are others in the same size and shape, because they were made with molds to be mass produced.</p> </div> </div>"
+        },
+        {
+          "pitch": -2.2,
+          "yaw": -47.2,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/IMAGENES DIEGO/img32/32_3.webP' alt='Descripción'><div class='tarjeta-info'><h3>Escultura de puma / Puma sculpture </h3><p></p></div></div>"
+        },
+        {
+          "pitch": -6.0,
+          "yaw": -72.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>Cántaro con Rana / Vessel with Frog</h3> <p><strong>ESPAÑOL</strong><br>El cántaro fue una de las principales vasijas cerámicas utilizadas en la época anterior a la llegada de los españoles. La ligereza del barro, la forma alargada y sus tres asas, una de ellas más baja que las otras, permitió cargarla sin dificultad con el <em>mecapal</em>. Fue utilizada para transportar gran variedad de materias primas.<br>Una de sus principales funciones en Xochicalco fue la de acarrear agua desde el río Tembembe. En este caso adornaron el cántaro con una rana, animal que simboliza el agua.<br><br><strong>ENGLISH</strong><br>Pitchers were one of the principal forms of pottery used prior to the Spaniards' arrival. Their lightweight, elongated design with three lugs, one below the others, made it possible to carry them easily with a leather tumpline. They were used to transport a wide variety of raw materials. One of their main purposes in Xochicalco was to carry water from the Tembembe River. In this case they decorated the pitcher with a frog, a symbol of water.</p> </div> </div>"
+        },
+        {
+          "pitch": -2.2,
+          "yaw": -72.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/IMAGENES DIEGO/img32/32_4.webP' alt='Descripción'><div class='tarjeta-info'><h3>Cántaro con Rana / Vessel with Frog</h3> <p></p></div></div>"
+        },
+        {
+          "pitch": -8.2,
+          "yaw": -88.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <p><strong>ESPAÑOL</strong><br>Tinajas, ollas y cántaros de diferentes formas y tamaños. Las tinajas, imposibles de mover debido a su gran tamaño y peso, sirvieron principalmente para guardar granos, como maíz y frijol, aunque también depositaban agua en ellas. La función de las ollas variaba según su tamaño. Las más grandes servían para almacenar y las más pequeñas para cocinar. Los cántaros fueron perfectos para acarrear agua; además, como se les podía colgar del techo, no ocuparon gran espacio dentro de la casa.<br><br><strong>ENGLISH</strong><br>Basins, tall pots, and pitchers in different shapes and sizes. Basins, which were impossible to move because of their size and weight, served mainly to store grains, such as corn and beans, although they were also used for water storage. The function of pots varied depending on their size. The largest were for storage and the smallest for cooking. Pitchers were perfect for carrying water; they could also be hung from the ceiling, so they would not take up much space in the house.</p> </div> </div>"
+        },
+        {
+          "pitch": -4.2,
+          "yaw": -88.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/IMAGENES DIEGO/img32/32_5.webP' alt='Descripción'><div class='tarjeta-info'> <p></p></div></div>"
+        },
+        {
+          "pitch": -8.3,
+          "yaw": -110.2,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <p><strong>ESPAÑOL</strong><br>Los lapidarios alcanzaron el máximo desarrollo de la técnica lítica en el Epiclásico. Si bien la variedad de instrumentos fue limitada, ello no impedía a los artesanos desarrollar sus habilidades. Los cuchillos fueron utilizados por los sacerdotes en los sacrificios o como parte del armamento de los guerreros, junto con las puntas de lanza. Las navajillas, debido a su filo, fueron un arma cuando se las montaba en una macana; en cambio, en manos de un médico, realizaron cortes perfectos que ayudaron al enfermo a sanar.<br><br><strong>ENGLISH</strong><br>Lapidary stone artisans achieved the highest development of lithic techniques in the Epiclassic. Although the variety of tools was limited, this did not prevent artisans from developing their skill. Knives were used by priests in sacrifices or as weaponry for warriors, who also used spearheads. Sharp-edged blades were mounted on clubs as arms known as macanas; the same blades in the hands of physicians were used as cutting implements to cure the sick.</p> </div> </div>"
+        },
+        {
+          "pitch": -8.3,
+          "yaw": -120.2,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/IMAGENES DIEGO/img32/32_6.webP' alt='Descripción'><div class='tarjeta-info'> <p></p></div></div>"
+        },
+        {
+          "pitch": -12.3,
+          "yaw": -138.2,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'><p><strong>ESPAÑOL</strong><br>Con finas arenas y cordeles, pacientes manos pulieron máscaras y figurillas de todos tamaños y gran variedad de materias primas. Los lapidarios trabajaron el oscuro basalto de grano fino, duras piedras verdes, la pizarra de fractura laminar, el veteado asbesto, esquisto, caliza, por mencionar algunas de ellas.<br>En algunas figurillas llegaron a plasmar el tipo físico de la región, así como su vestimenta; otras fueron talladas con abstracciones de animales míticos.<br><br><strong>ENGLISH</strong><br>With fine-grained sand and cord, patient hands polished masks and figurines of all sizes made from a wide range of raw materials. Lapidary artisans worked the dense, dark basalt, hard greenstone, fractured slate sheets, mottled asbestos, schist, and limestone, to mention a few. Some figurines depicted the physical type of the region, as well as local attire; others were abstractly carved mythical animals.</p> </div> </div>"
+        },
+        {
+          "pitch": -12.3,
+          "yaw": -150.2,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/IMAGENES DIEGO/img32/32_7.webP' alt='Descripción'><div class='tarjeta-info'> <p></p></div></div>"
+        },
+        {
+          "pitch": -22.0,
+          "yaw": 170.0,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <h3>Jaguares Descarnados / Fleshless Jaguars</h3> <p><strong>ESPAÑOL</strong><br>El principal atributo que distingue a un jaguar de otros felinos son las manchas oscuras que cubren su cuerpo. En estas esculturas, en las que el lapidario logró tallar con gran realismo la figura del jaguar, las manchas fueron representadas por roleos.<br>En su famélico cuerpo se ven costillas y vértebras. Al parecer, los jaguares están hambrientos. Asociados a la tierra, su esquelético cuerpo quizá simbolizaba la esterilidad de la misma, por lo que serían representaciones de épocas de escasez.<br><br><strong>ENGLISH</strong><br>The principal attribute that sets a jaguar apart from other felines are the dark spots covering its body. In these sculptures, in which the lapidary artisan carved the jaguar's figure with remarkable realism, the spots were represented as scrolls.<br>Their emaciated bodies display ribs and vertebrae. Apparently the jaguars are hungry. Associated with the earth, their skeletal bodies perhaps symbolized the barrenness of the land, so they might be allusions to famine and times of scarcity.</p> </div> </div>"
+        },
+        {
+          "pitch": -10.3,
+          "yaw": 49.2,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/IMAGENES DIEGO/img32/32_8.webP' alt='Descripción'><div class='tarjeta-info'> <p> </p></div></div>"
+        },
+        {
+          "pitch": -15.3,
+          "yaw": 51.2,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <p><strong>ESPAÑOL</strong><br>Los machacadores de papel y la abundancia del amate en el territorio de Xochicalco, permitieron la especialización en la producción de papel. Peleteros y tejedores utilizaron punzones de hueso. El tamaño es evidencia del desgaste por el uso continuo. Hachas de garganta, hachuelas y formones fueron parte del arreo de los carpinteros y escultores que trabajaban la madera. Estos utensilios los usaron para cortar troncos, descortezarlos y rebajar la madera hasta obtener la forma deseada. El acabado final lo lograron frotando con fibras vegetales, cueros y arenas finas.<br><br><strong>ENGLISH</strong><br>Artisans who mashed paper pulp and the abundance of bark paper in the Xochicalco region made specialization in papermaking possible. Hide workers and weavers wielded bone awls. Size attests to wear from continuous use. Grooved stone axe heads, hatchets, and chisels were part of the gear of carpenters and sculptors who carved wood. They used these utensils to cut trunks, remove bark, and to plane wood into the desired shape. Then they rubbed it with plant fibers, skins, and fine-grained sand to produce the final finish.</p> </div> </div>"
+        },
+        {
+          "pitch": -1.9,
+          "yaw": 10.2,
+          "type": "info",
+          "text": "<div class='tarjeta-museo'><img src='assets/IMAGENES DIEGO/img32/32_9.webP' alt='Descripción'><div class='tarjeta-info'> <p> </p></div></div>"
+        },
+        {
+          "pitch": -7.0,
+          "yaw": 10.2,
+          "type": "info",
+          "text": "<div class='tarjeta-museo' style='pointer-events: auto;'> <div class='tarjeta-info'> <p><strong>ESPAÑOL</strong><br>Como los grandes pintores, los maestros xochicalcas conocían el proceso técnico relacionado con la pintura mural. Ellos trabajaron las materias primas para conseguir sus materiales; así, pulverizaron y mezclaron los pigmentos hasta obtener los tonos deseados; también apagaron cal y la dejaron reposar el tiempo necesario para que, al aplicar sus pinturas sobre el aplanado, hecho con esa misma cal y arena, los colores se conservaran. Aunque controlados por los sacerdotes, que dictaban los cánones a seguir, la pintura fue producto del artista.<br><br><strong>ENGLISH</strong><br>Just as great painters, Xochicalco master craftsmen were familiar with the technical process for mural painting. They worked raw materials, pulverizing and mixing pigments to produce the tones they needed. They also slaked lime and let it age so when they applied paint to plaster surfaces made from this same lime combined with sand, the colors would be preserved. Although overseen by priests who dictated the canons to be followed, the final painting was the artist's creation.</p> </div> </div>"
         }
       ]
-    },
+    }
+    ,
     "imagen33": {
       "title": "salida",
       "type": "equirectangular",
@@ -1107,7 +1486,7 @@
     "imagen34": {
       "title": "salida",
       "type": "equirectangular",
-      "panorama": "assets/panoramicaswebp/34.webp",
+      "panorama": "assets/panoramicaswebp/34.webP",
       "hotSpots": [
         {
           "pitch": -10.0,
