@@ -76,6 +76,10 @@
     </div> 
     
     <div id="contenedor-360">
+        
+        <!-- Título personalizado blindado -->
+        <div id="titulo-escena-custom" class="titulo-custom"></div>
+
         <div class="controles-superiores">
             <button id="btn-cerrar-360" class="btn-control">✖ Cerrar Recorrido</button>
             <button id="btn-abrir-mapa" class="btn-control">🗺️ Abrir Mapa</button>
@@ -112,11 +116,43 @@
         document.addEventListener('DOMContentLoaded', () => {
             let visorIniciado = false;
             let miVisor;
+            let datosRecorrido = null;
 
             const btnAbrir = document.getElementById('btn-abrir-360');
             const btnCerrar = document.getElementById('btn-cerrar-360');
             const sitioWeb = document.getElementById('sitio-web');
             const contenedor360 = document.getElementById('contenedor-360');
+
+            function actualizarPinMapa(escenaId) {
+                document.querySelectorAll('.pin-mapa').forEach(pin => {
+                    pin.classList.remove('pin-activo');
+                    const escenaDestino = pin.getAttribute('data-escena');
+                    if (escenaDestino === escenaId) {
+                        pin.classList.add('pin-activo');
+                    }
+                });
+            }
+
+            function actualizarTituloCustom(escenaId) {
+                const tituloDiv = document.getElementById('titulo-escena-custom');
+                if (!tituloDiv) return;
+                
+                let titulo = "";
+                if (datosRecorrido) {
+                    if (datosRecorrido.default && datosRecorrido.scenes && datosRecorrido.scenes[escenaId]) {
+                        titulo = datosRecorrido.scenes[escenaId].title;
+                    } else if (datosRecorrido[escenaId]) {
+                        titulo = datosRecorrido[escenaId].title;
+                    }
+                }
+
+                if (titulo) {
+                    tituloDiv.innerText = titulo;
+                    tituloDiv.style.display = 'block';
+                } else {
+                    tituloDiv.style.display = 'none';
+                }
+            }
 
             btnAbrir.addEventListener('click', function() {
                 sitioWeb.style.display = 'none';
@@ -126,6 +162,7 @@
                     fetch('tour.json')
                         .then(respuesta => respuesta.json())
                         .then(datos => {
+                            datosRecorrido = datos;
                             miVisor = pannellum.viewer('panorama', datos);
                             miVisor.on('mousedown', function(event) {
                                 const pitch = miVisor.getPitch();
@@ -134,6 +171,18 @@
                                 console.log(`"yaw": ${yaw.toFixed(1)},`);
                                 console.log("-----------------------");
                             });
+
+                            miVisor.on('load', function() {
+                                const escenaActual = miVisor.getScene();
+                                actualizarPinMapa(escenaActual);
+                                actualizarTituloCustom(escenaActual);
+                            });
+
+                            miVisor.on('scenechange', function(escenaId) {
+                                actualizarPinMapa(escenaId);
+                                actualizarTituloCustom(escenaId);
+                            });
+
                             visorIniciado = true;
 
                             // 1. Verificar si venimos de VR y redirigir a la sala correcta
