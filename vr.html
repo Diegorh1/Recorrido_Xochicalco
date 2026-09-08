@@ -84,7 +84,7 @@
 
     <!-- Imagen Panorámica 360 -->
 
-    <a-sky id="sky" radius="10" rotation="0 90 0"></a-sky>
+    <a-sky id="sky" radius="10" rotation="0 0 0"></a-sky>
 
 
 
@@ -189,7 +189,7 @@
 
     let yawOffset = 0;
 
-    let pitchOffset = 28;
+    let pitchOffset = 0;
 
 
 
@@ -225,9 +225,7 @@
 
     function pannellumToCartesian(pitch, yaw, radius = 4.0) {
 
-      // Invertimos el yaw (-yaw) porque A-Frame gira al revés que Pannellum
-
-      const radYaw = (-yaw + yawOffset) * (Math.PI / 180);
+      const radYaw = (yaw + yawOffset) * (Math.PI / 180);
 
       const radPitch = (pitch + pitchOffset) * (Math.PI / 180);
 
@@ -237,7 +235,7 @@
 
       const y = radius * Math.sin(radPitch);
 
-      const z = radius * Math.cos(radPitch) * Math.cos(radYaw);
+      const z = -radius * Math.cos(radPitch) * Math.cos(radYaw);
 
 
 
@@ -487,9 +485,9 @@
 
         const rot = camera.getAttribute('rotation');
 
-        const pitch = (rot.x - pitchOffset);
+        const pitch = rot.x;
 
-        let yaw = (-rot.y - yawOffset) % 360;
+        let yaw = -rot.y % 360;
 
 
 
