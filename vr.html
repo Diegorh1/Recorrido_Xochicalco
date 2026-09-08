@@ -124,8 +124,7 @@
 
 
     <!-- PANEL DE INFORMACIÓN 3D -->
-
-    <a-entity id="card-wrapper" visible="false">
+    <a-entity id="card-wrapper" visible="false" scale="0 0 0" animation="property: scale; to: 1 1 1; dur: 500; easing: easeOutElastic; startEvents: showCard">
 
       <!-- Fondo oscuro translúcido -->
 
@@ -332,42 +331,50 @@
 
 
         if (hs.type === 'scene') {
+          const group = document.createElement('a-entity');
+          group.setAttribute('position', absolutePos);
 
           const sphere = document.createElement('a-sphere');
-
-          sphere.setAttribute('position', absolutePos);
-
-          sphere.setAttribute('radius', '0.12');
-
+          sphere.setAttribute('radius', '0.15');
           sphere.setAttribute('color', '#00d2ff');
-
-          sphere.setAttribute('material', 'emissive: #0077b6; emissiveIntensity: 0.6');
-
+          sphere.setAttribute('material', 'emissive: #0077b6; emissiveIntensity: 0.8');
           sphere.setAttribute('class', 'clickable');
-
-          sphere.setAttribute('animation', 'property: scale; to: 1.25 1.25 1.25; dir: alternate; loop: true; dur: 900');
-
-
-
+          sphere.setAttribute('animation', 'property: scale; to: 1.1 1.1 1.1; dir: alternate; loop: true; dur: 1000');
           sphere.addEventListener('click', () => loadScene(hs.sceneId));
 
-          container.appendChild(sphere);
+          const ring = document.createElement('a-ring');
+          ring.setAttribute('radius-inner', '0.18');
+          ring.setAttribute('radius-outer', '0.22');
+          ring.setAttribute('color', '#00d2ff');
+          ring.setAttribute('material', 'emissive: #00d2ff; emissiveIntensity: 0.5; side: double');
+          ring.setAttribute('animation', 'property: rotation; to: 0 360 0; loop: true; dur: 4000; easing: linear');
+          ring.setAttribute('look-at', '#rig');
 
+          const label = document.createElement('a-text');
+          label.setAttribute('value', hs.text || "Ir a sala");
+          label.setAttribute('align', 'center');
+          label.setAttribute('position', '0 0.35 0');
+          label.setAttribute('scale', '0.5 0.5 0.5');
+          label.setAttribute('color', '#ffffff');
+          label.setAttribute('look-at', '#rig');
 
+          group.appendChild(sphere);
+          group.appendChild(ring);
+          group.appendChild(label);
+          container.appendChild(group);
 
         } else if (hs.type === 'info') {
+          const group = document.createElement('a-entity');
+          group.setAttribute('position', absolutePos);
+
+          const { title, body, imgSrc } = parseHotspotText(hs.text);
 
           const infoSphere = document.createElement('a-sphere');
-
-          infoSphere.setAttribute('position', absolutePos);
-
           infoSphere.setAttribute('radius', '0.12');
-
           infoSphere.setAttribute('color', '#f5a623');
-
           infoSphere.setAttribute('material', 'emissive: #cc7a00; emissiveIntensity: 0.7');
-
           infoSphere.setAttribute('class', 'clickable');
+          infoSphere.setAttribute('animation', 'property: position; to: 0 0.05 0; dir: alternate; loop: true; dur: 800');
 
 
 
@@ -432,29 +439,30 @@
 
 
             cardTitle.setAttribute('value', title);
-
             cardText.setAttribute('value', body);
-
             cardWrapper.setAttribute('visible', 'true');
-
+            cardWrapper.emit('showCard');
           });
 
+          const label = document.createElement('a-text');
+          label.setAttribute('value', title);
+          label.setAttribute('align', 'center');
+          label.setAttribute('position', '0 0.3 0');
+          label.setAttribute('scale', '0.4 0.4 0.4');
+          label.setAttribute('color', '#f5a623');
+          label.setAttribute('look-at', '#rig');
 
-
-          container.appendChild(infoSphere);
+          group.appendChild(infoSphere);
+          group.appendChild(label);
+          container.appendChild(group);
 
         }
-
       });
-
     }
 
-
-
     document.querySelector('#card-close').addEventListener('click', () => {
-
-      document.querySelector('#card-wrapper').setAttribute('visible', 'false');
-
+      document.querySelector('#card-wrapper').setAttribute('scale', '0 0 0');
+      setTimeout(() => document.querySelector('#card-wrapper').setAttribute('visible', 'false'), 100);
     });
 
 
