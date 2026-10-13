@@ -2,141 +2,200 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <title>Museo de Sitio de Xochicalco - Modo VR</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Museo de Sitio de Xochicalco · Recorrido en Realidad Virtual 360°</title>
+  <meta name="description" content="Recorre en realidad virtual el Museo de Sitio de Xochicalco: salas 360°, cédulas bilingües y mapa interactivo controlados solo con la mirada.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#141B0B">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
 
   <!-- Motor WebXR (A-Frame 1.5.0) -->
   <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
-  <!-- Componente look-at para orientar paneles hacia el usuario -->
-  <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
 
-  <!-- Estilos desacoplados del módulo VR -->
-  <link rel="stylesheet" href="css/vr.css">
+  <!-- Estilos desacoplados del módulo VR (?v= fuerza limpiar caché en GitHub Pages) -->
+  <link rel="stylesheet" href="css/vr.css?v=2.0">
+
+  <!--
+    Lógica del módulo VR. Se carga en <head> (después de A-Frame) para que los componentes
+    personalizados (face-origin, hud-follow, screen-fade, render-order) queden registrados
+    ANTES de que A-Frame inicialice las entidades de la escena. No toca el DOM al ejecutarse:
+    todo arranca en DOMContentLoaded.
+  -->
+  <script src="js/vr.js?v=2.0"></script>
 </head>
 <body>
 
-  <!-- Barra superior 2D de respaldo (antes de insertar el teléfono en el visor) -->
-  <div id="vr-hud-2d">
-    <button id="exit-btn" type="button">← Volver a vista normal</button>
-    <div id="vr-room-badge">Cargando sala...</div>
-    <button id="map-btn-2d" type="button">🗺️ Mapa</button>
+  <!-- Pantalla de carga inicial (se desvanece al cargar la primera sala) -->
+  <div id="vr-loader" role="status" aria-live="polite">
+    <svg class="loader-emblem" viewBox="0 0 120 120" aria-hidden="true">
+      <defs>
+        <linearGradient id="oroGrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#F5D77F"/>
+          <stop offset="1" stop-color="#B5892F"/>
+        </linearGradient>
+      </defs>
+      <circle class="emblem-ring" cx="60" cy="60" r="52" fill="none" stroke="url(#oroGrad)" stroke-width="3" stroke-dasharray="60 20 10 20" stroke-linecap="round"/>
+      <!-- Pirámide escalonada -->
+      <path d="M24 86 H96 V76 H86 V66 H76 V56 H66 V46 H54 V56 H44 V66 H34 V76 H24 Z" fill="url(#oroGrad)"/>
+      <rect x="54" y="38" width="12" height="8" fill="url(#oroGrad)"/>
+    </svg>
+    <h1 class="loader-title">Museo de Sitio de Xochicalco</h1>
+    <p class="loader-sub">Preparando tu recorrido inmersivo en 360°…</p>
+    <div class="loader-bar" aria-hidden="true"><span id="loader-bar-fill"></span></div>
+    <p id="loader-detail" class="loader-detail">Conectando con el museo…</p>
   </div>
+
+  <!-- Barra superior 2D de respaldo (antes de insertar el teléfono en el visor) -->
+  <header id="vr-hud-2d">
+    <button id="exit-btn" type="button" aria-label="Volver a la vista normal">← Vista normal</button>
+    <div id="vr-room-badge" aria-live="polite">
+      <span id="vr-room-es">Cargando sala…</span>
+      <small id="vr-room-en" class="oculto"></small>
+    </div>
+    <div class="hud-actions">
+      <button id="map-btn-2d" type="button" aria-label="Abrir mapa del museo">🗺️ Mapa</button>
+      <button id="help-btn" type="button" aria-label="Cómo usar el recorrido VR">?</button>
+    </div>
+  </header>
 
   <!-- Indicador de estado del modo calibración por mirada -->
   <div id="gaze-calib-banner" class="oculto">
     Modo Mover Hotspot con Mirada ACTIVO — Mira un hotspot para engancharlo
   </div>
 
+  <!-- Avisos (errores de red, reintentos) -->
+  <div id="vr-toast" class="oculto" role="alert">
+    <span id="vr-toast-text"></span>
+    <button id="vr-toast-action" type="button" class="oculto">Reintentar</button>
+  </div>
+
+  <!-- Guía rápida de uso -->
+  <div id="vr-help" class="oculto" role="dialog" aria-modal="true" aria-labelledby="vr-help-title">
+    <div class="help-card">
+      <h2 id="vr-help-title">Cómo recorrer el museo</h2>
+      <ul>
+        <li><strong>🥽 Modo VR:</strong> pulsa el icono de gafas (esquina inferior derecha) e inserta el teléfono en tu visor.</li>
+        <li><strong>👁️ Mirada:</strong> apunta con el punto central a una esfera y mantén la vista <em>1.4&nbsp;s</em> para activarla.</li>
+        <li><strong>🔵 Esferas cian:</strong> te llevan a la siguiente sala. <strong>🟡 Esferas doradas:</strong> abren la cédula de una pieza.</li>
+        <li><strong>⬇️ Consola de tus pies:</strong> mira hacia abajo para abrir el mapa o volver a la vista normal.</li>
+        <li><strong>🖱️ Sin visor:</strong> arrastra para mirar alrededor y toca/clica las esferas.</li>
+      </ul>
+      <button id="help-close" type="button">¡Entendido!</button>
+    </div>
+  </div>
+
   <!-- Escena Inmersiva WebXR -->
   <a-scene
     id="escena-vr"
-    webxr="optionalFeatures: local-floor;"
+    webxr="referenceSpaceType: local; requiredFeatures: local; optionalFeatures: local-floor, bounded-floor"
     vr-mode-ui="enabled: true"
-    renderer="antialias: true; colorManagement: true; highRefreshRate: true">
+    loading-screen="enabled: false"
+    renderer="antialias: true; highRefreshRate: true">
 
-    <!-- Gestor de recursos con soporte CORS para Cloudflare R2 -->
-    <a-assets timeout="15000">
-      <img id="mapa-museo-asset" src="https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/110.webp" crossorigin="anonymous" alt="Mapa del Museo">
-    </a-assets>
-
-    <!-- Esfera Panorámica 360° alineada a Pannellum (rotation="0 -90 0") -->
+    <!-- Esfera Panorámica 360° alineada a Pannellum (rotation="0 -90 0"). La textura se asigna desde JS. -->
     <a-sky id="sky" radius="50" rotation="0 -90 0" material="shader: flat; side: back"></a-sky>
 
     <!-- Contenedor dinámico de esferas de interacción (Hotspots) -->
     <a-entity id="hotspots-container"></a-entity>
 
-    <!-- Consola Inferior 3D (HUD de Mirada a los pies del usuario) -->
-    <a-entity id="hud-3d-dock" position="0 1.6 0">
-      <!-- Placa de título de sala actual -->
+    <!-- Consola Inferior 3D (HUD de mirada a los pies del usuario, sigue el giro horizontal) -->
+    <a-entity id="hud-3d-dock" position="0 0 0" hud-follow>
       <a-plane
         id="hud-title-plane"
-        position="0 -1.35 -2.2"
+        position="0 -1.32 -2.2"
         rotation="-28 0 0"
-        width="2.4"
-        height="0.42"
+        width="2.6"
+        height="0.5"
         material="shader: flat; transparent: true">
       </a-plane>
 
-      <!-- Botón 3D: Abrir Mapa Interactivo -->
       <a-plane
         id="hud-btn-map"
         class="clickable"
-        position="-0.82 -1.72 -2.0"
+        position="-0.9 -1.74 -2.0"
         rotation="-32 0 0"
-        width="0.76"
-        height="0.28"
+        width="0.8"
+        height="0.3"
         material="shader: flat; transparent: true">
       </a-plane>
 
-      <!-- Botón 3D: Modo Mover Hotspot con la Mirada (ON / OFF) -->
       <a-plane
         id="hud-btn-edit"
         class="clickable"
-        position="0 -1.72 -2.0"
+        position="0 -1.74 -2.0"
         rotation="-32 0 0"
-        width="0.82"
-        height="0.28"
+        width="0.88"
+        height="0.3"
         material="shader: flat; transparent: true">
       </a-plane>
 
-      <!-- Botón 3D: Volver a Vista 2D Normal -->
       <a-plane
         id="hud-btn-exit"
         class="clickable"
-        position="0.82 -1.72 -2.0"
+        position="0.9 -1.74 -2.0"
         rotation="-32 0 0"
-        width="0.76"
-        height="0.28"
+        width="0.8"
+        height="0.3"
         material="shader: flat; transparent: true">
       </a-plane>
     </a-entity>
 
-    <!-- PANEL DE INFORMACIÓN 3D (Cédulas Bilingües y Carteles) -->
+    <!-- Rótulo flotante de bienvenida a cada sala (se desvanece solo) -->
+    <a-plane
+      id="room-toast"
+      width="2.8"
+      height="0.64"
+      visible="false"
+      face-origin
+      material="shader: flat; transparent: true; opacity: 0; depthWrite: false">
+    </a-plane>
+
+    <!-- PANEL DE INFORMACIÓN 3D (Cédulas bilingües y carteles) — lienzo 16:10 -->
     <a-entity
       id="card-wrapper"
       visible="false"
       scale="0 0 0"
-      animation__show="property: scale; to: 1 1 1; dur: 380; easing: easeOutBack; startEvents: showCard">
+      face-origin
+      animation__show="property: scale; to: 1 1 1; dur: 420; easing: easeOutBack; startEvents: showCard">
 
-      <!-- Superficie de la tarjeta renderizada en Canvas 2D HD -->
       <a-plane
         id="card-canvas-plane"
-        width="3.1"
-        height="2.35"
-        position="0 0.12 0.01"
+        width="3.2"
+        height="2"
+        position="0 0.1 0.01"
         material="shader: flat; transparent: true">
       </a-plane>
 
-      <!-- Barra de Controles 3D por Mirada debajo de la Cédula -->
+      <!-- Barra de controles 3D por mirada debajo de la cédula -->
       <a-plane
         id="card-btn-lang"
-        position="-0.95 -1.24 0.03"
-        width="0.78"
-        height="0.28"
+        position="-1.1 -1.1 0.03"
+        width="0.9"
+        height="0.3"
         material="shader: flat; transparent: true">
       </a-plane>
 
       <a-plane
         id="card-btn-prev"
-        position="-0.28 -1.24 0.03"
-        width="0.46"
-        height="0.28"
+        position="-0.4 -1.1 0.03"
+        width="0.64"
+        height="0.3"
         material="shader: flat; transparent: true">
       </a-plane>
 
       <a-plane
         id="card-btn-next"
-        position="0.28 -1.24 0.03"
-        width="0.46"
-        height="0.28"
+        position="0.3 -1.1 0.03"
+        width="0.64"
+        height="0.3"
         material="shader: flat; transparent: true">
       </a-plane>
 
       <a-plane
         id="card-close"
-        position="0.95 -1.24 0.03"
-        width="0.72"
-        height="0.28"
+        position="1.1 -1.1 0.03"
+        width="0.86"
+        height="0.3"
         material="shader: flat; transparent: true">
       </a-plane>
     </a-entity>
@@ -146,7 +205,8 @@
       id="map-3d-wrapper"
       visible="false"
       scale="0 0 0"
-      animation__show="property: scale; to: 1 1 1; dur: 380; easing: easeOutBack; startEvents: showMap">
+      face-origin
+      animation__show="property: scale; to: 1 1 1; dur: 420; easing: easeOutBack; startEvents: showMap">
 
       <!-- Marco dorado y fondo del mapa -->
       <a-plane
@@ -163,11 +223,10 @@
         width="3.3"
         height="2.42"
         position="0 0 0"
-        color="#1A2525"
+        color="#141B0B"
         material="shader: flat">
       </a-plane>
 
-      <!-- Encabezado del Mapa 3D -->
       <a-plane
         id="map-3d-header"
         width="3.2"
@@ -176,59 +235,99 @@
         material="shader: flat; transparent: true">
       </a-plane>
 
-      <!-- Imagen del Plano del Museo (110.webp) -->
+      <!-- Plano del Museo (110.webp, se carga desde la nube) con sus pines interactivos -->
       <a-plane
         id="map-3d-image"
         width="3.0"
         height="1.75"
         position="0 -0.02 0.01"
-        material="shader: flat; src: #mapa-museo-asset; transparent: true">
-        <!-- Contenedor de los 12 pines interactivos del museo -->
+        material="shader: flat; transparent: true">
         <a-entity id="map-3d-pins"></a-entity>
       </a-plane>
 
-      <!-- Botón Cerrar Mapa 3D -->
       <a-plane
         id="map-3d-close"
-        width="0.88"
+        width="0.9"
         height="0.28"
         position="0 -1.04 0.02"
         material="shader: flat; transparent: true">
       </a-plane>
     </a-entity>
 
-    <!-- Cámara y Retícula de Mirada (Gaze-Only para Celular en Gafas VR) -->
-    <a-entity id="rig" position="0 1.6 0">
-      <a-camera id="main-camera" look-controls="pointerLockEnabled: false; touchEnabled: true; magicWindowTrackingEnabled: true">
-        <!-- Cursor de mirada (Gaze Fuse 1400ms) -->
+    <!-- Cursor de ratón/táctil para el modo sin visor (no interfiere con la mirada en VR) -->
+    <a-entity id="mouse-cursor" cursor="rayOrigin: mouse; fuse: false" raycaster="objects: .clickable; far: 30; interval: 80"></a-entity>
+
+    <!-- Cámara y retícula de mirada (Gaze-Only para celular en gafas VR) -->
+    <a-entity id="rig" position="0 0 0">
+      <!-- userHeight: 0 → la cabeza queda en el origen y los hotspots/panel quedan centrados en ella -->
+      <a-entity id="main-camera" camera="userHeight: 0" look-controls="pointerLockEnabled: false; touchEnabled: true; magicWindowTrackingEnabled: true">
+
+        <!-- Cursor de mirada (Gaze Fuse 1400 ms) -->
         <a-cursor
           id="gaze-cursor"
           fuse="true"
           fuse-timeout="1400"
-          raycaster="objects: .clickable; far: 30"
+          raycaster="objects: .clickable; far: 30; interval: 50"
           material="color: #00d2ff; shader: flat; opacity: 0.95"
-          geometry="primitive: ring; radiusInner: 0.014; radiusOuter: 0.024"
+          geometry="primitive: ring; radiusInner: 0.016; radiusOuter: 0.028"
           position="0 0 -1"
           animation__fusing="property: scale; startEvents: fusing; easing: easeInCubic; dur: 1400; from: 1 1 1; to: 0.15 0.15 0.15"
           animation__mouseleave="property: scale; startEvents: mouseleave; easing: easeOutQuad; dur: 250; to: 1 1 1"
           animation__click="property: scale; startEvents: click; easing: easeOutBack; dur: 200; from: 0.15 0.15 0.15; to: 1 1 1">
         </a-cursor>
 
+        <!-- Halo fijo alrededor de la retícula -->
+        <a-ring
+          position="0 0 -1"
+          radius-inner="0.034"
+          radius-outer="0.037"
+          material="shader: flat; color: #ffffff; opacity: 0.4; transparent: true">
+        </a-ring>
+
         <!-- Botón flotante para soltar hotspot cuando se está moviendo con la mirada -->
         <a-plane
           id="gaze-drop-btn"
           visible="false"
-          position="0 -0.28 -1.1"
-          width="0.72"
-          height="0.2"
+          position="0 -0.3 -1.1"
+          width="0.78"
+          height="0.22"
           material="shader: flat; transparent: true">
         </a-plane>
-      </a-camera>
+
+        <!-- Indicador de carga pegado a la cabeza (se muestra entre sala y sala) -->
+        <a-entity id="loading-hud" visible="false" position="0 0 -0.8">
+          <a-ring
+            id="loading-spinner"
+            radius-inner="0.06"
+            radius-outer="0.075"
+            theta-length="270"
+            render-order="1002"
+            material="shader: flat; color: #D4AF37; transparent: true; depthTest: false; depthWrite: false"
+            animation="property: rotation; to: 0 0 -360; loop: true; dur: 1200; easing: linear">
+          </a-ring>
+          <a-plane
+            id="loading-label"
+            position="0 -0.17 0"
+            width="0.56"
+            height="0.14"
+            render-order="1002"
+            material="shader: flat; transparent: true; depthTest: false; depthWrite: false">
+          </a-plane>
+        </a-entity>
+
+        <!-- Velo negro para transiciones entre salas (comienza opaco hasta cargar la primera sala) -->
+        <a-sphere
+          id="fade-sphere"
+          radius="0.5"
+          segments-width="12"
+          segments-height="8"
+          render-order="1000"
+          screen-fade
+          material="shader: flat; color: #0b0f08; side: back; transparent: true; opacity: 1; depthTest: false; depthWrite: false">
+        </a-sphere>
+      </a-entity>
     </a-entity>
 
   </a-scene>
-
-  <!-- Lógica principal desacoplada del módulo VR -->
-  <script src="js/vr.js"></script>
 </body>
 </html>
