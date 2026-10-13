@@ -1,0 +1,119 @@
+/* =========================================
+   ESTILOS DEL MÓDULO DE REALIDAD VIRTUAL (vr.css)
+   Museo de Sitio de Xochicalco
+   ========================================= */
+:root {
+  --vr-primario: #4A5D23;
+  --vr-primario-oscuro: #2D3A15;
+  --vr-dorado: #D4AF37;
+  --vr-cian: #00d2ff;
+  --vr-oscuro: #1A2525;
+  --vr-blanco: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #000000;
+  overflow: hidden;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* =========================================
+   BARRA 2D SUPERIOR (ANTES DE ENTRAR AL VISOR)
+   ========================================= */
+#vr-hud-2d {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  right: 12px;
+  z-index: 9999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  pointer-events: none;
+}
+
+#exit-btn,
+#map-btn-2d {
+  pointer-events: auto;
+  background: rgba(26, 37, 37, 0.88);
+  color: var(--vr-blanco);
+  border: 2px solid var(--vr-dorado);
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 700;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+#exit-btn:hover,
+#map-btn-2d:hover {
+  background: var(--vr-primario-oscuro);
+  transform: scale(1.04);
+}
+
+#vr-room-badge {
+  pointer-events: none;
+  background: rgba(0, 0, 0, 0.78);
+  color: var(--vr-blanco);
+  border-top: 3px solid var(--vr-dorado);
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-align: center;
+  max-width: 55vw;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.45);
+}
+
+/* =========================================
+   BANNER DEL MODO MOVER HOTSPOT CON MIRADA
+   ========================================= */
+#gaze-calib-banner {
+  position: fixed;
+  bottom: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  background: rgba(212, 175, 55, 0.95);
+  color: #111111;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 800;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.6);
+  pointer-events: none;
+  text-align: center;
+}
+
+.oculto {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  #exit-btn,
+  #map-btn-2d {
+    padding: 8px 12px;
+    font-size: 0.8rem;
+  }
+
+  #vr-room-badge {
+    font-size: 0.78rem;
+    padding: 6px 10px;
+    max-width: 46vw;
+  }
+}
