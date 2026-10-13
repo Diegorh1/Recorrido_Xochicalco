@@ -204,21 +204,13 @@ function cleanNodeText(node) {
   clone.querySelectorAll('[onclick]').forEach(el => el.remove());
   clone.querySelectorAll('img').forEach(el => el.remove());
   clone.innerHTML = clone.innerHTML
-    .replace(/<br\s*\/?>/gi, '
-')
-    .replace(/<\/p>/gi, '
-
-')
-    .replace(/<\/div>/gi, '
-');
+    .replace(/<br\s*\/?>/gi, '\n')
+    .replace(/<\/p>/gi, '\n\n')
+    .replace(/<\/div>/gi, '\n');
 
   return clone.textContent
-    .replace(/[ 	]+/g, ' ')
-    .replace(/
-\s*
-/g, '
-
-')
+    .replace(/[ \t]+/g, ' ')
+    .replace(/\n\s*\n/g, '\n\n')
     .trim();
 }
 
@@ -276,9 +268,7 @@ function parseHotspotContent(htmlContent) {
         }
       });
 
-      return { colTitle, colBody: bodyParts.join('
-
-').trim() };
+      return { colTitle, colBody: bodyParts.join('\n\n').trim() };
     };
 
     const parsedEs = extractColumn(colEs, 'ESPAÑOL');
@@ -328,8 +318,7 @@ function parseHotspotContent(htmlContent) {
 // ========================================================
 function wrapTextIntoPages(ctx, text, maxWidth, maxLinesPerPage) {
   if (!text || !text.trim()) return [''];
-  const paragraphs = text.split(/
-+/);
+  const paragraphs = text.split(/\n+/);
   const allLines = [];
 
   paragraphs.forEach((para, pIdx) => {
