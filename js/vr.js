@@ -363,7 +363,7 @@
       .replace(/Introduccin/g, 'Introducción')
       .replace(/ao/gi, 'año')
       .replace(/aútobuses/gi, 'autobuses')
-      .replace(//g, 'ó');
+      .replace(/\uFFFD/g, 'ó');
   }
 
   function cleanNodeText(node) {

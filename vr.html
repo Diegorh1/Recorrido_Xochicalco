@@ -13,7 +13,7 @@
   <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
 
   <!-- Estilos desacoplados del módulo VR (?v= fuerza limpiar caché en GitHub Pages) -->
-  <link rel="stylesheet" href="css/vr.css?v=2.0">
+  <link rel="stylesheet" href="css/vr.css?v=2.1">
 
   <!--
     Lógica del módulo VR. Se carga en <head> (después de A-Frame) para que los componentes
@@ -21,7 +21,7 @@
     ANTES de que A-Frame inicialice las entidades de la escena. No toca el DOM al ejecutarse:
     todo arranca en DOMContentLoaded.
   -->
-  <script src="js/vr.js?v=2.0"></script>
+  <script src="js/vr.js?v=2.1"></script>
 </head>
 <body>
 
@@ -259,8 +259,7 @@
 
     <!-- Cámara y retícula de mirada (Gaze-Only para celular en gafas VR) -->
     <a-entity id="rig" position="0 0 0">
-      <!-- userHeight: 0 → la cabeza queda en el origen y los hotspots/panel quedan centrados en ella -->
-      <a-entity id="main-camera" camera="userHeight: 0" look-controls="pointerLockEnabled: false; touchEnabled: true; magicWindowTrackingEnabled: true">
+      <a-entity id="main-camera" camera look-controls="pointerLockEnabled: false; touchEnabled: true; magicWindowTrackingEnabled: true">
 
         <!-- Cursor de mirada (Gaze Fuse 1400 ms) -->
         <a-cursor
