@@ -7,8 +7,8 @@
    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.7/build/pannellum.css"/>
    
-    <!-- Versión 3.0 para forzar la limpieza de caché en GitHub Pages -->
-    <link rel="stylesheet" href="css/style.css?v=3.0">
+    <!-- Versión 3.1 para forzar la limpieza de caché en GitHub Pages / móviles -->
+    <link rel="stylesheet" href="css/style.css?v=3.1">
 
     <!-- Estilos del botón flotante integrados -->
     <style>
@@ -210,6 +210,19 @@
                     .then(respuesta => respuesta.json())
                     .then(datos => {
                         datosRecorrido = datos; // Guardamos el JSON cargado
+
+                        // En celulares, optimizar el tamaño de las panorámicas a máx 4096px para que Pannellum no exceda MAX_TEXTURE_SIZE
+                        const esDispositivoMovil = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth <= 768;
+                        if (esDispositivoMovil && datos && datos.scenes) {
+                            Object.keys(datos.scenes).forEach(id => {
+                                const sc = datos.scenes[id];
+                                if (sc.panorama && sc.panorama.includes('r2.dev')) {
+                                    const cleanUrl = sc.panorama.replace(/^https?:\/\//, '');
+                                    sc.panorama = `https://images.weserv.nl/?url=${encodeURIComponent(cleanUrl)}&w=4096&output=webp`;
+                                }
+                            });
+                        }
+
                         miVisor = pannellum.viewer('panorama', datos);
                         
                         miVisor.on('mousedown', function(event) {
@@ -371,9 +384,25 @@
         iniciarAutoplay();
     </script>
 
-    <!-- SCRIPT DEL LIGHTBOX DE IMÁGENES -->
+    <!-- SCRIPT DEL LIGHTBOX DE IMÁGENES Y CONTROL TÁCTIL DE HOTSPOTS -->
     <script>
+        // Soporte táctil para celulares: abrir y mantener abierta la tarjeta al tocar el hotspot
         document.addEventListener('click', function(evento) {
+            const hotspot = evento.target.closest('.pnlm-hotspot-base');
+            if (hotspot) {
+                const tooltipSpan = hotspot.querySelector('.pnlm-tooltip');
+                if (tooltipSpan) {
+                    const yaActivo = hotspot.classList.contains('hotspot-tocado');
+                    document.querySelectorAll('.pnlm-hotspot-base.hotspot-tocado').forEach(h => h.classList.remove('hotspot-tocado'));
+                    if (!yaActivo) {
+                        hotspot.classList.add('hotspot-tocado');
+                    }
+                }
+            } else if (!evento.target.closest('.tarjeta-museo')) {
+                // Tocar fuera de la tarjeta la cierra
+                document.querySelectorAll('.pnlm-hotspot-base.hotspot-tocado').forEach(h => h.classList.remove('hotspot-tocado'));
+            }
+
             if (evento.target.matches('.tarjeta-museo img')) {
                 const rutaImagen = evento.target.src;
                 abrirModalImagen(rutaImagen);

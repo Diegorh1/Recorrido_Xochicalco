@@ -15,6 +15,27 @@
   const HOTSPOT_RADIUS = 3.85;
   const PANEL_RADIUS = 2.4;
 
+  // Detección de dispositivo móvil para optimización de VRAM y límites de textura WebGL
+  const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth <= 768;
+
+  /**
+   * Adapta las URLs de Cloudflare R2 sin modificar el bucket:
+   * 1. Canaliza a través del servicio de imágenes weserv que inyecta encabezados CORS (Access-Control-Allow-Origin: *).
+   * 2. En celulares, limita el ancho a máx 4096 px para no superar el límite de hardware (MAX_TEXTURE_SIZE de la GPU).
+   */
+  function getSafeImageUrl(url, maxWidth = null) {
+    if (!url) return '';
+    if (url.includes('r2.dev')) {
+      const cleanUrl = url.replace(/^https?:\/\//, '');
+      let proxied = `https://images.weserv.nl/?url=${encodeURIComponent(cleanUrl)}&output=webp`;
+      if (maxWidth) {
+        proxied += `&w=${maxWidth}&fit=inside`;
+      }
+      return proxied;
+    }
+    return url;
+  }
+
   // Definición exacta de los 12 pines del plano del museo sincronizados con index.html
   const MAP_PINS_CONFIG = [
     { scenes: ['imagen7'], top: 85, left: 20, title: 'Entrada al museo', titleEn: 'Museum Entrance' },
@@ -601,6 +622,8 @@
     if (!url) return Promise.resolve(null);
     if (imageCache.has(url)) return Promise.resolve(imageCache.get(url));
 
+    const safeUrl = getSafeImageUrl(url, isMobile ? 800 : 1200);
+
     return new Promise(resolve => {
       const img = new Image();
       img.crossOrigin = 'anonymous';
@@ -608,8 +631,19 @@
         imageCache.set(url, img);
         resolve(img);
       };
-      img.onerror = () => resolve(null);
-      img.src = url;
+      img.onerror = () => {
+        // Fallback: si falla por alguna razón, probar proxy alternativo o directo
+        console.warn('Reintentando carga de imagen de cédula:', url);
+        const retryImg = new Image();
+        retryImg.crossOrigin = 'anonymous';
+        retryImg.onload = () => {
+          imageCache.set(url, retryImg);
+          resolve(retryImg);
+        };
+        retryImg.onerror = () => resolve(null);
+        retryImg.src = `https://corsproxy.io/?${encodeURIComponent(url)}`;
+      };
+      img.src = safeUrl;
     });
   }
 
@@ -987,10 +1021,11 @@
     const mapImagePlane = document.querySelector('#map-3d-image');
     if (!mapImagePlane) return;
 
+    const safeMapUrl = getSafeImageUrl(MAP_IMAGE_URL, isMobile ? 1200 : 2048);
     const loader = new THREE.TextureLoader();
     loader.setCrossOrigin('anonymous');
     loader.load(
-      MAP_IMAGE_URL,
+      safeMapUrl,
       tex => {
         tex.colorSpace = THREE.SRGBColorSpace || THREE.sRGBEncoding;
         tex.minFilter = THREE.LinearFilter;
@@ -1005,7 +1040,25 @@
         mapImageTextureLoaded = true;
       },
       undefined,
-      err => console.warn('Aviso: plano del mapa en espera de conexión', err)
+      err => {
+        console.warn('Aviso: reintentando plano del mapa con proxy alternativo', err);
+        loader.load(
+          `https://corsproxy.io/?${encodeURIComponent(MAP_IMAGE_URL)}`,
+          fallbackTex => {
+            fallbackTex.colorSpace = THREE.SRGBColorSpace || THREE.sRGBEncoding;
+            fallbackTex.minFilter = THREE.LinearFilter;
+            fallbackTex.magFilter = THREE.LinearFilter;
+            fallbackTex.generateMipmaps = false;
+            const mesh = mapImagePlane.getObject3D('mesh');
+            if (mesh && mesh.material) {
+              mesh.material.map = fallbackTex;
+              mesh.material.transparent = true;
+              mesh.material.needsUpdate = true;
+            }
+            mapImageTextureLoaded = true;
+          }
+        );
+      }
     );
   }
 
@@ -1268,11 +1321,14 @@
       return Promise.resolve(textureCache.get(url));
     }
 
+    // En móviles limitamos el ancho a 4096 px para garantizar que no exceda el MAX_TEXTURE_SIZE de la GPU
+    const safePanoramaUrl = getSafeImageUrl(url, isMobile ? 4096 : 8192);
+
     return new Promise((resolve, reject) => {
       const loader = new THREE.TextureLoader();
       loader.setCrossOrigin('anonymous');
       loader.load(
-        url,
+        safePanoramaUrl,
         texture => {
           texture.colorSpace = THREE.SRGBColorSpace || THREE.sRGBEncoding;
           texture.minFilter = THREE.LinearFilter;
@@ -1282,7 +1338,37 @@
           resolve(texture);
         },
         undefined,
-        err => reject(err)
+        err => {
+          console.warn('Aviso: reintentando panorama con proxy alternativo:', url);
+          loader.load(
+            `https://corsproxy.io/?${encodeURIComponent(url)}`,
+            texture2 => {
+              texture2.colorSpace = THREE.SRGBColorSpace || THREE.sRGBEncoding;
+              texture2.minFilter = THREE.LinearFilter;
+              texture2.magFilter = THREE.LinearFilter;
+              texture2.generateMipmaps = false;
+              textureCache.set(url, texture2);
+              resolve(texture2);
+            },
+            undefined,
+            err2 => {
+              // Último intento: intentar cargar directo
+              loader.load(
+                url,
+                textureDirect => {
+                  textureDirect.colorSpace = THREE.SRGBColorSpace || THREE.sRGBEncoding;
+                  textureDirect.minFilter = THREE.LinearFilter;
+                  textureDirect.magFilter = THREE.LinearFilter;
+                  textureDirect.generateMipmaps = false;
+                  textureCache.set(url, textureDirect);
+                  resolve(textureDirect);
+                },
+                undefined,
+                err3 => reject(err3)
+              );
+            }
+          );
+        }
       );
     });
   }
@@ -1365,15 +1451,17 @@
   }
 
   function preloadAdjacentScenes(sceneData) {
+    // En móviles desactivamos la precarga masiva para proteger la VRAM de la GPU
+    if (isMobile) return;
     if (!sceneData || !Array.isArray(sceneData.hotSpots)) return;
     sceneData.hotSpots.forEach(hs => {
       if (hs.type === 'scene' && hs.sceneId && tourData.scenes[hs.sceneId]) {
         const nextUrl = tourData.scenes[hs.sceneId].panorama;
         if (nextUrl && !textureCache.has(nextUrl)) {
-          // Descargar silenciosamente en segundo plano
+          const safeNextUrl = getSafeImageUrl(nextUrl, 8192);
           const img = new Image();
           img.crossOrigin = 'anonymous';
-          img.src = nextUrl;
+          img.src = safeNextUrl;
         }
       }
     });

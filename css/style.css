@@ -139,7 +139,7 @@ div.pnlm-tooltip span::after {
    ========================================= */
 header {
     background-color: var(--color-oscuro);
-    background-image: linear-gradient(135deg, rgba(26, 37, 37, 0.9) 0%, rgba(74, 93, 35, 0.7) 100%), url('ASSETS2/106.webP');
+    background-image: linear-gradient(135deg, rgba(26, 37, 37, 0.9) 0%, rgba(74, 93, 35, 0.7) 100%), url('https://pub-c6d01aa973234af29f7f30a4b35200cf.r2.dev/ASSETS2/106.webP'), url('../ASSETS2/106.webP');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -414,6 +414,10 @@ header p {
    7. MEDIA QUERIES (AJUSTES ESPECÍFICOS MÓVIL PANTALLA PRINCIPAL)
    ========================================= */
 @media (max-width: 768px) {
+    header {
+        background-attachment: scroll !important;
+    }
+
     .carousel-btn { 
         width: 40px; 
         height: 40px; 
@@ -428,8 +432,8 @@ header p {
 
     /* --- AJUSTE CELULAR PARA LAS TARJETAS --- */
     .tarjeta-museo {
-        width: 90vw !important;
-        max-width: 400px !important; 
+        width: 88vw !important;
+        max-width: 380px !important; 
         /* ¡ELIMINAMOS EL TRANSFORM DE AQUÍ TAMBIÉN! */
     }
     
@@ -739,10 +743,19 @@ body.ocultar-hotspots .pnlm-tooltip {
    14. OCULTAR OTROS ICONOS AL LEER UNA TARJETA (3D COLLISION FIX)
    ========================================== */
 
+/* Mantener visible la tarjeta cuando el hotspot es tocado en celular */
+.pnlm-hotspot-base.hotspot-tocado .pnlm-tooltip span,
+.pnlm-hotspot-base:hover .pnlm-tooltip span {
+    visibility: visible !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+}
+
 /* Si el contenedor del panorama detecta que estás tocando/mirando una tarjeta, 
    oculta todos los hotspots base... */
 #panorama:has(.tarjeta-museo:hover) .pnlm-hotspot-base,
-#panorama:has(.tarjeta-museo:active) .pnlm-hotspot-base {
+#panorama:has(.tarjeta-museo:active) .pnlm-hotspot-base,
+#panorama:has(.hotspot-tocado) .pnlm-hotspot-base {
     opacity: 0 !important;
     pointer-events: none !important;
     transition: opacity 0.2s ease !important;
@@ -750,7 +763,8 @@ body.ocultar-hotspots .pnlm-tooltip {
 
 /* ...EXCEPTO el hotspot específico que contiene la tarjeta que estás leyendo */
 #panorama .pnlm-hotspot-base:has(.tarjeta-museo:hover),
-#panorama .pnlm-hotspot-base:has(.tarjeta-museo:active) {
+#panorama .pnlm-hotspot-base:has(.tarjeta-museo:active),
+#panorama .pnlm-hotspot-base.hotspot-tocado {
     opacity: 1 !important;
     pointer-events: auto !important;
     z-index: 99999 !important; /* Y lo mandamos hasta el frente por si acaso */
